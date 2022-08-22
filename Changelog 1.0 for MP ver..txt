@@ -1,0 +1,30 @@
+- Changed min pop size to build brigades back to vanilla values
+- Reduced bomber max str to 3 to be in line with all other units
+- No naval limit combined with higher ship supply costs
+- Buffed party loyalty NFs
+- Made fast attack craft require lvl 1 ports to build
+- Increased demotion/migration from low life needs, and migrants should skew towards provs with low unemployment. Should help sort out the early game
+- Reduced the building time of infrastructure, ports and forts significantly
+- Changed military policies to be less dumb
+- Changed economic policies to be less dumb
+- Removed mob size from citizenship policy
+- TODO: increate infamy decay rate
+- TODO: make sure every relavent country start with a state capis party at minimum
+- TODO: reduce transport cost?/make transports buildable in lvl 0 provs
+- TODO: remove GP/SP requirement for removing neutrality
+- TODO: remove the "submit to international arbitration" decision" (disables wars)
+- TODO: enable Scandi to be formed at any time (or close to start)
+- TODO: add more national focuses at the start
+- TODO: add leadership for generals with the day1 money event
+- TODO: unlock artillery earlier
+- TODO: Increase mob eco impact from NVs
+- TODO Be able to change conscription law by decision
+- TODO: increase infamy decay
+- TODO: Purge all wierd supply requirements for land units (clothes etc)
+- TODO: rebalance bombers/military
+- TODO: implement sanctions
+- TODO: make aeroplane factories always buildable
+- TODO: remove mob size from defcon and other events/modifiers, make the draft laws, corruption and NVs the only sources (prolly remove corruption mob debuff)
+- TODO: make it so nukes dont rebel occupy your country
+- TODO: make it so you can actually dec war/use standard wargoals no matter war policy
+- TODO: reduce the likelyhood of migration to unemployed provinces, and probably increase internal migration
