@@ -28,3 +28,16 @@
 - TODO: make it so nukes dont rebel occupy your country
 - TODO: make it so you can actually dec war/use standard wargoals no matter war policy
 - TODO: reduce the likelyhood of migration to unemployed provinces, and probably increase internal migration
+
+David suggestions:
+
+1.Unpuppet West Germany and Austria
+2. Maybe Unpuppet the Warsaw Pact countries
+3. Balance Gas Attack (It's under the Mutually Assured Destruction Tech)
+4. Cut the Terrain Types/Make them more Balanced
+5. Make it easier for Democracies to actually build a good military industry (Fix Parties for Democracies in General)
+6. Make not decolonizing for France and Britain not cost/cost less infamy
+7. Maybe Give The two Superpowers more Diplomatic Influence bonuses (For Bipolar world larp)
+8. Remove or Make the Social and Political Corruption modifiers more tangible/ Easier to fix
+9. Cut Events for a faster game
+10. Maybe Cut cultures for a faster and stabler game
