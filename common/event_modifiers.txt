@@ -613,7 +613,6 @@ rebel_nation = {
 	max_military_spending = 1
 	tax_efficiency = 0.15
 	land_unit_start_experience = 10
-	war_exhaustion = -0.5
 	supply_consumption = -0.5
 	mobilisation_size = 0.25
 	icon = 16
@@ -938,8 +937,6 @@ peacetime_mobilization = {
 	ruling_party_support = -0.40
 	loan_interest = 1
 	cb_generation_speed_modifier = -0.2
-	war_exhaustion = 0.05
-	prestige = -0.05
 	icon = 6
 }
 
@@ -1131,7 +1128,6 @@ mobilization_economy_impact = -0.5
 mobilisation_size = 0.5
 org_regain = 0.5
 suppression_points_modifier = 0.5
-war_exhaustion = -2
 icon = 5
 }
 
@@ -1268,7 +1264,7 @@ icon = 16
 ### Martial Law ###
 
 martial_law = { 
-war_exhaustion = 2.5
+war_exhaustion = 0.5
 global_pop_militancy_modifier = -0.3
 min_military_spending = 0.25
 ruling_party_support = -0.25
@@ -1469,7 +1465,6 @@ army_tech_research_bonus = 0.25
 industry_tech_research_bonus = -0.1
 commerce_tech_research_bonus = -0.1
 culture_tech_research_bonus = -0.1
-war_exhaustion = -2
 naval_organisation = 0.1
 land_unit_start_experience = 10
 land_organisation = 0.2
@@ -1816,7 +1811,7 @@ hcplow = {
 commerce_raiding = { 
 import_cost = 1
 factory_input = 0.20
-war_exhaustion = 1.5
+war_exhaustion = 0.5
 icon = 16
 }
 
@@ -3640,7 +3635,7 @@ un_armistice = {
 ### Anti-War Protests ###
 
 anti_war_movement = {
-	war_exhaustion = 1
+	war_exhaustion = 0.2
 	non_accepted_pop_militancy_modifier = 0.02
 	suppression_points_modifier = -0.125
 	icon = 18
@@ -3655,7 +3650,7 @@ anti_war_strike = {
 	land_organisation = -0.2
 	factory_throughput = -0.1
 	RGO_output = -0.1
-	war_exhaustion = 1
+	war_exhaustion = 0.4
 	suppression_points_modifier = -0.25
 	mobilisation_size = -0.1
 	icon = 18
@@ -4488,21 +4483,18 @@ icon = 17
 
 cdhigh = {
 	tax_efficiency = -0.05
-	war_exhaustion = -10
 	leadership_modifier = 0.50
 	icon = 17
 }
 
 cdmedium = {
 	tax_efficiency = -0.03
-	war_exhaustion = -5
 	leadership_modifier = 0.25
 	icon = 17
 }
 
 cdlow = {
 	tax_efficiency = -0.01
-	war_exhaustion = -2.5
 	icon = 17
 }
 
@@ -5838,15 +5830,12 @@ icon = 7
 
 defcon1 = {
 tax_efficiency = -0.05
-war_exhaustion = 2
 supply_consumption = 0.2
+unit_start_experience = 20
 
 land_organisation = 0.30
 naval_organisation = 0.30
 org_regain = 0.30
-
-mobilisation_size = 0.3
-mobilization_impact = 0.2
 
 max_military_spending = 1
 icon = 16
@@ -5854,15 +5843,12 @@ icon = 16
 
 defcon2 = {
 tax_efficiency = -0.04
-war_exhaustion = 1
 supply_consumption = 0.15
 
 land_organisation = 0.20
 naval_organisation = 0.20
 org_regain = 0.20
-
-mobilisation_size = 0.2
-mobilization_impact = 0.1
+unit_start_experience = 15
 
 max_military_spending = 1
 icon = 16
@@ -5875,9 +5861,7 @@ supply_consumption = 0.1
 land_organisation = 0.10
 naval_organisation = 0.10
 org_regain = 0.10
-
-mobilisation_size = 0.1
-mobilization_impact = 0.05
+unit_start_experience = 8
 
 max_military_spending = 0.5
 icon = 16
@@ -5885,22 +5869,19 @@ icon = 16
 
 defcon4 = {
 tax_efficiency = -0.01
-war_exhaustion = -1
 supply_consumption = 0.05
 
 land_organisation = 0.05
 naval_organisation = 0.05
 org_regain = 0.05
-
-mobilisation_size = 0.05
-mobilization_impact = 0.025
+unit_start_experience = 4
 
 max_military_spending = 0.25
 icon = 16
 }
 
 defcon5 = {
-war_exhaustion = -2
+
 icon = 15
 }
 
@@ -5919,7 +5900,6 @@ un_resolution_veto = {
 
 ### Great War ###
 great_war = {
-	war_exhaustion = -3.0
 	mobilisation_size = 0.03
 	core_pop_militancy_modifier = -0.2
 	global_population_growth = -0.001
@@ -5927,21 +5907,18 @@ great_war = {
 }
 
 great_war2 = {
-	war_exhaustion = -2.0
 	mobilisation_size = 0.02
 	global_population_growth = -0.002
 	icon = 16
 }
 
 great_war3 = {
-	war_exhaustion = -1.0
 	non_accepted_pop_militancy_modifier = 0.2
 	global_population_growth = -0.004
 	icon = 16
 }
 
 punitive_effects = {
-	war_exhaustion = 2.0
 	core_pop_militancy_modifier = 0.1
 	diplomatic_points_modifier = -0.5
 	prestige = -0.01
@@ -5949,12 +5926,10 @@ punitive_effects = {
 }
 
 no_more_war = {
-	war_exhaustion = 0.5
 	icon = 16
 }
 
 end_the_war = {
-	war_exhaustion = 2.0
 	icon = 16
 }
 
@@ -7407,7 +7382,6 @@ national_confusion = {
 }
 
 wartime_elections = {
-        war_exhaustion = 0.1
         global_pop_militancy_modifier = -0.01
         global_pop_consciousness_modifier = 0.02
         issue_change_speed = 0.1

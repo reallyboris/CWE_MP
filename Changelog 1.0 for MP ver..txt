@@ -8,6 +8,8 @@
 - Changed military policies to be less dumb
 - Changed economic policies to be less dumb
 - Removed mob size from citizenship policy
+- Increased mob eco impact from NVs
+- Made the war exhastion gain be similar to vanilla, and removed alot of external W.E effects
 - TODO: increate infamy decay rate
 - TODO: make sure every relavent country start with a state capis party at minimum
 - TODO: reduce transport cost?/make transports buildable in lvl 0 provs
@@ -17,7 +19,6 @@
 - TODO: add more national focuses at the start
 - TODO: add leadership for generals with the day1 money event
 - TODO: unlock artillery earlier
-- TODO: Increase mob eco impact from NVs
 - TODO Be able to change conscription law by decision
 - TODO: increase infamy decay
 - TODO: Purge all wierd supply requirements for land units (clothes etc)
