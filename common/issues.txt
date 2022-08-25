@@ -211,7 +211,7 @@ party_issues = {
 		}
 		pacifism = {
 			max_military_spending = 0.5
-			supply_consumption = -0.1
+			supply_consumption = -0.15
 			mobilization_impact = 2
 			cb_generation_speed_modifier = -0.3
 		}

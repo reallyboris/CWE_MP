@@ -107,3 +107,93 @@ country_event = {
 		
 	}
 }
+
+country_event = {
+	id = 443035
+	title = "Mobilization Reforms"
+	desc = "Pick a Mobilization Reform, keep in mind they require certain military policies"
+	picture = "conscription_marching"
+	is_triggered_only = yes
+	allow_multiple_instances = no
+
+	
+	
+		option = {
+			name = "Mandatory Service (Jingoism)"
+			random_owned = {
+			limit = {
+				owner = {
+					is_mobilised = no
+					war_policy = jingoism			
+				}
+			}
+			owner = {
+				political_reform = lgbt_promoted
+			}
+			}
+		}
+		option = {
+			name = "Three-Year Draft(Jingoism or Pro-Mil)"
+			random_owned = {
+			limit = {
+				owner = {
+					is_mobilised = no
+					OR = {
+						war_policy = jingoism
+						war_policy = pro_military
+					}
+				}
+			}
+			owner = {
+				political_reform = lgbt_allowed
+			}
+			}
+		}
+		option = {
+			name = "Two-Year Draft(Pro-Mil)"
+			random_owned = {
+			limit = {
+				owner = {
+					is_mobilised = no
+					war_policy = pro_military
+				}
+			}
+			owner = {
+				political_reform = lgbt_equal_rights
+			}
+			}
+		}
+		option = {
+			name = "One-Year Draft(Pro-Mil or Pacifism)"
+			random_owned = {
+			limit = {
+				owner = {
+					is_mobilised = no
+					OR = {
+						war_policy = pro_military
+						war_policy = pacifism
+					}
+				}
+			}
+			owner = {
+				political_reform = gender_neutrallity
+			}
+			}
+		}
+		option = {
+			name = "No Draft(Pacifism)"
+			random_owned = {
+			limit = {
+				owner = {
+					is_mobilised = no
+					war_policy = pacifism
+				}
+			}
+			owner = {
+				political_reform = lgbt_outlawed
+			}
+			}
+		}
+		
+	}
+}

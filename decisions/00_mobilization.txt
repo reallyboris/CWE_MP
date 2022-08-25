@@ -1,0 +1,22 @@
+political_decisions = {
+
+	pick_mob_reform = {
+
+		potential = {
+			exists = yes
+		}
+		
+		allow = {
+			is_mobilised = no
+		
+		}
+		
+		effect = {
+			country_event = 443035
+		
+		}
+
+
+	}
+
+}
