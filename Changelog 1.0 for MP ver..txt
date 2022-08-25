@@ -10,6 +10,7 @@
 - Removed mob size from citizenship policy
 - Increased mob eco impact from NVs
 - Made the war exhastion gain be similar to vanilla, and removed alot of external W.E effects
+- Removed mob size debuffs from defcon
 - TODO: increate infamy decay rate
 - TODO: make sure every relavent country start with a state capis party at minimum
 - TODO: reduce transport cost?/make transports buildable in lvl 0 provs

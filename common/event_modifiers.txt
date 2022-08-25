@@ -5831,8 +5831,8 @@ icon = 7
 defcon1 = {
 tax_efficiency = -0.05
 supply_consumption = 0.2
-unit_start_experience = 20
-
+land_unit_start_experience = 15
+naval_unit_start_experience = 15
 land_organisation = 0.30
 naval_organisation = 0.30
 org_regain = 0.30
@@ -5848,7 +5848,8 @@ supply_consumption = 0.15
 land_organisation = 0.20
 naval_organisation = 0.20
 org_regain = 0.20
-unit_start_experience = 15
+land_unit_start_experience = 10
+naval_unit_start_experience = 10
 
 max_military_spending = 1
 icon = 16
@@ -5861,7 +5862,8 @@ supply_consumption = 0.1
 land_organisation = 0.10
 naval_organisation = 0.10
 org_regain = 0.10
-unit_start_experience = 8
+land_unit_start_experience = 5
+naval_unit_start_experience = 5
 
 max_military_spending = 0.5
 icon = 16
@@ -5874,7 +5876,8 @@ supply_consumption = 0.05
 land_organisation = 0.05
 naval_organisation = 0.05
 org_regain = 0.05
-unit_start_experience = 4
+land_unit_start_experience = 2
+naval_unit_start_experience = 2
 
 max_military_spending = 0.25
 icon = 16
