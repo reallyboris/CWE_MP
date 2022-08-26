@@ -1069,7 +1069,7 @@ country_event = {
 	title = "Anarchy in $COUNTRY$"
 	desc = EVTDESC14121691
 	picture = "nuclear_fallout_anarchy"
-
+	
 	trigger = { 
 	
 		#Country has been hit by nuclear weapons
@@ -1078,7 +1078,9 @@ country_event = {
 				has_province_modifier = nuke_high 
 				has_province_modifier = nuke_medium 
 				has_province_modifier = nuke_low 
-			} 
+			}
+			controlled_by = THIS
+			average_militancy = 9
 		}
 		
 		#Has no Civil Defence
@@ -1091,18 +1093,36 @@ country_event = {
 		
 		NOT = { has_country_flag = nuke_protection }
 	}
+	
+	mean_time_to_happen = { 
+		months = 6
+	}
 
 	option = {
-		name = "A moment of silence for those who didn't make it"
+		name = "At this rate we might lose the whole country!"
+		prestige_factor = -0.01
 		
-		set_country_flag = nuke_protection
-
-		#All provinces get transferred to rebels
-		any_owned = {
-			limit = { controlled_by = THIS }
-			change_controller = REB
+		#Transfer states to rebels
+		any_owned = { 
+			limit = {
+				OR = { 
+					has_province_modifier = nuke_high 
+					has_province_modifier = nuke_medium 
+					has_province_modifier = nuke_low 
+				} 
+				controlled_by = THIS
+				average_militancy = 9
+			}
+			state_scope = {
+				any_owned = {
+					limit = { 
+						is_state_capital = no 
+						controlled_by = THIS 
+					}
+					change_controller = REB
+				}
+			}
 		}
-
 	}
 
 }
@@ -1135,7 +1155,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = { 
-		months = 6
+		months = 12
 	}
 
 	option = {
