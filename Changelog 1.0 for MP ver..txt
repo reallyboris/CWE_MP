@@ -16,8 +16,15 @@
 - Added grants
 - Made scandi able to be formed close to start date
 - Nerfed nukes and removed the thing where your country gets full occupied by rebels when you get nuked
+- TODO: remove gfx stuff? 
+- TODO: allow bombers n others to build from unaccepted pops
 - TODO: vassal money dupe?
+- TODO: increase money?
+- TODO: start iwth better factories, more units
 - TODO: add promotion buff from getting goods
+- TODO: add more transports
+- TODO: allow adding wargoals on puppets
+- TODO: add more industry
 - TODO: make sure every relavent country start with a state capis party at minimum
 - TODO: reduce transport cost?/make transports buildable in lvl 0 provs
 - TODO: remove GP/SP requirement for removing neutrality
