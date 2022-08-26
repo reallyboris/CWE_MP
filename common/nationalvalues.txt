@@ -5,7 +5,7 @@ nv_order = {
 	land_unit_start_experience = 5
 	naval_unit_start_experience = 5
 	mobilisation_size = 0.05
-	mobilisation_economy_impact = -0.65
+	mobilisation_economy_impact = 0.65
 	army_tech_research_bonus = 0.05
 	navy_tech_research_bonus = 0.05
 	suppression_points_modifier = 0.1
@@ -18,7 +18,7 @@ nv_liberty = {
 	political_reform_desire = 0.05
 	commerce_tech_research_bonus = 0.1
 	mobilisation_size = 0.035
-	mobilisation_economy_impact = -0.65
+	mobilisation_economy_impact = 0.65
 	suppression_points_modifier = -0.1
 	political_reform_desire = 0.1
 }
@@ -30,7 +30,7 @@ nv_equality = {
 	global_pop_militancy_modifier = -0.01
 	culture_tech_research_bonus = 0.1
 	mobilisation_size = 0.035
-	mobilisation_economy_impact = -0.65
+	mobilisation_economy_impact = 0.65
 	social_reform_desire = 0.1
 }
 
@@ -43,7 +43,7 @@ nv_islamic = {
 	issue_change_speed = -0.2
 	ruling_party_support = 0.4
 	mobilisation_size = 0.04
-	mobilisation_economy_impact = -0.65
+	mobilisation_economy_impact = 0.65
 	political_reform_desire = -0.1
 	global_population_growth = 0.001
 }
@@ -54,7 +54,7 @@ nv_progressivism = {
 	artisan_throughput = 0.10
 	culture_tech_research_bonus = 0.10
 	mobilisation_size = 0.02
-	mobilisation_economy_impact = -0.65
+	mobilisation_economy_impact = 0.65
 	suppression_points_modifier = -0.2
 	political_reform_desire = 0.1
 	social_reform_desire = 0.1
@@ -67,6 +67,6 @@ nv_meritocracy = {
 	artisan_throughput = 0.05
 	commerce_tech_research_bonus = 0.05
 	industry_tech_research_bonus = 0.05
-	mobilisation_economy_impact = -0.65
+	mobilisation_economy_impact = 0.65
 	mobilisation_size = 0.04
 }

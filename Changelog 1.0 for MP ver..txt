@@ -12,19 +12,20 @@
 - Made the war exhastion gain be similar to vanilla, and removed alot of external W.E effects
 - Removed mob size debuffs from defcon
 - Made a decision to quickly pick mob reform
+- Increased infamy decay rate, and also removed retarded reseach buffs from being at war
+- Added grants
+- Made scandi able to be formed close to start date
+- TODO: vassal money dupe?
 - TODO: add promotion buff from getting goods
-- TODO: increate infamy decay rate
 - TODO: make sure every relavent country start with a state capis party at minimum
 - TODO: reduce transport cost?/make transports buildable in lvl 0 provs
 - TODO: remove GP/SP requirement for removing neutrality
 - TODO: remove the "submit to international arbitration" decision" (disables wars)
-- TODO: enable Scandi to be formed at any time (or close to start)
 - TODO: add more national focuses at the start
 - TODO: add leadership for generals with the day1 money event
 - TODO: unlock artillery earlier
-- TODO Be able to change conscription law by decision
-- TODO: increase infamy decay
-- TODO: add host decisions
+- TODO: add host decisions and puppet decisions
+- TODO: ai changes
 - TODO: Purge all wierd supply requirements for land units (clothes etc)
 - TODO: rebalance bombers/military
 - TODO: implement sanctions
