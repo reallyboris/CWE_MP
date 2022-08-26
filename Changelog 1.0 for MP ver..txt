@@ -15,6 +15,7 @@
 - Increased infamy decay rate, and also removed retarded reseach buffs from being at war
 - Added grants
 - Made scandi able to be formed close to start date
+- Nerfed nukes and removed the thing where your country gets full occupied by rebels when you get nuked
 - TODO: vassal money dupe?
 - TODO: add promotion buff from getting goods
 - TODO: make sure every relavent country start with a state capis party at minimum
@@ -31,7 +32,6 @@
 - TODO: implement sanctions
 - TODO: make aeroplane factories always buildable
 - TODO: remove mob size from defcon and other events/modifiers, make the draft laws, corruption and NVs the only sources (prolly remove corruption mob debuff)
-- TODO: make it so nukes dont rebel occupy your country
 - TODO: make it so you can actually dec war/use standard wargoals no matter war policy
 - TODO: reduce the likelyhood of migration to unemployed provinces, and probably increase internal migration
 
