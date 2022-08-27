@@ -20,9 +20,11 @@
 - TODO: allow bombers n others to build from unaccepted pops
 - TODO: vassal money dupe?
 - TODO: increase money?
+- TODO: increase reinforce rate
+- TODO: Reduce crats from social reforms?
 - TODO: start iwth better factories, more units
 - TODO: add promotion buff from getting goods
-- TODO: add more transports
+- TODO: add more transports and increase ship speeds
 - TODO: allow adding wargoals on puppets
 - TODO: add more industry
 - TODO: make sure every relavent country start with a state capis party at minimum
@@ -30,7 +32,7 @@
 - TODO: remove GP/SP requirement for removing neutrality
 - TODO: remove the "submit to international arbitration" decision" (disables wars)
 - TODO: add more national focuses at the start
-- TODO: add leadership for generals with the day1 money event
+- TODO: add leadership for generals with the day1 money event, also mil goods
 - TODO: unlock artillery earlier
 - TODO: add host decisions and puppet decisions
 - TODO: ai changes
