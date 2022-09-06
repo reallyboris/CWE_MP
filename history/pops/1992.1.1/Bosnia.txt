@@ -98,10 +98,15 @@
 		religion =  sunni 
 		size = 21589
 	 } 
+	soldiers = {
+		culture = bosniak
+		religion =  sunni 
+		size = 36552
+	 } 
 	farmers = {
 		culture = bosniak
 		religion =  sunni 
-		size = 116552
+		size = 76552
 	 } 
 	farmers = {
 		culture = serb
@@ -156,6 +161,11 @@
 		religion =  sunni 
 		size = 1552
 	 } 
+	soldiers = {
+		culture = bosniak
+		religion =  sunni 
+		size = 26552
+	 } 
 	artisans = {
 		culture = bosniak
 		religion =  sunni 
@@ -169,8 +179,9 @@
 	farmers = {
 		culture = bosniak
 		religion =  sunni 
-		size = 64046
+		size = 44046
 	 } 
+
 	farmers = {
 		culture = serb
 		religion =  orthodox 

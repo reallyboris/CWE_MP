@@ -291,7 +291,7 @@ cement_factory = {
 
 	production_type = cement_factory
 	pop_build_factory = yes
-	#default_enabled = yes
+	default_enabled = yes
 }
 
 machine_parts_factory = {
@@ -313,7 +313,7 @@ machine_parts_factory = {
 
 	production_type = machine_parts_factory
 	pop_build_factory = yes
-	#default_enabled = yes
+	default_enabled = yes
 }
 
 coal_fuel_factory = {
@@ -335,7 +335,7 @@ coal_fuel_factory = {
 
 	production_type = coal_fuel_factory
 	pop_build_factory = yes
-	#default_enabled = yes
+	default_enabled = yes
 }
 
 #
@@ -711,7 +711,7 @@ heating_electricity_factory = {
 	production_type = heating_electricity_factory
 	pop_build_factory = yes
 	#strategic_factory = yes
-	#default_enabled = yes
+	default_enabled = yes
 }
 
 electricity_gas_factory = { 	
@@ -734,7 +734,7 @@ electricity_gas_factory = {
 	production_type = heating_electricity_gas_factory
 	pop_build_factory = yes
 	#strategic_factory = yes
-	#default_enabled = yes
+	default_enabled = yes
 }
 
 integrated_circuits_factory = {
@@ -845,28 +845,6 @@ furniture_factory = {
 	default_enabled = yes
 }
 
-sugar_factory = {
-	type = factory
-	on_completion = factory
-	completion_size = 0.2
-	max_level = 584
-	cost = 0
-	goods_cost = 
-	{
-		electric_gear = 7
-		cement = 20
-		steel = 20
-		machine_parts = 7		
-	}
-	time = 30
-	visibility = yes
-	onmap = yes
-
-	production_type = sugar_factory
-	pop_build_factory = yes
-	default_enabled = yes
-}
-
 beverages_factory = {
 	type = factory
 	on_completion = factory
@@ -971,7 +949,6 @@ electric_gear_factory = {
 
 	production_type = electric_gear_factory
 	pop_build_factory = yes
-	#default_enabled = yes
 }
 
 pharmaceuticals_factory = {
@@ -1128,7 +1105,7 @@ automobiles_factory = {
 
 	production_type = automobiles_factory
 	pop_build_factory = yes
-
+	advanced_factory = yes
 }
 
 beverage_tobacco_factory = {
@@ -1305,8 +1282,6 @@ transport_factory = {
 	production_type = transport_factory
 	pop_build_factory = yes
 	strategic_factory = yes
-	
-	default_enabled = yes
 }
 
 communication_factory = {
@@ -1427,12 +1402,11 @@ fort = {
 		cement = 200
 		weaponry = 50
 		small_arms = 50
-		aeroplanes = 50
-		machine_parts = 50
-		electric_gear = 50
-		automobiles = 25
+		aeroplanes = 40
+		machine_parts = 25
+		automobiles = 10
 	}
-	time = 200
+	time = 1080 
 	visibility = yes
 	onmap = yes
 	max_level = 6
@@ -1461,17 +1435,16 @@ naval_base = {
 		weaponry = 50
 		small_arms = 50
 		machine_parts = 50
-		electric_gear = 50
 		ships = 10
 	}
-	time = 200
+	time = 1080
 	naval_capacity = 1
 	capital = yes
 	onmap = yes
 	port = yes
 	visibility = yes
 	max_level = 6
-	colonial_points = { 50 100 150 200 250 300 } #points at levels 1-6
+	colonial_points = { 30 50 70 90 110 130 } #points at levels 1-6
 	province = yes
 	one_per_state = yes
 	colonial_range = 50
@@ -1491,10 +1464,8 @@ railroad = {
 		lumber = 100
 		cement = 100
 		steel = 100
-		machine_parts = 50
-		electric_gear = 50
 	}
-	time = 170
+	time = 720
 	visibility = yes
 	onmap = yes
 	max_level = 7

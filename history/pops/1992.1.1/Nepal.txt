@@ -121,17 +121,17 @@
 		size = 91366
 	 }	 
 	farmers = {
-		culture = nepali
+		culture = asian_minor
 		religion =  hindu 
 		size = 56683
 	 } 
 	farmers = {
-		culture = nepali
+		culture = asian_minor
 		religion = animist
 		size = 170288
 	 } 	 
 	farmers = {
-		culture = nepali
+		culture = asian_minor
 		religion = secularism
 		size = 797
 	 } 	   
@@ -279,12 +279,12 @@
 		size = 75610
 	 }
 	farmers = {
-		culture = nepali
+		culture = asian_minor
 		religion =  hindu 
 		size = 187830
 	 } 
 	farmers = {
-		culture = nepali
+		culture = asian_minor
 		religion = secularism
 		size = 660
 	 } 	 

@@ -220,7 +220,7 @@
 		size = 134400
 	 } 
 	farmers = {
-		culture = persian
+		culture = aimat
 		religion =  shiite 
 		size = 38400
 	 } 
@@ -270,17 +270,12 @@
 	farmers = {
 		culture = hazara
 		religion =  shiite 
-		size = 96485
+		size = 86485
 	 } 
 	farmers = {
-		culture = mongol
-		religion =  sunni
-		size = 54000
-	 } 
-	farmers = {
-		culture = mongol
+		culture = aimat
 		religion =  shiite 
-		size = 3915
+		size = 67915
 	 } 
 	farmers = {
 		culture = pashtun

@@ -13,7 +13,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 517
+		size = 20517
 	 } 
 	soldiers = {
 		culture = romanian
@@ -93,7 +93,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 39350
+		size = 19350
 	 } 
 	slaves = {
 		culture = romanian
@@ -151,7 +151,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 540
+		size = 22540
 	 } 
 	soldiers = {
 		culture = romanian
@@ -231,7 +231,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 59533
+		size = 39533
 	 } 
 	farmers = {
 		culture = romanian
@@ -427,7 +427,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 1027
+		size = 31027
 	 } 
 	soldiers = {
 		culture = romanian
@@ -507,7 +507,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 174239
+		size = 154239
 	 } 
 	farmers = {
 		culture = romanian
@@ -540,7 +540,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 257
+		size = 9257
 	 } 
 	soldiers = {
 		culture = romanian
@@ -620,7 +620,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 43753
+		size = 13753
 	 } 
 	farmers = {
 		culture = romanian
@@ -653,7 +653,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 650
+		size = 9650
 	 } 
 	soldiers = {
 		culture = romanian
@@ -733,7 +733,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 93664
+		size = 83664
 	 } 
 	farmers = {
 		culture = romanian
@@ -766,7 +766,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 307
+		size = 9307
 	 } 
 	soldiers = {
 		culture = romanian
@@ -846,7 +846,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 52159
+		size = 42159
 	 } 
 	farmers = {
 		culture = romanian
@@ -879,7 +879,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 455
+		size = 9455
 	 } 
 	soldiers = {
 		culture = romanian
@@ -959,7 +959,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 77378
+		size = 67378
 	 } 
 	farmers = {
 		culture = romanian
@@ -992,7 +992,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 395
+		size = 9395
 	 } 
 	soldiers = {
 		culture = romanian
@@ -1072,7 +1072,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 67062
+		size = 57062
 	 } 
 	farmers = {
 		culture = romanian
@@ -1238,7 +1238,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 494
+		size = 9494
 	 } 
 	soldiers = {
 		culture = romanian
@@ -1328,7 +1328,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  protestant 
-		size = 84068
+		size = 74068
 	 } 
 	farmers = {
 		culture = hungarian
@@ -1361,7 +1361,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 746
+		size = 9746
 	 } 
 	soldiers = {
 		culture = romanian
@@ -1431,7 +1431,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 111591
+		size = 101591
 	 } 
 	farmers = {
 		culture = romanian
@@ -1484,7 +1484,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 596
+		size = 9596
 	 } 
 	soldiers = {
 		culture = romanian
@@ -1554,7 +1554,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 87937
+		size = 77937
 	 } 
 	farmers = {
 		culture = romanian
@@ -1607,7 +1607,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 2362
+		size = 32362
 	 } 
 	soldiers = {
 		culture = romanian
@@ -1677,7 +1677,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 382883
+		size = 352883
 	 } 
 	farmers = {
 		culture = romanian
@@ -1720,7 +1720,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 752
+		size = 9752
 	 } 
 	soldiers = {
 		culture = romanian
@@ -1800,7 +1800,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 127623
+		size = 117623
 	 } 
 	farmers = {
 		culture = romanian
@@ -1833,7 +1833,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 1321
+		size = 11321
 	 } 
 	soldiers = {
 		culture = romanian
@@ -1913,7 +1913,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 224104
+		size = 214104
 	 } 
 	farmers = {
 		culture = romanian
@@ -1946,7 +1946,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 1781
+		size = 11781
 	 } 
 	soldiers = {
 		culture = romanian
@@ -2031,7 +2031,7 @@
 	farmers = {
 		culture = romanian
 		religion = secularism
-		size = 13407
+		size = 3407
 	 } 
 	farmers = {
 		culture = roma
@@ -2059,7 +2059,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 752
+		size = 9752
 	 } 
 	soldiers = {
 		culture = romanian
@@ -2139,7 +2139,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 127623
+		size = 117623
 	 } 
 	farmers = {
 		culture = romanian
@@ -2172,7 +2172,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 545
+		size = 9545
 	 } 
 	soldiers = {
 		culture = romanian
@@ -2252,7 +2252,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 92663
+		size = 82663
 	 } 
 	farmers = {
 		culture = romanian
@@ -2295,7 +2295,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 726
+		size = 9726
 	 } 
 	soldiers = {
 		culture = romanian
@@ -2365,7 +2365,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 114739
+		size = 104739
 	 } 
 	farmers = {
 		culture = romanian
@@ -2418,7 +2418,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 386
+		size = 9386
 	 } 
 	soldiers = {
 		culture = romanian
@@ -2488,7 +2488,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 61194
+		size = 51194
 	 } 
 	farmers = {
 		culture = romanian
@@ -2546,7 +2546,7 @@
 	soldiers = {
 		culture = romanian
 		religion = secularism
-		size = 65
+		size = 9965
 	 } 
 	aristocrats = {
 		culture = romanian
@@ -2611,7 +2611,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 246514
+		size = 236514
 	 } 
 	farmers = {
 		culture = romanian
@@ -2664,7 +2664,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 504
+		size = 9504
 	 } 
 	soldiers = {
 		culture = romanian
@@ -2734,7 +2734,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 83984
+		size = 73984
 	 } 
 	farmers = {
 		culture = romanian
@@ -2777,7 +2777,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 643
+		size = 9643
 	 } 
 	soldiers = {
 		culture = romanian
@@ -2857,7 +2857,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 109093
+		size = 99093
 	 } 
 	farmers = {
 		culture = romanian
@@ -2890,7 +2890,7 @@
 	soldiers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 248
+		size = 9248
 	 } 
 	soldiers = {
 		culture = romanian
@@ -2970,7 +2970,7 @@
 	farmers = {
 		culture = romanian
 		religion =  orthodox 
-		size = 42223
+		size = 32223
 	 } 
 	farmers = {
 		culture = romanian

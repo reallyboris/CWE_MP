@@ -16,9 +16,9 @@
 		size = 1412
 	 } 
 	soldiers = {
-		culture = wallonian
+		culture = flemish
 		religion = secularism
-		size = 3000
+		size = 33000
 	 } 
 	aristocrats = {
 		culture = wallonian
@@ -118,12 +118,12 @@
 	farmers = {
 		culture = flemish
 		religion =  catholic 
-		size = 107181
+		size = 127181
 	 } 
 	farmers = {
 		culture = flemish
 		religion = secularism
-		size = 227760
+		size = 127760
 	 } 
 }
 #Bruges - West Flanders (1173000/293250 POPS)

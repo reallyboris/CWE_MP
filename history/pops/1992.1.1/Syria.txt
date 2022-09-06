@@ -106,7 +106,7 @@
 	soldiers = {
 		culture = kurdish
 		religion =  sunni 
-		size = 19125
+		size = 39125
 	 } 
 	aristocrats = {
 		culture = kurdish
@@ -146,7 +146,7 @@
 	farmers = {
 		culture = kurdish
 		religion =  sunni 
-		size = 112567
+		size = 82567
 	 } 
 	farmers = {
 		culture = syrian
@@ -174,7 +174,7 @@
 	soldiers = {
 		culture = syrian
 		religion =  shiite 
-		size = 43432
+		size = 93432
 	 } 
 	aristocrats = {
 		culture = syrian
@@ -264,7 +264,12 @@
 	farmers = {
 		culture = syrian
 		religion =  sunni 
-		size = 575453
+		size = 441755
+	 } 
+	farmers = {
+		culture = palestinian
+		religion =  sunni 
+		size = 83244
 	 } 
 }
 #Homs - Homs (962000/240500 POPS)
@@ -282,7 +287,7 @@
 	soldiers = {
 		culture = syrian
 		religion =  orthodox 
-		size = 11937
+		size = 41937
 	 } 
 	soldiers = {
 		culture = syrian
@@ -332,7 +337,7 @@
 	farmers = {
 		culture = syrian
 		religion =  sunni 
-		size = 186081
+		size = 146081
 	 } 
 }
 #Hama - Hama (868000/217000 POPS)
@@ -350,7 +355,7 @@
 	soldiers = {
 		culture = syrian
 		religion =  orthodox 
-		size = 10771
+		size = 40771
 	 } 
 	soldiers = {
 		culture = syrian
@@ -400,7 +405,7 @@
 	farmers = {
 		culture = syrian
 		religion =  sunni 
-		size = 167898
+		size = 127898
 	 } 
 }
 #Latakia - Latakia (1836000/459000 POPS)
@@ -413,7 +418,7 @@
 	soldiers = {
 		culture = syrian
 		religion =  shiite 
-		size = 26804
+		size = 66804
 	 } 
 	aristocrats = {
 		culture = syrian
@@ -453,7 +458,7 @@
 	farmers = {
 		culture = syrian
 		religion =  shiite 
-		size = 244976
+		size = 204976
 	 } 
 	farmers = {
 		culture = syrian
@@ -491,7 +496,7 @@
 	soldiers = {
 		culture = druze
 		religion = druze
-		size = 5985
+		size = 25985
 	 } 
 	aristocrats = {
 		culture = druze
@@ -521,7 +526,7 @@
 	farmers = {
 		culture = druze
 		religion = druze
-		size = 70083
+		size = 55083
 	 } 
 	farmers = {
 		culture = syrian
@@ -539,7 +544,7 @@
 	soldiers = {
 		culture = syrian
 		religion =  sunni 
-		size = 9650
+		size = 19650
 	 } 
 	aristocrats = {
 		culture = syrian
@@ -569,6 +574,6 @@
 	farmers = {
 		culture = syrian
 		religion =  sunni 
-		size = 127861
+		size = 117861
 	 } 
 }

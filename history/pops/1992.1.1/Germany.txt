@@ -13,7 +13,7 @@
 	soldiers = {
 		culture = german
 		religion =  catholic 
-		size = 420
+		size = 9420
 	 } 
 	soldiers = {
 		culture = german
@@ -93,7 +93,7 @@
 	farmers = {
 		culture = german
 		religion =  catholic 
-		size = 43065
+		size = 33065
 	 } 
 	farmers = {
 		culture = german
@@ -2875,7 +2875,7 @@
 	soldiers = {
 		culture = german
 		religion =  catholic 
-		size = 2437
+		size = 32437
 	 } 
 	soldiers = {
 		culture = german
@@ -2965,7 +2965,7 @@
 	farmers = {
 		culture = european
 		religion =  protestant 
-		size = 43690
+		size = 13690
 	 } 
 	farmers = {
 		culture = european
@@ -4118,7 +4118,7 @@
 	soldiers = {
 		culture = german
 		religion = secularism
-		size = 1191
+		size = 11191
 	 } 
 	aristocrats = {
 		culture = german
@@ -4193,7 +4193,7 @@
 	farmers = {
 		culture = german
 		religion =  catholic 
-		size = 74737
+		size = 64737
 	 } 
 	farmers = {
 		culture = german
@@ -4216,7 +4216,7 @@
 	soldiers = {
 		culture = german
 		religion =  catholic 
-		size = 181
+		size = 9181
 	 } 
 	soldiers = {
 		culture = german
@@ -4296,7 +4296,7 @@
 	farmers = {
 		culture = german
 		religion =  catholic 
-		size = 18609
+		size = 8609
 	 } 
 	farmers = {
 		culture = german
@@ -4535,7 +4535,7 @@
 	soldiers = {
 		culture = german
 		religion =  catholic 
-		size = 2237
+		size = 32237
 	 } 
 	soldiers = {
 		culture = german
@@ -4625,7 +4625,7 @@
 	farmers = {
 		culture = european
 		religion =  protestant 
-		size = 40112
+		size = 10112
 	 } 
 	farmers = {
 		culture = european
@@ -5773,7 +5773,7 @@
 	soldiers = {
 		culture = german
 		religion =  catholic 
-		size = 2034
+		size = 22034
 	 } 
 	soldiers = {
 		culture = german
@@ -5863,7 +5863,7 @@
 	farmers = {
 		culture = european
 		religion =  protestant 
-		size = 36468
+		size = 16468
 	 } 
 	farmers = {
 		culture = european

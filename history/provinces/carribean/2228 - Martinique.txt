@@ -6,7 +6,7 @@ trade_goods = sugar
 life_rating = 35
 terrain = jungle_hills
 railroad = 1
-colonial = 2
+colonial = 0
 naval_base = 3
 1992.1.1 = {
 owner = FRA
@@ -15,6 +15,6 @@ add_core = FRA
 add_core = MTQ
 life_rating = 35
 railroad = 2
-colonial = 2
+colonial = 0
 naval_base = 4
 }

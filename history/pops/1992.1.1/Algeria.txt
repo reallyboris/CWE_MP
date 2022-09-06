@@ -3,1667 +3,862 @@
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 4851
-	 } 
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 255
+		size = 5106
 	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 19404
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 1021
-	 }	 
+		size = 20425
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 33839
+		size = 35620
 	 } 
-	aristocrats = {
-		culture = arab
+	bureaucrats = {
+		culture = algerian
 		religion =  sunni 
 		size = 1781
-	 }
-	bureaucrats = {
-		culture = algerian
-		religion =  sunni 
-		size = 1692
-	 }
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 89
-	 } 	 
+	 } 
 	capitalists = {
 		culture = algerian
 		religion =  sunni 
-		size = 4229
-	 }
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 227
-	 }	 
+		size = 4452
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 8460
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 445
-	 } 	 
+		size = 8905
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 23817
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 22626
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 1191
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 21495
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 1131
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 69011
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 3632
-	 }	 
+		size = 72643
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 660369
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 34756
-	 }	 
+		size = 695125
+	 } 
 }
 #Bougie - Skikda, Jijel, Béjaïa, Tizi Ouzou (2678000/669500 POPS)
 1701 = {
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 3647
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 192
-	 }	 
+		size = 3839
+	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 14588
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 768
-	 }	 
+		size = 15356
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 25441
-	 }
-	aristocrats = {
-		culture = arab
+		size = 26780
+	 } 
+	bureaucrats = {
+		culture = algerian
 		religion =  sunni 
 		size = 1339
-	 }	 
-	bureaucrats = {
-		culture = algerian
-		religion =  sunni 
-		size = 1272
-	 }
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 67
-	 }	 
+	 } 
 	capitalists = {
 		culture = algerian
 		religion =  sunni 
-		size = 3180
-	 }
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 167
-	 }	 
+		size = 3347
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 6360
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 335
-	 }	 
+		size = 6695
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 17906
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 17011
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 895
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 16160
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 851
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 39546
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 2081
-	 }	 
+		size = 41627
+	 } 
 	craftsmen = {
 		culture = berber
 		religion =  sunni 
-		size = 12339
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 649
-	 }	 
+		size = 12988
+	 } 
 	farmers = {
 		culture = berber
 		religion =  sunni 
-		size = 496481
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 26131
-	 }	 
+		size = 522612
+	 } 
 }
 #Setif - Bouïra, Setif,Bordj Bou Arréridj (2117000/529250 POPS)
 1702 = {
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 2882
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 152
-	 }	 
+		size = 3034
+	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 11532
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 607
-	 }	 
+		size = 12139
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 20112
-	 }
-	aristocrats = {
-		culture = arab
+		size = 21170
+	 } 
+	bureaucrats = {
+		culture = algerian
 		religion =  sunni 
 		size = 1058
-	 }	 
-	bureaucrats = {
-		culture = algerian
-		religion =  sunni 
-		size = 1005
-	 }
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 53
-	 }	 
+	 } 
 	capitalists = {
 		culture = algerian
 		religion =  sunni 
-		size = 2513
-	 }
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 132
-	 }	 
+		size = 2646
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 5027
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 265
-	 }	 
+		size = 5292
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 14155
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 13447
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 708
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 12775
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 672
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 41014
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 2159
-	 }	 
+		size = 43173
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 15388
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 810
-	 }	 
+		size = 16198
+	 } 
 	farmers = {
 		culture = berber
 		religion =  sunni 
-		size = 377090
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 19847
-	 }	 
+		size = 396937
+	 } 
 }
 #Medea - Relizane, Tissemsilt (771000/192750 POPS)
 1703 = {
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 1050
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 55
-	 } 	 
+		size = 1105
+	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 4200
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 221
-	 }	 
+		size = 4421
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 7325
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 385
-	 }	 
+		size = 7710
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 1831
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 96
-	 }	 
+		size = 1927
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 5155
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 4897
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 258
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 1652
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 245
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 14937
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 786
-	 }	 
+		size = 15723
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 88007
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 4632
-	 }	 
+		size = 92639
+	 } 
 	farmers = {
 		culture = berber
 		religion =  sunni 
-		size = 54934
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 2891
-	 }	 
+		size = 57825
+	 } 
 }
 #Oran - Oran (1187000/296750 POPS)
 1704 = {
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 1616
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 85
-	 }	 
+		size = 1701
+	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 6466
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 340
-	 }	 
+		size = 6806
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 11277
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 593
-	 }	 
+		size = 11870
+	 } 
 	capitalists = {
 		culture = algerian
 		religion =  sunni 
-		size = 1409
-	 }
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 74
-	 }	 
+		size = 1483
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 2819
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 148
-	 }	 
+		size = 2967
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 7937
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 7540
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 397
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 7163
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 377
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 22997
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1210
-	 }	 
+		size = 24207
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 220064
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 11582
-	 }	 
+		size = 231646
+	 } 
 }
 #Tlemcen - Tlemcen, Ain Timouchent (993000/248250 POPS)
 1705 = {
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 1352
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 71
-	 }	 
+		size = 1423
+	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 5409
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 285
-	 }	 
+		size = 5694
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 9433
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 497
-	 }	 
+		size = 9930
+	 } 
 	capitalists = {
 		culture = algerian
 		religion =  sunni 
-		size = 1179
-	 }
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 62
-	 }	 
+		size = 1241
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 2358
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 124
-	 }	 
+		size = 2482
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 6639
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 6307
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 332
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 5992
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 315
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 19238
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1012
-	 }	 
+		size = 20251
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 184098
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 9689
-	 }	 
+		size = 193787
+	 } 
 }
 #Mustaghanim - Chlef, Ain Defla, Tipaza (1800000/450000 POPS)
 1706 = {
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 2451
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 129
-	 }	 
+		size = 2580
+	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 9805
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 516
-	 }	 
+		size = 10321
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 17100
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 900
-	 }	 
+		size = 18000
+	 } 
 	capitalists = {
 		culture = algerian
 		religion =  sunni 
-		size = 2137
-	 }
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 113
-	 }	 
+		size = 2250
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 4275
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 225
-	 }	 
+		size = 4500
+	 } 
 	clerks = {
 		culture = algerian
 		religion =  sunni 
-		size = 11433
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 602
-	 }	 
+		size = 12035
+	 } 
 	artisans = {
 		culture = algerian
 		religion =  sunni 
-		size = 10862
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 572
-	 }	 
+		size = 11434
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 34874
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1835
-	 }	 
+		size = 36709
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 269582
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 14189
-	 }	 
+		size = 283771
+	 } 
 	farmers = {
 		culture = berber
 		religion =  sunni 
-		size = 64125
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 3375
-	 }	 
+		size = 67500
+	 } 
 }
 #Mascara - Saïda, Sidi Bel Abbès, Mascara (1341000/335250 POPS)
 1707 = {
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 1826
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 96
-	 }	 
+		size = 1922
+	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 7305
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 384
-	 }	 
+		size = 7689
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 12740
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 670
-	 }	 
+		size = 13410
+	 } 
 	capitalists = {
 		culture = algerian
 		religion =  sunni 
-		size = 1592
-	 }
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 84
-	 }	 
+		size = 1676
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 3184
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 168
-	 }	 
+		size = 3352
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 8966
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 8518
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 448
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 8096
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 426
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 25981
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1367
-	 }	 
+		size = 27348
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 248614
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 13085
-	 }	 
+		size = 261699
+	 } 
 }
 #Constantine - Batna, Oum El Bouaghi, Souk Ahras (1660000/415000 POPS)
 1708 = {
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 2260
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 119
-	 }	 
+		size = 2379
+	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 9042
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 476
-	 }	 
+		size = 9518
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 15770
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 830
-	 }	 
+		size = 16600
+	 } 
 	capitalists = {
 		culture = algerian
 		religion =  sunni 
-		size = 1971
-	 }
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 104
-	 }	 
+		size = 2075
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 3942
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 208
-	 }	 
+		size = 4150
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 11099
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 10544
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 555
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 10017
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 527
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 32161
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1693
-	 }	 
+		size = 33854
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 307753
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 16198
-	 }	 
+		size = 323951
+	 } 
 }
 #Bone - Annaba, Guelma, Souk Ahras, El Taref (1478000/369500 POPS)
 1709 = {
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 2012
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 106
-	 }	 
+		size = 2118
+	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 8051
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 424
-	 }	 
+		size = 8475
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 14041
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 739
-	 }	 
+		size = 14780
+	 } 
 	capitalists = {
 		culture = algerian
 		religion =  sunni 
-		size = 1755
-	 }
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 92
-	 }	 
+		size = 1847
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 3510
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 185
-	 }	 
+		size = 3695
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 9882
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 9388
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 494
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 8919
-	 }
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 469
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 28635
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1507
-	 }	 
+		size = 30142
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 274012
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 14422
-	 }	 
+		size = 288434
+	 } 
 }
 #Biskra - Biskra, Batna, Tébessa, Khenchela (2173000/543250 POPS)
 1710 = {
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 2959
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 156
-	 }	 
+		size = 3115
+	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 11837
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 623
-	 }	 
+		size = 12460
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 20644
-	 }
-	aristocrats = {
-		culture = arab
+		size = 21730
+	 } 
+	bureaucrats = {
+		culture = algerian
 		religion =  sunni 
 		size = 1086
-	 }	 
-	bureaucrats = {
-		culture = algerian
-		religion =  sunni 
-		size = 1032
-	 }
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 54
-	 }	 
+	 } 
 	capitalists = {
 		culture = algerian
 		religion =  sunni 
-		size = 2580
-	 }
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 136
-	 }	 
+		size = 2716
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 5160
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 272
-	 }	 
+		size = 5432
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 14529
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 13803
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 726
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 13113
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 690
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 32090
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1689
-	 }	 
+		size = 33779
+	 } 
 	craftsmen = {
 		culture = berber
 		religion =  sunni 
-		size = 10009
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 527
-	 }	 
+		size = 10536
+	 } 
 	farmers = {
 		culture = berber
 		religion =  sunni 
-		size = 402861
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 21203
-	 }	 
+		size = 424064
+	 } 
 }
 #Ouargla - Ouargla (413000/103250 POPS)
 1711 = {
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 2250
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 118
-	 }	 
+		size = 2368
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 3924
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 206
-	 }	 
+		size = 4130
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 980
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 52
-	 }	 
+		size = 1032
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 2761
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 2623
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 138
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 2492
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 131
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 8001
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 421
-	 }	 
+		size = 8422
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 66761
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 3514
-	 }	 
+		size = 70275
+	 } 
 	farmers = {
 		culture = berber
 		religion =  sunni 
-		size = 9809
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 516
-	 }	 
+		size = 10325
+	 } 
 }
 #Tuggurt - El Oued (504000/126000 POPS)
 1712 = {
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 2746
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 144
-	 }	 
+		size = 2890
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 4788
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 282
-	 }	 
+		size = 5040
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 1197
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 63
-	 }	 
+		size = 1260
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 3370
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 3201
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 169
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 3041
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 160
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 1458
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 77
-	 }	 
+		size = 1535
+	 } 
 	craftsmen = {
 		culture = berber
 		religion =  sunni 
-		size = 8306
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 437
-	 }	 
+		size = 8743
+	 } 
 	farmers = {
 		culture = berber
 		religion =  sunni 
-		size = 93439
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 4918
-	 }	 
+		size = 98357
+	 } 
 }
 #Laghwat - Tiaret , Médéa, Djelfa, Laghouat (2505000/626250 POPS)
 1713 = {
 	officers = {
 		culture = algerian
 		religion =  sunni 
-		size = 3411
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 180
-	 }	 
+		size = 3591
+	 } 
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 13646
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 718
-	 }	 
+		size = 14364
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 23798
-	 }
-	aristocrats = {
-		culture = arab
+		size = 25050
+	 } 
+	bureaucrats = {
+		culture = algerian
 		religion =  sunni 
 		size = 1252
-	 }	 
-	bureaucrats = {
-		culture = algerian
-		religion =  sunni 
-		size = 1189
-	 }
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 63
-	 }	 
+	 } 
 	capitalists = {
 		culture = algerian
 		religion =  sunni 
-		size = 2974
-	 }
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 156
-	 }	 
+		size = 3131
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 5949
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 313
-	 }	 
+		size = 6262
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 16749
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 15912
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 837
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 15116
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 796
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 48531
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 2554
-	 }	 
+		size = 51086
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 464410
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 24443
-	 }	 
+		size = 488853
+	 } 
 }
 #Bechar - Bechar (205000/51250 POPS)
 1714 = {
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 1116
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 58
-	 }	 
+		size = 1175
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 1948
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 102
-	 }	 
+		size = 2050
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 1370
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 1302
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 68
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 1237
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 65
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 3971
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 209
-	 }	 
+		size = 4180
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 38010
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 2000
-	 }	 
+		size = 40010
+	 } 
 }
 #Naama - Ain Defla (578000/144500 POPS)
 1715 = {
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 3148
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 166
-	 }	 
+		size = 3314
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 5491
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 289
-	 }	 
+		size = 5780
+	 } 
 	clergymen = {
 		culture = algerian
 		religion =  sunni 
-		size = 1373
-	 }
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 72
-	 }	 
+		size = 1445
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 3864
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 3671
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 193
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 3487
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 183
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 11198
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 589
-	 }	 
+		size = 11787
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 107160
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 5640
-	 }	 
+		size = 112800
+	 } 
 }
 #Tindouf - Tindouf (119000/29750 POPS)
 1716 = {
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 1131
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 59
-	 }	 
+		size = 1190
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 2305
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 121
-	 }	 
+		size = 2427
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 22064
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 1161
-	 }	 
+		size = 23226
+	 } 
 }
 #Chenachene - Andar (254000/63500 POPS)
 1717 = {
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 1383
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 73
-	 }	 
+		size = 1456
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 2413
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 127
-	 }	 
+		size = 2540
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 1698
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 1613
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 85
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 1532
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 81
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 4921
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 259
-	 }	 
+		size = 5180
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 47091
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 2479
-	 }	 
+		size = 49570
+	 } 
 }
 #In Salah - Ghardaia (281000/70250 POPS)
 1718 = {
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 1530
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 81
-	 }	 
+		size = 1611
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 2670
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 140
-	 }	 
+		size = 2810
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 1879
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 1785
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 94
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 1696
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 89
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 5444
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 286
-	 }	 
+		size = 5730
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 45424
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 2391
-	 }	 
+		size = 47815
+	 } 
 	farmers = {
 		culture = tuareg
 		religion =  sunni 
@@ -1683,73 +878,38 @@
 	soldiers = {
 		culture = algerian
 		religion =  sunni 
-		size = 1067
-	 }
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 59
-	 }	 
+		size = 1123
+	 } 
 	aristocrats = {
 		culture = algerian
 		religion =  sunni 
-		size = 1862
-	 }
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 98
-	 }	 
+		size = 1960
+	 } 
 	clerks = {
+		culture = algerian
+		religion =  sunni 
+		size = 1310
+	 } 
+	artisans = {
 		culture = algerian
 		religion =  sunni 
 		size = 1245
-	 }
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 65
-	 }	 
-	artisans = {
-		culture = algerian
-		religion =  sunni 
-		size = 1183
-	 }
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 63
-	 }	 
+	 } 
 	craftsmen = {
 		culture = algerian
 		religion =  sunni 
-		size = 3797
-	 }
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 200
-	 }	 
+		size = 3997
+	 } 
 	farmers = {
 		culture = algerian
 		religion =  sunni 
-		size = 22374
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 1178
-	 }	 
+		size = 23552
+	 } 
 	farmers = {
 		culture = berber
 		religion =  sunni 
-		size = 13965
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 735
-	 }	 
+		size = 14700
+	 } 
 }
 #In Guezzam - Tamanrasset (74000/18500 POPS)
 1721 = {

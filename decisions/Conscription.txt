@@ -4,7 +4,7 @@ political_decisions = {
 		picture = "emergency_draft"
 	
 		potential = {
-			war = yes
+                        war = yes
 			NOT = { has_country_modifier = emergency_draft_timer }
 			is_mobilised = yes
 		}
@@ -25,10 +25,9 @@ political_decisions = {
 	
 	increase_conscription = {
 		picture = "marching_soldiers"
-		alert = no
+		alert = yes
 		potential = {
 			civilized = yes
-			war = yes
 			OR = {
 				AND = {
 					lgbt_rights = lgbt_outlawed
@@ -57,7 +56,6 @@ political_decisions = {
 			
 		allow = {
 			NOT = { has_country_modifier = law_changed_by_force }
-			any_neighbor_country = { war_with = THIS civilized = yes }
 			OR = {
 				has_country_flag = in_great_war
 				AND = {
@@ -65,7 +63,7 @@ political_decisions = {
 					lgbt_rights = lgbt_outlawed
 				}
 				AND = {
-					NOT = { OR = { war_policy = pacifism war_policy = pro_military } }
+					NOT = { OR = { war_policy = pacifism } }
 					OR = {
 						lgbt_rights = gender_neutrallity
 						lgbt_rights = lgbt_equal_rights
@@ -78,6 +76,7 @@ political_decisions = {
 						government = populist_dictatorship
 						government = proletarian_dictatorship
 						government = proletarian_dictatorship1
+						government = presidential_dictatorship
 						has_country_flag = in_great_war
 					}
 				}
@@ -85,7 +84,7 @@ political_decisions = {
 		}
 			
 		effect = {
-			add_country_modifier = { name = law_changed_by_force duration = 3650 }
+			add_country_modifier = { name = law_changed_by_force duration = 1000 }
 			random_owned = {
 				limit = {
 					owner = {

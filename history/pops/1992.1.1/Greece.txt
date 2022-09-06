@@ -13,7 +13,7 @@
 	soldiers = {
 		culture = greek
 		religion =  orthodox 
-		size = 6954
+		size = 26954
 	 } 
 	soldiers = {
 		culture = greek
@@ -93,7 +93,7 @@
 	farmers = {
 		culture = greek
 		religion =  orthodox 
-		size = 170701
+		size = 150701
 	 } 
 	farmers = {
 		culture = greek
@@ -1643,7 +1643,7 @@
 	soldiers = {
 		culture = greek
 		religion =  orthodox 
-		size = 19579
+		size = 59579
 	 } 
 	soldiers = {
 		culture = greek
@@ -1728,7 +1728,7 @@
 	farmers = {
 		culture = greek
 		religion = secularism
-		size = 151774
+		size = 101774
 	 } 
 	farmers = {
 		culture = albanian

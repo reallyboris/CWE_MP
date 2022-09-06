@@ -22,22 +22,19 @@ political_decisions = {
 		
 		allow = {
 
-			OR = { is_secondary_power = yes is_greater_power = yes military_score = 400 }
+			OR = { is_secondary_power = yes is_greater_power = yes military_score = 400 AND = { has_building = inorganic_chemicals_factory military_score = 300 } }
 
 			NOT = { has_country_modifier = wmd_removed }
 
-			war = no
-			election = no
 			NOT = { is_disarmed = yes }
-			NOT = { part_of_sphere = yes }
-			
+			part_of_sphere = no
 			money = 600000
 
 			OR = { 
 				ai = no
 				AND = { 
 					ai = yes
-					NOT = { badboy = 0.2 }
+					NOT = { badboy = 0.56 }
 					year = 1949
 					money = 1000000
 					NOT = { has_country_modifier = chemical_weapons_convention }
@@ -54,22 +51,6 @@ political_decisions = {
 			prestige = 25
 			badboy = 10
 			money = -500000
-		}
-		
-		ai_will_do = { 
-			factor = 1
-			
-			#AI only builds chemical weapons when world tensions are high and past 1950
-			modifier = { 
-				factor = 0
-				OR = {
-					has_country_modifier = cold_war_medium
-					has_country_modifier = cold_war_low
-					
-					has_country_modifier = world_medium
-					has_country_modifier = world_low
-				}
-			}
 		}
 	}
 
@@ -135,7 +116,6 @@ political_decisions = {
 		alert = no
 
 		allow = {
-			election = no
 			war = no
 
 			OR = { 
@@ -164,8 +144,6 @@ political_decisions = {
 		}
 
 		allow = {
-			war = no
-			election = no
 			OR = { 
 				ai = no 
 				NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } } 

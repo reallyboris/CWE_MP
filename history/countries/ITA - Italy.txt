@@ -1,6 +1,6 @@
 capital = 749
 primary_culture = italian
-religion = catholic
+religion = secularism
 government = hms_government
 plurality = 8.0
 nationalvalue = nv_equality
@@ -22,16 +22,16 @@ upper_house = {
 # Political Reforms
 
 political_opinions = free_opinion
-minorities_reform = minorities_equal_rights
+minorities_reform = minorities_oppression
 immigration_policy = naturalization
-civil_service = elitist_service
+internet_infrastructure = open_unregulated
 political_parties = parties_allowed
 lgbt_rights = gender_neutrallity
 publishing_rights = unregulated_publishing
-union_rights = no_trade_unions
+gender_rights = gender_role_based
 voting_system = proportional_representation
 vote_franschise = universal_voting
-public_meetings = free_meetings penal_system = capital_punishment
+public_meetings = free_meetings
 
 # Social Reforms
 safety_regulations = some_regulations
@@ -67,7 +67,6 @@ modern_roads = 1
 electricity = 1
 modern_shipyard = 1
 modern_shipbuilding = 1
-corvettes = 1
 ww2_aircraft_carrier = 1
 ww2_command_system = 1
 command_of_the_sea = 1
@@ -91,7 +90,7 @@ oob = "/ITA_oob.txt"
 	literacy = 0.23
 	non_state_culture_literacy = 0.15
 	civilized = yes
-	prestige = 1000
+	prestige = 300
 	ruling_party = "Democrazia Cristiana"
 	upper_house = {
 		populist = 5
@@ -105,15 +104,15 @@ oob = "/ITA_oob.txt"
 	# Political Reforms
 	political_opinions = regulated_opinion
 	minorities_reform = minorities_equal_rights
-	immigration_policy = naturalization
-	civil_service = elitist_service
+	immigration_policy = quota_immigration
+	internet_infrastructure = quality_of_service
 	political_parties = parties_allowed
-	lgbt_rights = gender_neutrallity
+	lgbt_rights = lgbt_allowed
 	publishing_rights = firewall_publishing
-	union_rights = no_trade_unions
+	gender_rights = gender_role_based
 	voting_system = proportional_representation
-	vote_franschise = universal_voting
-	public_meetings = free_meetings penal_system = capital_punishment
+	vote_franschise = universal_weighted_voting
+	public_meetings = free_meetings
 	# Social Reforms
 	safety_regulations = balanced_regulations
 	pensions = trinket_pensions

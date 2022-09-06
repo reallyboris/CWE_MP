@@ -714,12 +714,12 @@
 		size = 7338
 	 } 
 	farmers = {
-		culture = tatar
+		culture = tuvans
 		religion =  buddhist 
 		size = 7306
 	 } 
 	farmers = {
-		culture = tatar
+		culture = tuvans
 		religion = secularism
 		size = 7306
 	 } 

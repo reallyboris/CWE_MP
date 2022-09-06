@@ -32,25 +32,26 @@ carrier = {
 		weaponry = 40
 		aeroplanes = 360
 		optics = 60
-		canned_food = 60
-		ammunition = 60
-		fuel = 65
 	}
 	min_port_level = 3
+	limit_per_port = 1
+	supply_consumption_score = 50
 	
 	supply_consumption = 1.0
 	supply_cost = { 
-		aeroplanes = 4.8
+		aeroplanes = 1.6
 		ammunition = 4
 		fuel = 10
 		canned_food = 4
-		ships = 6
+		clothes = 1
+		footwear = 1
+		ships = 1.5
 	}
 	
 	#Naval Abilties
 	hull = 40
 	gun_power = 80
-	fire_range = 1
+	fire_range = 2
 	evasion = 0
 	torpedo_attack = 1.5
 }

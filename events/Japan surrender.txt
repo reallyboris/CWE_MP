@@ -1,0 +1,31 @@
+#China_buy_Macau_and_HongKong_1997
+country_event = {
+
+    id = 8066
+
+    trigger = {
+        tag = KOR
+        has_country_flag = wardewjwiewjew43434343
+        NOT = { 
+        has_country_flag = japanaccepts
+                      }        
+    }
+    
+    fire_only_once = yes
+    major = yes
+
+
+    title = "Japan joins the Greater Korean Federation"
+    desc = "" 
+    picture = ""
+
+    option = {
+        name = "Manse!" 
+        inherit = JAP
+        JAP = { all_core = { add_core = KOR } }
+        set_country_flag = japanaccepts
+        ai_chance = {
+            factor = 50    
+        }
+    }
+}

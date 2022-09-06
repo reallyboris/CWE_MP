@@ -10,6 +10,11 @@
 		religion = secularism
 		size = 371
 	 } 
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 9371
+	 } 
 	bureaucrats = {
 		culture = hungarian
 		religion =  catholic 
@@ -73,7 +78,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  catholic 
-		size = 39996
+		size = 29996
 	 } 
 	farmers = {
 		culture = hungarian
@@ -87,6 +92,11 @@
 		culture = hungarian
 		religion =  catholic 
 		size = 1988
+	 } 
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 9371
 	 } 
 	aristocrats = {
 		culture = hungarian
@@ -156,7 +166,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  catholic 
-		size = 39996
+		size = 29996
 	 } 
 	farmers = {
 		culture = hungarian
@@ -264,6 +274,11 @@
 		religion =  catholic 
 		size = 22469
 	 } 
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 29371
+	 } 
 	aristocrats = {
 		culture = hungarian
 		religion = secularism
@@ -332,7 +347,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  catholic 
-		size = 412659
+		size = 382659
 	 } 
 	farmers = {
 		culture = hungarian
@@ -361,6 +376,11 @@
 		culture = hungarian
 		religion = secularism
 		size = 371
+	 } 
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 9371
 	 } 
 	bureaucrats = {
 		culture = hungarian
@@ -425,7 +445,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  catholic 
-		size = 39996
+		size = 29996
 	 } 
 	farmers = {
 		culture = hungarian
@@ -444,6 +464,11 @@
 		culture = hungarian
 		religion = secularism
 		size = 1655
+	 } 
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 9371
 	 } 
 	bureaucrats = {
 		culture = hungarian
@@ -508,7 +533,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  catholic 
-		size = 178115
+		size = 168115
 	 } 
 	farmers = {
 		culture = hungarian
@@ -527,6 +552,11 @@
 		culture = hungarian
 		religion = secularism
 		size = 735
+	 } 
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 9371
 	 } 
 	bureaucrats = {
 		culture = hungarian
@@ -591,7 +621,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  catholic 
-		size = 79145
+		size = 69145
 	 } 
 	farmers = {
 		culture = hungarian
@@ -610,6 +640,11 @@
 		culture = hungarian
 		religion = secularism
 		size = 1014
+	 } 
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 9371
 	 } 
 	bureaucrats = {
 		culture = hungarian
@@ -674,7 +709,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  catholic 
-		size = 109140
+		size = 99140
 	 } 
 	farmers = {
 		culture = hungarian
@@ -693,6 +728,11 @@
 		culture = hungarian
 		religion = secularism
 		size = 1915
+	 } 
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 9371
 	 } 
 	bureaucrats = {
 		culture = hungarian
@@ -757,7 +797,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  catholic 
-		size = 206078
+		size = 196078
 	 } 
 	farmers = {
 		culture = hungarian
@@ -776,6 +816,11 @@
 		culture = hungarian
 		religion = secularism
 		size = 1154
+	 } 
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 9371
 	 } 
 	bureaucrats = {
 		culture = hungarian
@@ -840,7 +885,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  catholic 
-		size = 124223
+		size = 114223
 	 } 
 	farmers = {
 		culture = hungarian
@@ -859,6 +904,11 @@
 		culture = hungarian
 		religion = secularism
 		size = 1014
+	 } 
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 9371
 	 } 
 	bureaucrats = {
 		culture = hungarian
@@ -923,7 +973,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  catholic 
-		size = 109140
+		size = 99140
 	 } 
 	farmers = {
 		culture = hungarian
@@ -937,6 +987,11 @@
 		culture = hungarian
 		religion =  catholic 
 		size = 6175
+	 } 
+	soldiers = {
+		culture = hungarian
+		religion = catholic
+		size = 9371
 	 } 
 	aristocrats = {
 		culture = hungarian
@@ -1006,7 +1061,7 @@
 	farmers = {
 		culture = hungarian
 		religion =  catholic 
-		size = 124223
+		size = 114223
 	 } 
 	farmers = {
 		culture = hungarian

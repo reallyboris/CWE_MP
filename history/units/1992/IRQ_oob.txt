@@ -1,69 +1,1086 @@
+ISR = { value = -200 }
+
+
+
 army = {
-	name = "Iraq Baghdad Army"
+	name = "Republican Guard"
 	location = 926
 	regiment = {
-		name= "Regiment nr1"
-		type = irregular
+		name = "1st Mechanised Infantry Brigade"
+		type = mechanized_infantry
 		home = 926
 	}
+
 	regiment = {
-		name= "Regiment nr2"
-		type = irregular
+		name = "1st Tank Brigade"
+		type = tank
 		home = 926
 	}
+
 	regiment = {
-		name= "Regiment nr3"
-		type = irregular
+		name = "1st Artillery Brigade"
+		type = artillery
 		home = 926
 	}
+
 	regiment = {
-		name= "Regiment nr4"
-		type = irregular
+		name = "1st Air Wing"
+		type = artillery
 		home = 926
 	}
+
 	regiment = {
-		name= "Regiment nr5"
-		type = irregular
+		name = "1st Close Air Support Brigade"
+		type = artillery
 		home = 926
 	}
+
 	regiment = {
-		name= "Regiment nr6"
-		type = irregular
+		name = "2nd Mechanised Infantry Brigade"
+		type = mechanized_infantry
 		home = 926
 	}
+
 	regiment = {
-		name= "Regiment nr7"
-		type = irregular
+		name = "2nd Tank Brigade"
+		type = tank
 		home = 926
 	}
+
 	regiment = {
-		name= "Regiment nr1"
-		type = infantry
+		name = "2nd Artillery Brigade"
+		type = artillery
 		home = 926
 	}
+
 	regiment = {
-		name= "Regiment nr2"
-		type = infantry
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
 		home = 926
 	}
+
 	regiment = {
-		name= "Regiment nr1"
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
 		type = mechanized_infantry
 		home = 926
 	}
 	regiment = {
-		name= "Regiment nr1"
-		type = tank
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = mechanized_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = modern_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = modern_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = modern_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = modern_infantry
 		home = 926
 	}
 	regiment = {
-		name= "Regiment nr2"
-		type = tank
+		name = "3rd Mechanised Infantry Brigade"
+		type = modern_infantry
 		home = 926
 	}
+
 	regiment = {
-		name= "Regiment nr3"
+		name = "3rd Mechanised Infantry Brigade"
+		type = modern_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = modern_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = modern_infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Tank Brigade"
 		type = tank
 		home = 926
 	}
+
+	regiment = {
+		name = "3rd Artillery Brigade"
+		type = artillery
+		home = 926
+	}
+
+}
+
+army = {
+	name = "1st Corps"
+	location = 926
+	regiment = {
+		name = "1st Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "1st Tank Brigade"
+		type = tank
+		home = 926
+	}
+
+	regiment = {
+		name = "1st Artillery Brigade"
+		type = artillery
+		home = 926
+	}
+
+	regiment = {
+		name = "1st Air Wing"
+		type = artillery
+		home = 926
+	}
+
+	regiment = {
+		name = "1st Close Air Support Brigade"
+		type = cavalry
+		home = 926
+	}
+
+	regiment = {
+		name = "2nd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "2nd Tank Brigade"
+		type = tank
+		home = 926
+	}
+
+	regiment = {
+		name = "2nd Artillery Brigade"
+		type = artillery
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Tank Brigade"
+		type = tank
+		home = 926
+	}
+
+	regiment = {
+		name = "3rd Artillery Brigade"
+		type = artillery
+		home = 926
+	}
+
+}
+army = {
+	name = "2nd Corps"
+	leader = {
+		name = "Saddam Hussein"
+		type = land
+		personality = resolute
+		background = school_of_firepower
+                prestige = 1
+                picture = saddam
+		date="1992.1.1"
+			}
+	location = 926
+	regiment = {
+		name = "4th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "4th Tank Brigade"
+		type = tank
+		home = 926
+	}
+
+	regiment = {
+		name = "4th Artillery Brigade"
+		type = artillery
+		home = 926
+	}
+
+	regiment = {
+		name = "5th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "5th Tank Brigade"
+		type = tank
+		home = 926
+	}
+
+	regiment = {
+		name = "5th Artillery Brigade"
+		type = artillery
+		home = 926
+	}
+
+	regiment = {
+		name = "6th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "6th Tank Brigade"
+		type = tank
+		home = 926
+	}
+
+	regiment = {
+		name = "6th Artillery Brigade"
+		type = artillery
+		home = 926
+	}
+
+	regiment = {
+		name = "7th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "7th Tank Brigade"
+		type = tank
+		home = 926
+	}
+
+	regiment = {
+		name = "7th Artillery Brigade"
+		type = artillery
+		home = 926
+	}
+
+}
+army = {
+	name = "3rd Corps"
+	location = 926
+	regiment = {
+		name = "8th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "8th Tank Brigade"
+		type = tank
+		home = 926
+	}
+
+	regiment = {
+		name = "8th Artillery Brigade"
+		type = artillery
+		home = 926
+	}
+
+	regiment = {
+		name = "9th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "10th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "11th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "12th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "13th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "14th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "15th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+}
+army = {
+	name = "4th Corps"
+	location = 926
+	regiment = {
+		name = "16th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "17th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "18th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "19th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "20th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "21st Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "22nd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "23rd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "24th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "25th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+}
+army = {
+	name = "5th Corps"
+	location = 926
+	regiment = {
+		name = "26th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "27th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "28th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "29th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "30th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "31st Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "32nd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "33rd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "34th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "35th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+}
+army = {
+	name = "6th Corps"
+	location = 926
+	regiment = {
+		name = "36th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "37th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "38th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "39th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "40th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "41st Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "42nd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "43rd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "44th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "45th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+}
+army = {
+	name = "7th Corps"
+	location = 926
+	regiment = {
+		name = "46th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "47th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "48th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "49th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "50th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "51st Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "52nd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "53rd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "54th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "55th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+}
+army = {
+	name = "8th Corps"
+	location = 926
+	regiment = {
+		name = "56th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "57th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "58th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "59th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "60th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "61st Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "62nd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "63rd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "64th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "65th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+}
+army = {
+	name = "9th Corps"
+	location = 926
+	regiment = {
+		name = "66th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "67th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "68th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "69th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "70th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "71st Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "72nd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "73rd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "74th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "75th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+}
+army = {
+	name = "10th Corps"
+	location = 926
+	regiment = {
+		name = "76th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "77th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "78th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "79th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "80th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "81st Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "82nd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "83rd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "84th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "85th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+}
+
+army = {
+	name = "11th Corps"
+	location = 926
+	regiment = {
+		name = "76th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "77th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "78th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "79th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "80th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "81st Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "82nd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "83rd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "84th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "85th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+}
+
+army = {
+	name = "12th Corps"
+	location = 926
+	regiment = {
+		name = "76th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "77th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "78th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "79th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "80th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "81st Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "82nd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "83rd Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "84th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
+	regiment = {
+		name = "85th Mechanised Infantry Brigade"
+		type = infantry
+		home = 926
+	}
+
 }

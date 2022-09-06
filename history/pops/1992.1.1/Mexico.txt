@@ -4646,12 +4646,12 @@
 		size = 47163
 	 } 
 	farmers = {
-		culture = mixtec
+		culture = native_american_minor
 		religion =  catholic 
 		size = 40264
 	 } 
 	farmers = {
-		culture = mixtec
+		culture = native_american_minor
 		religion = secularism
 		size = 31636
 	 } 
@@ -4669,102 +4669,102 @@
 #Collataro - Collataro (1438000/359500 POPS)
 2178 = {
 	officers = {
-		culture = zapotec
+		culture = native_american_minor
 		religion =  catholic 
 		size = 238
 	 } 
 	officers = {
-		culture = zapotec
+		culture = native_american_minor
 		religion = secularism
 		size = 187
 	 } 
 	soldiers = {
-		culture = zapotec
+		culture = native_american_minor
 		religion =  catholic 
 		size = 953
 	 } 
 	soldiers = {
-		culture = zapotec
+		culture = native_american_minor
 		religion = secularism
 		size = 749
 	 } 
 	aristocrats = {
-		culture = zapotec
+		culture = native_american_minor
 		religion =  catholic 
 		size = 5032
 	 } 
 	aristocrats = {
-		culture = zapotec
+		culture = native_american_minor
 		religion = secularism
 		size = 3954
 	 } 
 	bureaucrats = {
-		culture = zapotec
+		culture = native_american_minor
 		religion =  catholic 
 		size = 1207
 	 } 
 	bureaucrats = {
-		culture = zapotec
+		culture = native_american_minor
 		religion = secularism
 		size = 949
 	 } 
 	capitalists = {
-		culture = zapotec
+		culture = native_american_minor
 		religion =  catholic 
 		size = 1207
 	 } 
 	capitalists = {
-		culture = zapotec
+		culture = native_american_minor
 		religion = secularism
 		size = 949
 	 } 
 	clergymen = {
-		culture = zapotec
+		culture = native_american_minor
 		religion =  catholic 
 		size = 4026
 	 } 
 	clergymen = {
-		culture = zapotec
+		culture = native_american_minor
 		religion = secularism
 		size = 3163
 	 } 
 	clerks = {
-		culture = zapotec
+		culture = native_american_minor
 		religion =  catholic 
 		size = 4385
 	 } 
 	clerks = {
-		culture = zapotec
+		culture = native_american_minor
 		religion = secularism
 		size = 3445
 	 } 
 	artisans = {
-		culture = zapotec
+		culture = native_american_minor
 		religion =  catholic 
 		size = 4166
 	 } 
 	artisans = {
-		culture = zapotec
+		culture = native_american_minor
 		religion = secularism
 		size = 3273
 	 } 
 	craftsmen = {
-		culture = zapotec
+		culture = native_american_minor
 		religion =  catholic 
 		size = 13376
 	 } 
 	craftsmen = {
-		culture = zapotec
+		culture = native_american_minor
 		religion = secularism
 		size = 10509
 	 } 
 	farmers = {
-		culture = zapotec
+		culture = native_american_minor
 		religion =  catholic 
 		size = 66065
 	 } 
 	farmers = {
-		culture = zapotec
+		culture = native_american_minor
 		religion = secularism
 		size = 51908
 	 } 

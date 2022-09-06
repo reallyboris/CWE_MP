@@ -742,12 +742,12 @@
         size = 730626
     }
 }
-#Amritsar - Punjab (4580500/1145125 POPS)
+#Amritsar - Punjab (5793000/1448250 POPS)
 1233 = {
     officers = {
         culture = hindi
         religion = hindu
-        size = 49
+        size = 203
     }
 
     officers = {
@@ -755,41 +755,17 @@
         religion = secularism
         size = 4
     }
-	
-	officers = {
-        culture = punjabi
-        religion = sikh
-        size = 10150
-    }
-	
-	officers = {
-        culture = punjabi
-        religion = secularism
-        size = 204
-    }
 
     soldiers = {
         culture = hindi
         religion = hindu
-        size = 200
+        size = 814
     }
 
     soldiers = {
         culture = hindi
         religion = secularism
         size = 18
-    }
-	
-	soldiers = {
-        culture = punjabi
-        religion = sikh
-        size = 59600
-    }
-	
-	soldiers = {
-        culture = punjabi
-        religion = secularism
-        size = 814
     }
 
     artisans = {
@@ -805,13 +781,13 @@
     }
 
     artisans = {
-        culture = punjabi
-        religion = sikh
+        culture = hindi
+        religion = hindu
         size = 1018
     }
 
     artisans = {
-        culture = punjabi
+        culture = hindi
         religion = secularism
         size = 23
     }
@@ -819,49 +795,25 @@
     capitalists = {
         culture = hindi
         religion = hindu
-        size = 1096
+        size = 5096
     }
 
     capitalists = {
         culture = hindi
         religion = secularism
-        size = 58
-    }
-	
-	capitalists = {
-        culture = punjabi
-        religion = sikh
-        size = 4000
-    }
-
-    capitalists = {
-        culture = punjabi
-        religion = secularism
-        size = 58
+        size = 116
     }
 
     clergymen = {
         culture = hindi
         religion = hindu
-        size = 2192
+        size = 10192
     }
 
     clergymen = {
         culture = hindi
         religion = secularism
-        size = 34
-    }
-	
-	clergymen = {
-        culture = punjabi
-        religion = sikh
-        size = 8000
-    }
-
-    clergymen = {
-        culture = punjabi
-        religion = secularism
-        size = 200
+        size = 234
     }
 
     artisans = {
@@ -879,57 +831,33 @@
     farmers = {
         culture = hindi
         religion = hindu
-        size = 386081
+        size = 338181
     }
 
     farmers = {
         culture = hindi
         religion = secularism
-        size = 7483
+        size = 7783
+    }
+
+    farmers = {
+        culture = punjabi
+        religion = sunni
+        size = 591663
     }
 
     farmers = {
         culture = punjabi
         religion = sikh
-        size = 593663
-    }
-
-    farmers = {
-        culture = punjabi
-        religion = secularism
-        size = 12618
-    }
-	
-	bureaucrats = {
-        culture = hindi
-        religion = hindu
-        size = 195
-    }
-	
-	bureaucrats = {
-        culture = hindi
-        religion = secularism
-        size = 5
-    }
-	
-	bureaucrats = {
-        culture = punjabi
-        religion = sikh
-        size = 1183
-    }
-	
-	bureaucrats = {
-        culture = punjabi
-        religion = secularism
-        size = 17
+        size = 13618
     }
 }
-#Firuzapur - Punjab (4580500/1145125 POPS)
+#Firuzapur - Punjab (5793000/1448250 POPS)
 1234 = {
     officers = {
         culture = hindi
         religion = hindu
-        size = 49
+        size = 203
     }
 
     officers = {
@@ -937,41 +865,17 @@
         religion = secularism
         size = 4
     }
-	
-	officers = {
-        culture = punjabi
-        religion = sikh
-        size = 10150
-    }
-
-    officers = {
-        culture = punjabi
-        religion = secularism
-        size = 204
-    }
 
     soldiers = {
         culture = hindi
         religion = hindu
-        size = 200
+        size = 814
     }
 
     soldiers = {
         culture = hindi
         religion = secularism
         size = 18
-    }
-	
-	soldiers = {
-        culture = punjabi
-        religion = sikh
-        size = 59600
-    }
-
-    soldiers = {
-        culture = punjabi
-        religion = secularism
-        size = 814
     }
 
     artisans = {
@@ -987,13 +891,13 @@
     }
 
     artisans = {
-        culture = punjabi
-        religion = sikh
+        culture = hindi
+        religion = hindu
         size = 1018
     }
 
     artisans = {
-        culture = punjabi
+        culture = hindi
         religion = secularism
         size = 23
     }
@@ -1001,49 +905,25 @@
     capitalists = {
         culture = hindi
         religion = hindu
-        size = 1096
+        size = 5096
     }
 
     capitalists = {
         culture = hindi
         religion = secularism
-        size = 54
-    }
-	
-	capitalists = {
-        culture = punjabi
-        religion = sikh
-        size = 4000
-    }
-
-    capitalists = {
-        culture = punjabi
-        religion = secularism
-        size = 54
+        size = 116
     }
 
     clergymen = {
         culture = hindi
         religion = hindu
-        size = 2192
+        size = 10192
     }
 
     clergymen = {
         culture = hindi
         religion = secularism
-        size = 134
-    }
-	
-	clergymen = {
-        culture = punjabi
-        religion = sikh
-        size = 8000
-    }
-
-    clergymen = {
-        culture = punjabi
-        religion = secularism
-        size = 100
+        size = 234
     }
 
     artisans = {
@@ -1061,49 +941,25 @@
     farmers = {
         culture = hindi
         religion = hindu
-        size = 386081
+        size = 338181
     }
 
     farmers = {
         culture = hindi
         religion = secularism
-        size = 7483
+        size = 7783
+    }
+
+    farmers = {
+        culture = punjabi
+        religion = sunni
+        size = 591663
     }
 
     farmers = {
         culture = punjabi
         religion = sikh
-        size = 593663
-    }
-
-    farmers = {
-        culture = punjabi
-        religion = secularism
-        size = 12618
-    }
-	
-	bureaucrats = {
-        culture = hindi
-        religion = hindu
-        size = 195
-    }
-	
-	bureaucrats = {
-        culture = hindi
-        religion = secularism
-        size = 5
-    }
-	
-	bureaucrats = {
-        culture = punjabi
-        religion = sikh
-        size = 1183
-    }
-	
-	bureaucrats = {
-        culture = punjabi
-        religion = secularism
-        size = 17
+        size = 13618
     }
 }
 #Simla - Himachal Pradesh (2867000/716750 POPS)
@@ -3639,13 +3495,13 @@
     }
 
     farmers = {
-        culture = assamese
+        culture = asian_minor
         religion = protestant
         size = 54499
     }
 
     farmers = {
-        culture = assamese
+        culture = asian_minor
         religion = secularism
         size = 1254
     }
@@ -6971,13 +6827,13 @@
     }
 
     farmers = {
-        culture = tibetan
+        culture = asian_minor
         religion = protestant
         size = 33560
     }
 
     farmers = {
-        culture = tibetan
+        culture = asian_minor
         religion = secularism
         size = 771
     }
@@ -7027,73 +6883,73 @@
     }
 
     artisans = {
-        culture = bengali
+        culture = asian_minor
         religion = protestant
         size = 1684
     }
 
     artisans = {
-        culture = bengali
+        culture = asian_minor
         religion = secularism
         size = 38
     }
 
     artisans = {
-        culture = bengali
+        culture = asian_minor
         religion = protestant
         size = 79
     }
 
     artisans = {
-        culture = bengali
+        culture = asian_minor
         religion = secularism
         size = 1
     }
 
     capitalists = {
-        culture = bengali
+        culture = asian_minor
         religion = protestant
         size = 401
     }
 
     capitalists = {
-        culture = bengali
+        culture = asian_minor
         religion = secularism
         size = 8
     }
 
     clergymen = {
-        culture = bengali
+        culture = asian_minor
         religion = protestant
         size = 802
     }
 
     clergymen = {
-        culture = bengali
+        culture = asian_minor
         religion = secularism
         size = 18
     }
 
     artisans = {
-        culture = bengali
+        culture = asian_minor
         religion = protestant
         size = 899
     }
 
     artisans = {
-        culture = bengali
+        culture = asian_minor
         religion = secularism
         size = 20
     }
 
     farmers = {
-        culture = bengali
+        culture = asian_minor
         religion = protestant
         size = 12178
     }
 
     farmers = {
-        culture = bengali
+        culture = asian_minor
         religion = secularism
         size = 280
     }
@@ -9499,13 +9355,13 @@
     }
 
     farmers = {
-        culture = bengali
+        culture = asian_minor
         religion = protestant
         size = 56150
     }
 
     farmers = {
-        culture = bengali
+        culture = asian_minor
         religion = secularism
         size = 1736
     }
@@ -9945,13 +9801,13 @@
     }
 
     farmers = {
-        culture = naga
+        culture = asian_minor
         religion = protestant
         size = 6840
     }
 
     farmers = {
-        culture = naga
+        culture = asian_minor
         religion = secularism
         size = 156
     }
@@ -10171,13 +10027,13 @@
     }
 
     farmers = {
-        culture = bengali
+        culture = asian_minor
         religion = protestant
         size = 18905
     }
 
     farmers = {
-        culture = bengali
+        culture = asian_minor
         religion = secularism
         size = 434
     }

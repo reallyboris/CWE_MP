@@ -3,17 +3,20 @@ leader = {
         name = "Ho Chi Minh"
         date = 1946.1.1
         type = land
-        personality = heroic
-        background = brilliant_strategist
-        prestige = 0.1
+        personality = defiant
+        background = school_of_defense
+        picture = ho
+        prestige = 1
 }
+
 leader = {
         name = "Vo Nguyen Giap"
         date = 1946.1.1
         type = land
-        personality = inspiring
-        background = brilliant_strategist
-        prestige = 0.1
+        personality = implacable
+        background = cursed_luck
+        picture = vo
+        prestige = 0.5
 }
 
 army = {

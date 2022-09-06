@@ -88,12 +88,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_movement_strip_political"
 		texturefile = "gfx\\interface\\movement_strip_political.tga"
-		noOfFrames = 12
+		noOfFrames = 11
 	}
 	spriteType = {
 		name = "GFX_movement_strip_social"
 		texturefile = "gfx\\interface\\movement_strip_social.tga"
-		noOfFrames = 10
+		noOfFrames = 9
 	}
 	
 	spriteType = {
@@ -116,10 +116,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_politics_tradeunions"
 		texturefile = "gfx\\interface\\politics_tradeunions.dds"
-	}
-	spriteType = {
-		name = "GFX_politics_social_services"
-		texturefile = "gfx\\interface\\politics_social_services.dds"
 	}
 	spriteType = {
 		name = "GFX_politics_pressrights"
@@ -170,8 +166,8 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\politics_feminism.dds"
 	}
 	spriteType = {
-		name = "GFX_politics_conscription"
-		texturefile = "gfx\\interface\\politics_conscription.dds"
+		name = "GFX_politics_lgbt"
+		texturefile = "gfx\\interface\\politics_lgbt.dds"
 	}
 	spriteType = {
 		name = "GFX_politics_internet"
@@ -184,10 +180,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_politics_pensions"
 		texturefile = "gfx\\interface\\politics_pensions.dds"
-	}
-	spriteType = {
-		name = "GFX_politics_penal_system"
-		texturefile = "gfx\\interface\\politics_penal_system.dds"
 	}
 	spriteType = {
 		name = "GFX_politics_borders"

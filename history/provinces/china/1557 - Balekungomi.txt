@@ -3,11 +3,9 @@ controller = KMT
 add_core = CHI
 add_core =  KMT
 add_core = QHA
-add_core = NGX
-add_core = TIB
 trade_goods = coal
 life_rating = 35
-terrain = marginal_farmland
+terrain = semi_desert_mountains
 colonial = 0
 
 1950.1.1 = {

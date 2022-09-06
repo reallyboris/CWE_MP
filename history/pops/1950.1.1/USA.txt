@@ -4085,7 +4085,7 @@
 		religion = secularism
 		size = 964
 	 } 
-	craftsmen = {
+	farmers = {
 		culture = afro_american
 		religion =  protestant 
 		size = 117035
@@ -6893,7 +6893,7 @@
 		religion = secularism
 		size = 437
 	 } 
-	soldiers = {
+	farmers = {
 		culture = chinese
 		religion =  taoism 
 		size = 11713
@@ -7301,9 +7301,9 @@
 		size = 14495
 	 } 
 	soldiers = {
-		culture = chinese
+		culture = korean
 		religion = secularism
-		size = 2166
+		size = 20166
 	 } 
 	aristocrats = {
 		culture = chinese
@@ -7373,7 +7373,7 @@
 	craftsmen = {
 		culture = korean
 		religion = secularism
-		size = 132927
+		size = 102927
 	 } 
 }
 #Inchon - Inchon (1292000/323000 POPS)
@@ -7391,7 +7391,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 3372
+		size = 23372
 	 } 
 	soldiers = {
 		culture = korean
@@ -7451,7 +7451,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 206939
+		size = 186939
 	 } 
 	farmers = {
 		culture = korean
@@ -7561,7 +7561,7 @@
 		religion = secularism
 		size = 63537
 	 } 
-	craftsmen = {
+	farmers = {
 		culture = afro_american
 		religion =  protestant 
 		size = 151255
@@ -7587,7 +7587,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 903
+		size = 9903
 	 } 
 	soldiers = {
 		culture = korean
@@ -7647,7 +7647,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 55419
+		size = 45419
 	 } 
 	farmers = {
 		culture = korean
@@ -7670,7 +7670,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 903
+		size = 9903
 	 } 
 	soldiers = {
 		culture = korean
@@ -7730,7 +7730,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 55419
+		size = 45419
 	 } 
 	farmers = {
 		culture = korean
@@ -7753,7 +7753,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 3901
+		size = 13901
 	 } 
 	soldiers = {
 		culture = korean
@@ -7813,7 +7813,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 239455
+		size = 229455
 	 } 
 	farmers = {
 		culture = korean
@@ -7836,7 +7836,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 6175
+		size = 16175
 	 } 
 	soldiers = {
 		culture = korean
@@ -7896,7 +7896,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 378964
+		size = 368964
 	 } 
 	farmers = {
 		culture = korean
@@ -7919,7 +7919,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 3160
+		size = 13160
 	 } 
 	soldiers = {
 		culture = korean
@@ -7979,7 +7979,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 193966
+		size = 183966
 	 } 
 	farmers = {
 		culture = korean
@@ -8002,7 +8002,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 6149
+		size = 16149
 	 } 
 	soldiers = {
 		culture = korean
@@ -8062,7 +8062,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 377362
+		size = 367362
 	 } 
 	farmers = {
 		culture = korean
@@ -8085,7 +8085,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 2928
+		size = 9928
 	 } 
 	soldiers = {
 		culture = korean
@@ -8145,7 +8145,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 179711
+		size = 169711
 	 } 
 	farmers = {
 		culture = korean
@@ -8168,7 +8168,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 694
+		size = 9694
 	 } 
 	soldiers = {
 		culture = korean
@@ -8228,7 +8228,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 42605
+		size = 32605
 	 } 
 	farmers = {
 		culture = korean
@@ -9572,7 +9572,7 @@
 		religion = secularism
 		size = 5850
 	 } 
-	craftsmen = {
+	farmers = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 333094
@@ -16118,7 +16118,7 @@
 		size = 460
 	 } 
 }
-#New York - New York (1750000/7116441  POPS)
+#New York - New York (4852000/1213000 POPS)
 232 = {
 	capitalists = {
 		culture = jewish
@@ -20425,7 +20425,7 @@
 		size = 12777
 	 } 
 }
-#Mannheim - Baden-Wï¿½rttemberg (840000/210000 POPS)
+#Mannheim - Baden-Württemberg (840000/210000 POPS)
 569 = {
 	officers = {
 		culture = german
@@ -20528,7 +20528,7 @@
 		size = 25737
 	 } 
 }
-#Stuttgart - Baden-Wï¿½rttemberg (840000/210000 POPS)
+#Stuttgart - Baden-Württemberg (840000/210000 POPS)
 589 = {
 	officers = {
 		culture = german
@@ -20631,7 +20631,7 @@
 		size = 25737
 	 } 
 }
-#Heilbronn - Baden-Wï¿½rttemberg (840000/210000 POPS)
+#Heilbronn - Baden-Württemberg (840000/210000 POPS)
 590 = {
 	officers = {
 		culture = german
@@ -22015,12 +22015,7 @@
 	farmers = {
 		culture = white_anglo
 		religion =  protestant 
-		size = 17505
-	 } 
-	 farmers = {
-		culture = polynesian
-		religion =  protestant 
-		size = 17505
+		size = 34505
 	 } 
 	farmers = {
 		culture = polynesian
@@ -22906,7 +22901,7 @@
 		religion =  protestant 
 		size = 436339
 	 } 
-	craftsmen = {
+	farmers = {
 		culture = white_anglo
 		religion = secularism
 		size = 43154
@@ -23394,7 +23389,7 @@
 		size = 488
 	 } 
 }
-#Los Angeles - Los Angeles (3703500/1851750 POPS)
+#Los Angeles - Los Angeles (7407000/1851750 POPS)
 89 = {
 	capitalists = {
 		culture = jewish

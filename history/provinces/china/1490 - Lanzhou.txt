@@ -2,10 +2,10 @@ owner = KMT
 controller = KMT
 add_core = CHI
 add_core =  KMT
-add_core = NGX
+add_core = QHA
 trade_goods = coal
 life_rating = 35
-terrain = hilly_farmland
+terrain = semi_desert_hills
 colonial = 0
 
 1950.1.1 = {

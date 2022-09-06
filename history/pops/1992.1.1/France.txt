@@ -81,12 +81,12 @@
 		size = 6435
 	 } 
 	farmers = {
-		culture = kanak
+		culture = polynesian
 		religion =  catholic 
 		size = 4394
 	 } 
 	farmers = {
-		culture = kanak
+		culture = polynesian
 		religion = secularism
 		size = 12506
 	 } 
@@ -187,92 +187,92 @@
 #Bourbon - Bourbon (762000/190500 POPS)
 2126 = {
 	officers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 148
 	 } 
 	officers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 422
 	 } 
 	soldiers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 594
 	 } 
 	soldiers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 1691
 	 } 
 	aristocrats = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 743
 	 } 
 	aristocrats = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 2114
 	 } 
 	aristocrats = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 247
 	 } 
 	aristocrats = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 704
 	 } 
 	bureaucrats = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 297
 	 } 
 	bureaucrats = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 845
 	 } 
 	capitalists = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 297
 	 } 
 	capitalists = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 845
 	 } 
 	clergymen = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 990
 	 } 
 	clergymen = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 2819
 	 } 
 	artisans = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 1349
 	 } 
 	artisans = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 3839
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 9696
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 27596
 	 } 
@@ -350,32 +350,32 @@
 		size = 194
 	 } 
 	clergymen = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 386
 	 } 
 	clergymen = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 1100
 	 } 
 	artisans = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 619
 	 } 
 	artisans = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 1763
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 131
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 373
 	 } 
@@ -453,32 +453,32 @@
 		size = 204
 	 } 
 	clergymen = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 405
 	 } 
 	clergymen = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 1153
 	 } 
 	artisans = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 649
 	 } 
 	artisans = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 1849
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 137
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 391
 	 } 
@@ -1302,7 +1302,7 @@
 	soldiers = {
 		culture = french
 		religion =  catholic 
-		size = 800
+		size = 30800
 	 } 
 	soldiers = {
 		culture = french
@@ -1382,7 +1382,7 @@
 	farmers = {
 		culture = french
 		religion =  catholic 
-		size = 66849
+		size = 36849
 	 } 
 	farmers = {
 		culture = french
@@ -1405,7 +1405,7 @@
 	soldiers = {
 		culture = french
 		religion =  catholic 
-		size = 147
+		size = 20147
 	 } 
 	soldiers = {
 		culture = french
@@ -1490,7 +1490,7 @@
 	farmers = {
 		culture = french
 		religion = secularism
-		size = 35155
+		size = 15155
 	 } 
 }
 #Laon - Laon (245000/61250 POPS)
@@ -2214,12 +2214,12 @@
 		size = 118719
 	 } 
 	farmers = {
-		culture = european
+		culture = german
 		religion =  protestant 
 		size = 4522
 	 } 
 	farmers = {
-		culture = european
+		culture = german
 		religion = secularism
 		size = 12872
 	 } 
@@ -2342,12 +2342,12 @@
 		size = 82871
 	 } 
 	farmers = {
-		culture = european
+		culture = german
 		religion =  protestant 
 		size = 3062
 	 } 
 	farmers = {
-		culture = european
+		culture = german
 		religion = secularism
 		size = 8714
 	 } 
@@ -3211,7 +3211,7 @@
 	soldiers = {
 		culture = french
 		religion = secularism
-		size = 1417
+		size = 31417
 	 } 
 	aristocrats = {
 		culture = french
@@ -3301,7 +3301,7 @@
 	farmers = {
 		culture = breton
 		religion = secularism
-		size = 114929
+		size = 84929
 	 } 
 }
 #St Brieuc - St Brieuc (591000/147750 POPS)
@@ -3740,7 +3740,7 @@
 425 = {
 	capitalists = {
 		culture = jewish
-		religion =  jewish 
+		religion = jewish
 		size = 4495
 	 } 
 	capitalists = {
@@ -3761,7 +3761,7 @@
 	soldiers = {
 		culture = french
 		religion =  catholic 
-		size = 6962
+		size = 106962
 	 } 
 	soldiers = {
 		culture = french
@@ -3831,7 +3831,7 @@
 	farmers = {
 		culture = french
 		religion =  catholic 
-		size = 218461
+		size = 118461
 	 } 
 	farmers = {
 		culture = french
@@ -3840,7 +3840,7 @@
 	 } 
 	farmers = {
 		culture = jewish
-		religion =  jewish 
+		religion = jewish
 		size = 17980
 	 } 
 	farmers = {
@@ -3849,12 +3849,12 @@
 		size = 51175
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 3745
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 10661
 	 } 
@@ -6504,7 +6504,7 @@
 	soldiers = {
 		culture = french
 		religion = secularism
-		size = 4792
+		size = 84792
 	 } 
 	aristocrats = {
 		culture = french
@@ -6584,15 +6584,15 @@
 	farmers = {
 		culture = french
 		religion = secularism
-		size = 183411
+		size = 103411
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 906
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 2578
 	 } 
@@ -7049,12 +7049,12 @@
 		size = 72694
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 359
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 1021
 	 } 
@@ -7408,12 +7408,12 @@
 		size = 86575
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 427
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 1217
 	 } 
@@ -8405,12 +8405,12 @@
 		size = 117822
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 581
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 1656
 	 } 
@@ -8970,12 +8970,12 @@
 		size = 64405
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 317
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 905
 	 } 
@@ -9141,82 +9141,82 @@
 #St Pierre & Miquelon - St Pierre & Miquelon (6000/1500 POPS)
 77 = {
 	officers = {
-		culture = french
+		culture = white_french
 		religion =  catholic 
 		size = 1
 	 } 
 	officers = {
-		culture = french
+		culture = white_french
 		religion = secularism
 		size = 2
 	 } 
 	soldiers = {
-		culture = french
+		culture = white_french
 		religion =  catholic 
 		size = 4
 	 } 
 	soldiers = {
-		culture = french
+		culture = white_french
 		religion = secularism
 		size = 13
 	 } 
 	aristocrats = {
-		culture = french
+		culture = white_french
 		religion =  catholic 
 		size = 7
 	 } 
 	aristocrats = {
-		culture = french
+		culture = white_french
 		religion = secularism
 		size = 22
 	 } 
 	bureaucrats = {
-		culture = french
+		culture = white_french
 		religion =  catholic 
 		size = 2
 	 } 
 	bureaucrats = {
-		culture = french
+		culture = white_french
 		religion = secularism
 		size = 6
 	 } 
 	capitalists = {
-		culture = french
+		culture = white_french
 		religion =  catholic 
 		size = 2
 	 } 
 	capitalists = {
-		culture = french
+		culture = white_french
 		religion = secularism
 		size = 6
 	 } 
 	clergymen = {
-		culture = french
+		culture = white_french
 		religion =  catholic 
 		size = 7
 	 } 
 	clergymen = {
-		culture = french
+		culture = white_french
 		religion = secularism
 		size = 22
 	 } 
 	artisans = {
-		culture = french
+		culture = white_french
 		religion =  catholic 
 		size = 10
 	 } 
 	artisans = {
-		culture = french
+		culture = white_french
 		religion = secularism
 		size = 29
 	 } 
 	farmers = {
-		culture = french
+		culture = white_french
 		religion =  catholic 
 		size = 291
 	 } 
 	farmers = {
-		culture = french
+		culture = white_french
 		religion = secularism
 		size = 829
 	 } 
@@ -9304,12 +9304,12 @@
 		size = 3581
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 1189
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 3385
 	 } 
@@ -9322,108 +9322,5 @@
 		culture = polynesian
 		religion = secularism
 		size = 18326
-	 } 
-}
-#Saint-Martin & Saint Barthelemy (36000/9000 POPS)
-3283 = {
-	officers = {
-		culture = french
-		religion =  catholic 
-		size = 8
-	 } 
-	officers = {
-		culture = french
-		religion = secularism
-		size = 24
-	 } 
-	soldiers = {
-		culture = french
-		religion =  catholic 
-		size = 33
-	 } 
-	soldiers = {
-		culture = french
-		religion = secularism
-		size = 95
-	 } 
-	aristocrats = {
-		culture = french
-		religion =  catholic 
-		size = 55
-	 } 
-	aristocrats = {
-		culture = french
-		religion = secularism
-		size = 158
-	 } 
-	bureaucrats = {
-		culture = french
-		religion =  catholic 
-		size = 17
-	 } 
-	bureaucrats = {
-		culture = french
-		religion = secularism
-		size = 47
-	 } 
-	capitalists = {
-		culture = french
-		religion =  catholic 
-		size = 17
-	 } 
-	capitalists = {
-		culture = french
-		religion = secularism
-		size = 47
-	 } 
-	clergymen = {
-		culture = french
-		religion =  catholic 
-		size = 8
-	 } 
-	clergymen = {
-		culture = french
-		religion = secularism
-		size = 24
-	 } 
-	clergymen = {
-		culture = indian
-		religion =  hindu 
-		size = 47
-	 } 
-	clergymen = {
-		culture = indian
-		religion = secularism
-		size = 134
-	 } 
-	artisans = {
-		culture = indian
-		religion =  hindu 
-		size = 75
-	 } 
-	artisans = {
-		culture = indian
-		religion = secularism
-		size = 215
-	 } 
-	farmers = {
-		culture = indian
-		religion =  hindu 
-		size = 16
-	 } 
-	farmers = {
-		culture = indian
-		religion = secularism
-		size = 45
-	 } 
-	farmers = {
-		culture = black_french
-		religion =  catholic 
-		size = 2056
-	 } 
-	farmers = {
-		culture = black_french
-		religion = secularism
-		size = 5852
 	 } 
 }

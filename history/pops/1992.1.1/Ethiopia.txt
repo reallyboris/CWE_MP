@@ -13,7 +13,7 @@
 	soldiers = {
 		culture = amhara
 		religion =  coptic 
-		size = 2594
+		size = 32594
 	 } 
 	soldiers = {
 		culture = amhara
@@ -93,7 +93,7 @@
 	farmers = {
 		culture = amhara
 		religion =  coptic 
-		size = 678672
+		size = 658672
 	 } 
 	farmers = {
 		culture = amhara

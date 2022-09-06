@@ -40,6 +40,8 @@ political_decisions = {
 			election = no
 			is_vassal = no
 			OR = {
+                                pop_majority_ideology = socialist
+                                pop_majority_ideology = communist
 				upper_house = { ideology = communist_social value = 0.66 }
 				upper_house = { ideology = communist value = 0.66 }
 				upper_house = { ideology = socialist value = 0.66 }
@@ -51,7 +53,7 @@ political_decisions = {
 			prestige = 50
 			government = socialist_democracy
 			country_event = 800054
-			political_reform = free_trade_unions
+			political_reform = feminist
 			set_country_flag = disable_demo_event
 
 			any_pop = {

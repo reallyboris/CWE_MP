@@ -35,7 +35,11 @@ political_decisions = {
 			BOH = { all_core = { add_core = KUK } }
 			SLV = { all_core = { add_core = KUK } }
 			SLO = { all_core = { add_core = KUK } }
-
+                        add_accepted_culture = hungarian
+                        add_accepted_culture = austrian_german
+                        add_accepted_culture = czech
+                        add_accepted_culture = slovak
+                        add_accepted_culture = slovene
 			change_tag = KUK
 
 			any_country = { 

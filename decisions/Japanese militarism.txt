@@ -14,7 +14,7 @@ political_decisions = {
 			OR = { pop_majority_ideology = traditionalist pop_majority_ideology = nationalist }
 		}
 		effect = {
-			badboy = 20
+			badboy = 5
 			government = absolute_monarchy
 			country_event = 800050
 			1087 = { add_core = JAP }
@@ -84,7 +84,7 @@ political_decisions = {
 			OR = { NOT = { badboy = 0.2 } ai = no }
 		}
 		effect = {
-			badboy = 20
+			badboy = 25
 			
 			NKO = { all_core = { add_core = JAP } }
 			SKO = { all_core = { add_core = JAP } }
@@ -115,7 +115,7 @@ political_decisions = {
 			election = no
 		}
 		effect = {
-			badboy = -5
+			badboy = -10
 			
 			NKO = { all_core = { remove_core = JAP } }
 			SKO = { all_core = { remove_core = JAP } }
@@ -147,7 +147,7 @@ political_decisions = {
 			OR = { NOT = { badboy = 0.2 } ai = no }
 		}
 		effect = {
-			badboy = 20
+			badboy = 10
 
 			1485 = { add_core = JAP }
 			2562 = { add_core = JAP }

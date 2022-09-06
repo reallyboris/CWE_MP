@@ -296,15 +296,10 @@ promotion_focus = {
 		outliner_show_as_percent = yes
 		limit = {
 			NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
-			NOT = { state_scope = { soldiers = 0.05 } }
 			OR = {
 				NOT = { state_scope = { is_colonial = yes } }
 				owner = { government = colonial_government }
 				owner = { government = mandate_government }
-			}
-			OR = {
-				NOT = { state_scope = { soldiers = 0.048 } }
-				owner = { ai = no }
 			}
 		}
 	}
@@ -464,70 +459,70 @@ party_loyalty_focus =
 	traditionalist_focus =
 	{
 		ideology = traditionalist
-		loyalty_value = 0.2 # By that much pops will be more loyal
+		loyalty_value = 0.15 # By that much pops will be more loyal
 		icon = 32
 	}
 	
 	populist_focus =
 	{
 		ideology = populist
-		loyalty_value = 0.2 # By that much pops will be more loyal
+		loyalty_value = 0.15 # By that much pops will be more loyal
 		icon = 33
 	}
 
 	nationalist_focus =
 	{
 		ideology = nationalist
-		loyalty_value = 0.2 # By that much pops will be more loyal
+		loyalty_value = 0.15 # By that much pops will be more loyal
 		icon = 34
 	}
 	
 	conservative_focus =
 	{
 		ideology = conservative
-		loyalty_value = 0.2 # By that much pops will be more loyal
+		loyalty_value = 0.15 # By that much pops will be more loyal
 		icon = 35
 	}
 	
 	socialist_focus =
 	{
 		ideology = socialist
-		loyalty_value = 0.2 # By that much pops will be more loyal
+		loyalty_value = 0.15 # By that much pops will be more loyal
 		icon = 36
 	}
 	
 	communist_focus =
 	{
 		ideology = communist
-		loyalty_value = 0.2 # By that much pops will be more loyal
+		loyalty_value = 0.15 # By that much pops will be more loyal
 		icon = 37
 	}
 	
 	market_communist_focus =
 	{
 		ideology = communist_social
-		loyalty_value = 0.2 # By that much pops will be more loyal
+		loyalty_value = 0.15 # By that much pops will be more loyal
 		icon = 41
 	}
 	
 	liberal_focus =
 	{
 		ideology = liberal
-		loyalty_value = 0.2 # By that much pops will be more loyal
+		loyalty_value = 0.15 # By that much pops will be more loyal
 		icon = 38
 	}
 	
 	progressive_focus =
 	{
 		ideology = progressive
-		loyalty_value = 0.2 # By that much pops will be more loyal
+		loyalty_value = 0.15 # By that much pops will be more loyal
 		icon = 39
 	}
 
 	centrist_focus =
 	{
 		ideology = big_tent
-		loyalty_value = 0.2 # By that much pops will be more loyal
+		loyalty_value = 0.15 # By that much pops will be more loyal
 		icon = 40
 	}
 }

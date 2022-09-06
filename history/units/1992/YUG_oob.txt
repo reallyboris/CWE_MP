@@ -1,0 +1,260 @@
+army = {
+	name = "Yugoslav Peoples Army"
+	location = 794
+	regiment = {
+		name = "1st Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "1st Tank Brigade"
+		type = tank
+		home = 771
+	}
+
+	regiment = {
+		name = "1st Artillery Brigade"
+		type = artillery
+		home = 771
+	}
+
+	regiment = {
+		name = "1st Air Wing"
+		type = artillery
+		home = 771
+	}
+
+	regiment = {
+		name = "2nd Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "2nd Tank Brigade"
+		type = tank
+		home = 771
+	}
+
+	regiment = {
+		name = "2nd Artillery Brigade"
+		type = artillery
+		home = 771
+	}
+
+	regiment = {
+		name = "3rd Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "4th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "5th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+}
+
+army = {
+	name = "2nd Corps"
+	location = 794
+	regiment = {
+		name = "6th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "7th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "8th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "9th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "10th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "11th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "12th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "13th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "14th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "15th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+}
+
+army = {
+	name = "2nd Corps"
+	location = 794
+	regiment = {
+		name = "6th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "7th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "8th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "9th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "10th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "11th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "12th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "13th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "14th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "15th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+}
+
+army = {
+	name = "2nd Corps"
+	location = 794
+	regiment = {
+		name = "6th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "7th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "8th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "9th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "10th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "11th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "12th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "13th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "14th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+	regiment = {
+		name = "15th Mechanised Infantry Brigade"
+		type = infantry
+		home = 771
+	}
+
+}
+

@@ -24,14 +24,14 @@ upper_house = {
 political_opinions = regulated_opinion
 minorities_reform = minorities_oppression
 immigration_policy = quota_immigration
-civil_service = politicised_service
+internet_infrastructure = quality_of_service
 political_parties = parties_restrict_non_democratic
 lgbt_rights = lgbt_outlawed
 publishing_rights = censored_publishing
-union_rights = state_controlled_unions
+gender_rights = gender_equal
 voting_system = first_past_the_post
 vote_franschise = registered_voting
-public_meetings = no_meetings penal_system = capital_punishment
+public_meetings = no_meetings
 # Social Reforms
 safety_regulations = some_regulations
 pensions = no_pensions
@@ -101,14 +101,14 @@ oob = "/MEX_oob.txt"
 	political_opinions = regulated_opinion
 	minorities_reform = minorities_oppression
 	immigration_policy = quota_immigration
-	civil_service = politicised_service
+	internet_infrastructure = quality_of_service
 	political_parties = parties_restrict_non_democratic
 	lgbt_rights = lgbt_outlawed
 	publishing_rights = censored_publishing
-	union_rights = state_controlled_unions
+	gender_rights = gender_equal
 	voting_system = first_past_the_post
 	vote_franschise = registered_voting
-	public_meetings = free_meetings penal_system = capital_punishment
+	public_meetings = free_meetings
 	# Social Reforms
 	safety_regulations = balanced_regulations
 	pensions = trinket_pensions

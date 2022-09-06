@@ -18,7 +18,7 @@
 	soldiers = {
 		culture = caribbean_white_spanish
 		religion = secularism
-		size = 17386
+		size = 47386
 	 } 
 	aristocrats = {
 		culture = caribbean_white_spanish
@@ -93,12 +93,12 @@
 	farmers = {
 		culture = caribbean_white_spanish
 		religion =  catholic 
-		size = 73881
+		size = 63881
 	 } 
 	farmers = {
 		culture = caribbean_white_spanish
 		religion = secularism
-		size = 131344
+		size = 101344
 	 } 
 	farmers = {
 		culture = black_spanish

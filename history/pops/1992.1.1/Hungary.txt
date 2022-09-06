@@ -337,7 +337,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = secularism
-		size = 4196
+		size = 44196
 	 } 
 	aristocrats = {
 		culture = hungarian
@@ -417,7 +417,7 @@
 	farmers = {
 		culture = hungarian
 		religion = secularism
-		size = 290347
+		size = 250347
 	 } 
 	farmers = {
 		culture = roma

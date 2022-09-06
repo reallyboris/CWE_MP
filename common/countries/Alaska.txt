@@ -1,6 +1,5 @@
 graphical_culture = UsGC
 color = { 123  150  255 }
-sar_government = { 110 226 260 }
 party = {
 		name = "Alaskan Independence Party"
 		citizenship_policy = limited_citizenship

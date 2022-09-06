@@ -1,5 +1,4 @@
 political_decisions = {
-
 	develop_the_atomic_bomb = {
 		picture = "atomic_bomb"
 
@@ -22,37 +21,34 @@ political_decisions = {
 		
 			#Japan
 			NOT = { AND = { tag = JAP has_country_modifier = article_9 } }
-			
-			election = no
-			war = no
-			is_disarmed = no
 			part_of_sphere = no
+			is_disarmed = no
+			AND = { ai = no money = 2000000 } 
 
 			NOT = { has_country_modifier = wmd_removed }
+			
+			OR = { war_policy = jingoism war_policy = pro_military }
+		
 			
 			OR = { 
 				is_greater_power = yes 
 				is_secondary_power = yes 
 				military_score = 600 
-			}
-
-			OR = { war_policy = jingoism war_policy = pro_military }
+				AND = { has_building = nuclear_fuel_factory has_country_flag nuclear_power_ge military_score = 500 }
 
 			OR = { 
-				#For the player
-				AND = { ai = no money = 2000000 }
 				
 				#Historical nuclear powers
-				AND = { tag = RUS ai = yes year = 1945 }
-				AND = { tag = ENG ai = yes year = 1949 money = 2000000 }
-				AND = { tag = FRA ai = yes year = 1956 money = 2000000 }
-				AND = { tag = CHI ai = yes year = 1960 money = 2000000 }
+				AND = { tag = RUS year = 1945 }
+				AND = { tag = ENG year = 1949 money = 2000000 }
+				AND = { tag = FRA year = 1956 money = 2000000 }
+				AND = { tag = CHI year = 1960 money = 2000000 }
 
-				AND = { tag = HND ai = yes year = 1970 money = 2000000 }
-				AND = { tag = PAK ai = yes year = 1980 money = 2000000 }
-				AND = { tag = NKO ai = yes year = 2003 }
-				AND = { tag = ISR ai = yes year = 1963 money = 2000000 }
-				AND = { tag = SAF ai = yes year = 1979 money = 2000000 }
+				AND = { tag = HND year = 1970 money = 2000000 }
+				AND = { tag = PAK year = 1980 money = 2000000 }
+				AND = { tag = NKO year = 2003 money = 2000000 }
+				AND = { tag = ISR year = 1963 money = 2000000 }
+				AND = { tag = SAF year = 1979 money = 2000000 }
 
 				#When a neighbour have nukes
 				AND = { 
@@ -72,7 +68,7 @@ political_decisions = {
 						NOT = { relation = { who = THIS value = -190 } } 
 					}
 				}
-
+              }
 			}
 		
 		}
@@ -160,11 +156,8 @@ political_decisions = {
 		allow = {
 		
 			money = 2000000
-		
-			election = no
-			war = no
+		        part_of_sphere = no
 			is_disarmed = no
-			part_of_sphere = no
 
 			NOT = { has_country_modifier = wmd_removed }
 			
@@ -267,65 +260,6 @@ political_decisions = {
 
 	}
 
-	air_bomb = {
-		picture = "air_bomb"
-		potential = {
-			strategic_bomber = 1
-			OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation }
-			NOT = { has_country_flag = air_bomb }
-		}
-
-		allow = {
-			military_score = 600
-		}
-
-		effect = {
-			set_country_flag = air_bomb
-		}
-	}
-
-	sub_bomb = {
-		picture = "sub_bomb"
-		potential = {
-			submarine_launched_ballistic_missile = 1
-			OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation }
-			NOT = { has_country_flag = sub_bomb }
-			
-			num_of_ports = 1
-		}
-
-		allow = {
-			num_of_ports = 1
-
-			OR = { is_greater_power = yes is_secondary_power = yes }
-			
-			military_score = 600
-		}
-
-		effect = {
-			set_country_flag = sub_bomb	
-		}
-	}
-
-	icbm_bomb = {
-		picture = "icbm_bomb"
-		potential = {
-			icbm = 1
-			OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation }
-			NOT = { has_country_flag = icbm_bomb }
-		}
-
-		allow = {
-			military_score = 600
-			invention = second_generation_icbm
-			is_greater_power = yes
-		}
-
-		effect = {
-			set_country_flag = icbm_bomb 
-		}
-	}
-
 	build_tactical_nuke = {
 		picture = "build_tactical_nuke"
 		potential = {
@@ -335,13 +269,8 @@ political_decisions = {
 
 		allow = {
 			money = 2000000
-			military_score = 600
 			is_vassal = no
-			
-			assymetric_warfare = 1
-			invention = third_generation_icbm
-			
-			NOT = { war_policy = pacifism }
+		
 			
 			OR = { 
 				ai = no 
@@ -351,6 +280,7 @@ political_decisions = {
 
 		effect = {
 			add_country_modifier = { name = tactical_nukes duration = -1 }
+                        money = -2000000
 		}
 		ai_will_do = { 
 			factor = 1 
@@ -369,8 +299,6 @@ political_decisions = {
 	
 		allow = {
 			is_vassal = no
-			war = no
-			election = no
 			OR = { war_policy = pacifism ai = no }
 			OR = { ai = no badboy = 0.9 }
 			NOT = { has_country_modifier = law_changed_by_force }
@@ -401,8 +329,6 @@ political_decisions = {
 
 		allow = {
 			is_vassal = no
-			war = no
-			election = no
 			OR = { 
 			war_policy = jingoism 
 				AND = { 
@@ -440,8 +366,6 @@ political_decisions = {
 		}
 
 		allow = {
-			war = no
-			election = no
 			OR = { 
 				ai = no 
 				is_disarmed = yes 

@@ -3,7 +3,6 @@ political_decisions = {
 	form_benelux = {
 		picture = "form_benelux"
 		potential = {
-			is_greater_power = yes
 			AND = { 
 				exists = NET 
 				exists = BEL 

@@ -1,29 +1,34 @@
 objectTypes = {
-
-	EMFXActorType = {
+  EMFXActorType = {
 		name = "GenericTank"
-		actorfile = "gfx\anims\Generic_Tank.xac"
-		scale = 0.35
+		actorfile = "gfx\anims\GenericTank.xac"
+		retargeting = yes
+		scale = 0.95
 		
 		animation = {
 			name = "idle"
-			file = "gfx\anims\Generic_Tank_Idle.xsm"
+			file = "gfx\anims\TankIdleA.xsm"
 			defaultAnimationTime = 0.0
 		}
 		
 		animation = {
 			name = "move"
-			file = "gfx\anims\Generic_Tank_Moving.xsm"
-			defaultAnimationTime = 1.0
+			file = "gfx\anims\TankMove.xsm"
+			defaultAnimationTime = 2.0
 		}
 		
 		animation = {
 			name = "attack"
-			file = "gfx\anims\Generic_Tank_Attack.xsm"
+			file = "gfx\anims\TankAttackB.xsm"
 			defaultAnimationTime = 0.0
 		}
-	
-	
+		
+		animation = {
+			name = "attackmove"
+			file = "gfx\anims\TankAttackMove.xsm"
+			defaultAnimationTime = 0.8
+		}
+		
 	}
 	
 	EMFXActorType = {
@@ -187,30 +192,39 @@ objectTypes = {
 	}
 	
 	
+
 	EMFXActorType = {
 		name = "RussianGCTank"
-		actorfile = "gfx\anims\Russian_Tank.xac"
+		actorfile = "gfx\anims\SovietTank.xac"
 		retargeting = yes
-		scale = 0.35
+		scale = 1.15
 		
 		animation = {
 			name = "idle"
-			file = "gfx\anims\Russian_Tank_Idle.xsm"
+			file = "gfx\anims\TankIdleA.xsm"
 			defaultAnimationTime = 0.0
 		}
 		
 		animation = {
 			name = "move"
-			file = "gfx\anims\Russian_Tank_Moving.xsm"
-			defaultAnimationTime = 1.0
+			file = "gfx\anims\TankMove.xsm"
+			defaultAnimationTime = 2.0
 		}
 		
 		animation = {
 			name = "attack"
-			file = "gfx\anims\Russian_Tank_Attack.xsm"
+			file = "gfx\anims\TankAttackB.xsm"
 			defaultAnimationTime = 0.0
-		}		
-	}		
+		}
+		
+		animation = {
+			name = "attackmove"
+			file = "gfx\anims\TankAttackMove.xsm"
+			defaultAnimationTime = 0.8
+		}
+		
+	}
+		
 	
 	
 	EMFXActorType = {

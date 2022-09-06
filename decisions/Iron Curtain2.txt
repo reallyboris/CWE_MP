@@ -1,0 +1,57 @@
+political_decisions = {
+
+	forced_open_borders = {
+		picture = "iron_curtain"
+		potential = {
+			ai = no
+
+					}
+		
+		allow = {
+NOT = { has_country_modifier = law_changed_by_force1 }
+war = no
+immigration_policy = nobody_gets_out
+ai = no
+
+			
+		}
+			alert = no
+		effect = {
+add_country_modifier = { name = law_changed_by_force1 duration = 650 }
+political_reform = quota_immigration
+remove_country_modifier = closed_borders
+					}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	forced_close_borders = {
+		picture = "iron_curtain_close"
+		potential = {
+			ai = no
+		    
+			NOT = { immigration_policy = nobody_gets_out }
+					}
+		
+		allow = {
+		ai = no
+NOT = { has_country_modifier = law_changed_by_force }
+OR = { ruling_party_ideology = communist ruling_party_ideology = traditionalist ruling_party_ideology = populist ruling_party_ideology = nationalist }
+
+			
+		}
+			alert = no
+		effect = {
+political_reform = nobody_gets_out
+add_country_modifier = { name = law_changed_by_force1 duration = 650 }
+add_country_modifier = { name = closed_borders duration = -1 }
+					}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

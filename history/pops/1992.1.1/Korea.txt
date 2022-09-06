@@ -1,0 +1,1142 @@
+#Pyongan Region (1596000)
+#under the rule of Korea in 1836
+#Glenora - Gyeonggi (9229000/2307250 POPS)
+16 = {
+	officers = {
+		culture = korean
+		religion =  taoism 
+		size = 236
+	 } 
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 755
+	 } 
+	soldiers = {
+		culture = korean
+		religion =  taoism 
+		size = 7945
+	 } 
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 7023
+	 } 
+	aristocrats = {
+		culture = korean
+		religion =  taoism 
+		size = 27686
+	 } 
+	aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 9994
+	 } 
+	bureaucrats = {
+		culture = korean
+		religion =  taoism 
+		size = 644
+	 } 
+	bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 198
+	 } 
+	capitalists = {
+		culture = korean
+		religion =  taoism 
+		size = 644
+	 } 
+	capitalists = {
+		culture = korean
+		religion = secularism
+		size = 198
+	 } 
+	clergymen = {
+		culture = korean
+		religion =  taoism 
+		size = 1149
+	 } 
+	clergymen = {
+		culture = korean
+		religion = secularism
+		size = 3995
+	 } 
+	clerks = {
+		culture = korean
+		religion =  taoism 
+		size = 1516
+	 } 
+	clerks = {
+		culture = korean
+		religion = secularism
+		size = 3310
+	 } 
+	artisans = {
+		culture = korean
+		religion =  taoism 
+		size = 1440
+	 } 
+	artisans = {
+		culture = korean
+		religion = secularism
+		size = 2144
+	 } 
+	craftsmen = {
+		culture = korean
+		religion =  taoism 
+		size = 5626
+	 } 
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 1095
+	 } 
+	farmers = {
+		culture = korean
+		religion =  taoism 
+		size = 72364
+	 } 
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 5061
+	 } 
+	farmers = {
+		culture = chinese
+		religion =  taoism 
+		size = 3224
+	 } 
+	farmers = {
+		culture = chinese
+		religion = secularism
+		size = 5992
+	 } 
+}
+#Pyongyang (4840000/1210000 POPS)
+1619 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 605
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 12100
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 3025
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 3025
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 30250
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 306300
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 60500
+	}
+	
+	capitalists = {
+		culture = korean
+		religion = secularism
+		size = 25
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 764195
+	}
+
+}
+#Chonchon (4652450/1163113 POPS)
+1620 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 582
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 11631
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 2908
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 2908
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 29078
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 54893
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 58156
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 372958
+	}
+}
+#Hamgyong Region (920000)
+#under the rule of Korea in 1836
+#Hamhung (1815000/453750 POPS)
+1621 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 227
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 4538
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 1134
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 1134
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 11344
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 203613
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 22688
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 299073
+	}
+}
+#Chongjin (2178000/544500 POPS)
+1622 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 272
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 5445
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 1361
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 1361
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 13613
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 201335
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 27225
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 303888
+	}
+}
+#Kimchaek (1573000/393250 POPS)
+1623 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 197
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 3933
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 983
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 983
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 9831
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 86798
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 19663
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 270863
+	}
+}
+#Kyonggi Region (2620000)
+#under the rule of Korea in 1836
+#Seoul (9156800/2289200 POPS)
+1624 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 4578
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 11446
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 22892
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 22892
+	}
+	
+		clerks = {
+		culture = korean
+		religion = secularism
+		size = 22892
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 114460
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 184460
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 218920
+	}
+	
+	capitalists = {
+		culture = korean
+		religion = secularism
+		size = 100
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 1046660
+	}
+}
+#Kaesong (1694000/423500 POPS)
+1625 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 212
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 4235
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 1059
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 1059
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 10588
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 82705
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 21175
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 297468
+	}
+}
+#Haeju (1573000/393250 POPS)
+1626 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 197
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 3933
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 983
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 983
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 9831
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 86798
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 19663
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 280863
+	}
+}
+#Sariwon (2057000/514250 POPS)
+1627 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 257
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 5143
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 1286
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 1286
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 12856
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 85428
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 25713
+	}
+	
+	capitalists = {
+		culture = korean
+		religion = secularism
+		size = 25
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 377283
+	}
+}
+#Inchon (4345600/1086400 POPS)
+1628 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 2173
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 5432
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 10864
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 10864
+	}
+	
+		clerks = {
+		culture = korean
+		religion = secularism
+		size = 10864
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 54320
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 54320
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 108640
+	}
+	
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 828923
+	}
+}
+#Gangwon Region (920000)
+#under the rule of Korea in 1836
+#Wonsan (2299000/574750 POPS)
+1629 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 287
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 5748
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 1437
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 1437
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 14369
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 67243
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 28738
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 455493
+	}
+}
+#Kangnung (2017600/504400 POPS)
+1630 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 1009
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 2522
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 5044
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 5044
+	}
+	
+		clerks = {
+		culture = korean
+		religion = secularism
+		size = 5044
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 25220
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 25220
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 50440
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 384857
+	}
+}
+#Wonju (2172800/543200 POPS)
+1631 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 1086
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 2716
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 5432
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 5432
+	}
+	
+		clerks = {
+		culture = korean
+		religion = secularism
+		size = 5432
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 27160
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 27160
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 54320
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 399795
+	}
+}
+#Kyongsang Region (1800000)
+#under the rule of Korea in 1836
+#Pusan (5742400/1435600 POPS)
+1632 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 2871
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 7178
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 14356
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 14356
+	}
+	
+		clerks = {
+		culture = korean
+		religion = secularism
+		size = 14356
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 71780
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 91780
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 123560
+	}
+	
+	capitalists = {
+		culture = korean
+		religion = secularism
+		size = 100
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 1056602
+	}
+}
+#Taejon (3259200/814800 POPS)
+1633 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 1630
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 4074
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 8148
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 8148
+	}
+	
+		clerks = {
+		culture = korean
+		religion = secularism
+		size = 8148
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 40740
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 60740
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 81480
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 601692
+	}
+}
+#Pohan_chineseg (4966400/1241600 POPS)
+1634 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 2483
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 6208
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 12416
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 12416
+	}
+	
+		clerks = {
+		culture = korean
+		religion = secularism
+		size = 12416
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 62080
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 62080
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 124160
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 913818
+	}
+}
+#Cholla Region (1504000)
+#under the rule of Korea in 1836
+#Kwangju (4997440/1249360 POPS)
+1635 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 2499
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 6247
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 12494
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 12494
+	}
+	
+		clerks = {
+		culture = korean
+		religion = secularism
+		size = 12494
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 62468
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 62468
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 124936
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 919529
+	}
+}
+#Taegu (4345600/1086400 POPS)
+1636 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 2173
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 5432
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 10864
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 10864
+	}
+	
+		clerks = {
+		culture = korean
+		religion = secularism
+		size = 10864
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 54320
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 54320
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 108640
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 799590
+	}
+}
+#Cheju (2328000/582000 POPS)
+1637 = {
+	officers = {
+		culture = korean
+		religion = secularism
+		size = 1164
+	}
+
+		aristocrats = {
+		culture = korean
+		religion = secularism
+		size = 2910
+	}
+	
+		clergymen = {
+		culture = korean
+		religion = secularism
+		size = 5820
+	}
+	
+		bureaucrats = {
+		culture = korean
+		religion = secularism
+		size = 5820
+	}
+	
+		clerks = {
+		culture = korean
+		religion = secularism
+		size = 5820
+	}
+	
+		artisans = {
+		culture = korean
+		religion = secularism
+		size = 29100
+	}
+	soldiers = {
+		culture = korean
+		religion = secularism
+		size = 29100
+	}
+
+	craftsmen = {
+		culture = korean
+		religion = secularism
+		size = 58200
+	}
+
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 428352
+	}
+
+}

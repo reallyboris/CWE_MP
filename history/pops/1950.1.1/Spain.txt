@@ -886,7 +886,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 4204
+		size = 24204
 	 } 
 	soldiers = {
 		culture = spanish
@@ -966,7 +966,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 38596
+		size = 18596
 	 } 
 	farmers = {
 		culture = spanish
@@ -999,7 +999,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 2099
+		size = 22099
 	 } 
 	soldiers = {
 		culture = spanish
@@ -1079,7 +1079,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 76774
+		size = 56774
 	 } 
 	farmers = {
 		culture = spanish
@@ -1102,7 +1102,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 1798
+		size = 21798
 	 } 
 	soldiers = {
 		culture = spanish
@@ -1182,7 +1182,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 65782
+		size = 45782
 	 } 
 	farmers = {
 		culture = spanish
@@ -1205,7 +1205,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 1135
+		size = 21135
 	 } 
 	soldiers = {
 		culture = spanish
@@ -1285,7 +1285,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 41557
+		size = 21557
 	 } 
 	farmers = {
 		culture = spanish
@@ -1308,7 +1308,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 2145
+		size = 22145
 	 } 
 	soldiers = {
 		culture = spanish
@@ -1388,7 +1388,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 78454
+		size = 58454
 	 } 
 	farmers = {
 		culture = spanish
@@ -1514,7 +1514,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 1069
+		size = 21069
 	 } 
 	soldiers = {
 		culture = spanish
@@ -1594,7 +1594,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 39135
+		size = 19135
 	 } 
 	farmers = {
 		culture = spanish
@@ -1617,7 +1617,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 1013
+		size = 21013
 	 } 
 	soldiers = {
 		culture = spanish
@@ -1697,7 +1697,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 37086
+		size = 17086
 	 } 
 	farmers = {
 		culture = spanish
@@ -1720,7 +1720,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 1008
+		size = 21008
 	 } 
 	soldiers = {
 		culture = spanish
@@ -1800,7 +1800,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 36899
+		size = 16899
 	 } 
 	farmers = {
 		culture = spanish
@@ -1823,7 +1823,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 1008
+		size = 21008
 	 } 
 	soldiers = {
 		culture = spanish
@@ -1903,7 +1903,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 36899
+		size = 16899
 	 } 
 	farmers = {
 		culture = spanish
@@ -1926,7 +1926,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 1314
+		size = 21314
 	 } 
 	soldiers = {
 		culture = spanish
@@ -2006,7 +2006,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 48078
+		size = 28078
 	 } 
 	farmers = {
 		culture = spanish
@@ -2039,7 +2039,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 19728
+		size = 39728
 	 } 
 	soldiers = {
 		culture = spanish
@@ -2099,7 +2099,7 @@
 	craftsmen = {
 		culture = spanish
 		religion =  catholic 
-		size = 80746
+		size = 60746
 	 } 
 	craftsmen = {
 		culture = spanish
@@ -2142,7 +2142,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 779
+		size = 9779
 	 } 
 	soldiers = {
 		culture = spanish
@@ -2222,7 +2222,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 28514
+		size = 18514
 	 } 
 	farmers = {
 		culture = spanish
@@ -2451,7 +2451,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 1533
+		size = 91533
 	 } 
 	soldiers = {
 		culture = spanish
@@ -2531,7 +2531,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 56093
+		size = 46093
 	 } 
 	farmers = {
 		culture = spanish
@@ -2554,7 +2554,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 9892
+		size = 29892
 	 } 
 	soldiers = {
 		culture = spanish
@@ -2634,7 +2634,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 221573
+		size = 201573
 	 } 
 	farmers = {
 		culture = spanish
@@ -2667,7 +2667,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 2941
+		size = 22941
 	 } 
 	soldiers = {
 		culture = spanish
@@ -2747,7 +2747,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 92263
+		size = 72263
 	 } 
 	farmers = {
 		culture = spanish
@@ -2883,7 +2883,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 2955
+		size = 22955
 	 } 
 	soldiers = {
 		culture = spanish
@@ -2963,7 +2963,7 @@
 	farmers = {
 		culture = spanish
 		religion =  catholic 
-		size = 102498
+		size = 82498
 	 } 
 	farmers = {
 		culture = spanish
@@ -3212,7 +3212,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 16741
+		size = 56741
 	 } 
 	soldiers = {
 		culture = spanish
@@ -3302,7 +3302,7 @@
 	craftsmen = {
 		culture = catalan
 		religion =  catholic 
-		size = 474271
+		size = 444271
 	 } 
 	farmers = {
 		culture = catalan
@@ -3325,7 +3325,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 2283
+		size = 22283
 	 } 
 	soldiers = {
 		culture = spanish
@@ -3415,7 +3415,7 @@
 	farmers = {
 		culture = catalan
 		religion =  catholic 
-		size = 83483
+		size = 63483
 	 } 
 	farmers = {
 		culture = catalan
@@ -3438,7 +3438,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 1330
+		size = 21330
 	 } 
 	soldiers = {
 		culture = spanish
@@ -3528,7 +3528,7 @@
 	farmers = {
 		culture = catalan
 		religion =  catholic 
-		size = 48638
+		size = 28638
 	 } 
 	farmers = {
 		culture = catalan
@@ -3551,7 +3551,7 @@
 	soldiers = {
 		culture = spanish
 		religion =  catholic 
-		size = 2445
+		size = 22445
 	 } 
 	soldiers = {
 		culture = spanish
@@ -3641,7 +3641,7 @@
 	farmers = {
 		culture = catalan
 		religion =  catholic 
-		size = 86625
+		size = 66625
 	 } 
 	farmers = {
 		culture = catalan

@@ -13,7 +13,7 @@
 	soldiers = {
 		culture = persian
 		religion =  shiite 
-		size = 530
+		size = 9530
 	 } 
 	soldiers = {
 		culture = persian
@@ -73,7 +73,7 @@
 	farmers = {
 		culture = persian
 		religion =  shiite 
-		size = 83866
+		size = 73866
 	 } 
 	farmers = {
 		culture = persian
@@ -106,7 +106,7 @@
 	soldiers = {
 		culture = persian
 		religion =  shiite 
-		size = 320
+		size = 9320
 	 } 
 	soldiers = {
 		culture = persian
@@ -166,7 +166,7 @@
 	farmers = {
 		culture = persian
 		religion =  shiite 
-		size = 72157
+		size = 62157
 	 } 
 	farmers = {
 		culture = persian
@@ -189,7 +189,7 @@
 	soldiers = {
 		culture = persian
 		religion =  shiite 
-		size = 336
+		size = 9336
 	 } 
 	soldiers = {
 		culture = persian
@@ -249,7 +249,7 @@
 	farmers = {
 		culture = persian
 		religion =  shiite 
-		size = 75705
+		size = 65705
 	 } 
 	farmers = {
 		culture = persian
@@ -272,7 +272,7 @@
 	soldiers = {
 		culture = persian
 		religion =  shiite 
-		size = 379
+		size = 9379
 	 } 
 	soldiers = {
 		culture = persian
@@ -332,7 +332,7 @@
 	farmers = {
 		culture = persian
 		religion =  shiite 
-		size = 52620
+		size = 42620
 	 } 
 	farmers = {
 		culture = persian
@@ -383,7 +383,7 @@
 	soldiers = {
 		culture = persian
 		religion =  shiite 
-		size = 318
+		size = 9318
 	 } 
 	soldiers = {
 		culture = persian
@@ -453,7 +453,7 @@
 	farmers = {
 		culture = kurdish
 		religion =  sunni 
-		size = 71874
+		size = 61874
 	 } 
 }
 #Ilam - Ilam (136000/34000 POPS)
@@ -466,7 +466,7 @@
 	soldiers = {
 		culture = persian
 		religion =  shiite 
-		size = 118
+		size = 9118
 	 } 
 	soldiers = {
 		culture = persian
@@ -521,7 +521,7 @@
 	farmers = {
 		culture = persian
 		religion =  shiite 
-		size = 26813
+		size = 16813
 	 } 
 	farmers = {
 		culture = persian
@@ -544,7 +544,7 @@
 	soldiers = {
 		culture = persian
 		religion =  shiite 
-		size = 374
+		size = 9374
 	 } 
 	soldiers = {
 		culture = persian
@@ -604,7 +604,7 @@
 	farmers = {
 		culture = persian
 		religion =  shiite 
-		size = 84380
+		size = 74380
 	 } 
 	farmers = {
 		culture = persian
@@ -627,7 +627,7 @@
 	soldiers = {
 		culture = persian
 		religion =  shiite 
-		size = 3124
+		size = 23124
 	 } 
 	soldiers = {
 		culture = persian
@@ -687,7 +687,7 @@
 	farmers = {
 		culture = persian
 		religion =  shiite 
-		size = 458680
+		size = 438680
 	 } 
 	farmers = {
 		culture = persian

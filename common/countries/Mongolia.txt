@@ -1,8 +1,6 @@
 graphical_culture = Generic
 color = { 255 248 220 }
 proletarian_dictatorship = { 240 128 128 }
-proletarian_dictatorship1 = { 240 128 128 }
-socialist_democracy = { 240 128 128 }
 party = {
 		name = "All-Mongolian Congress"
 		citizenship_policy = limited_citizenship
@@ -92,17 +90,6 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "MPRP (Democrats)"
-		citizenship_policy = full_citizenship
-		economic_policy = planned_economy1
-		ideology = socialist
-		religious_policy = secularized
-		trade_policy = protectionism
-		war_policy = pacifism
-		start_date = 1836.1.1
-		end_date = 1990.1.1
-}
-party = {
 		name = "People's Revolutionary Party"
 		citizenship_policy = full_citizenship
 		economic_policy = interventionism
@@ -110,7 +97,7 @@ party = {
 		religious_policy = secularized
 		trade_policy = protectionism
 		war_policy = pacifism
-		start_date = 1990.1.1
+		start_date = 1836.1.1
 		end_date = 2010.1.1
 }
 party = {
@@ -125,6 +112,28 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
+		name = "People's Revolutionary Party"
+		citizenship_policy = full_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 2010.6.1
+		end_date = 2010.1.1
+}
+party = {
+		name = "Social Democratic Party"
+		citizenship_policy = full_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1990.1.1
+		end_date = 2000.1.1
+}
+party = {
 		name = "Mongolian Green Party"
 		citizenship_policy = full_citizenship
 		economic_policy = interventionism
@@ -136,15 +145,15 @@ party = {
 		end_date = 2012.1.28
 }
 party = {
-		name = "MSDP"
+		name = "Civil Will-Green Party"
 		citizenship_policy = full_citizenship
-		economic_policy = interventionism
-		ideology = progressive
+		economic_policy = progressive
+		ideology = big_tent
 		religious_policy = secularized
 		trade_policy = protectionism
 		war_policy = pacifism
 		start_date = 2012.1.28
-		end_date = 2092.1.1
+		end_date = 2100.1.1
 }
 party = {
 		name = "Traditional United Party"

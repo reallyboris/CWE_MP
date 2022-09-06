@@ -1,10 +1,10 @@
-
 leader = {
         name = "Zhou Enlai"
         date = 1945.1.1
         type = land
-        personality = diplomatic
-        background = cavalry_school
+        personality = efficient
+        background = diplomat
+        picture = zhou
         prestige = 0.2
 }
 
@@ -12,8 +12,9 @@ leader = {
         name = "Peng Dehuai"
         date = 1945.1.1
         type = land
-        personality = brilliant
-        background = rising_star
+        personality = audacious
+        background = cursed_luck
+        picture = peng
         prestige = 0.2
 }
 
@@ -22,7 +23,8 @@ leader = {
         date = 1945.1.1
         type = land
         personality = steadfast
-        background = member_of_elite
+        background = school_of_defense
+        picture = ye
         prestige = 0.2
 }
 
@@ -41,6 +43,7 @@ leader = {
         type = land
         personality = diplomatic
         background = generals_aide
+        picture = liu
         prestige = 0.2
 }
 
@@ -48,8 +51,9 @@ leader = {
         name = "Lin Biao"
         date = 1945.1.1
         type = land
-        personality = rebellious
+        personality = defiant
         background = generals_aide
+        picture = lin
         prestige = 0.1
 }
 

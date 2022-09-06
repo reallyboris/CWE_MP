@@ -1,7 +1,8 @@
-graphical_culture = AsianGC
+graphical_culture =JapaneseGC
 proletarian_dictatorship = { 255 20 147 }
 proletarian_dictatorship1 = { 255 20 147 }
 socialist_democracy = { 255 20 147 }
+democracy = { 255 140 0 }
 color = { 130  206  113 }
 party = {
 		name = "Viet Quoc"

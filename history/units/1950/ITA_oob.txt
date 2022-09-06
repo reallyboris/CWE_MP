@@ -21,11 +21,111 @@ army = {
 		type = artillery
 		home = 762
 	}
+	regiment = {
+		name= "5° reggimento fanteria Aosta"
+		type = infantry
+		home = 763
+	}
+	regiment = {
+		name= "6° reggimento fanteria Aosta"
+		type = infantry
+		home = 762
+	}
+	regiment = {
+		name= "139° reggimento fanteria Bari"
+		type = infantry
+		home = 756
+	}
+	regiment = {
+		name= "22° reggimento artigleria da campagna"
+		type = artillery
+		home = 762
+	}
+	regiment = {
+		name= "5° reggimento fanteria Aosta"
+		type = infantry
+		home = 763
+	}
+	regiment = {
+		name= "6° reggimento fanteria Aosta"
+		type = infantry
+		home = 762
+	}
+	regiment = {
+		name= "139° reggimento fanteria Bari"
+		type = infantry
+		home = 756
+	}
+	regiment = {
+		name= "22° reggimento artigleria da campagna"
+		type = artillery
+		home = 762
+	}
+	regiment = {
+		name= "5° reggimento fanteria Aosta"
+		type = infantry
+		home = 763
+	}
+	regiment = {
+		name= "6° reggimento fanteria Aosta"
+		type = infantry
+		home = 762
+	}
+	regiment = {
+		name= "139° reggimento fanteria Bari"
+		type = infantry
+		home = 756
+	}
+	regiment = {
+		name= "22° reggimento artigleria da campagna"
+		type = artillery
+		home = 762
+	}
+	regiment = {
+		name= "5° reggimento fanteria Aosta"
+		type = infantry
+		home = 763
+	}
+	regiment = {
+		name= "6° reggimento fanteria Aosta"
+		type = infantry
+		home = 762
+	}
+	regiment = {
+		name= "139° reggimento fanteria Bari"
+		type = infantry
+		home = 756
+	}
+	regiment = {
+		name= "22° reggimento artigleria da campagna"
+		type = artillery
+		home = 762
+	}
 }
 
 army = {
 	name = "Divisione fanteria Calabria"
 	location = 766
+	regiment = {
+		name= "59° reggimento fanteria Calabria"
+		type = infantry
+		home = 762
+	}
+	regiment = {
+		name= "60° reggimento fanteria Calabria"
+		type = infantry
+		home = 762
+	}
+	regiment = {
+		name= "236° reggimento fanteria Piceno"
+		type = infantry
+		home = 752
+	}
+	regiment = {
+		name= "40° reggimento artigleria Calabria"
+		type = artillery
+		home = 766
+	}
 	regiment = {
 		name= "59° reggimento fanteria Calabria"
 		type = infantry
@@ -71,6 +171,26 @@ army = {
 		type = artillery
 		home = 765
 	}
+	regiment = {
+		name= "45° reggimento fanteria Reggio"
+		type = infantry
+		home = 766
+	}
+	regiment = {
+		name= "46° reggimento fanteria Reggio"
+		type = infantry
+		home = 766
+	}
+	regiment = {
+		name= "145° reggimento fanteria Catania"
+		type = infantry
+		home = 764
+	}
+	regiment = {
+		name= "16° reggimento artigleria da campagna"
+		type = artillery
+		home = 765
+	}
 }
 
 army = {
@@ -87,9 +207,19 @@ army = {
 		home = 728
 	}
 	regiment = {
-		name= "Gruppo Esplorante Divisionale 1° Dragoni"
-		type = tank
-		home = 722
+		name= "7° reggimento artigleria da campagna"
+		type = artillery
+		home = 720
+	}
+	regiment = {
+		name= "21° reggimento fanteria Cremona"
+		type = infantry
+		home = 728
+	}
+	regiment = {
+		name= "22° reggimento fanteria Cremona"
+		type = infantry
+		home = 728
 	}
 	regiment = {
 		name= "7° reggimento artigleria da campagna"
@@ -112,11 +242,6 @@ army = {
 		home = 727
 	}
 	regiment = {
-		name= "Gruppo Esplorante Divisionale 3° Cavalieri"
-		type = tank
-		home = 748
-	}
-	regiment = {
 		name= "11° reggimento artigleria da campagna"
 		type = artillery
 		home = 723
@@ -126,6 +251,11 @@ army = {
 army = {
 	name = "Divisione fanteria Folgore"
 	location = 744
+	regiment = {
+		name= "184° Reggimento artiglieria da campagna"
+		type = artillery
+		home = 746
+	}
 	regiment = {
 		name= "183° Reggimento fanteria Nembo"
 		type = infantry
@@ -176,11 +306,71 @@ army = {
 		type = artillery
 		home = 745
 	}
+	regiment = {
+		name= "87° reggimento fanteria Friuli"
+		type = infantry
+		home = 745
+	}
+	regiment = {
+		name= "88° reggimento fanteria Friuli"
+		type = infantry
+		home = 745
+	}
+	regiment = {
+		name= "Gruppo Esplorante Divisionale 2° Cavalieri"
+		type = tank
+		home = 744
+	}
+	regiment = {
+		name= "35° reggimento artigleria da campagna"
+		type = artillery
+		home = 745
+	}
 }
 
 army = {
 	name = "Divisione fanteria Mantova"
 	location = 725
+	regiment = {
+		name= "76° reggimento fanteria Napoli"
+		type = infantry
+		home = 744
+	}
+	regiment = {
+		name= "114° reggimento fanteria Mantova"
+		type = infantry
+		home = 728
+	}
+	regiment = {
+		name= "Gruppo Esplorante Divisionale 4° Dragoni"
+		type = tank
+		home = 733
+	}
+	regiment = {
+		name= "155° reggimento artigleria da campagna"
+		type = artillery
+		home = 733
+	}
+	regiment = {
+		name= "76° reggimento fanteria Napoli"
+		type = infantry
+		home = 744
+	}
+	regiment = {
+		name= "114° reggimento fanteria Mantova"
+		type = infantry
+		home = 728
+	}
+	regiment = {
+		name= "Gruppo Esplorante Divisionale 4° Dragoni"
+		type = tank
+		home = 733
+	}
+	regiment = {
+		name= "155° reggimento artigleria da campagna"
+		type = artillery
+		home = 733
+	}
 	regiment = {
 		name= "76° reggimento fanteria Napoli"
 		type = infantry

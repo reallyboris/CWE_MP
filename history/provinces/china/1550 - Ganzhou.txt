@@ -2,9 +2,10 @@ owner = KMT
 controller = CHI
 add_core = CHI
 add_core =  KMT
+add_core = FUJ
 trade_goods = coal
 life_rating = 35
-terrain = mountain_farmland
+terrain = deciduous_forest_hills
 colonial = 0
 
 1950.1.1 = {

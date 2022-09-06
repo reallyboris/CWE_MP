@@ -2,9 +2,10 @@ owner = KMT
 controller = KMT
 add_core = CHI
 add_core =  KMT
+add_core = FUJ
 trade_goods = timber
 life_rating = 35
-terrain = floodplain_farmland
+terrain = hilly_farmland
 colonial = 0
 
 1950.1.1 = {

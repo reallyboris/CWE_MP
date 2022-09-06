@@ -3,6 +3,26 @@ army = {
 	location = 641
 	regiment = {
 		name= "Infantry Regiment nr1"
+		type = tank
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr2"
+		type = tank
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr3"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr4"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr1"
 		type = infantry
 		home = 641
 	}
@@ -39,6 +59,96 @@ army = {
 	regiment = {
 		name= "Tank Division nr1"
 		type = tank
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr1"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr2"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr3"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr4"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr5"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr6"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr7"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr1"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr2"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr3"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr4"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr5"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr6"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr7"
+		type = infantry
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr6"
+		type = artillery
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr7"
+		type = artillery
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr6"
+		type = artillery
+		home = 641
+	}
+	regiment = {
+		name= "Infantry Regiment nr7"
+		type = artillery
 		home = 641
 	}
 }

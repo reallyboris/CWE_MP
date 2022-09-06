@@ -26,14 +26,14 @@ upper_house = {
 political_opinions = regulated_opinion
 minorities_reform = minorities_equal_rights
 immigration_policy = quota_immigration
-civil_service = politicised_service
+internet_infrastructure = quality_of_service
 political_parties = parties_only_nominated
 lgbt_rights = lgbt_outlawed
 publishing_rights = censored_publishing
-union_rights = no_trade_unions
+gender_rights = gender_role_based
 voting_system = jefferson_method
 vote_franschise = registered_voting
-public_meetings = limited_meetings penal_system = capital_punishment
+public_meetings = limited_meetings
 # Social Reforms
 safety_regulations = some_regulations
 pensions = no_pensions
@@ -55,6 +55,7 @@ decolonization = 1
 consciousness = 1
 nonstate_consciousness = 1
 schools = commerce_tech_school
+oob = "/JRU_oob.txt"
 
 1992.1.1 = {
 	capital = 252
@@ -80,14 +81,14 @@ schools = commerce_tech_school
 	political_opinions = regulated_opinion
 	minorities_reform = minorities_equal_rights
 	immigration_policy = quota_immigration
-	civil_service = politicised_service
+	internet_infrastructure = quality_of_service
 	political_parties = parties_only_nominated
 	lgbt_rights = lgbt_outlawed
 	publishing_rights = censored_publishing
-	union_rights = no_trade_unions
+	gender_rights = gender_role_based
 	voting_system = jefferson_method
 	vote_franschise = registered_voting
-	public_meetings = limited_meetings penal_system = capital_punishment
+	public_meetings = limited_meetings
 	# Social Reforms
 	safety_regulations = some_regulations
 	pensions = no_pensions
@@ -150,4 +151,5 @@ schools = commerce_tech_school
 	anti_submarine_warfare = 1
 	command_of_the_sea = 1
 	sea_denial_strategy = 1
+oob = "1992/JRU_oob.txt"
 }

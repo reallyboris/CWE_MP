@@ -1,0 +1,34 @@
+political_decisions = {	
+     embrace_bulgarians = {
+		picture = bulgaria
+                potential = {
+                        tag = YUG
+                        NOT = { has_country_flag = embrace_bulgarians }
+                }
+
+                allow = {
+                       any_owned_province = { culture = bulgarian }
+                       war = no
+						has_unclaimed_cores = no
+						NOT = {	
+							has_country_flag = embrace_bulgarians
+						}
+						is_vassal = no
+                        prestige = 45
+                        OR = {
+                                ruling_party_ideology = communist
+                                citizenship_policy = full_citizenship
+                        }
+                }
+
+                effect = {
+                        prestige = 10
+                        add_accepted_culture = bulgarian
+                        set_country_flag = embrace_bulgarians
+                        BUL = { all_core = { add_core = YUG } }
+						
+						
+			}
+		}
+	}
+

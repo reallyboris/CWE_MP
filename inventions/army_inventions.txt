@@ -988,8 +988,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	effect = {
 		irregular = {
 			maneuver = 1
-			attack = 2
-			defence = 2
+			attack = 1
+			defence = 1
 		}
 	}
 }
@@ -1023,8 +1023,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	effect = {
 		irregular = {
 			maneuver = 1
-			attack = 2
-			defence = 2
 		}
 	}
 }
@@ -1261,7 +1259,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	infantry = { defence = 1 }
 	modern_infantry = { defence = 1 }
-	irregular = { defence = 1 }
 	}
 }
 
@@ -1294,7 +1291,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		irregular = { attack = 1 }
 		infantry = { attack = 1 }
 	}
 }
@@ -1347,8 +1343,6 @@ post_ww2_infantry = {
 
 	#Irregular
 	irregular = {
-	attack = 1
-	defence = 1
 	maneuver = 1
 	}
 
@@ -1384,7 +1378,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		irregular = { attack = 1 }
 		infantry = { attack = 1 }
 	}
 }
@@ -1431,9 +1424,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Irregular
 	irregular = {
-	attack = 2
-	defence = 2
-	maneuver = 2
+	maneuver = 1
 	}
 
 	}
@@ -1612,8 +1603,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Irregular
 	irregular = {
-	attack = 1
-	defence = 1
 	maneuver = 1
 	}
 	#Heavy Infantry
@@ -1673,8 +1662,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Irregular
 	irregular = {
-	attack = 1
-	defence = 1
 	maneuver = 1
 	}
 
@@ -1826,8 +1813,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Irregular
 	irregular = {
-	attack = 1
-	defence = 1
 	maneuver = 1
 	}
 
@@ -1881,7 +1866,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	effect = {
 		infantry = { attack = 0.5 }
 		mechanized_infantry = { attack = 0.5 }
-		irregular = { attack = 1 }
 		tactical_drone = { attack = 0.5 }
 		modern_infantry = { attack = 0.5 }
 	}
@@ -1916,7 +1900,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	effect = {
 		infantry = { attack = 0.5 }
 		mechanized_infantry = { attack = 0.5 }
-		irregular = { attack = 1 }
 		tactical_drone = { attack = 0.5 }
 		modern_infantry = { attack = 0.5 }
 	}
@@ -1951,7 +1934,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	effect = {
 		infantry = { attack = 0.5 }
 		mechanized_infantry = { attack = 0.5 }
-		irregular = { attack = 1 }
 		tactical_drone = { attack = 0.5 }
 		modern_infantry = { attack = 0.5 }
 	}
@@ -1986,7 +1968,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	effect = {
 		infantry = { attack = 0.5 }
 		mechanized_infantry = { attack = 0.5 }
-		irregular = { attack = 1 }
 		tactical_drone = { attack = 0.5 }
 		modern_infantry = { attack = 0.5 }
 	}
@@ -4140,7 +4121,7 @@ jet_powered_aircraft = {
 	bomber = {
 	attack = 1
 	defence = 1
-	support = 0.5
+	support = 0.50
 	}
 
 	#Interceptor Fighter 
@@ -4220,7 +4201,7 @@ second_gen_jet_aircraft = {
 	bomber = {
 	attack = 1
 	defence = 1
-	support = 0.5
+	support = 0.50
 	}
 
 	#Interceptor Fighter 
@@ -4322,7 +4303,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	bomber = {
 	attack = 1
 	defence = 1
-	support = 1
+	support = 0.5
 	}
 
 	#Interceptor Fighter 
@@ -4416,7 +4397,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	bomber = {
 	attack = 1
 	defence = 1
-	support = 1
+	support = 0.5
 	}
 
 	#Interceptor Fighter 
@@ -4470,7 +4451,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	bomber = {
 	attack = 1
 	defence = 1
-	support = 1
+	support = 0.5
 	}
 
 	#Interceptor Fighter 
@@ -4533,7 +4514,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	bomber = {
 	attack = 1
 	defence = 1
-	support = 1
+	support = 0.5
 	maximum_speed = 1
 	}
 
@@ -4600,7 +4581,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	bomber = {
 	attack = 1
 	defence = 1
-	support = 1
+	support = 0.5
 	}
 
 	#Interceptor Fighter 
@@ -4664,7 +4645,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	bomber = {
 	attack = 1
 	defence = 1
-	support = 1
+	support = 0.5
 	}
 
 	#Interceptor Fighter 
@@ -4771,7 +4752,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	bomber = {
 	attack = 1
 	defence = 1
-	support = 1
+	support = 0.5
 	}
 
 	#Interceptor Fighter 

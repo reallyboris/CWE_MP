@@ -1,0 +1,30 @@
+#China_buy_Macau_and_HongKong_1997
+country_event = {
+
+    id = 8067
+
+    trigger = {
+        tag = KOR
+        has_country_flag = wardewjwiewjew43434343edds
+        NOT = { 
+        has_country_flag = japanrefuses
+                      }        
+    }
+    
+    fire_only_once = yes
+    major = no
+
+
+    title = "Japan refuses"
+    desc = "" 
+    picture = ""
+
+    option = {
+        name = "We will avenge our colonial history and teach the Japanese!" 
+        JAP = { all_core = { add_core = KOR } }
+        set_country_flag = japanrefuses
+        ai_chance = {
+            factor = 50    
+        }
+    }
+}

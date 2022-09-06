@@ -481,11 +481,11 @@ navy = {
 	name = "Turkey Istanbul Navy"
 	location = 860
 	ship = {
-		name= "TCG Ertugrul"
+		name= "Chip nr1"
 		type = transportship
 	}
 	ship = {
-		name= "TCG Yavuz"
+		name= "Chip nr1"
 		type = cruiser
 	}
 }

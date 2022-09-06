@@ -1,7 +1,6 @@
 owner = AZB
 controller = AZB
 add_core = PER
-add_core = AZB
 trade_goods = cattle
 life_rating = 35
 terrain = hilly_grassland
@@ -16,7 +15,6 @@ controller = PER
 owner = PER
 controller = PER
 add_core = PER
-add_core = AZB
 life_rating = 35
 colonial = 0
 }

@@ -10,5 +10,5 @@ owner = USA
 controller = USA
 add_core = PAU
 life_rating = 30
-colonial = 2
+colonial = 0
 }

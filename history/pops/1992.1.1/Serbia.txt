@@ -13,7 +13,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 973
+		size = 10973
 	 } 
 	soldiers = {
 		culture = serb
@@ -98,7 +98,7 @@
 	farmers = {
 		culture = serb
 		religion = secularism
-		size = 41091
+		size = 31091
 	 } 
 	farmers = {
 		culture = hungarian
@@ -759,7 +759,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 1824
+		size = 21824
 	 } 
 	soldiers = {
 		culture = serb
@@ -844,7 +844,7 @@
 	farmers = {
 		culture = serb
 		religion = secularism
-		size = 123072
+		size = 103072
 	 } 
 	farmers = {
 		culture = roma
@@ -872,7 +872,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 300
+		size = 10300
 	 } 
 	soldiers = {
 		culture = serb
@@ -952,7 +952,7 @@
 	farmers = {
 		culture = serb
 		religion =  orthodox 
-		size = 27448
+		size = 17448
 	 } 
 	farmers = {
 		culture = serb

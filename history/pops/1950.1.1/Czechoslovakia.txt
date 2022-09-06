@@ -5,10 +5,10 @@
 		religion =  catholic 
 		size = 20426
 	 } 
-	aristocrats = {
+	soldiers = {
 		culture = czech
 		religion = secularism
-		size = 4483
+		size = 44483
 	 } 
 	bureaucrats = {
 		culture = czech
@@ -73,7 +73,7 @@
 	farmers = {
 		culture = czech
 		religion =  catholic 
-		size = 330603
+		size = 290603
 	 } 
 	farmers = {
 		culture = czech
@@ -118,10 +118,10 @@
 		religion =  catholic 
 		size = 8569
 	 } 
-	aristocrats = {
+	soldiers = {
 		culture = czech
 		religion = secularism
-		size = 1881
+		size = 31881
 	 } 
 	bureaucrats = {
 		culture = czech
@@ -186,7 +186,7 @@
 	farmers = {
 		culture = czech
 		religion =  catholic 
-		size = 117269
+		size = 97269
 	 } 
 	farmers = {
 		culture = czech
@@ -211,7 +211,7 @@
 		religion =  catholic 
 		size = 2476
 	 } 
-	aristocrats = {
+	soldiers = {
 		culture = czech
 		religion = secularism
 		size = 543
@@ -314,10 +314,10 @@
 		religion =  catholic 
 		size = 10176
 	 } 
-	aristocrats = {
-		culture = czech
+	soldiers = {
+		culture = german
 		religion = secularism
-		size = 2233
+		size = 32233
 	 } 
 	bureaucrats = {
 		culture = czech
@@ -402,7 +402,7 @@
 	farmers = {
 		culture = german
 		religion =  catholic 
-		size = 165362
+		size = 135362
 	 } 
 	farmers = {
 		culture = german
@@ -417,10 +417,10 @@
 		religion =  catholic 
 		size = 4469
 	 } 
-	aristocrats = {
+	soldiers = {
 		culture = czech
 		religion = secularism
-		size = 981
+		size = 30981
 	 } 
 	bureaucrats = {
 		culture = czech
@@ -485,7 +485,7 @@
 	farmers = {
 		culture = czech
 		religion =  catholic 
-		size = 27643
+		size = 17643
 	 } 
 	farmers = {
 		culture = czech
@@ -495,7 +495,7 @@
 	farmers = {
 		culture = german
 		religion =  catholic 
-		size = 61448
+		size = 51448
 	 } 
 	farmers = {
 		culture = german
@@ -603,10 +603,10 @@
 		religion =  catholic 
 		size = 9151
 	 } 
-	aristocrats = {
+	soldiers = {
 		culture = czech
 		religion = secularism
-		size = 2008
+		size = 42008
 	 } 
 	bureaucrats = {
 		culture = czech
@@ -661,7 +661,7 @@
 	craftsmen = {
 		culture = czech
 		religion =  catholic 
-		size = 18800
+		size = 14800
 	 } 
 	craftsmen = {
 		culture = czech
@@ -706,10 +706,10 @@
 		religion =  catholic 
 		size = 5174
 	 } 
-	aristocrats = {
+	soldiers = {
 		culture = czech
 		religion = secularism
-		size = 1135
+		size = 41135
 	 } 
 	bureaucrats = {
 		culture = czech
@@ -774,7 +774,7 @@
 	farmers = {
 		culture = czech
 		religion =  catholic 
-		size = 83746
+		size = 43746
 	 } 
 	farmers = {
 		culture = czech
@@ -869,15 +869,15 @@
 		religion =  catholic 
 		size = 19356
 	 } 
-	craftsmen = {
+	soldiers = {
 		culture = slovak
 		religion = secularism
-		size = 4248
+		size = 54248
 	 } 
 	farmers = {
 		culture = slovak
 		religion =  catholic 
-		size = 98318
+		size = 48318
 	 } 
 	farmers = {
 		culture = slovak
@@ -922,10 +922,10 @@
 		religion =  catholic 
 		size = 4838
 	 } 
-	aristocrats = {
+	soldiers = {
 		culture = slovak
 		religion = secularism
-		size = 1062
+		size = 51062
 	 } 
 	bureaucrats = {
 		culture = slovak
@@ -990,7 +990,7 @@
 	farmers = {
 		culture = slovak
 		religion =  catholic 
-		size = 96447
+		size = 56447
 	 } 
 	farmers = {
 		culture = slovak
@@ -1005,7 +1005,7 @@
 		religion =  catholic 
 		size = 5608
 	 } 
-	aristocrats = {
+	soldiers = {
 		culture = slovak
 		religion = secularism
 		size = 1231
@@ -1073,12 +1073,12 @@
 	farmers = {
 		culture = slovak
 		religion =  catholic 
-		size = 111813
+		size = 101813
 	 } 
 	farmers = {
 		culture = slovak
 		religion = secularism
-		size = 24544
+		size = 4544
 	 } 
 }
 #Banska Bystrica - Zilina (683000/170750 POPS)
@@ -1088,10 +1088,10 @@
 		religion =  catholic 
 		size = 5600
 	 } 
-	aristocrats = {
+	soldiers = {
 		culture = slovak
 		religion = secularism
-		size = 1229
+		size = 21229
 	 } 
 	bureaucrats = {
 		culture = slovak
@@ -1161,7 +1161,7 @@
 	farmers = {
 		culture = slovak
 		religion = secularism
-		size = 24508
+		size = 4508
 	 } 
 }
 #Kosice - Kosice (1595000/398750 POPS)

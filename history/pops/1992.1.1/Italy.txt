@@ -121,7 +121,7 @@
 	soldiers = {
 		culture = italian
 		religion = secularism
-		size = 3783
+		size = 53783
 	 } 
 	aristocrats = {
 		culture = italian
@@ -196,7 +196,7 @@
 	farmers = {
 		culture = italian
 		religion =  catholic 
-		size = 227290
+		size = 177290
 	 } 
 	farmers = {
 		culture = italian
@@ -204,22 +204,22 @@
 		size = 340936
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 3342
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 5013
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 1002
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 1503
 	 } 
@@ -264,7 +264,7 @@
 		size = 16710
 	 } 
 	farmers = {
-		culture = indian_muslim
+		culture = panjabi
 		religion =  sunni 
 		size = 1671
 	 } 
@@ -691,22 +691,22 @@
 		size = 97324
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 954
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 1431
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 286
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 429
 	 } 
@@ -957,22 +957,22 @@
 		size = 730533
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 7160
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 10741
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 2148
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 3222
 	 } 
@@ -1017,7 +1017,7 @@
 		size = 35805
 	 } 
 	farmers = {
-		culture = indian_muslim
+		culture = panjabi
 		religion =  sunni 
 		size = 3580
 	 } 
@@ -1331,22 +1331,22 @@
 		size = 216376
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 2120
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 3181
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 636
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 954
 	 } 
@@ -1391,7 +1391,7 @@
 		size = 10605
 	 } 
 	farmers = {
-		culture = indian_muslim
+		culture = panjabi
 		religion =  sunni 
 		size = 1060
 	 } 
@@ -1499,22 +1499,22 @@
 		size = 118237
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 1158
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 1738
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 347
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 521
 	 } 
@@ -2094,12 +2094,12 @@
 		size = 9506
 	 } 
 	farmers = {
-		culture = german
+		culture = austrian_german
 		religion =  catholic 
 		size = 31168
 	 } 
 	farmers = {
-		culture = german
+		culture = austrian_german
 		religion = secularism
 		size = 46752
 	 } 
@@ -2433,22 +2433,22 @@
 		size = 86305
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 846
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 1269
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 253
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 380
 	 } 
@@ -2596,22 +2596,22 @@
 		size = 86305
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 846
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 1269
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 253
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 380
 	 } 
@@ -2862,22 +2862,22 @@
 		size = 86305
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 846
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 1269
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 253
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 380
 	 } 
@@ -3231,22 +3231,22 @@
 		size = 60802
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 596
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 894
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 178
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 268
 	 } 
@@ -3718,7 +3718,7 @@
 	soldiers = {
 		culture = italian
 		religion =  catholic 
-		size = 3351
+		size = 103351
 	 } 
 	soldiers = {
 		culture = italian
@@ -3798,7 +3798,7 @@
 	farmers = {
 		culture = italian
 		religion =  catholic 
-		size = 301966
+		size = 201966
 	 } 
 	farmers = {
 		culture = italian
@@ -3806,22 +3806,22 @@
 		size = 452949
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 4440
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 6660
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 1332
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 1998
 	 } 
@@ -3866,7 +3866,7 @@
 		size = 22200
 	 } 
 	farmers = {
-		culture = indian_muslim
+		culture = panjabi
 		religion =  sunni 
 		size = 2220
 	 } 
@@ -4180,22 +4180,22 @@
 		size = 152310
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion =  taoism 
 		size = 1492
 	 } 
 	farmers = {
-		culture = chinese
+		culture = han_chinese
 		religion = secularism
 		size = 2239
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion =  hindu 
 		size = 447
 	 } 
 	farmers = {
-		culture = indian
+		culture = avadhi
 		religion = secularism
 		size = 671
 	 } 
@@ -4358,7 +4358,7 @@
 	soldiers = {
 		culture = italian
 		religion =  catholic 
-		size = 2730
+		size = 102730
 	 } 
 	soldiers = {
 		culture = italian
@@ -4438,7 +4438,7 @@
 	farmers = {
 		culture = italian
 		religion =  catholic 
-		size = 293015
+		size = 193015
 	 } 
 	farmers = {
 		culture = italian
@@ -4549,7 +4549,7 @@
 		size = 96606
 	 } 
 }
-#Bari - Bari (1952000/488000 POPS)
+#african_minor - african_minor (1952000/488000 POPS)
 756 = {
 	officers = {
 		culture = italian
@@ -5584,12 +5584,12 @@
 		size = 867
 	 } 
 	farmers = {
-		culture = sardinian
+		culture = italian
 		religion =  catholic 
 		size = 45680
 	 } 
 	farmers = {
-		culture = sardinian
+		culture = italian
 		religion = secularism
 		size = 68520
 	 } 
@@ -5697,12 +5697,12 @@
 		size = 18540
 	 } 
 	farmers = {
-		culture = sardinian
+		culture = italian
 		religion =  catholic 
 		size = 51450
 	 } 
 	farmers = {
-		culture = sardinian
+		culture = italian
 		religion = secularism
 		size = 77175
 	 } 

@@ -18,7 +18,7 @@
 	soldiers = {
 		culture = yugoslav
 		religion = secularism
-		size = 201
+		size = 9201
 	 } 
 	aristocrats = {
 		culture = hungarian
@@ -88,7 +88,7 @@
 	farmers = {
 		culture = yugoslav
 		religion = secularism
-		size = 10728
+		size = 728
 	 } 
 }
 #Niksic - Niksic (43000/10750 POPS)
@@ -176,6 +176,11 @@
 		religion =  sunni 
 		size = 1120
 	 } 
+	soldiers = {
+		culture = serb
+		religion =  orthodox 
+		size = 20114
+	 } 
 	artisans = {
 		culture = bosniak
 		religion =  sunni 
@@ -189,7 +194,7 @@
 	farmers = {
 		culture = serb
 		religion =  orthodox 
-		size = 40257
+		size = 20257
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -356,9 +361,9 @@
 		size = 11
 	 } 
 	soldiers = {
-		culture = serb
+		culture = croat
 		religion =  orthodox 
-		size = 445
+		size = 4445
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -393,7 +398,7 @@
 	farmers = {
 		culture = croat
 		religion =  catholic 
-		size = 14842
+		size = 10842
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -426,7 +431,7 @@
 	soldiers = {
 		culture = slovene
 		religion =  catholic 
-		size = 2062
+		size = 22062
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -476,7 +481,7 @@
 	farmers = {
 		culture = slovene
 		religion =  catholic 
-		size = 155653
+		size = 135653
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -499,7 +504,7 @@
 	soldiers = {
 		culture = slovene
 		religion =  catholic 
-		size = 1573
+		size = 11573
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -549,7 +554,7 @@
 	farmers = {
 		culture = slovene
 		religion =  catholic 
-		size = 101673
+		size = 91673
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -748,94 +753,6 @@
 		size = 3158
 	 } 
 }
-#Umag (40000/10350 POPS)
-3378 = {
-	officers = {
-		culture = italian
-		religion =  catholic 
-		size = 133
-	 } 
-	officers = {
-		culture = italian
-		religion = secularism
-		size = 10
-	 } 
-	soldiers = {
-		culture = italian
-		religion =  catholic 
-		size = 587
-	 } 
-	soldiers = {
-		culture = italian
-		religion = secularism
-		size = 41
-	 } 
-	aristocrats = {
-		culture = italian
-		religion =  catholic 
-		size = 290
-	 } 
-	aristocrats = {
-		culture = italian
-		religion = secularism
-		size = 359
-	 } 
-	bureaucrats = {
-		culture = italian
-		religion =  catholic 
-		size = 829
-	 } 
-	bureaucrats = {
-		culture = italian
-		religion = secularism
-		size = 36
-	 } 
-	clergymen = {
-		culture = italian
-		religion =  catholic 
-		size = 1395
-	 } 
-	clergymen = {
-		culture = italian
-		religion = secularism
-		size = 169
-	 } 
-	artisans = {
-		culture = italian
-		religion =  catholic 
-		size = 1535
-	 } 
-	artisans = {
-		culture = croat
-		religion =  catholic 
-		size = 1467
-	 } 
-	artisans = {
-		culture = croat
-		religion = secularism
-		size = 59
-	 } 
-	farmers = {
-		culture = italian
-		religion =  catholic 
-		size = 1385
-	 } 
-	farmers = {
-		culture = italian
-		religion = secularism
-		size = 165
-	 } 
-	farmers = {
-		culture = croat
-		religion =  catholic 
-		size = 5114
-	 } 
-	farmers = {
-		culture = croat
-		religion = secularism
-		size = 1158
-	 } 
-}
 #Zagreb - Zagreb, Karpina (1156000/289000 POPS)
 771 = {
 	officers = {
@@ -849,9 +766,9 @@
 		size = 62
 	 } 
 	soldiers = {
-		culture = serb
+		culture = croat
 		religion =  orthodox 
-		size = 3216
+		size = 33216
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -921,7 +838,7 @@
 	farmers = {
 		culture = croat
 		religion =  catholic 
-		size = 235881
+		size = 205881
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -944,7 +861,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 445
+		size = 9445
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -994,7 +911,7 @@
 	farmers = {
 		culture = serb
 		religion =  orthodox 
-		size = 24961
+		size = 14961
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -1027,7 +944,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 331
+		size = 9331
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -1077,7 +994,7 @@
 	farmers = {
 		culture = serb
 		religion =  orthodox 
-		size = 13599
+		size = 3599
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -1193,7 +1110,7 @@
 	soldiers = {
 		culture = croat
 		religion =  catholic 
-		size = 1082
+		size = 21082
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -1243,7 +1160,7 @@
 	farmers = {
 		culture = croat
 		religion =  catholic 
-		size = 81434
+		size = 61434
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -1266,7 +1183,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 525
+		size = 9525
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -1326,7 +1243,7 @@
 	farmers = {
 		culture = croat
 		religion =  catholic 
-		size = 15338
+		size = 5338
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -1349,7 +1266,7 @@
 	soldiers = {
 		culture = croat
 		religion =  catholic 
-		size = 609
+		size = 9609
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -1399,7 +1316,7 @@
 	farmers = {
 		culture = croat
 		religion =  catholic 
-		size = 45846
+		size = 35846
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -1565,7 +1482,7 @@
 	soldiers = {
 		culture = croat
 		religion =  catholic 
-		size = 787
+		size = 9787
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -1615,7 +1532,7 @@
 	farmers = {
 		culture = croat
 		religion =  catholic 
-		size = 59244
+		size = 49244
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -1638,7 +1555,7 @@
 	soldiers = {
 		culture = croat
 		religion =  catholic 
-		size = 1176
+		size = 9176
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -1688,7 +1605,7 @@
 	farmers = {
 		culture = croat
 		religion =  catholic 
-		size = 88552
+		size = 78552
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -1907,7 +1824,7 @@
 	soldiers = {
 		culture = serb
 		religion = orthodox 
-		size = 2248
+		size = 9248
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -2028,7 +1945,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 939
+		size = 9939
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -2088,7 +2005,7 @@
 	farmers = {
 		culture = serb
 		religion =  orthodox 
-		size = 49875
+		size = 40875
 	 } 
 	farmers = {
 		culture = yugoslav
@@ -2126,7 +2043,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 1221
+		size = 11221
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -2224,7 +2141,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 841
+		size = 9841
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -2307,7 +2224,7 @@
 	soldiers = {
 		culture = yugoslav
 		religion = secularism
-		size = 92
+		size = 9992
 	 } 
 	aristocrats = {
 		culture = serb
@@ -2400,7 +2317,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 146
+		size = 9146
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -2478,7 +2395,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 503
+		size = 9503
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -2644,7 +2561,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 464
+		size = 9464
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -2727,7 +2644,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 2976
+		size = 22976
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -2787,12 +2704,12 @@
 	farmers = {
 		culture = serb
 		religion =  orthodox 
-		size = 224070
+		size = 234070
 	 } 
 	farmers = {
 		culture = yugoslav
 		religion = secularism
-		size = 28403
+		size = 38403
 	 } 
 }
 #Bor - Bor (184000/46000 POPS)
@@ -2883,7 +2800,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 814
+		size = 9814
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -2956,7 +2873,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 1285
+		size = 11285
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -3029,7 +2946,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 1091
+		size = 11091
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -3112,7 +3029,7 @@
 	soldiers = {
 		culture = serb
 		religion =  orthodox 
-		size = 604
+		size = 9604
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -3208,7 +3125,7 @@
 	soldiers = {
 		culture = albanian
 		religion =  sunni 
-		size = 3075
+		size = 13075
 	 } 
 	aristocrats = {
 		culture = albanian
@@ -3322,7 +3239,7 @@
 	soldiers = {
 		culture = bulgarian
 		religion =  orthodox 
-		size = 2688
+		size = 12688
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -3425,7 +3342,7 @@
 	soldiers = {
 		culture = bulgarian
 		religion =  orthodox 
-		size = 771
+		size = 1771
 	 } 
 	soldiers = {
 		culture = yugoslav
@@ -3503,7 +3420,7 @@
 	soldiers = {
 		culture = slovene
 		religion =  catholic 
-		size = 227
+		size = 9227
 	 } 
 	soldiers = {
 		culture = slovene

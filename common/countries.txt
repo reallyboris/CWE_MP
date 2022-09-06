@@ -1,11 +1,6 @@
 # GENERATED 
 # Special countries...
 REB = "countries/rebels.txt"
-TIG = "countries/Tigray.txt"
-RDA = "countries/Northern Afghanistan.txt"
-RBU = "countries/Russia and Belarus.txt"
-IGP = "countries/Ethnocacerist Peru.txt"
-PAD = "countries/Padania.txt"
 QHA = "countries/Qinghai.txt"
 OCC = "countries/Occitania.txt"
 FAG = "countries/French Algeria.txt"
@@ -43,7 +38,7 @@ VLS = "countries/Volkstaat.txt"
 ARF = "countries/Arab Federation.txt"
 KUK = "countries/Austria-Hungary.txt"
 SHG = "countries/Shanghai.txt"
-ENL = "countries/England.txt"
+END = "countries/England.txt"
 FEZ = "countries/Fezzan.txt"
 CYR = "countries/Cyrenaica.txt"
 MSU = "countries/Mosul.txt"
@@ -418,7 +413,7 @@ CSA = "countries/CSA.txt"
 HAW = "countries/Hawaii.txt"
 XGC = "countries/Gulf Cooperation Council.txt"
 XEF = "countries/East African Federation.txt"
-XEU = "countries/European Union.txt"
+XEU = "countries/Europena Union.txt"
 XCC = "countries/CARICOM.txt"
 XAU = "countries/African Union.txt"
 XEW = "countries/ECOWAS.txt"
@@ -492,7 +487,6 @@ BST = "countries/Rehoboth.txt"
 NML = "countries/Namaland.txt"
 XHO = "countries/Xhosaland.txt"
 SKA = "countries/South Kasai.txt"
-TRB = "countries/Zone B.txt"
 
 #Breakaway states of the US
 RNA = "countries/New Afrika.txt"
@@ -538,3 +532,5 @@ NCD = "countries/North Caucasian Federal District.txt"
 
 ##HoD Dominions
 dynamic_tags  = yes # any tags after this is considered dynamic dominions
+
+

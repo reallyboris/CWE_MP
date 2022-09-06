@@ -31,14 +31,14 @@ upper_house = {
 political_opinions = free_opinion
 minorities_reform = minorities_oppression
 immigration_policy = naturalization
-civil_service = elitist_service
+internet_infrastructure = open_unregulated
 political_parties = parties_allowed
 lgbt_rights = lgbt_outlawed
 publishing_rights = unregulated_publishing
-union_rights = no_trade_unions
+gender_rights = gender_role_based
 voting_system = first_past_the_post
 vote_franschise = universal_voting
-public_meetings = free_meetings penal_system = capital_punishment
+public_meetings = free_meetings
 # Social Reforms
 safety_regulations = some_regulations
 pensions = no_pensions
@@ -85,6 +85,7 @@ sea_denial_strategy = 1
 consciousness = 1
 nonstate_consciousness = 1
 schools = ENG_tech_school
+oob = "/FBU_oob.txt"
 
 1992.1.1 = {
 	capital = 300
@@ -110,14 +111,14 @@ schools = ENG_tech_school
 	political_opinions = regulated_opinion
 	minorities_reform = minorities_equal_rights
 	immigration_policy = quota_immigration
-	civil_service = politicised_service
+	internet_infrastructure = quality_of_service
 	political_parties = parties_allowed
 	lgbt_rights = lgbt_allowed
 	publishing_rights = firewall_publishing
-	union_rights = no_trade_unions
+	gender_rights = gender_role_based
 	voting_system = first_past_the_post
 	vote_franschise = universal_weighted_voting
-	public_meetings = free_meetings penal_system = capital_punishment
+	public_meetings = free_meetings
 	# Social Reforms
 	safety_regulations = balanced_regulations
 	pensions = trinket_pensions
@@ -235,4 +236,5 @@ schools = ENG_tech_school
 	power_projection = 1
 	green_blue_water_navies = 1
 	carrier_battle_groups = 1
+oob = "1992/FBU_oob.txt"
 }

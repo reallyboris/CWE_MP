@@ -5,7 +5,7 @@ political_decisions = {
 		potential = {
 		
 			tag = ISR
-		
+		        NOT = { has_country_flag = yinon_plan }
 			PAL = { exists = no }
 			LEV = { exists = no }
 			
@@ -19,8 +19,6 @@ political_decisions = {
 			NOT = { is_disarmed = yes }
 
 			wars_of_national_liberation = 1
-			
-			OR = { is_greater_power = yes is_secondary_power = yes }
 
 			ruling_party_ideology = populist
 			
@@ -28,8 +26,6 @@ political_decisions = {
 			OR = { is_our_vassal = LEB is_sphere_leader_of = LEB }
 			OR = { is_our_vassal = JOR is_sphere_leader_of = JOR }
 			OR = { is_our_vassal = SYR is_sphere_leader_of = SYR }
-			OR = { is_our_vassal = ALW is_sphere_leader_of = ALW }
-			OR = { is_our_vassal = DRZ is_sphere_leader_of = DRZ }
 
 		}
 
@@ -67,6 +63,8 @@ political_decisions = {
 			PAL = { all_core = { add_core = LEV } }
 			
 			#Add accepted cultures
+                        remove_country_modifier = israeli_military_genius
+                        add_accepted_culture = arab_levantine
 			add_accepted_culture = palestinian
 			add_accepted_culture = syrian
 			add_accepted_culture = jordanian
@@ -118,36 +116,13 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 
-	claims_conference = {
-		picture = "claims_conference"
-
-		potential = {
-            	tag = ISR
-			exists = GER
-			GER = { money = 300000 }
-			NOT = { has_country_flag = claims_conference }			
-        }
-      
-        allow = {
-			cold_war = 1
-        }
-      
-        effect = {
-			prestige = 10
-			GER = { country_event = 8004326 }
-			set_country_flag = claims_conference        
-		}
-          
-        ai_will_do = { factor = 1 }
-	}
-
 	israel_palestine = {
 		picture = "israel_palestine"
 		potential = {
 			
 			#Either Palestine or Israel can initiate
 			OR = { tag = ISR tag = PAL }
-			
+			NOT = { has_country_flag = yinon_plan }
 			ISP = { exists = no }
 
 		}

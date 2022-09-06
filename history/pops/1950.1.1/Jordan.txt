@@ -3,7 +3,7 @@
 	soldiers = {
 		culture = arab_levantine
 		religion =  sunni 
-		size = 1343
+		size = 21343
 	 } 
 	aristocrats = {
 		culture = jordanian
@@ -18,7 +18,7 @@
 	farmers = {
 		culture = arab_levantine
 		religion =  sunni 
-		size = 45028
+		size = 25028
 	 } 
 	farmers = {
 		culture = circassians

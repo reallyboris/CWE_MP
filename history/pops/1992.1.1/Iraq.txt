@@ -43,7 +43,12 @@
 	farmers = {
 		culture = iraqi
 		religion =  sunni 
-		size = 164807
+		size = 64807
+	 } 
+	soldiers = {
+		culture = iraqi
+		religion =  sunni 
+		size = 100000
 	 } 
 	farmers = {
 		culture = iraqi
@@ -56,12 +61,12 @@
 		size = 120820
 	 } 
 	farmers = {
-		culture = iraqi
+		culture = christian_arab
 		religion =  orthodox 
 		size = 3667
 	 } 
 	farmers = {
-		culture = iraqi
+		culture = christian_arab
 		religion = secularism
 		size = 647
 	 } 
@@ -76,7 +81,7 @@
 	soldiers = {
 		culture = kurdish
 		religion =  sunni 
-		size = 2441
+		size = 42441
 	 } 
 	aristocrats = {
 		culture = kurdish
@@ -116,15 +121,15 @@
 	farmers = {
 		culture = kurdish
 		religion =  sunni 
-		size = 290105
+		size = 240105
 	 } 
 	farmers = {
-		culture = iraqi
+		culture = christian_arab
 		religion =  orthodox 
 		size = 3074
 	 } 
 	farmers = {
-		culture = iraqi
+		culture = christian_arab
 		religion = secularism
 		size = 542
 	 } 
@@ -134,7 +139,7 @@
 	soldiers = {
 		culture = iraqi
 		religion =  sunni 
-		size = 2915
+		size = 42915
 	 } 
 	aristocrats = {
 		culture = iraqi
@@ -174,7 +179,7 @@
 	farmers = {
 		culture = iraqi
 		religion =  sunni 
-		size = 52680
+		size = 12680
 	 } 
 	farmers = {
 		culture = kurdish
@@ -187,12 +192,12 @@
 		size = 34560
 	 } 
 	farmers = {
-		culture = iraqi
+		culture = christian_arab
 		religion =  orthodox 
 		size = 3672
 	 } 
 	farmers = {
-		culture = iraqi
+		culture = christian_arab
 		religion = secularism
 		size = 648
 	 } 
@@ -207,7 +212,7 @@
 	soldiers = {
 		culture = iraqi
 		religion =  sunni 
-		size = 6305
+		size = 106305
 	 } 
 	aristocrats = {
 		culture = iraqi
@@ -252,7 +257,12 @@
 	farmers = {
 		culture = iraqi
 		religion =  shiite 
-		size = 758557
+		size = 558557
+	 } 
+	farmers = {
+		culture = iraqi
+		religion =  shiite 
+		size = 100000
 	 } 
 }
 #Samarra - Saladin (743000/185750 POPS)
@@ -260,7 +270,7 @@
 	soldiers = {
 		culture = iraqi
 		religion =  sunni 
-		size = 1253
+		size = 21253
 	 } 
 	aristocrats = {
 		culture = iraqi
@@ -295,7 +305,7 @@
 	farmers = {
 		culture = iraqi
 		religion =  sunni 
-		size = 122959
+		size = 102959
 	 } 
 	farmers = {
 		culture = kurdish
@@ -313,7 +323,7 @@
 	soldiers = {
 		culture = iraqi
 		religion =  sunni 
-		size = 1285
+		size = 41285
 	 } 
 	aristocrats = {
 		culture = iraqi
@@ -347,11 +357,6 @@
 	 } 
 	farmers = {
 		culture = iraqi
-		religion =  sunni 
-		size = 40377
-	 } 
-	farmers = {
-		culture = iraqi
 		religion =  shiite 
 		size = 93345
 	 } 
@@ -371,7 +376,7 @@
 	soldiers = {
 		culture = iraqi
 		religion =  sunni 
-		size = 3462
+		size = 153462
 	 } 
 	aristocrats = {
 		culture = iraqi
@@ -416,7 +421,7 @@
 	farmers = {
 		culture = iraqi
 		religion =  shiite 
-		size = 416526
+		size = 256526
 	 } 
 }
 #Kut - Misran, Wasit (1151000/287750 POPS)
@@ -472,7 +477,7 @@
 	soldiers = {
 		culture = iraqi
 		religion =  sunni 
-		size = 1391
+		size = 51391
 	 } 
 	aristocrats = {
 		culture = iraqi
@@ -507,7 +512,7 @@
 	farmers = {
 		culture = iraqi
 		religion =  sunni 
-		size = 167468
+		size = 117468
 	 } 
 }
 #Basra - Basra (1337000/334250 POPS)
@@ -515,7 +520,7 @@
 	soldiers = {
 		culture = iraqi
 		religion =  shiite 
-		size = 2255
+		size = 22255
 	 } 
 	aristocrats = {
 		culture = iraqi
@@ -555,7 +560,7 @@
 	farmers = {
 		culture = iraqi
 		religion =  shiite 
-		size = 271395
+		size = 251395
 	 } 
 }
 #Nasiriyya - Dhi Qar (969000/242250 POPS)
@@ -601,12 +606,12 @@
 		size = 196697
 	 } 
 }
-#Najaf - Muthanna, Njaf, Al-Qadisiyyah (1657000/414250 POPS)
+#Najaf - Muthan_chinesena, Njaf, Al-Qadisiyyah (1657000/414250 POPS)
 934 = {
 	soldiers = {
 		culture = iraqi
 		religion =  sunni 
-		size = 2795
+		size = 22795
 	 } 
 	aristocrats = {
 		culture = iraqi
@@ -651,6 +656,6 @@
 	farmers = {
 		culture = iraqi
 		religion =  shiite 
-		size = 336351
+		size = 316351
 	 } 
 }

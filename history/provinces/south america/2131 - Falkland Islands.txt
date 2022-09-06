@@ -6,7 +6,6 @@ trade_goods = wool
 life_rating = 30
 terrain = hills
 railroad = 1
-colonial = 2
 naval_base = 3
 fort = 6
 1992.1.1 = {
@@ -16,6 +15,5 @@ add_core = ENG
 add_core = ARG
 life_rating = 30
 railroad = 2
-colonial = 2
 naval_base = 4
 }

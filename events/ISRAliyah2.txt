@@ -1,0 +1,23 @@
+#ISR Aliyah 2
+country_event = {
+
+    id = 19471947100
+
+    is_triggered_only = yes
+
+    title = "The Aliyah continues"
+    desc = "Another nation has allowed their jewish pops to migrate to Israel" 
+    picture = "jews"
+
+    option = {
+        name = "Welcome home brothers and sisters!" 
+        prestige = 5
+        ai_chance = {
+            factor = 100    
+        }
+    }
+
+}
+
+
+

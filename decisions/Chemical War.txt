@@ -48,7 +48,7 @@ political_decisions = {
 			} 
 
 			add_country_modifier = { name = chemical_used_recently duration = 365 }
-			badboy = 10
+			badboy = 12
 		}
 
 	}

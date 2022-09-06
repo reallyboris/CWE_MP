@@ -56,4 +56,114 @@ army = {
 		type = cavalry
 		home = 375
 	}
+	regiment = {
+		name= "Regiment nr1"
+		type = irregular
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = mechanized_infantry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = cavalry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = cavalry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr4"
+		type = cavalry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr5"
+		type = cavalry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = irregular
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = mechanized_infantry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = cavalry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = cavalry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr4"
+		type = cavalry
+		home = 375
+	}
+	regiment = {
+		name= "Regiment nr5"
+		type = cavalry
+		home = 375
+	}
 }

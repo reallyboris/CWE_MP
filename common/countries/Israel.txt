@@ -1,4 +1,4 @@
-graphical_culture = EuropeanGC
+graphical_culture = FrenchGC
 color = { 150 212 214 }
 party = {
 		name = "party_nationalist_0_ISR"

@@ -10,7 +10,7 @@
 		religion =  sunni 
 		size = 12176
 	 } 
-	farmers = {
+	soldiers = {
 		culture = pashtun
 		religion =  sunni 
 		size = 13742
@@ -21,7 +21,7 @@
 	soldiers = {
 		culture = baluchi
 		religion =  sunni 
-		size = 2106
+		size = 9106
 	 } 
 	aristocrats = {
 		culture = baluchi
@@ -49,7 +49,7 @@
 	soldiers = {
 		culture = baluchi
 		religion =  sunni 
-		size = 1053
+		size = 9053
 	 } 
 	aristocrats = {
 		culture = baluchi

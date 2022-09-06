@@ -32,7 +32,7 @@ categories =  {
 
 	forest = {
 		movement_cost = 1.5
-		defence = 2
+		defence = 1
 		color = { 91 123 45 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
@@ -44,7 +44,7 @@ categories =  {
 
 	woods = {
 		movement_cost = 1.5
-		defence = 2
+		defence = 1
 		color = { 165 205 108 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
@@ -77,7 +77,7 @@ categories =  {
 
 	coastal_desert = {
 		movement_cost = 0.5
-		attrition = 2
+		attrition = 1
 		color = { 208 155 0 }
 		farm_rgo_size = 0.0
 		farm_rgo_eff = 0.0
@@ -146,7 +146,7 @@ categories =  {
 
 	mountain_farmland = {
 		movement_cost = 1.25
-		defence = 3
+		defence = 2
 		attrition = 1
 		color = { 81 104 79 }
 		farm_rgo_size = -0.1
@@ -174,7 +174,7 @@ categories =  {
 
 	jungle_farmland = {
 		movement_cost = 1.25
-		defence = 3
+		defence = 2
 		attrition = 0.8
 		color = { 88 122 37 }
 		farm_rgo_size = -0.1
@@ -201,7 +201,7 @@ categories =  {
 
 	hills = {
 		movement_cost = 0.8
-		defence = 2
+		defence = 1
 		attrition = 0
 		color = { 118 96 65 }
 		farm_rgo_size = -0.05
@@ -213,7 +213,7 @@ categories =  {
 
 	mountain = {
 		movement_cost = 2.5
-		defence = 4
+		defence = 2
 		attrition = 2
 		color = { 68 55 38 }
 		farm_rgo_size = -0.1
@@ -256,7 +256,7 @@ categories =  {
 
 	mountain_grassland = {
 		movement_cost = 1.0
-		defence = 3
+		defence = 2
 		attrition = 2.2
 		color = { 121 70 0 }
 		farm_rgo_size = -0.1
@@ -299,7 +299,7 @@ categories =  {
 
 	semi_desert_mountains = {
 		movement_cost = 1.1
-		defence = 3
+		defence = 2
 		attrition = 2.4
 		color = { 92 82 7 }
 		farm_rgo_size = -0.1
@@ -342,7 +342,7 @@ categories =  {
 
 	desert_mountains = {
 		movement_cost = 1.25
-		defence = 3
+		defence = 2
 		attrition = 2.6
 		color = { 47 38 26 }
 		farm_rgo_size = -0.1
@@ -372,7 +372,7 @@ categories =  {
 
 	dry_forest_hills = {
 		movement_cost = 0.95
-		defence = 2
+		defence = 1
 		attrition = 0.3
 		color = { 119 35 11 }
 		farm_rgo_size = -0.1
@@ -387,7 +387,7 @@ categories =  {
 
 	dry_forest_mountains = {
 		movement_cost = 1.15
-		defence = 5
+		defence = 2
 		attrition = 2.1
 		color = { 68 20 6 }
 		farm_rgo_size = -0.1
@@ -402,7 +402,7 @@ categories =  {
 
 	deciduous_forest = {
 		movement_cost = 0.75
-		defence = 2
+		defence = 1
 		attrition = 0
 		color = { 0 117 0 }
 		farm_rgo_size = -0.05
@@ -417,7 +417,7 @@ categories =  {
 
 	deciduous_forest_hills = {
 		movement_cost = 1.05
-		defence = 2
+		defence = 1
 		attrition = 0
 		color = { 0 85 0 }
 		farm_rgo_size = -0.1
@@ -432,7 +432,7 @@ categories =  {
 
 	deciduous_forest_mountains = {
 		movement_cost = 1.25
-		defence = 5
+		defence = 2
 		attrition = 1.5
 		color = { 0 68 0 }
 		farm_rgo_size = -0.1
@@ -447,7 +447,7 @@ categories =  {
 
 	conifer_forest = {
 		movement_cost = 0.9
-		defence = 2
+		defence = 1
 		attrition = 0
 		color = { 4 79 49 }
 		farm_rgo_size = -0.1
@@ -477,7 +477,7 @@ categories =  {
 
 	conifer_forest_mountains = {
 		movement_cost = 1.4
-		defence = 4
+		defence = 2
 		attrition = 1.9
 		color = { 40 53 40 }
 		farm_rgo_size = -0.1
@@ -492,7 +492,7 @@ categories =  {
 
 	boreal_forest = {
 		movement_cost = 1
-		defence = 2
+		defence = 1
 		attrition = 0.5
 		color = { 107 158 139 }
 		farm_rgo_size = -0.1
@@ -507,7 +507,7 @@ categories =  {
 
 	boreal_forest_hills = {
 		movement_cost = 1.3
-		defence = 3
+		defence = 1
 		attrition = 0.6
 		color = { 84 129 111 }
 		farm_rgo_size = -0.1
@@ -522,7 +522,7 @@ categories =  {
 
 	boreal_forest_mountains = {
 		movement_cost = 1.5
-		defence = 4
+		defence = 2
 		attrition = 2.5
 		color = { 67 103 89 }
 		farm_rgo_size = -0.1
@@ -537,7 +537,7 @@ categories =  {
 
 	jungle = {
 		movement_cost = 1.1
-		defence = 3
+		defence = 2
 		attrition = 2
 		color = { 0 47 0 }
 		farm_rgo_size = -0.1
@@ -552,7 +552,7 @@ categories =  {
 
 	jungle_hills = {
 		movement_cost = 1.4
-		defence = 4
+		defence = 2
 		attrition = 2.2
 		color = { 0 32 0 }
 		farm_rgo_size = -0.1
@@ -567,7 +567,7 @@ categories =  {
 
 	jungle_mountains = {
 		movement_cost = 1.75
-		defence = 6
+		defence = 2
 		attrition = 3
 		color = { 0 25 0 }
 		farm_rgo_size = -0.1
@@ -582,7 +582,7 @@ categories =  {
 
 	seasonal_jungle = {
 		movement_cost = 0.9
-		defence = 3
+		defence = 2
 		attrition = 1.5
 		color = { 55 95 46 }
 		farm_rgo_size = -0.1
@@ -597,7 +597,7 @@ categories =  {
 
 	seasonal_jungle_hills = {
 		movement_cost = 1.2
-		defence = 2
+		defence = 1
 		attrition = 1.6
 		color = { 90 103 56 }
 		farm_rgo_size = -0.1
@@ -612,7 +612,7 @@ categories =  {
 
 	seasonal_jungle_mountains = {
 		movement_cost = 1.5
-		defence = 4
+		defence = 2
 		attrition = 2.4
 		color = { 56 63 35 }
 		farm_rgo_size = -0.1
@@ -640,7 +640,7 @@ categories =  {
 
 	cold_desert_hills = {
 		movement_cost = 1.1
-		defence = 2
+		defence = 1
 		attrition = 2.9
 		color = { 0 153 174 }
 		farm_rgo_size = -0.1
@@ -655,7 +655,7 @@ categories =  {
 
 	cold_desert_mountains = {
 		movement_cost = 1.3
-		defence = 4
+		defence = 2
 		attrition = 2.8
 		color = { 0 54 62 }
 		farm_rgo_size = -0.1
@@ -683,7 +683,7 @@ categories =  {
 
 	tundra_hills = {
 		movement_cost = 1.3
-		defence = 2
+		defence = 1
 		attrition = 3
 		color = { 148 148 148 }
 		farm_rgo_size = -0.1
@@ -698,7 +698,7 @@ categories =  {
 
 	tundra_mountains = {
 		movement_cost = 2.0
-		defence = 4
+		defence = 2
 		attrition = 3.5
 		color = { 88 88 88 }
 		farm_rgo_size = -0.1
@@ -713,7 +713,7 @@ categories =  {
 
 	marsh = {
 		movement_cost = 0.9
-		defence = 2
+		defence = 1
 		attrition = 1.5
 		color = { 87 128 189 }
 		farm_rgo_size = -0.1
@@ -743,7 +743,7 @@ categories =  {
 
 	swamp_jungle = {
 		movement_cost = 2.0
-		defence = 4
+		defence = 2
 		attrition = 2.5
 		color = { 100 66 91 }
 		farm_rgo_size = -0.1
@@ -836,7 +836,7 @@ categories =  {
 
 	special_cayenne = {
 		movement_cost = 1.8
-		defence = 1
+		defence = 2
 		attrition = 0.8
 		color = { 88 122 37 }
 		farm_rgo_size = -0.1
@@ -851,7 +851,7 @@ categories =  {
 	
 	special_chisinau = {
 		movement_cost = 1.0
-		defence = 0
+		defence = 2
 		attrition = 0.5
 		color = { 255 147 0 }
 		farm_rgo_size = -0.05
@@ -864,7 +864,7 @@ categories =  {
 
 	special_georgetown = {
 		movement_cost = 1.8
-		defence = 1
+		defence = 2
 		attrition = 1.5
 		color = { 55 95 46 }
 		farm_rgo_size = -0.1
@@ -879,7 +879,7 @@ categories =  {
 	
 	special_gibraltar = {
 		movement_cost = 2.0
-		defence = 4
+		defence = 2
 		attrition = 2
 		color = { 68 55 38 }
 		farm_rgo_size = -0.1
@@ -894,7 +894,7 @@ categories =  {
 
 	special_grand_canyon = {
 		movement_cost = 2.3
-		defence = 4
+		defence = 2
 		attrition = 2.4
 		color = { 92 82 7 }
 		farm_rgo_size = -0.1
@@ -921,7 +921,7 @@ categories =  {
 	
 	special_kathmandu = {
 		movement_cost = 2.8
-		defence = 5
+		defence = 2
 		attrition = 1.9
 		color = { 40 53 40 }
 		farm_rgo_size = -0.1
@@ -936,7 +936,7 @@ categories =  {
 
 	special_kingston = {
 		movement_cost = 2.2
-		defence = 3
+		defence = 2
 		attrition = 2
 		color = { 0 47 0 }
 		farm_rgo_size = -0.1
@@ -951,7 +951,7 @@ categories =  {
 	
 	special_lhasa = {
 		movement_cost = 2.3
-		defence = 4
+		defence = 2
 		attrition = 2.4
 		color = { 92 82 7 }
 		farm_rgo_size = -0.1
@@ -966,7 +966,7 @@ categories =  {
 
 	special_paramaribo = {
 		movement_cost = 1.8
-		defence = 3
+		defence = 2
 		attrition = 0.8
 		color = { 88 122 37 }
 		farm_rgo_size = -0.1
@@ -993,7 +993,7 @@ categories =  {
 
 	special_port_moresby = {
 		movement_cost = 3.5
-		defence = 4
+		defence = 2
 		attrition = 3
 		color = { 0 25 0 }
 		farm_rgo_size = -0.1
@@ -1033,7 +1033,7 @@ categories =  {
 	
 	special_thimphu = {
 		movement_cost = 2.8
-		defence = 5
+		defence = 2
 		attrition = 1.9
 		color = { 40 53 40 }
 		farm_rgo_size = -0.1
@@ -1061,7 +1061,7 @@ categories =  {
 
 	urban = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1069,12 +1069,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_abu_dubai = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1082,12 +1082,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_agra = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1095,12 +1095,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_athens = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1108,12 +1108,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_amman = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1121,12 +1121,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_amsterdam = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1134,12 +1134,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_ankara = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1147,12 +1147,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_ashgabat = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1160,12 +1160,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_astana = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1173,12 +1173,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_asuncion = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1186,12 +1186,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_atlanta = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1199,12 +1199,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_baghdad = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1212,12 +1212,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_baku = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1225,12 +1225,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_bangkok = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1238,12 +1238,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_barcelona = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1251,12 +1251,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_beijing = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1264,12 +1264,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_beirut = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1277,12 +1277,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_belgrade = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1290,12 +1290,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_berlin = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1303,12 +1303,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_bern = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1316,12 +1316,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_bishkek = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1329,12 +1329,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_bogota = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1342,12 +1342,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_boston = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1355,12 +1355,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_bratislava = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1368,12 +1368,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_brasilia = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1381,12 +1381,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_brunei = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1394,12 +1394,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_brussels = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1407,12 +1407,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_bucharest = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1420,12 +1420,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_buenos_aires = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1433,12 +1433,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_cairo = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1446,12 +1446,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_canberra = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1459,12 +1459,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_caracas = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1472,12 +1472,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_chicago = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1485,12 +1485,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_colombo = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1498,12 +1498,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_copenhagen = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1511,12 +1511,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_damascus = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1524,12 +1524,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_dhaka = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1537,12 +1537,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_dili = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1550,12 +1550,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_doha = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1563,12 +1563,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_dubai = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1576,12 +1576,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_dublin = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1589,12 +1589,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_dushanbe = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1602,12 +1602,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_frankfurt = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1615,12 +1615,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_giza = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1628,12 +1628,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_guatemala_city = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1641,12 +1641,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_hanoi = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1654,12 +1654,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_havana = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1667,12 +1667,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_helsinki = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1680,12 +1680,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_hong_kong = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1693,12 +1693,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_islamabad = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1706,12 +1706,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_istanbul = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1719,12 +1719,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_jakarta = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1732,12 +1732,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_jerusalem = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1745,12 +1745,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_johannesburg = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1758,12 +1758,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_kabul = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1771,12 +1771,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_karachi = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1784,12 +1784,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_kiev = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1797,12 +1797,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_kuala_lumpur = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1810,12 +1810,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_kuwait_city = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1823,12 +1823,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_la_paz = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1836,12 +1836,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_lima = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1849,12 +1849,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_lisbon = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1862,12 +1862,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_ljubljana = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1875,12 +1875,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_london = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1888,12 +1888,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_los_angeles = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1901,12 +1901,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_luxembourg = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1914,12 +1914,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_madrid = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1927,12 +1927,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_managua = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1940,12 +1940,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_manama = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1953,12 +1953,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_manila = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1966,12 +1966,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_melbourne = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1979,12 +1979,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_mexico_city = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -1992,12 +1992,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_miami = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2005,12 +2005,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_milan = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2018,12 +2018,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_minsk = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2031,12 +2031,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_montevideo = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2044,12 +2044,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_moscow = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2057,12 +2057,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_mumbai = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2070,12 +2070,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_munich = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2083,12 +2083,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_muscat = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2096,12 +2096,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_naples = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2109,12 +2109,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_naypyidaw = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2122,12 +2122,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_new_delhi = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2135,12 +2135,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_new_york = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2148,12 +2148,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_nicosia = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2161,12 +2161,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_oslo = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2174,12 +2174,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_ottawa = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2187,12 +2187,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_panama_city = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2200,12 +2200,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_paris = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2213,12 +2213,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_phnom_penh = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2226,12 +2226,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_podgorica = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2239,12 +2239,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_port_au_prince = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2252,12 +2252,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_prague = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2265,12 +2265,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_pretoria = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2278,12 +2278,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_pyongyang = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2291,12 +2291,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_quito = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2304,12 +2304,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_riga = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2317,12 +2317,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_riyadh = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2330,12 +2330,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_rome = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2343,12 +2343,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_sanaa = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2356,12 +2356,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_san_francisco = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2369,12 +2369,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_san_juan = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2382,12 +2382,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_san_jose = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2395,12 +2395,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_san_salvador = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2408,12 +2408,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_santiago = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2421,12 +2421,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_santo_domingo = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2434,12 +2434,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_sao_paulo = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2447,12 +2447,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_sarajevo = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2460,12 +2460,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_seoul = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2473,12 +2473,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_shanghai = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2486,12 +2486,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_singapore = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2499,12 +2499,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_skopje = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2512,12 +2512,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_sofia = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2525,12 +2525,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_stockholm = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2538,13 +2538,13 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 
 	urban_sucre = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2552,12 +2552,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_budapest = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2565,12 +2565,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_sydney = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2578,12 +2578,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_taipei = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2591,12 +2591,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_tallinn = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2604,12 +2604,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_tbilisi = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2617,12 +2617,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_tirana = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2630,12 +2630,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_tegucigalpa = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2643,12 +2643,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_tehran = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2656,12 +2656,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_tokyo = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2669,12 +2669,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_toronto = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2682,12 +2682,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_ulan_bator = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2695,12 +2695,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_venice = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2708,12 +2708,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_vienna = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2721,12 +2721,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_vientiane = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2734,12 +2734,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_vilnius = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2747,12 +2747,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_warsaw = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2760,12 +2760,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_washington = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2773,12 +2773,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_wellington = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2786,12 +2786,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_yerevan = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2799,12 +2799,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_zagreb = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2812,12 +2812,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_zurich = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2825,12 +2825,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_katowice = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2838,12 +2838,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_lagos = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2851,12 +2851,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_kinshasa = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2864,12 +2864,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}	
 	
 	urban_abidjan = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2877,12 +2877,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_casablanca = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2890,12 +2890,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_addis_ababa = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2903,12 +2903,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_luanda = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2916,12 +2916,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 
 	urban_dar_es_salaam = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2929,12 +2929,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}	
 
 	urban_gaborone = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2942,12 +2942,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}	
 
 	urban_harare = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2955,12 +2955,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}	
 
 	urban_bangui = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2968,12 +2968,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}	
 
 	urban_asmara = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2981,12 +2981,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}	
 
 	urban_ulaanbaatar = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -2994,7 +2994,7 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}	
 
 	urban_nauru = {
@@ -3010,7 +3010,7 @@ categories =  {
 	
 	urban_rio_de_janeiro = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -3018,12 +3018,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_saigon = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -3031,12 +3031,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_batavia = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -3044,12 +3044,12 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 	urban_macau = {
 		movement_cost = 1.2
-		defense = 1
+		defence = 2
 		attrition = 1
 		color = { 22 44 66 }
 		farm_rgo_size = 0.33
@@ -3057,7 +3057,7 @@ categories =  {
 		mine_rgo_size = 0.33
 		mine_rgo_eff = 0.33
 		supply_limit = 60
-		combat_width = -0.20
+		combat_width = -0.50
 	}
 	
 }

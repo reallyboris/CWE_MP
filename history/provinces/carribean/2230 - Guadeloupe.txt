@@ -6,7 +6,7 @@ trade_goods = sugar
 life_rating = 35
 terrain = jungle_hills
 railroad = 1
-colonial = 2
+colonial = 0
 1992.1.1 = {
 owner = FRA
 controller = FRA
@@ -14,5 +14,5 @@ add_core = FRA
 add_core = GUD
 life_rating = 35
 railroad = 2
-colonial = 2
+colonial = 0
 }

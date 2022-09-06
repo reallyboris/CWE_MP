@@ -13,7 +13,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 433
+		size = 20433
 	 } 
 	soldiers = {
 		culture = polish
@@ -93,7 +93,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 139839
+		size = 119839
 	 } 
 	farmers = {
 		culture = polish
@@ -116,7 +116,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 469
+		size = 9469
 	 } 
 	soldiers = {
 		culture = polish
@@ -1143,7 +1143,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 280
+		size = 9280
 	 } 
 	soldiers = {
 		culture = polish
@@ -1223,7 +1223,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 79430
+		size = 69430
 	 } 
 	farmers = {
 		culture = polish
@@ -1698,7 +1698,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 834
+		size = 20834
 	 } 
 	soldiers = {
 		culture = polish
@@ -1778,7 +1778,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 236582
+		size = 216582
 	 } 
 	farmers = {
 		culture = polish
@@ -1816,7 +1816,7 @@
 	soldiers = {
 		culture = polish
 		religion = secularism
-		size = 16
+		size = 20016
 	 } 
 	aristocrats = {
 		culture = polish
@@ -1891,7 +1891,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 84370
+		size = 64370
 	 } 
 	farmers = {
 		culture = polish
@@ -2027,7 +2027,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 611
+		size = 40611
 	 } 
 	soldiers = {
 		culture = polish
@@ -2102,7 +2102,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 188695
+		size = 128695
 	 } 
 	farmers = {
 		culture = polish
@@ -2135,7 +2135,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 328
+		size = 21328
 	 } 
 	soldiers = {
 		culture = polish
@@ -2215,7 +2215,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 105897
+		size = 805897
 	 } 
 	farmers = {
 		culture = polish
@@ -2238,7 +2238,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 772
+		size = 9772
 	 } 
 	soldiers = {
 		culture = polish
@@ -2328,7 +2328,7 @@
 	farmers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 99651
+		size = 89651
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -2361,7 +2361,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 1214
+		size = 41214
 	 } 
 	soldiers = {
 		culture = polish
@@ -2431,7 +2431,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 374978
+		size = 334978
 	 } 
 	farmers = {
 		culture = polish
@@ -2464,7 +2464,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 219
+		size = 9219
 	 } 
 	soldiers = {
 		culture = polish
@@ -2554,7 +2554,7 @@
 	farmers = {
 		culture = byelorussian
 		religion =  orthodox 
-		size = 13799
+		size = 3799
 	 } 
 	farmers = {
 		culture = byelorussian
@@ -2577,7 +2577,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 470
+		size = 20470
 	 } 
 	soldiers = {
 		culture = polish
@@ -2657,7 +2657,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 152057
+		size = 132057
 	 } 
 	farmers = {
 		culture = polish
@@ -2783,7 +2783,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 154
+		size = 20154
 	 } 
 	soldiers = {
 		culture = polish
@@ -2863,7 +2863,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 49847
+		size = 29847
 	 } 
 	farmers = {
 		culture = polish
@@ -2886,7 +2886,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 471
+		size = 20471
 	 } 
 	soldiers = {
 		culture = polish
@@ -2966,7 +2966,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 152253
+		size = 132253
 	 } 
 	farmers = {
 		culture = polish
@@ -2989,7 +2989,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 1111
+		size = 21111
 	 } 
 	soldiers = {
 		culture = polish
@@ -3069,7 +3069,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 358419
+		size = 338419
 	 } 
 	farmers = {
 		culture = polish
@@ -3092,7 +3092,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 367
+		size = 20367
 	 } 
 	soldiers = {
 		culture = polish
@@ -3172,7 +3172,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 118506
+		size = 108506
 	 } 
 	farmers = {
 		culture = polish
@@ -3195,7 +3195,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 316
+		size = 20316
 	 } 
 	soldiers = {
 		culture = polish
@@ -3275,7 +3275,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 102407
+		size = 82407
 	 } 
 	farmers = {
 		culture = polish
@@ -3298,7 +3298,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 1147
+		size = 21147
 	 } 
 	soldiers = {
 		culture = polish
@@ -3378,7 +3378,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 370054
+		size = 350054
 	 } 
 	farmers = {
 		culture = polish
@@ -3401,7 +3401,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 558
+		size = 20558
 	 } 
 	soldiers = {
 		culture = polish
@@ -3481,7 +3481,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 180181
+		size = 150181
 	 } 
 	farmers = {
 		culture = polish
@@ -3504,7 +3504,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 348
+		size = 20348
 	 } 
 	soldiers = {
 		culture = polish
@@ -3584,7 +3584,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 112687
+		size = 10687
 	 } 
 	farmers = {
 		culture = polish
@@ -3607,7 +3607,7 @@
 	soldiers = {
 		culture = polish
 		religion =  catholic 
-		size = 335
+		size = 9335
 	 } 
 	soldiers = {
 		culture = polish
@@ -3687,7 +3687,7 @@
 	farmers = {
 		culture = polish
 		religion =  catholic 
-		size = 74131
+		size = 64131
 	 } 
 	farmers = {
 		culture = polish

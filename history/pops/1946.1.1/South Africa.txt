@@ -453,7 +453,7 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1237
+		size = 337
 	 } 
 	aristocrats = {
 		culture = afrikaaner
@@ -483,7 +483,7 @@
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 195
+		size = 85
 	 } 
 	clergymen = {
 		culture = chinese
@@ -493,7 +493,7 @@
 	artisans = {
 		culture = chinese
 		religion =  taoism 
-		size = 488
+		size = 188
 	 } 
 	artisans = {
 		culture = chinese
@@ -508,7 +508,7 @@
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 1200
+		size = 940
 	 } 
 	farmers = {
 		culture = coloured
@@ -518,22 +518,22 @@
 	farmers = {
 		culture = damara
 		religion =  protestant 
-		size = 2500
+		size = 3847
 	 } 
 	farmers = {
 		culture = damara
 		religion = secularism
-		size = 2
+		size = 202
 	 } 
 	farmers = {
 		culture = ovambo
 		religion =  protestant 
-		size = 1300
+		size = 2203
 	 } 
 	farmers = {
 		culture = ovambo
 		religion = secularism
-		size = 15
+		size = 115
 	 } 
 }
 #Angra Pequena - Angra Pequena (4000/1000 POPS)
@@ -571,7 +571,7 @@
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 992
+		size = 862
 	 } 
 	farmers = {
 		culture = coloured
@@ -589,7 +589,7 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 158
+		size = 58
 	 } 
 	soldiers = {
 		culture = afrikaaner
@@ -599,7 +599,7 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 796
+		size = 196
 	 } 
 	aristocrats = {
 		culture = afrikaaner
@@ -639,7 +639,7 @@
 	farmers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 176
+		size = 76
 	 } 
 	farmers = {
 		culture = afrikaaner
@@ -649,7 +649,7 @@
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 2690
+		size = 2450
 	 } 
 	farmers = {
 		culture = coloured
@@ -672,7 +672,7 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 947
+		size = 147
 	 } 
 	aristocrats = {
 		culture = afrikaaner
@@ -717,7 +717,7 @@
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 3499
+		size = 3174
 	 } 
 	farmers = {
 		culture = coloured
@@ -730,7 +730,7 @@
 	capitalists = {
 		culture = british
 		religion =  protestant 
-		size = 1995
+		size = 1195
 	 } 
 	capitalists = {
 		culture = british
@@ -740,7 +740,7 @@
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1206
+		size = 506
 	 } 
 	officers = {
 		culture = afrikaaner
@@ -750,27 +750,27 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 3126
+		size = 2026
 	 } 
 	soldiers = {
 		culture = afrikaaner
 		religion = secularism
-		size = 506
+		size = 106
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1466
+		size = 9566
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 1103
+		size = 503
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 838
+		size = 238
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
@@ -780,92 +780,92 @@
 	clergymen = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 3291
+		size = 2391
 	 } 
 	clergymen = {
 		culture = afrikaaner
 		religion = secularism
-		size = 725
+		size = 125
 	 } 
 	clerks = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 7939
+		size = 5539
 	 } 
 	clerks = {
 		culture = afrikaaner
 		religion = secularism
-		size = 991
+		size = 291
 	 } 
 	artisans = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 7962
+		size = 5262
 	 } 
 	artisans = {
 		culture = afrikaaner
 		religion = secularism
-		size = 976
+		size = 276
 	 } 
 	craftsmen = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 5969
+		size = 3169
 	 } 
 	craftsmen = {
 		culture = afrikaaner
 		religion = secularism
-		size = 766
+		size = 166
 	 } 
 	craftsmen = {
 		culture = british
 		religion =  protestant 
-		size = 15926
+		size = 13726
 	 } 
 	craftsmen = {
 		culture = british
 		religion = secularism
-		size = 1122
+		size = 722
 	 } 
 	farmers = {
 		culture = british
 		religion =  protestant 
-		size = 12985
+		size = 11385
 	 } 
 	farmers = {
 		culture = british
 		religion = secularism
-		size = 999
+		size = 599
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 17016
+		size = 23916
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion = secularism
-		size = 558
+		size = 1258
 	 } 
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 70692
+		size = 76532
 	 } 
 	farmers = {
 		culture = coloured
 		religion = secularism
-		size = 3198
+		size = 4028
 	 } 
 	farmers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 77006
+		size = 83706
 	 } 
 	farmers = {
 		culture = xhosa
 		religion = secularism
-		size = 2505
+		size = 4405
 	 } 
 }
 #Springbok - Springbok (44000/11000 POPS)
@@ -893,7 +893,7 @@
 	aristocrats = {
 		culture = coloured
 		religion =  protestant 
-		size = 718
+		size = 418
 	 } 
 	aristocrats = {
 		culture = coloured
@@ -918,7 +918,7 @@
 	clergymen = {
 		culture = coloured
 		religion =  protestant 
-		size = 394
+		size = 104
 	 } 
 	clergymen = {
 		culture = coloured
@@ -928,7 +928,7 @@
 	artisans = {
 		culture = coloured
 		religion =  protestant 
-		size = 499
+		size = 229
 	 } 
 	artisans = {
 		culture = coloured
@@ -938,17 +938,17 @@
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 8212
+		size = 7957
 	 } 
 	farmers = {
 		culture = coloured
 		religion = secularism
-		size = 718
+		size = 418
 	 } 
 	farmers = {
 		culture = tswana
 		religion =  protestant 
-		size = 203
+		size = 603
 	 } 
 	farmers = {
 		culture = tswana
@@ -976,7 +976,7 @@
 	aristocrats = {
 		culture = coloured
 		religion =  protestant 
-		size = 396
+		size = 266
 	 } 
 	aristocrats = {
 		culture = coloured
@@ -1011,7 +1011,7 @@
 	artisans = {
 		culture = coloured
 		religion =  protestant 
-		size = 445
+		size = 145
 	 } 
 	artisans = {
 		culture = coloured
@@ -1021,12 +1021,12 @@
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 5249
+		size = 5449
 	 } 
 	farmers = {
 		culture = coloured
 		religion = secularism
-		size = 586
+		size = 286
 	 } 
 }
 #Swettenham - Swettenham (173000/43250 POPS)
@@ -1044,7 +1044,7 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 947
+		size = 347
 	 } 
 	soldiers = {
 		culture = afrikaaner
@@ -1054,12 +1054,12 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 2919
+		size = 1619
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 385
+		size = 85
 	 } 
 	aristocrats = {
 		culture = coloured
@@ -1084,7 +1084,7 @@
 	capitalists = {
 		culture = coloured
 		religion =  protestant 
-		size = 495
+		size = 205
 	 } 
 	capitalists = {
 		culture = coloured
@@ -1094,7 +1094,7 @@
 	clergymen = {
 		culture = coloured
 		religion =  protestant 
-		size = 690
+		size = 410
 	 } 
 	clergymen = {
 		culture = coloured
@@ -1104,7 +1104,7 @@
 	artisans = {
 		culture = coloured
 		religion =  protestant 
-		size = 1333
+		size = 903
 	 } 
 	artisans = {
 		culture = coloured
@@ -1114,12 +1114,12 @@
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 33960
+		size = 33660
 	 } 
 	farmers = {
 		culture = coloured
 		religion = secularism
-		size = 1991
+		size = 1771
 	 } 
 }
 #Mossel Bay - Mossel Bay (173000/43250 POPS)
@@ -1137,7 +1137,7 @@
 	soldiers = {
 		culture = coloured
 		religion =  protestant 
-		size = 597
+		size = 347
 	 } 
 	soldiers = {
 		culture = coloured
@@ -1147,7 +1147,7 @@
 	aristocrats = {
 		culture = coloured
 		religion =  protestant 
-		size = 1893
+		size = 1643
 	 } 
 	aristocrats = {
 		culture = coloured
@@ -1167,7 +1167,7 @@
 	capitalists = {
 		culture = coloured
 		religion =  protestant 
-		size = 495
+		size = 205
 	 } 
 	capitalists = {
 		culture = coloured
@@ -1177,7 +1177,7 @@
 	clergymen = {
 		culture = coloured
 		religion =  protestant 
-		size = 710
+		size = 410
 	 } 
 	clergymen = {
 		culture = coloured
@@ -1187,7 +1187,7 @@
 	artisans = {
 		culture = coloured
 		religion =  protestant 
-		size = 1333
+		size = 903
 	 } 
 	artisans = {
 		culture = coloured
@@ -1197,12 +1197,12 @@
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 33960
+		size = 33660
 	 } 
 	farmers = {
 		culture = coloured
 		religion = secularism
-		size = 1991
+		size = 1771
 	 } 
 }
 #Beaufort - Beaufort (28000/7000 POPS)
@@ -1225,7 +1225,7 @@
 	aristocrats = {
 		culture = coloured
 		religion =  protestant 
-		size = 496
+		size = 266
 	 } 
 	aristocrats = {
 		culture = coloured
@@ -1260,7 +1260,7 @@
 	artisans = {
 		culture = coloured
 		religion =  protestant 
-		size = 395
+		size = 145
 	 } 
 	artisans = {
 		culture = coloured
@@ -1270,12 +1270,12 @@
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 5749
+		size = 5449
 	 } 
 	farmers = {
 		culture = coloured
 		religion = secularism
-		size = 586
+		size = 286
 	 } 
 }
 #Calvinia - Calvinia (44000/11000 POPS)
@@ -1293,7 +1293,7 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 388
+		size = 88
 	 } 
 	soldiers = {
 		culture = afrikaaner
@@ -1303,7 +1303,7 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1218
+		size = 418
 	 } 
 	aristocrats = {
 		culture = afrikaaner
@@ -1348,7 +1348,7 @@
 	artisans = {
 		culture = coloured
 		religion =  protestant 
-		size = 499
+		size = 229
 	 } 
 	artisans = {
 		culture = coloured
@@ -1358,17 +1358,17 @@
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 8779
+		size = 8479
 	 } 
 	farmers = {
 		culture = coloured
 		religion = secularism
-		size = 746
+		size = 446
 	 } 
 	farmers = {
 		culture = tswana
 		religion =  protestant 
-		size = 30
+		size = 80
 	 } 
 	farmers = {
 		culture = tswana
@@ -1381,7 +1381,7 @@
 	capitalists = {
 		culture = british
 		religion =  protestant 
-		size = 816
+		size = 116
 	 } 
 	capitalists = {
 		culture = british
@@ -1401,7 +1401,7 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 998
+		size = 198
 	 } 
 	soldiers = {
 		culture = afrikaaner
@@ -1411,7 +1411,7 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 2540
+		size = 940
 	 } 
 	aristocrats = {
 		culture = afrikaaner
@@ -1431,7 +1431,7 @@
 	clergymen = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1234
+		size = 234
 	 } 
 	clergymen = {
 		culture = afrikaaner
@@ -1441,7 +1441,7 @@
 	artisans = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1335
+		size = 435
 	 } 
 	artisans = {
 		culture = afrikaaner
@@ -1451,7 +1451,7 @@
 	artisans = {
 		culture = british
 		religion =  protestant 
-		size = 481
+		size = 81
 	 } 
 	artisans = {
 		culture = british
@@ -1461,27 +1461,27 @@
 	farmers = {
 		culture = british
 		religion =  protestant 
-		size = 2982
+		size = 1682
 	 } 
 	farmers = {
 		culture = british
 		religion = secularism
-		size = 188
+		size = 88
 	 } 
 	farmers = {
 		culture = tswana
 		religion =  protestant 
-		size = 11058
+		size = 16458
 	 } 
 	farmers = {
 		culture = tswana
 		religion = secularism
-		size = 266
+		size = 866
 	 } 
 	farmers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 521
+		size = 1121
 	 } 
 	farmers = {
 		culture = xhosa
@@ -1514,7 +1514,7 @@
 	aristocrats = {
 		culture = tswana
 		religion =  protestant 
-		size = 118
+		size = 418
 	 } 
 	aristocrats = {
 		culture = tswana
@@ -1539,7 +1539,7 @@
 	clergymen = {
 		culture = tswana
 		religion =  protestant 
-		size = 4
+		size = 104
 	 } 
 	clergymen = {
 		culture = tswana
@@ -1549,7 +1549,7 @@
 	artisans = {
 		culture = tswana
 		religion =  protestant 
-		size = 9
+		size = 229
 	 } 
 	artisans = {
 		culture = tswana
@@ -1559,17 +1559,17 @@
 	farmers = {
 		culture = tswana
 		religion =  protestant 
-		size = 4034
+		size = 7434
 	 } 
 	farmers = {
 		culture = tswana
 		religion = secularism
-		size = 291
+		size = 391
 	 } 
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 1395
+		size = 1125
 	 } 
 	farmers = {
 		culture = coloured
@@ -1582,7 +1582,7 @@
 	capitalists = {
 		culture = british
 		religion =  protestant 
-		size = 1152
+		size = 352
 	 } 
 	capitalists = {
 		culture = british
@@ -1592,7 +1592,7 @@
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 949
+		size = 149
 	 } 
 	officers = {
 		culture = afrikaaner
@@ -1602,7 +1602,7 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1597
+		size = 597
 	 } 
 	soldiers = {
 		culture = afrikaaner
@@ -1612,17 +1612,17 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 4921
+		size = 2821
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 948
+		size = 148
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 370
+		size = 70
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
@@ -1632,7 +1632,7 @@
 	clergymen = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1593
+		size = 593
 	 } 
 	clergymen = {
 		culture = afrikaaner
@@ -1642,7 +1642,7 @@
 	clergymen = {
 		culture = british
 		religion =  protestant 
-		size = 811
+		size = 111
 	 } 
 	clergymen = {
 		culture = british
@@ -1652,42 +1652,42 @@
 	artisans = {
 		culture = british
 		religion =  protestant 
-		size = 2951
+		size = 1551
 	 } 
 	artisans = {
 		culture = british
 		religion = secularism
-		size = 381
+		size = 81
 	 } 
 	farmers = {
 		culture = british
 		religion =  protestant 
-		size = 6732
+		size = 4332
 	 } 
 	farmers = {
 		culture = british
 		religion = secularism
-		size = 928
+		size = 228
 	 } 
 	farmers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 30000
+		size = 37384
 	 } 
 	farmers = {
 		culture = xhosa
 		religion = secularism
-		size = 1067
+		size = 1967
 	 } 
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 16399
+		size = 16069
 	 } 
 	farmers = {
 		culture = coloured
 		religion = secularism
-		size = 995
+		size = 845
 	 } 
 }
 #Graaf Reinet - Graaf Reinet (44000/11000 POPS)
@@ -1715,7 +1715,7 @@
 	aristocrats = {
 		culture = xhosa
 		religion =  protestant 
-		size = 118
+		size = 418
 	 } 
 	aristocrats = {
 		culture = xhosa
@@ -1740,7 +1740,7 @@
 	clergymen = {
 		culture = xhosa
 		religion =  protestant 
-		size = 44
+		size = 104
 	 } 
 	clergymen = {
 		culture = xhosa
@@ -1750,7 +1750,7 @@
 	artisans = {
 		culture = xhosa
 		religion =  protestant 
-		size = 29
+		size = 229
 	 } 
 	artisans = {
 		culture = xhosa
@@ -1760,22 +1760,22 @@
 	farmers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 1531
+		size = 2731
 	 } 
 	farmers = {
 		culture = xhosa
 		religion = secularism
-		size = 103
+		size = 143
 	 } 
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 5999
+		size = 5829
 	 } 
 	farmers = {
 		culture = coloured
 		religion = secularism
-		size = 696
+		size = 306
 	 } 
 }
 #Bisho - Bisho (243000/60750 POPS)
@@ -1783,7 +1783,7 @@
 	capitalists = {
 		culture = british
 		religion =  protestant 
-		size = 1187
+		size = 287
 	 } 
 	capitalists = {
 		culture = british
@@ -1793,7 +1793,7 @@
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 921
+		size = 121
 	 } 
 	officers = {
 		culture = afrikaaner
@@ -1803,7 +1803,7 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1588
+		size = 488
 	 } 
 	soldiers = {
 		culture = afrikaaner
@@ -1813,17 +1813,17 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 4508
+		size = 2308
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 1421
+		size = 121
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 357
+		size = 57
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
@@ -1833,7 +1833,7 @@
 	clergymen = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1287
+		size = 487
 	 } 
 	clergymen = {
 		culture = afrikaaner
@@ -1843,7 +1843,7 @@
 	clergymen = {
 		culture = british
 		religion =  protestant 
-		size = 389
+		size = 89
 	 } 
 	clergymen = {
 		culture = british
@@ -1853,32 +1853,32 @@
 	artisans = {
 		culture = british
 		religion =  protestant 
-		size = 2969
+		size = 1269
 	 } 
 	artisans = {
 		culture = british
 		religion = secularism
-		size = 366
+		size = 66
 	 } 
 	farmers = {
 		culture = british
 		religion =  protestant 
-		size = 4947
+		size = 3547
 	 } 
 	farmers = {
 		culture = british
 		religion = secularism
-		size = 1286
+		size = 186
 	 } 
 	farmers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 35034
+		size = 43734
 	 } 
 	farmers = {
 		culture = xhosa
 		religion = secularism
-		size = 1101
+		size = 2301
 	 } 
 }
 #Ingwavuma - KaNgwane (144000/36000 POPS)
@@ -1896,7 +1896,7 @@
 	soldiers = {
 		culture = zulu
 		religion =  protestant 
-		size = 32
+		size = 432
 	 } 
 	soldiers = {
 		culture = zulu
@@ -1906,7 +1906,7 @@
 	aristocrats = {
 		culture = zulu
 		religion =  protestant 
-		size = 502
+		size = 1202
 	 } 
 	aristocrats = {
 		culture = zulu
@@ -1926,7 +1926,7 @@
 	capitalists = {
 		culture = zulu
 		religion =  protestant 
-		size = 37
+		size = 237
 	 } 
 	capitalists = {
 		culture = zulu
@@ -1936,7 +1936,7 @@
 	clergymen = {
 		culture = zulu
 		religion =  protestant 
-		size = 55
+		size = 305
 	 } 
 	clergymen = {
 		culture = zulu
@@ -1946,7 +1946,7 @@
 	artisans = {
 		culture = zulu
 		religion =  protestant 
-		size = 2506
+		size = 3606
 	 } 
 	artisans = {
 		culture = zulu
@@ -1956,12 +1956,12 @@
 	farmers = {
 		culture = zulu
 		religion =  protestant 
-		size = 20070
+		size = 28570
 	 } 
 	farmers = {
 		culture = zulu
 		religion = secularism
-		size = 587
+		size = 1187
 	 } 
 }
 #Umtata - Umtata (480000/120000 POPS)
@@ -1969,7 +1969,7 @@
 	officers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 41
+		size = 241
 	 } 
 	officers = {
 		culture = xhosa
@@ -1979,7 +1979,7 @@
 	soldiers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 365
+		size = 965
 	 } 
 	soldiers = {
 		culture = xhosa
@@ -1989,17 +1989,17 @@
 	aristocrats = {
 		culture = xhosa
 		religion =  protestant 
-		size = 2360
+		size = 4560
 	 } 
 	aristocrats = {
 		culture = xhosa
 		religion = secularism
-		size = 40
+		size = 240
 	 } 
 	bureaucrats = {
 		culture = xhosa
 		religion =  protestant 
-		size = 59
+		size = 114
 	 } 
 	bureaucrats = {
 		culture = xhosa
@@ -2009,7 +2009,7 @@
 	capitalists = {
 		culture = xhosa
 		religion =  protestant 
-		size = 170
+		size = 570
 	 } 
 	capitalists = {
 		culture = xhosa
@@ -2019,7 +2019,7 @@
 	clergymen = {
 		culture = xhosa
 		religion =  protestant 
-		size = 440
+		size = 1140
 	 } 
 	clergymen = {
 		culture = xhosa
@@ -2029,22 +2029,22 @@
 	artisans = {
 		culture = xhosa
 		religion =  protestant 
-		size = 1208
+		size = 2708
 	 } 
 	artisans = {
 		culture = xhosa
 		religion = secularism
-		size = 66
+		size = 132
 	 } 
 	farmers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 81555
+		size = 93393
 	 } 
 	farmers = {
 		culture = xhosa
 		religion = secularism
-		size = 3015
+		size = 4915
 	 } 
 }
 #Bloemfontein - Bloemfontein (277000/69250 POPS)
@@ -2052,7 +2052,7 @@
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 938
+		size = 138
 	 } 
 	officers = {
 		culture = afrikaaner
@@ -2062,7 +2062,7 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1456
+		size = 556
 	 } 
 	soldiers = {
 		culture = afrikaaner
@@ -2072,17 +2072,17 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 4831
+		size = 2631
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 938
+		size = 138
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 165
+		size = 65
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
@@ -2092,7 +2092,7 @@
 	capitalists = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 928
+		size = 328
 	 } 
 	capitalists = {
 		culture = afrikaaner
@@ -2102,7 +2102,7 @@
 	clergymen = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1557
+		size = 657
 	 } 
 	clergymen = {
 		culture = afrikaaner
@@ -2112,37 +2112,37 @@
 	artisans = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 2946
+		size = 1446
 	 } 
 	artisans = {
 		culture = afrikaaner
 		religion = secularism
-		size = 176
+		size = 76
 	 } 
 	farmers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 6942
+		size = 4042
 	 } 
 	farmers = {
 		culture = afrikaaner
 		religion = secularism
-		size = 912
+		size = 212
 	 } 
 	farmers = {
 		culture = sotho
 		religion =  protestant 
-		size = 37024
+		size = 48024
 	 } 
 	farmers = {
 		culture = sotho
 		religion = secularism
-		size = 1127
+		size = 2527
 	 } 
 	farmers = {
 		culture = tswana
 		religion =  protestant 
-		size = 829
+		size = 1829
 	 } 
 	farmers = {
 		culture = tswana
@@ -2155,7 +2155,7 @@
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 396
+		size = 96
 	 } 
 	officers = {
 		culture = afrikaaner
@@ -2165,7 +2165,7 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1487
+		size = 387
 	 } 
 	soldiers = {
 		culture = afrikaaner
@@ -2175,12 +2175,12 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 3806
+		size = 1806
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 901
+		size = 95
 	 } 
 	aristocrats = {
 		culture = sotho
@@ -2205,7 +2205,7 @@
 	capitalists = {
 		culture = sotho
 		religion =  protestant 
-		size = 28
+		size = 228
 	 } 
 	capitalists = {
 		culture = sotho
@@ -2215,7 +2215,7 @@
 	clergymen = {
 		culture = sotho
 		religion =  protestant 
-		size = 157
+		size = 457
 	 } 
 	clergymen = {
 		culture = sotho
@@ -2225,7 +2225,7 @@
 	artisans = {
 		culture = sotho
 		religion =  protestant 
-		size = 300
+		size = 1007
 	 } 
 	artisans = {
 		culture = sotho
@@ -2235,22 +2235,22 @@
 	farmers = {
 		culture = sotho
 		religion =  protestant 
-		size = 26003
+		size = 34903
 	 } 
 	farmers = {
 		culture = sotho
 		religion = secularism
-		size = 1237
+		size = 1837
 	 } 
 	farmers = {
 		culture = zulu
 		religion =  protestant 
-		size = 1149
+		size = 2649
 	 } 
 	farmers = {
 		culture = zulu
 		religion = secularism
-		size = 39
+		size = 139
 	 } 
 }
 #Philippolis - Philippolis (193000/48250 POPS)
@@ -2258,7 +2258,7 @@
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 905
+		size = 96
 	 } 
 	officers = {
 		culture = afrikaaner
@@ -2268,7 +2268,7 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1487
+		size = 387
 	 } 
 	soldiers = {
 		culture = afrikaaner
@@ -2278,12 +2278,12 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 3906
+		size = 1806
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 906
+		size = 95
 	 } 
 	aristocrats = {
 		culture = sotho
@@ -2308,7 +2308,7 @@
 	capitalists = {
 		culture = sotho
 		religion =  protestant 
-		size = 28
+		size = 228
 	 } 
 	capitalists = {
 		culture = sotho
@@ -2318,7 +2318,7 @@
 	clergymen = {
 		culture = sotho
 		religion =  protestant 
-		size = 57
+		size = 457
 	 } 
 	clergymen = {
 		culture = sotho
@@ -2328,7 +2328,7 @@
 	artisans = {
 		culture = sotho
 		religion =  protestant 
-		size = 300
+		size = 1007
 	 } 
 	artisans = {
 		culture = sotho
@@ -2338,27 +2338,27 @@
 	farmers = {
 		culture = sotho
 		religion =  protestant 
-		size = 17035
+		size = 25735
 	 } 
 	farmers = {
 		culture = sotho
 		religion = secularism
-		size = 711
+		size = 1354
 	 } 
 	farmers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 7000
+		size = 11458
 	 } 
 	farmers = {
 		culture = xhosa
 		religion = secularism
-		size = 303
+		size = 603
 	 } 
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 599
+		size = 358
 	 } 
 	farmers = {
 		culture = coloured
@@ -2371,7 +2371,7 @@
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1455
+		size = 355
 	 } 
 	officers = {
 		culture = afrikaaner
@@ -2381,27 +2381,27 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 2924
+		size = 1424
 	 } 
 	soldiers = {
 		culture = afrikaaner
 		religion = secularism
-		size = 374
+		size = 74
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 9526
+		size = 6726
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 1154
+		size = 354
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1268
+		size = 168
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
@@ -2411,7 +2411,7 @@
 	capitalists = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1955
+		size = 840
 	 } 
 	capitalists = {
 		culture = afrikaaner
@@ -2421,72 +2421,72 @@
 	clergymen = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 2581
+		size = 1681
 	 } 
 	clergymen = {
 		culture = afrikaaner
 		religion = secularism
-		size = 999
+		size = 88
 	 } 
 	artisans = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 5999
+		size = 3699
 	 } 
 	artisans = {
 		culture = afrikaaner
 		religion = secularism
-		size = 1194
+		size = 194
 	 } 
 	artisans = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 24534
+		size = 18734
 	 } 
 	farmers = {
 		culture = afrikaaner
 		religion = secularism
-		size = 1299
+		size = 986
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 46000
+		size = 58851
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion = secularism
-		size = 1200
+		size = 3097
 	 } 
 	farmers = {
 		culture = tswana
 		religion =  protestant 
-		size = 19501
+		size = 25222
 	 } 
 	farmers = {
 		culture = tswana
 		religion = secularism
-		size = 550
+		size = 1327
 	 } 
 	farmers = {
 		culture = tsonga
 		religion =  protestant 
-		size = 12015
+		size = 16815
 	 } 
 	farmers = {
 		culture = tsonga
 		religion = secularism
-		size = 385
+		size = 885
 	 } 
 	farmers = {
 		culture = sepedi
 		religion =  protestant 
-		size = 12131
+		size = 18131
 	 } 
 	farmers = {
 		culture = sepedi
 		religion = secularism
-		size = 454
+		size = 954
 	 } 
 }
 #Johannesburg - Johannesburg (2266000/566500 POPS)
@@ -2494,47 +2494,47 @@
 	capitalists = {
 		culture = british
 		religion =  protestant 
-		size = 4890
+		size = 2690
 	 } 
 	capitalists = {
 		culture = british
 		religion = secularism
-		size = 1241
+		size = 141
 	 } 
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 2940
+		size = 1140
 	 } 
 	officers = {
 		culture = afrikaaner
 		religion = secularism
-		size = 460
+		size = 60
 	 } 
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 6990
+		size = 4560
 	 } 
 	soldiers = {
 		culture = afrikaaner
 		religion = secularism
-		size = 1240
+		size = 240
 	 } 
 	artisans = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 27527
+		size = 21527
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 2333
+		size = 1133
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1437
+		size = 537
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
@@ -2544,17 +2544,17 @@
 	clergymen = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 7925
+		size = 4525
 	 } 
 	clergymen = {
 		culture = afrikaaner
 		religion = secularism
-		size = 938
+		size = 238
 	 } 
 	clergymen = {
 		culture = british
 		religion =  protestant 
-		size = 2455
+		size = 855
 	 } 
 	clergymen = {
 		culture = british
@@ -2564,112 +2564,112 @@
 	clerks = {
 		culture = british
 		religion =  protestant 
-		size = 15964
+		size = 12464
 	 } 
 	clerks = {
 		culture = british
 		religion = secularism
-		size = 1456
+		size = 656
 	 } 
 	artisans = {
 		culture = british
 		religion =  protestant 
-		size = 15541
+		size = 11841
 	 } 
 	artisans = {
 		culture = british
 		religion = secularism
-		size = 1423
+		size = 623
 	 } 
 	craftsmen = {
 		culture = british
 		religion =  protestant 
-		size = 18900
+		size = 15200
 	 } 
 	craftsmen = {
 		culture = british
 		religion = secularism
-		size = 1700
+		size = 800
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 12163
+		size = 10763
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 866
+		size = 566
 	 } 
 	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 8055
+		size = 12055
 	 } 
 	craftsmen = {
 		culture = black_anglo
 		religion = secularism
-		size = 234
+		size = 634
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 56670
+		size = 68670
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion = secularism
-		size = 2014
+		size = 3614
 	 } 
 	farmers = {
 		culture = zulu
 		religion =  protestant 
-		size = 126925
+		size = 139925
 	 } 
 	farmers = {
 		culture = zulu
 		religion = secularism
-		size = 5064
+		size = 7364
 	 } 
 	farmers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 36435
+		size = 48435
 	 } 
 	farmers = {
 		culture = xhosa
 		religion = secularism
-		size = 1049
+		size = 2549
 	 } 
 	farmers = {
 		culture = sotho
 		religion =  protestant 
-		size = 72026
+		size = 80726
 	 } 
 	farmers = {
 		culture = sotho
 		religion = secularism
-		size = 2148
+		size = 4248
 	 } 
 	farmers = {
 		culture = sepedi
 		religion =  protestant 
-		size = 65344
+		size = 75344
 	 } 
 	farmers = {
 		culture = sepedi
 		religion = secularism
-		size = 2565
+		size = 3965
 	 } 
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 26999
+		size = 26908
 	 } 
 	farmers = {
 		culture = coloured
 		religion = secularism
-		size = 1699
+		size = 1416
 	 } 
 }
 #Klerksdorp - Klerksdorp (850000/212500 POPS)
@@ -2677,7 +2677,7 @@
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1427
+		size = 427
 	 } 
 	officers = {
 		culture = afrikaaner
@@ -2687,27 +2687,27 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 3610
+		size = 1710
 	 } 
 	soldiers = {
 		culture = afrikaaner
 		religion = secularism
-		size = 390
+		size = 90
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1675
+		size = 8075
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 925
+		size = 425
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 801
+		size = 201
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
@@ -2717,7 +2717,7 @@
 	capitalists = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 2408
+		size = 1008
 	 } 
 	capitalists = {
 		culture = afrikaaner
@@ -2727,17 +2727,17 @@
 	clergymen = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 3518
+		size = 2018
 	 } 
 	clergymen = {
 		culture = afrikaaner
 		religion = secularism
-		size = 906
+		size = 106
 	 } 
 	artisans = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1689
+		size = 689
 	 } 
 	artisans = {
 		culture = afrikaaner
@@ -2747,52 +2747,52 @@
 	artisans = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 2152
+		size = 3752
 	 } 
 	artisans = {
 		culture = black_anglo
 		religion = secularism
-		size = 97
+		size = 197
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 8435
+		size = 16435
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion = secularism
-		size = 265
+		size = 865
 	 } 
 	farmers = {
 		culture = tswana
 		religion =  protestant 
-		size = 120218
+		size = 131218
 	 } 
 	farmers = {
 		culture = tswana
 		religion = secularism
-		size = 4506
+		size = 6906
 	 } 
 	farmers = {
 		culture = sotho
 		religion =  protestant 
-		size = 8112
+		size = 12112
 	 } 
 	farmers = {
 		culture = sotho
 		religion = secularism
-		size = 337
+		size = 637
 	 } 
 	farmers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 3118
+		size = 5618
 	 } 
 	farmers = {
 		culture = xhosa
 		religion = secularism
-		size = 95
+		size = 295
 	 } 
 }
 #Mosega - Mosega (654000/163500 POPS)
@@ -2800,7 +2800,7 @@
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1428
+		size = 328
 	 } 
 	officers = {
 		culture = afrikaaner
@@ -2810,7 +2810,7 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 2415
+		size = 1315
 	 } 
 	soldiers = {
 		culture = afrikaaner
@@ -2820,27 +2820,27 @@
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 5315
+		size = 3015
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 958
+		size = 158
 	 } 
 	aristocrats = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 1097
+		size = 3197
 	 } 
 	aristocrats = {
 		culture = black_anglo
 		religion = secularism
-		size = 68
+		size = 168
 	 } 
 	bureaucrats = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 54
+		size = 154
 	 } 
 	bureaucrats = {
 		culture = black_anglo
@@ -2850,7 +2850,7 @@
 	capitalists = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 276
+		size = 776
 	 } 
 	capitalists = {
 		culture = black_anglo
@@ -2860,7 +2860,7 @@
 	clergymen = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 453
+		size = 1553
 	 } 
 	clergymen = {
 		culture = black_anglo
@@ -2870,52 +2870,52 @@
 	artisans = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 1817
+		size = 3417
 	 } 
 	artisans = {
 		culture = black_anglo
 		religion = secularism
-		size = 79
+		size = 179
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 4033
+		size = 6433
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion = secularism
-		size = 138
+		size = 338
 	 } 
 	farmers = {
 		culture = tsonga
 		religion =  protestant 
-		size = 20405
+		size = 26405
 	 } 
 	farmers = {
 		culture = tsonga
 		religion = secularism
-		size = 1000
+		size = 1389
 	 } 
 	farmers = {
 		culture = sepedi
 		religion =  protestant 
-		size = 74322
+		size = 82322
 	 } 
 	farmers = {
 		culture = sepedi
 		religion = secularism
-		size = 2032
+		size = 4332
 	 } 
 	farmers = {
 		culture = venda
 		religion =  protestant 
-		size = 8500
+		size = 12087
 	 } 
 	farmers = {
 		culture = venda
 		religion = secularism
-		size = 236
+		size = 636
 	 } 
 }
 #Lydenburg - Lydenburg (979000/244750 POPS)
@@ -2923,7 +2923,7 @@
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1492
+		size = 492
 	 } 
 	officers = {
 		culture = afrikaaner
@@ -2933,27 +2933,27 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 3969
+		size = 1969
 	 } 
 	soldiers = {
 		culture = afrikaaner
 		religion = secularism
-		size = 1403
+		size = 103
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 14055
+		size = 9300
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 1289
+		size = 489
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 931
+		size = 231
 	 } 
 	bureaucrats = {
 		culture = afrikaaner
@@ -2963,27 +2963,27 @@
 	capitalists = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 2461
+		size = 1161
 	 } 
 	capitalists = {
 		culture = afrikaaner
 		religion = secularism
-		size = 361
+		size = 61
 	 } 
 	clergymen = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 3924
+		size = 2324
 	 } 
 	clergymen = {
 		culture = afrikaaner
 		religion = secularism
-		size = 922
+		size = 122
 	 } 
 	artisans = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1995
+		size = 795
 	 } 
 	artisans = {
 		culture = afrikaaner
@@ -2993,67 +2993,67 @@
 	artisans = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 2520
+		size = 4320
 	 } 
 	artisans = {
 		culture = black_anglo
 		religion = secularism
-		size = 27
+		size = 227
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 8280
+		size = 14280
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion = secularism
-		size = 351
+		size = 751
 	 } 
 	farmers = {
 		culture = swazi
 		religion =  protestant 
-		size = 60753
+		size = 69753
 	 } 
 	farmers = {
 		culture = swazi
 		religion = secularism
-		size = 2071
+		size = 3671
 	 } 
 	farmers = {
 		culture = zulu
 		religion =  protestant 
-		size = 50127
+		size = 58127
 	 } 
 	farmers = {
 		culture = zulu
 		religion = secularism
-		size = 1355
+		size = 3059
 	 } 
 	farmers = {
 		culture = tsonga
 		religion =  protestant 
-		size = 16251
+		size = 23251
 	 } 
 	farmers = {
 		culture = tsonga
 		religion = secularism
-		size = 623
+		size = 1223
 	 } 
 	farmers = {
 		culture = nguni
 		religion =  protestant 
-		size = 17251
+		size = 23251
 	 } 
 	farmers = {
 		culture = nguni
 		religion = secularism
-		size = 700
+		size = 1223
 	 } 
 	farmers = {
 		culture = sepedi
 		religion =  protestant 
-		size = 819
+		size = 1819
 	 } 
 	farmers = {
 		culture = sepedi
@@ -3066,7 +3066,7 @@
 	officers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 1428
+		size = 328
 	 } 
 	officers = {
 		culture = afrikaaner
@@ -3076,37 +3076,37 @@
 	soldiers = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 2915
+		size = 1315
 	 } 
 	soldiers = {
 		culture = afrikaaner
 		religion = secularism
-		size = 369
+		size = 69
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion =  protestant 
-		size = 5315
+		size = 3015
 	 } 
 	aristocrats = {
 		culture = afrikaaner
 		religion = secularism
-		size = 1258
+		size = 158
 	 } 
 	aristocrats = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 1097
+		size = 3197
 	 } 
 	aristocrats = {
 		culture = black_anglo
 		religion = secularism
-		size = 68
+		size = 168
 	 } 
 	bureaucrats = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 54
+		size = 154
 	 } 
 	bureaucrats = {
 		culture = black_anglo
@@ -3116,7 +3116,7 @@
 	capitalists = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 276
+		size = 776
 	 } 
 	capitalists = {
 		culture = black_anglo
@@ -3126,7 +3126,7 @@
 	clergymen = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 453
+		size = 1553
 	 } 
 	clergymen = {
 		culture = black_anglo
@@ -3136,52 +3136,52 @@
 	artisans = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 1217
+		size = 3417
 	 } 
 	artisans = {
 		culture = black_anglo
 		religion = secularism
-		size = 79
+		size = 179
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion =  protestant 
-		size = 3433
+		size = 6433
 	 } 
 	farmers = {
 		culture = black_anglo
 		religion = secularism
-		size = 138
+		size = 338
 	 } 
 	farmers = {
 		culture = tsonga
 		religion =  protestant 
-		size = 20405
+		size = 26405
 	 } 
 	farmers = {
 		culture = tsonga
 		religion = secularism
-		size = 789
+		size = 1389
 	 } 
 	farmers = {
 		culture = sepedi
 		religion =  protestant 
-		size = 74322
+		size = 82322
 	 } 
 	farmers = {
 		culture = sepedi
 		religion = secularism
-		size = 2032
+		size = 4332
 	 } 
 	farmers = {
 		culture = venda
 		religion =  protestant 
-		size = 8087
+		size = 12087
 	 } 
 	farmers = {
 		culture = venda
 		religion = secularism
-		size = 336
+		size = 636
 	 } 
 }
 #Durban - Durban (1385000/346250 POPS)
@@ -3189,17 +3189,17 @@
 	capitalists = {
 		culture = british
 		religion =  protestant 
-		size = 3544
+		size = 1644
 	 } 
 	capitalists = {
 		culture = british
 		religion = secularism
-		size = 386
+		size = 86
 	 } 
 	officers = {
 		culture = british
 		religion =  protestant 
-		size = 1996
+		size = 696
 	 } 
 	officers = {
 		culture = british
@@ -3209,37 +3209,37 @@
 	soldiers = {
 		culture = british
 		religion =  protestant 
-		size = 4986
+		size = 2786
 	 } 
 	soldiers = {
 		culture = british
 		religion = secularism
-		size = 1246
+		size = 146
 	 } 
 	aristocrats = {
 		culture = british
 		religion =  protestant 
-		size = 15319
+		size = 11319
 	 } 
 	aristocrats = {
 		culture = british
 		religion = secularism
-		size = 1495
+		size = 595
 	 } 
 	aristocrats = {
 		culture = indian
 		religion =  hindu 
-		size = 2438
+		size = 1838
 	 } 
 	aristocrats = {
 		culture = indian
 		religion = secularism
-		size = 325
+		size = 96
 	 } 
 	bureaucrats = {
 		culture = indian
 		religion =  hindu 
-		size = 728
+		size = 328
 	 } 
 	bureaucrats = {
 		culture = indian
@@ -3249,42 +3249,42 @@
 	clergymen = {
 		culture = indian
 		religion =  hindu 
-		size = 3788
+		size = 3288
 	 } 
 	clergymen = {
 		culture = indian
 		religion = secularism
-		size = 473
+		size = 173
 	 } 
 	artisans = {
 		culture = indian
 		religion =  hindu 
-		size = 7838
+		size = 7238
 	 } 
 	artisans = {
 		culture = indian
 		religion = secularism
-		size = 780
+		size = 380
 	 } 
 	farmers = {
 		culture = indian
 		religion =  hindu 
-		size = 21599
+		size = 20199
 	 } 
 	farmers = {
 		culture = indian
 		religion = secularism
-		size = 1763
+		size = 1063
 	 } 
 	farmers = {
 		culture = zulu
 		religion =  protestant 
-		size = 200278
+		size = 249278
 	 } 
 	farmers = {
 		culture = zulu
 		religion = secularism
-		size = 8119
+		size = 13119
 	 } 
 }
 #Ladysmith - Ladysmith (551000/137750 POPS)
@@ -3292,7 +3292,7 @@
 	capitalists = {
 		culture = british
 		religion =  protestant 
-		size = 1953
+		size = 653
 	 } 
 	capitalists = {
 		culture = british
@@ -3302,7 +3302,7 @@
 	officers = {
 		culture = british
 		religion =  protestant 
-		size = 1276
+		size = 276
 	 } 
 	officers = {
 		culture = british
@@ -3312,7 +3312,7 @@
 	soldiers = {
 		culture = british
 		religion =  protestant 
-		size = 2508
+		size = 1108
 	 } 
 	soldiers = {
 		culture = british
@@ -3322,17 +3322,17 @@
 	aristocrats = {
 		culture = british
 		religion =  protestant 
-		size = 6903
+		size = 4503
 	 } 
 	aristocrats = {
 		culture = british
 		religion = secularism
-		size = 837
+		size = 237
 	 } 
 	aristocrats = {
 		culture = indian
 		religion =  hindu 
-		size = 990
+		size = 730
 	 } 
 	aristocrats = {
 		culture = indian
@@ -3342,7 +3342,7 @@
 	bureaucrats = {
 		culture = indian
 		religion =  hindu 
-		size = 430
+		size = 130
 	 } 
 	bureaucrats = {
 		culture = indian
@@ -3352,7 +3352,7 @@
 	clergymen = {
 		culture = indian
 		religion =  hindu 
-		size = 1808
+		size = 1308
 	 } 
 	clergymen = {
 		culture = indian
@@ -3362,32 +3362,32 @@
 	artisans = {
 		culture = indian
 		religion =  hindu 
-		size = 3579
+		size = 2879
 	 } 
 	artisans = {
 		culture = indian
 		religion = secularism
-		size = 551
+		size = 151
 	 } 
 	farmers = {
 		culture = indian
 		religion =  hindu 
-		size = 8537
+		size = 8037
 	 } 
 	farmers = {
 		culture = indian
 		religion = secularism
-		size = 693
+		size = 423
 	 } 
 	farmers = {
 		culture = zulu
 		religion =  protestant 
-		size = 88169
+		size = 99169
 	 } 
 	farmers = {
 		culture = zulu
 		religion = secularism
-		size = 3019
+		size = 5219
 	 } 
 }
 #Ulundi - Ulundi (551000/137750 POPS)
@@ -3395,7 +3395,7 @@
 	officers = {
 		culture = zulu
 		religion =  protestant 
-		size = 76
+		size = 276
 	 } 
 	officers = {
 		culture = zulu
@@ -3405,7 +3405,7 @@
 	soldiers = {
 		culture = zulu
 		religion =  protestant 
-		size = 408
+		size = 1108
 	 } 
 	soldiers = {
 		culture = zulu
@@ -3415,17 +3415,17 @@
 	aristocrats = {
 		culture = zulu
 		religion =  protestant 
-		size = 3234
+		size = 5234
 	 } 
 	aristocrats = {
 		culture = zulu
 		religion = secularism
-		size = 75
+		size = 275
 	 } 
 	bureaucrats = {
 		culture = zulu
 		religion =  protestant 
-		size = 30
+		size = 130
 	 } 
 	bureaucrats = {
 		culture = zulu
@@ -3435,7 +3435,7 @@
 	capitalists = {
 		culture = zulu
 		religion =  protestant 
-		size = 253
+		size = 653
 	 } 
 	capitalists = {
 		culture = zulu
@@ -3445,7 +3445,7 @@
 	clergymen = {
 		culture = zulu
 		religion =  protestant 
-		size = 608
+		size = 1308
 	 } 
 	clergymen = {
 		culture = zulu
@@ -3455,22 +3455,22 @@
 	artisans = {
 		culture = zulu
 		religion =  protestant 
-		size = 1179
+		size = 2879
 	 } 
 	artisans = {
 		culture = zulu
 		religion = secularism
-		size = 51
+		size = 151
 	 } 
 	farmers = {
 		culture = zulu
 		religion =  protestant 
-		size = 97207
+		size = 107207
 	 } 
 	farmers = {
 		culture = zulu
 		religion = secularism
-		size = 3542
+		size = 5642
 	 } 
 }
 #De Aar - De Aar (44000/11000 POPS)
@@ -3488,7 +3488,7 @@
 	soldiers = {
 		culture = coloured
 		religion =  protestant 
-		size = 188
+		size = 88
 	 } 
 	soldiers = {
 		culture = coloured
@@ -3498,7 +3498,7 @@
 	aristocrats = {
 		culture = coloured
 		religion =  protestant 
-		size = 718
+		size = 418
 	 } 
 	aristocrats = {
 		culture = coloured
@@ -3523,7 +3523,7 @@
 	clergymen = {
 		culture = coloured
 		religion =  protestant 
-		size = 304
+		size = 104
 	 } 
 	clergymen = {
 		culture = coloured
@@ -3533,7 +3533,7 @@
 	artisans = {
 		culture = coloured
 		religion =  protestant 
-		size = 329
+		size = 229
 	 } 
 	artisans = {
 		culture = coloured
@@ -3543,22 +3543,22 @@
 	farmers = {
 		culture = coloured
 		religion =  protestant 
-		size = 5988
+		size = 6388
 	 } 
 	farmers = {
 		culture = coloured
 		religion = secularism
-		size = 696
+		size = 336
 	 } 
 	farmers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 1071
+		size = 2171
 	 } 
 	farmers = {
 		culture = xhosa
 		religion = secularism
-		size = 84
+		size = 114
 	 } 
 }
 #Abiy - KaNgwane (188000/47000 POPS)
@@ -3576,7 +3576,7 @@
 	soldiers = {
 		culture = swazi
 		religion =  protestant 
-		size = 78
+		size = 378
 	 } 
 	soldiers = {
 		culture = swazi
@@ -3586,7 +3586,7 @@
 	aristocrats = {
 		culture = swazi
 		religion =  protestant 
-		size = 886
+		size = 1786
 	 } 
 	aristocrats = {
 		culture = swazi
@@ -3606,7 +3606,7 @@
 	capitalists = {
 		culture = swazi
 		religion =  protestant 
-		size = 23
+		size = 223
 	 } 
 	capitalists = {
 		culture = swazi
@@ -3616,7 +3616,7 @@
 	clergymen = {
 		culture = swazi
 		religion =  protestant 
-		size = 246
+		size = 446
 	 } 
 	clergymen = {
 		culture = swazi
@@ -3626,7 +3626,7 @@
 	artisans = {
 		culture = swazi
 		religion =  protestant 
-		size = 482
+		size = 982
 	 } 
 	artisans = {
 		culture = swazi
@@ -3636,12 +3636,12 @@
 	farmers = {
 		culture = swazi
 		religion =  protestant 
-		size = 29578
+		size = 36578
 	 } 
 	farmers = {
 		culture = swazi
 		religion = secularism
-		size = 1025
+		size = 1925
 	 } 
 }
 #Honuu - KwaNdbele (97000/24250 POPS)
@@ -3659,7 +3659,7 @@
 	soldiers = {
 		culture = nguni
 		religion =  protestant 
-		size = 94
+		size = 194
 	 } 
 	soldiers = {
 		culture = nguni
@@ -3669,7 +3669,7 @@
 	aristocrats = {
 		culture = nguni
 		religion =  protestant 
-		size = 321
+		size = 921
 	 } 
 	aristocrats = {
 		culture = nguni
@@ -3689,7 +3689,7 @@
 	capitalists = {
 		culture = nguni
 		religion =  protestant 
-		size = 14
+		size = 114
 	 } 
 	capitalists = {
 		culture = nguni
@@ -3699,7 +3699,7 @@
 	clergymen = {
 		culture = nguni
 		religion =  protestant 
-		size = 29
+		size = 229
 	 } 
 	clergymen = {
 		culture = nguni
@@ -3709,7 +3709,7 @@
 	artisans = {
 		culture = nguni
 		religion =  protestant 
-		size = 206
+		size = 506
 	 } 
 	artisans = {
 		culture = nguni
@@ -3719,12 +3719,12 @@
 	farmers = {
 		culture = nguni
 		religion =  protestant 
-		size = 12872
+		size = 18872
 	 } 
 	farmers = {
 		culture = nguni
 		religion = secularism
-		size = 493
+		size = 993
 	 } 
 }
 #Yansk - Lebowa (412000/103000 POPS)
@@ -3732,7 +3732,7 @@
 	officers = {
 		culture = sepedi
 		religion =  protestant 
-		size = 66
+		size = 207
 	 } 
 	officers = {
 		culture = sepedi
@@ -3742,7 +3742,7 @@
 	soldiers = {
 		culture = sepedi
 		religion =  protestant 
-		size = 428
+		size = 828
 	 } 
 	soldiers = {
 		culture = sepedi
@@ -3752,12 +3752,12 @@
 	aristocrats = {
 		culture = sepedi
 		religion =  protestant 
-		size = 2514
+		size = 3914
 	 } 
 	aristocrats = {
 		culture = sepedi
 		religion = secularism
-		size = 56
+		size = 206
 	 } 
 	bureaucrats = {
 		culture = sepedi
@@ -3772,7 +3772,7 @@
 	capitalists = {
 		culture = sepedi
 		religion =  protestant 
-		size = 189
+		size = 489
 	 } 
 	capitalists = {
 		culture = sepedi
@@ -3782,7 +3782,7 @@
 	clergymen = {
 		culture = sepedi
 		religion =  protestant 
-		size = 578
+		size = 978
 	 } 
 	clergymen = {
 		culture = sepedi
@@ -3792,22 +3792,22 @@
 	artisans = {
 		culture = sepedi
 		religion =  protestant 
-		size = 1052
+		size = 2152
 	 } 
 	artisans = {
 		culture = sepedi
 		religion = secularism
-		size = 13
+		size = 113
 	 } 
 	farmers = {
 		culture = sepedi
 		religion =  protestant 
-		size = 68162
+		size = 80162
 	 } 
 	farmers = {
 		culture = sepedi
 		religion = secularism
-		size = 2519
+		size = 4219
 	 } 
 }
 #Zhigansk - Bophuthatswana (320000/80000 POPS)
@@ -3815,7 +3815,7 @@
 	officers = {
 		culture = tswana
 		religion =  protestant 
-		size = 60
+		size = 160
 	 } 
 	officers = {
 		culture = tswana
@@ -3825,7 +3825,7 @@
 	soldiers = {
 		culture = tswana
 		religion =  protestant 
-		size = 243
+		size = 643
 	 } 
 	soldiers = {
 		culture = tswana
@@ -3835,12 +3835,12 @@
 	aristocrats = {
 		culture = tswana
 		religion =  protestant 
-		size = 1540
+		size = 3040
 	 } 
 	aristocrats = {
 		culture = tswana
 		religion = secularism
-		size = 60
+		size = 160
 	 } 
 	bureaucrats = {
 		culture = tswana
@@ -3855,7 +3855,7 @@
 	capitalists = {
 		culture = tswana
 		religion =  protestant 
-		size = 80
+		size = 380
 	 } 
 	capitalists = {
 		culture = tswana
@@ -3865,7 +3865,7 @@
 	clergymen = {
 		culture = tswana
 		religion =  protestant 
-		size = 360
+		size = 760
 	 } 
 	clergymen = {
 		culture = tswana
@@ -3875,7 +3875,7 @@
 	artisans = {
 		culture = tswana
 		religion =  protestant 
-		size = 472
+		size = 1172
 	 } 
 	artisans = {
 		culture = tswana
@@ -3885,12 +3885,12 @@
 	farmers = {
 		culture = tswana
 		religion =  protestant 
-		size = 12262
+		size = 20262
 	 } 
 	farmers = {
 		culture = tswana
 		religion = secularism
-		size = 2076
+		size = 3276
 	 } 
 }
 #Kular - Venda (76000/19000 POPS)
@@ -3908,7 +3908,7 @@
 	soldiers = {
 		culture = venda
 		religion =  protestant 
-		size = 52
+		size = 152
 	 } 
 	soldiers = {
 		culture = venda
@@ -3918,7 +3918,7 @@
 	aristocrats = {
 		culture = venda
 		religion =  protestant 
-		size = 322
+		size = 722
 	 } 
 	aristocrats = {
 		culture = venda
@@ -3943,7 +3943,7 @@
 	clergymen = {
 		culture = venda
 		religion =  protestant 
-		size = 80
+		size = 180
 	 } 
 	clergymen = {
 		culture = venda
@@ -3953,7 +3953,7 @@
 	artisans = {
 		culture = venda
 		religion =  protestant 
-		size = 97
+		size = 397
 	 } 
 	artisans = {
 		culture = venda
@@ -3963,12 +3963,12 @@
 	farmers = {
 		culture = venda
 		religion =  protestant 
-		size = 8787
+		size = 14787
 	 } 
 	farmers = {
 		culture = venda
 		religion = secularism
-		size = 378
+		size = 778
 	 } 
 }
 #Chokurdakh - QwaQwa (82000/20500 POPS)
@@ -3986,7 +3986,7 @@
 	soldiers = {
 		culture = sotho
 		religion =  protestant 
-		size = 64
+		size = 164
 	 } 
 	soldiers = {
 		culture = sotho
@@ -3996,7 +3996,7 @@
 	aristocrats = {
 		culture = sotho
 		religion =  protestant 
-		size = 379
+		size = 779
 	 } 
 	aristocrats = {
 		culture = sotho
@@ -4026,7 +4026,7 @@
 	clergymen = {
 		culture = sotho
 		religion =  protestant 
-		size = 94
+		size = 194
 	 } 
 	clergymen = {
 		culture = sotho
@@ -4036,7 +4036,7 @@
 	artisans = {
 		culture = sotho
 		religion =  protestant 
-		size = 128
+		size = 428
 	 } 
 	artisans = {
 		culture = sotho
@@ -4046,12 +4046,12 @@
 	farmers = {
 		culture = sotho
 		religion =  protestant 
-		size = 8955
+		size = 15955
 	 } 
 	farmers = {
 		culture = sotho
 		religion = secularism
-		size = 439
+		size = 839
 	 } 
 }
 #Bulun - Gazankulu (76000/19000 POPS)
@@ -4069,7 +4069,7 @@
 	soldiers = {
 		culture = tsonga
 		religion =  protestant 
-		size = 52
+		size = 152
 	 } 
 	soldiers = {
 		culture = tsonga
@@ -4079,7 +4079,7 @@
 	aristocrats = {
 		culture = tsonga
 		religion =  protestant 
-		size = 222
+		size = 722
 	 } 
 	aristocrats = {
 		culture = tsonga
@@ -4104,7 +4104,7 @@
 	clergymen = {
 		culture = tsonga
 		religion =  protestant 
-		size = 80
+		size = 180
 	 } 
 	clergymen = {
 		culture = tsonga
@@ -4114,7 +4114,7 @@
 	artisans = {
 		culture = tsonga
 		religion =  protestant 
-		size = 197
+		size = 397
 	 } 
 	artisans = {
 		culture = tsonga
@@ -4124,12 +4124,12 @@
 	farmers = {
 		culture = tsonga
 		religion =  protestant 
-		size = 8787
+		size = 14787
 	 } 
 	farmers = {
 		culture = tsonga
 		religion = secularism
-		size = 278
+		size = 778
 	 } 
 }
 #Pokrovsk - Ciskei (164000/41000 POPS)
@@ -4147,7 +4147,7 @@
 	soldiers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 29
+		size = 329
 	 } 
 	soldiers = {
 		culture = xhosa
@@ -4157,7 +4157,7 @@
 	aristocrats = {
 		culture = xhosa
 		religion =  protestant 
-		size = 558
+		size = 1558
 	 } 
 	aristocrats = {
 		culture = xhosa
@@ -4177,7 +4177,7 @@
 	capitalists = {
 		culture = xhosa
 		religion =  protestant 
-		size = 94
+		size = 194
 	 } 
 	capitalists = {
 		culture = xhosa
@@ -4187,7 +4187,7 @@
 	clergymen = {
 		culture = xhosa
 		religion =  protestant 
-		size = 89
+		size = 389
 	 } 
 	clergymen = {
 		culture = xhosa
@@ -4197,7 +4197,7 @@
 	artisans = {
 		culture = xhosa
 		religion =  protestant 
-		size = 356
+		size = 856
 	 } 
 	artisans = {
 		culture = xhosa
@@ -4207,12 +4207,12 @@
 	farmers = {
 		culture = xhosa
 		religion =  protestant 
-		size = 24909
+		size = 31909
 	 } 
 	farmers = {
 		culture = xhosa
 		religion = secularism
-		size = 79
+		size = 1679
 	 } 
 }
 

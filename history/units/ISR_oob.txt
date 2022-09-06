@@ -1,3 +1,12 @@
+leader = {
+        name = "Israel Tal"
+        date = 1945.12.31
+        type = land
+        personality = audacious
+        background = cursed_luck
+        prestige = 0.5
+}
+
 army = {
 	name = "Israel Jerusalem Army"
 	location = 917

@@ -5,27 +5,6 @@ NZL = 10000
 AST = 10000
 RAJ = 5000
 }
-
-#Truces so that the AI won't be too trigger happy
-FRA = {
-	truce_until = 1960.1.1
-}
-ITA = {
-	truce_until = 1960.1.1
-}
-USA = {
-	truce_until = 1960.1.1
-}
-RUS = {
-	truce_until = 1950.1.1
-}
-
-NOR = {
-	level = 5
-	value = 200
-	influence_value = 0
-	military_access = yes
-}
 JER = {
 	level = 5
 	value = 200
@@ -370,24 +349,27 @@ leader = {
         name = "Alan Brooke"
         date = 1945.12.31
         type = land
-        personality = brash
+        personality = audacious
         background = gifted_administrator
+        picture = alan
         prestige = 0.5
 }
 leader = {
         name = "Bernard Montgomery"
         date = 1945.12.31
         type = land
-        personality = heroic
-        background = brilliant_strategist
+        personality = audacious
+        background = cursed_luck
+        picture = montgomery
         prestige = 0.5
 }
 leader = {
         name = "Harold Alexander"
         date = 1945.12.31
         type = land
-        personality = gallant
-        background = member_of_elite
+        personality = audacious
+        background = gifted_administrator
+        picture = harold
         prestige = 0.1
 }
 leader = {
@@ -395,12 +377,13 @@ leader = {
         date = 1945.12.31
         type = land
         personality = soldierly
-        background = career_man
+        background = gifted_administrator
+        picture = claude
         prestige = 0.1
 }
 
 army = {
-	name = "1st Home Army"
+	name = "United Kingdom London Army"
 	location = 300
 	regiment = {
 		name= "Regiment nr1"
@@ -444,7 +427,7 @@ army = {
 	}
 }
 army = {
-	name = "2nd Home Army"
+	name = "United Kingdom London Army"
 	location = 300
 	regiment = {
 		name= "Regiment nr1"
@@ -493,7 +476,7 @@ army = {
 	}
 }
 army = {
-	name = "3rd Home Army"
+	name = "United Kingdom Hull Army"
 	location = 281
 	regiment = {
 		name= "Regiment nr1"
@@ -537,7 +520,7 @@ army = {
 	}
 }
 army = {
-	name = "4th Home Army"
+	name = "United Kingdom Glasgow Army"
 	location = 271
 	regiment = {
 		name= "Regiment nr1"
@@ -586,7 +569,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Germany (Hamburg)"
+	name = "United Kingdom Hamburg Army"
 	location = 528
 	regiment = {
 		name= "Regiment nr1"
@@ -620,7 +603,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Egypt"
+	name = "United Kingdom Suez Army"
 	location = 1755
 	regiment = {
 		name= "Regiment nr1"
@@ -664,7 +647,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Kenya"
+	name = "United Kingdom Nairobi Army"
 	location = 2024
 	regiment = {
 		name= "Regiment nr1"
@@ -708,7 +691,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Tanganyika"
+	name = "United Kingdom Dar Es Salaam Army"
 	location = 2036
 	regiment = {
 		name= "Regiment nr1"
@@ -757,7 +740,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Lower Nigeria"
+	name = "United Kingdom Lagos Army"
 	location = 1923
 	regiment = {
 		name= "Regiment nr1"
@@ -806,7 +789,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Upper Nigeria"
+	name = "United Kingdom Kano Army"
 	location = 1945
 	regiment = {
 		name= "Regiment nr1"
@@ -850,7 +833,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF South Arabia"
+	name = "United Kingdom Aden Army"
 	location = 1412
 	regiment = {
 		name= "Regiment nr1"
@@ -879,7 +862,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Burma"
+	name = "United Kingdom Rangoon Army"
 	location = 1330
 	regiment = {
 		name= "Regiment nr1"
@@ -918,7 +901,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Far East"
+	name = "United Kingdom Singapore Army"
 	location = 1384
 	regiment = {
 		name= "Regiment nr1"
@@ -952,7 +935,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Sudan"
+	name = "United Kingdom Khartoum Army"
 	location = 1827
 	regiment = {
 		name= "Regiment nr1"
@@ -991,7 +974,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Italy"
+	name = "United Kingdom Trieste Army"
 	location = 736
 	regiment = {
 		name= "Regiment nr1"
@@ -1035,7 +1018,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Germany (Hamburg)"
+	name = "United Kingdom Hamburg Army"
 	location = 528
 	regiment = {
 		name= "Regiment nr1"
@@ -1069,7 +1052,7 @@ army = {
 	}
 }
 army = {
-	name = "BEF Germany (Hanover)"
+	name = "United Kingdom Hanover Army"
 	location = 534
 	regiment = {
 		name= "Regiment nr1"
@@ -1095,40 +1078,6 @@ army = {
 		name= "Regiment nr1"
 		type = artillery
 		home = 300
-	}
-}
-army = {
-	name = "BEF Palestine"
-	location = 919
-	regiment = {
-		name= "1st Infantry Regiment"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "2nd Infantry Regiment"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "3rd Infantry Regiment"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "4th Infantry Regiment"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "5th Infantry Regiment"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "5th Infantry Regiment"
-		type = infantry
-		home = 919
 	}
 }
 navy = {

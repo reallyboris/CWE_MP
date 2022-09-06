@@ -3,127 +3,67 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 23881
-	 } 
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 1257
+		size = 25138
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 95527
+		size = 100555
 	 } 
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 5028
-	 }
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 111758
+		size = 117640
 	 } 
-	aristocrats = {
-		culture = arab
+	bureaucrats = {
+		culture = egyptian
 		religion =  sunni 
 		size = 5882
 	 } 
-	bureaucrats = {
-		culture = egyptian
-		religion =  sunni 
-		size = 5588
-	 } 
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 294
-	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 13970
-	 } 
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 735
+		size = 14705
 	 } 
 	clergymen = {
 		culture = egyptian
-		religion =  sunni 
-		size = 27940
-	 } 
-	clergymen = {
-		culture = arab
 		religion =  sunni 
 		size = 29410
-	 }
+	 } 
 	clerks = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1471
+		size = 46194
 	 } 
 	artisans = {
 		culture = egyptian
 		religion =  sunni 
-		size = 41690
-	 } 
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 2194
+		size = 43884
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 133846
-	 } 
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 7045
+		size = 140891
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 888751
-	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 46776
+		size = 935527
 	 } 
 	farmers = {
 		culture = egyptian
 		religion = secularism
-		size = 888751
+		size = 935527
 	 } 
-	farmers = {
-		culture = arab
-		religion = secularism
-		size = 46776
-	 }
 	farmers = {
 		culture = egyptian
 		religion =  orthodox 
-		size = 562880
-	 } 
-	farmers = {
-		culture = arab
-		religion =  orthodox 
-		size = 29645
+		size = 592905
 	 } 
 	farmers = {
 		culture = egyptian
 		religion = secularism
-		size = 23469
-	 } 
-	farmers = {
-		culture = arab
-		religion = secularism
-		size = 1235
+		size = 24704
 	 } 
 }
 #Dumyat - Damietta , Kafr el-Sheikh (2605000/651250 POPS)
@@ -131,102 +71,52 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 5288
-	 }	
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 278
+		size = 5566
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 21153
-	 } 
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 1113
+		size = 22266
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 24748
-	 }	
-	aristocrats = {
-		culture = arab
+		size = 26050
+	 } 
+	bureaucrats = {
+		culture = egyptian
 		religion =  sunni 
 		size = 1302
-	 }
-	bureaucrats = {
-		culture = egyptian
-		religion =  sunni 
-		size = 1237
-	 } 	
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 65
 	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 3093
-	 } 
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 163
+		size = 3256
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 6186
-	 } 
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 326
+		size = 6512
 	 } 
 	clerks = {
 		culture = egyptian
 		religion =  sunni 
-		size = 9718
+		size = 10229
 	 } 
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 511
-	 }
 	artisans = {
 		culture = egyptian
 		religion =  sunni 
-		size = 9231
-	 } 
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 486
+		size = 9717
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 29639
+		size = 31199
 	 } 
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1560
-	 }
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 508395
-	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 26758
+		size = 535153
 	 } 
 }
 #Tanta - Gharbia (2811000/702750 POPS)
@@ -234,122 +124,62 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 5706
-	 } 
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 300
+		size = 6006
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 23026
-	 }	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 1201
+		size = 24027
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 26704
-	 } 
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 1406
+		size = 28110
 	 } 
 	bureaucrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1335
-	 } 
-	bureaucrats = {
-		culture = egyptian
-		religion =  sunni 
-		size = 70
+		size = 1405
 	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 3337
-	 } 
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 176
+		size = 3513
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 6676
-	 } 
-	clergymen = {
-		culture = egyptian
-		religion =  sunni 
-		size = 351
+		size = 7027
 	 } 
 	clerks = {
+		culture = egyptian
+		religion =  sunni 
+		size = 11038
+	 } 
+	artisans = {
 		culture = egyptian
 		religion =  sunni 
 		size = 10486
 	 } 
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 552
-	 }
-	artisans = {
-		culture = egyptian
-		religion =  sunni 
-		size = 9962
-	 } 
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 524
-	 }
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 31982
-	 } 
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1683
+		size = 33665
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 348315
-	 }
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 18332
-	 }	 
+		size = 366647
+	 } 
 	farmers = {
 		culture = egyptian
 		religion =  orthodox 
-		size = 192272
-	 } 
-	farmers = {
-		culture = arab
-		religion =  orthodox 
-		size = 10120
+		size = 202392
 	 } 
 	farmers = {
 		culture = egyptian
 		religion = secularism
-		size = 8011
-	 } 
-	farmers = {
-		culture = egyptian
-		religion = secularism
-		size = 422
+		size = 8433
 	 } 
 }
 #Mansura - Dakahlia (3896000/974000 POPS)
@@ -357,308 +187,158 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 7909
+		size = 8325
 	 } 
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 416
-	 }
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 31636
+		size = 33301
 	 } 
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 1665
-	 }
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 37012
-	 } 	 
-	aristocrats = {
-		culture = arab
+		size = 38960
+	 } 
+	bureaucrats = {
+		culture = egyptian
 		religion =  sunni 
 		size = 1948
 	 } 
-	bureaucrats = {
-		culture = egyptian
-		religion =  sunni 
-		size = 1851
-	 } 
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 97
-	 }
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 4626
-	 } 
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 244
+		size = 4870
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 9253
+		size = 9740
 	 } 
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 487
-	 }
 	clerks = {
+		culture = egyptian
+		religion =  sunni 
+		size = 15298
+	 } 
+	artisans = {
 		culture = egyptian
 		religion =  sunni 
 		size = 14533
 	 } 
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 765
-	 } 
-	artisans = {
-		culture = egyptian
-		religion =  sunni 
-		size = 13806
-	 } 
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 727
-	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 44327
-	 } 
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 2333
+		size = 46660
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 760347
+		size = 800365
 	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 40018
-	 }
 }
 #Ziqaziq - Ziqaziq (4212000/1053000 POPS)
 1749 = {
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 8550
-	 } 
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 450
+		size = 9000
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 34203
+		size = 36003
 	 } 
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 1800
-	 }
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 40014
+		size = 42120
 	 } 
-	aristocrats = {
-		culture = arab
+	bureaucrats = {
+		culture = egyptian
 		religion =  sunni 
 		size = 2106
 	 } 
-	bureaucrats = {
-		culture = egyptian
-		religion =  sunni 
-		size = 2001
-	 } 	
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 105
-	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 5002
-	 }	
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 263
+		size = 5265
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 10003
-	 } 	
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 527
+		size = 10530
 	 } 
 	clerks = {
+		culture = egyptian
+		religion =  sunni 
+		size = 16539
+	 } 
+	artisans = {
 		culture = egyptian
 		religion =  sunni 
 		size = 15712
-	 } 	 
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 827
-	 } 
-	artisans = {
-		culture = egyptian
-		religion =  sunni 
-		size = 14926
-	 } 	
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 786
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 47923
-	 } 
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 2522
+		size = 50445
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 821656
+		size = 865280
 	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 43624
-	 }
 }
 #Giza - Giza (4011000/1002750 POPS)
 1750 = {
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 8412
-	 } 
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 429
+		size = 8571
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 32570
-	 } 	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 1714
+		size = 34284
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 38104
-	 } 	
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 2006
+		size = 40110
 	 } 
 	bureaucrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1995
-	 } 	
-	 bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 100
+		size = 2005
 	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 4762
-	 }	
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 251
+		size = 5013
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 9526
-	 } 	
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 501
+		size = 10027
 	 } 
 	clerks = {
+		culture = egyptian
+		religion =  sunni 
+		size = 15750
+	 } 
+	artisans = {
 		culture = egyptian
 		religion =  sunni 
 		size = 14962
 	 } 
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 788
-	 } 
-	artisans = {
-		culture = egyptian
-		religion =  sunni 
-		size = 14214
-	 } 
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 748
-	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 45635
-	 } 	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 2402
+		size = 48037
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 782791
-	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 41200
+		size = 823991
 	 } 
 }
 #Alexandria - Alexandria, Beheira (7594000/1898500 POPS)
@@ -666,155 +346,80 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 15416
-	 } 
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 811
+		size = 16227
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 61665
-	 } 	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 3246
+		size = 64911
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 72143
+		size = 75940
 	 } 
-	aristocrats = {
-		culture = arab
+	bureaucrats = {
+		culture = egyptian
 		religion =  sunni 
 		size = 3797
 	 } 
-	bureaucrats = {
-		culture = egyptian
-		religion =  sunni 
-		size = 3607
-	 } 
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 490
-	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 9017
-	 } 	
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 475
+		size = 9492
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 18036
-	 } 	
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 949
+		size = 18985
 	 } 
 	clerks = {
+		culture = egyptian
+		religion =  sunni 
+		size = 29819
+	 } 
+	artisans = {
 		culture = egyptian
 		religion =  sunni 
 		size = 28328
 	 } 
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 1491
-	 }
-	artisans = {
-		culture = egyptian
-		religion =  sunni 
-		size = 26912
-	 } 
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 1416
-	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 86042
-	 } 
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 4547
+		size = 90949
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 770666
+		size = 811227
 	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 40561
-	 }
 	farmers = {
 		culture = egyptian
 		religion = secularism
-		size = 770666
-	 }
-	farmers = {
-		culture = arab
-		religion =  secularism 
-		size = 40561
-	 }	 
+		size = 811227
+	 } 
 }
 #Matruh - Matruh (202000/50500 POPS)
 1752 = {
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1640
-	 } 
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 86
+		size = 1726
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1919
-	 } 
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 101
+		size = 2020
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 2298
-	 } 
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 121
+		size = 2419
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 39425
-	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 2075
+		size = 41500
 	 } 
 }
 #Sidi Barrani - Sidi Barrani (272000/68000 POPS)
@@ -822,75 +427,40 @@
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 2098
-	 } 
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 110
+		size = 2324
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 2584
-	 } 
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 136
+		size = 2720
 	 } 
 	clerks = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1015
+		size = 1068
 	 } 
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 53
-	 }
 	artisans = {
 		culture = egyptian
 		religion =  sunni 
-		size = 963
-	 } 
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 51
+		size = 1014
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 3122
-	 } 	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 163
+		size = 3258
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 53085
+		size = 55879
 	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 2794
-	 }
 }
 #Siwa - Siwa (35000/8750 POPS)
 1754 = {
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 6834
-	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 360
+		size = 7194
 	 } 
 }
 #Suez Canal - Ismailia, Port Said (1108000/277000 POPS)
@@ -898,92 +468,47 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 2249
-	 } 	
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 118
+		size = 2367
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 8996
+		size = 9470
 	 } 
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 474
-	 }
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 10526
-	 } 
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 554
+		size = 11080
 	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1316
-	 }	
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 69
+		size = 1385
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 2631
-	 }	
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 139
+		size = 2770
 	 } 
 	clerks = {
+		culture = egyptian
+		religion =  sunni 
+		size = 4351
+	 } 
+	artisans = {
 		culture = egyptian
 		religion =  sunni 
 		size = 4133
-	 } 	
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 218
-	 } 
-	artisans = {
-		culture = egyptian
-		religion =  sunni 
-		size = 3926
-	 }	
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 207
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 12606
-	 }	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 664
+		size = 13270
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 216239
-	 }	
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 11381
+		size = 227620
 	 } 
 }
 #Al Arish - North Sinai (276000/69000 POPS)
@@ -991,95 +516,50 @@
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 2241
-	 } 	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 118
+		size = 2359
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 2622
+		size = 2760
 	 } 
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 138
-	 }
 	clerks = {
+		culture = egyptian
+		religion =  sunni 
+		size = 1083
+	 } 
+	artisans = {
 		culture = egyptian
 		religion =  sunni 
 		size = 1029
 	 } 
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 54
-	 } 
-	artisans = {
-		culture = egyptian
-		religion =  sunni 
-		size = 978
-	 } 
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 51
-	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 3140
-	 } 	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 165
+		size = 3305
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 53867
+		size = 56702
 	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 2835
-	 }
 }
 #Sharm al Shaykh - South Sinai (111000/27750 POPS)
 1757 = {
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1054
-	 } 
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 56
+		size = 1110
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1263
+		size = 1329
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 21666
-	 } 	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 66
-	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 1140
+		size = 22806
 	 } 
 }
 #Farafra - New Valley (75000/18750 POPS)
@@ -1087,12 +567,7 @@
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 14640
-	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 772
+		size = 15412
 	 } 
 }
 #Bawiti - Bawiti (35000/8750 POPS)
@@ -1100,12 +575,7 @@
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 6834
-	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 360
+		size = 7194
 	 } 
 }
 #Mut - Mut (35000/8750 POPS)
@@ -1115,11 +585,6 @@
 		religion =  sunni 
 		size = 7194
 	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 360
-	 }
 }
 #Baris - Baris (35000/8750 POPS)
 1761 = {
@@ -1128,143 +593,73 @@
 		religion =  sunni 
 		size = 7194
 	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 360
-	 } 
 }
 #Asyut - Asyut (2725000/681250 POPS)
 1762 = {
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 5532
-	 } 	
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 291
+		size = 5823
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 22127
-	 } 	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 1165
+		size = 23292
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 25887
-	 }	
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 1363
+		size = 27250
 	 } 
 	bureaucrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1294
-	 } 	
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 68
+		size = 1362
 	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 3236
-	 }	
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 170
+		size = 3406
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 6471
-	 } 
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 341
+		size = 6812
 	 } 
 	clerks = {
+		culture = egyptian
+		religion =  sunni 
+		size = 10700
+	 } 
+	artisans = {
 		culture = egyptian
 		religion =  sunni 
 		size = 10165
 	 } 
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 535
-	 } 
-	artisans = {
-		culture = egyptian
-		religion =  sunni 
-		size = 9657
-	 } 
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 508
-	 }
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 31004
+		size = 32636
 	 } 
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1632
-	 }
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 240579
-	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 12662
+		size = 253241
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  orthodox 
-		size = 155324
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  orthodox 
-		size = 8175
+		size = 163499
 	 } 
 	farmers = {
 		culture = egyptian
 		religion = secularism
-		size = 6171
-	 } 	
-	farmers = {
-		culture = arab
-		religion = secularism
-		size = 341
+		size = 6812
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  shiite 
-		size = 129437
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  shiite 
-		size = 6813
+		size = 136250
 	 } 
 }
 #Bani Suwayf - Bani Suwayf (1605000/401250 POPS)
@@ -1272,92 +667,47 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 3285
-	 }
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 171
+		size = 3429
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 13033
-	 } 	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 686
+		size = 13719
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 15248
-	 }	
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 503
+		size = 16050
 	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1906
-	 } 	
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 100
+		size = 2006
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 3811
-	 }	
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 201
+		size = 4012
 	 } 
 	clerks = {
 		culture = egyptian
 		religion =  sunni 
-		size = 5897
-	 } 	
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 315
+		size = 6302
 	 } 
 	artisans = {
 		culture = egyptian
 		religion =  sunni 
-		size = 5688
-	 } 	
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 299
+		size = 5987
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 18261
-	 } 	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 961
+		size = 19222
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 313235
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 16486
+		size = 329721
 	 } 
 }
 #Minya - Minya (2919000/729750 POPS)
@@ -1365,102 +715,52 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 5925
-	 }	
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 312
+		size = 6237
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 23703
-	 } 	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 1247
+		size = 24950
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 27730
-	 } 
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 1460
+		size = 29190
 	 } 
 	bureaucrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1386
-	 } 	
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 73
+		size = 1459
 	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1646
-	 }	
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 182
+		size = 3648
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 6932
-	 } 	
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 365
+		size = 7297
 	 } 
 	clerks = {
 		culture = egyptian
 		religion =  sunni 
-		size = 10889
-	 } 		 
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 573
+		size = 11462
 	 } 
 	artisans = {
 		culture = egyptian
 		religion =  sunni 
-		size = 10344
-	 } 	
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 544
+		size = 10888
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 33211
-	 } 	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1748
+		size = 34959
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 569677
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 29983
+		size = 599660
 	 } 
 }
 #Fayyum - Fayyum (1759000/439750 POPS)
@@ -1468,112 +768,57 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 3570
-	 } 	
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 188
+		size = 3758
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 14823
-	 }	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 752
+		size = 15035
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 16710
-	 } 	
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 880
+		size = 17590
 	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 2088
-	 } 	
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 110
+		size = 2198
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 4177
-	 } 	
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 220
+		size = 4397
 	 } 
 	clerks = {
 		culture = egyptian
 		religion =  sunni 
-		size = 6562
-	 } 	
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 345
+		size = 6907
 	 } 
 	artisans = {
 		culture = egyptian
 		religion =  sunni 
-		size = 6233
-	 }	
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 328
+		size = 6561
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 20013
-	 }	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1053
+		size = 21066
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 226318
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 11911
+		size = 238229
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  orthodox 
-		size = 112294
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  orthodox 
-		size = 5910
+		size = 118204
 	 } 
 	farmers = {
 		culture = egyptian
 		religion = secularism
-		size = 4679
-	 } 	
-	farmers = {
-		culture = arab
-		religion = secularism
-		size = 246
+		size = 4925
 	 } 
 }
 #Aswan - Aswan (927000/231750 POPS)
@@ -1581,122 +826,62 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1881
-	 } 	
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 99
+		size = 1980
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 7527
-	 } 	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 396
+		size = 7923
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 8806
-	 } 	
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 464
+		size = 9270
 	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1100
-	 }	
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 58
+		size = 1158
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 2201
-	 } 	
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 116
+		size = 2317
 	 } 
 	clerks = {
+		culture = egyptian
+		religion =  sunni 
+		size = 3640
+	 } 
+	artisans = {
 		culture = egyptian
 		religion =  sunni 
 		size = 3458
-	 } 	
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 182
-	 } 
-	artisans = {
-		culture = egyptian
-		religion =  sunni 
-		size = 3285
-	 } 	
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 173
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 10547
-	 } 	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 555
+		size = 11102
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 62029
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 3265
+		size = 65294
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  orthodox 
-		size = 42271
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  orthodox 
-		size = 2225
+		size = 44496
 	 } 
 	farmers = {
 		culture = egyptian
 		religion = secularism
-		size = 1761
-	 } 	
-	farmers = {
-		culture = arab
-		religion = secularism
-		size = 93
+		size = 1854
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  shiite 
-		size = 74855
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  shiite 
-		size = 3940
+		size = 78795
 	 } 
 }
 #Luxor - Luxor (745000/186250 POPS)
@@ -1704,102 +889,52 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1512
-	 } 	
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 80
+		size = 1592
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
 		size = 6368
-	 } 	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 318
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 7077
-	 } 	
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 373
+		size = 7450
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 1769
-	 } 	
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 93
+		size = 1862
 	 } 
 	clerks = {
+		culture = egyptian
+		religion =  sunni 
+		size = 2925
+	 } 
+	artisans = {
 		culture = egyptian
 		religion =  sunni 
 		size = 2779
-	 } 	
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 146
-	 } 
-	artisans = {
-		culture = egyptian
-		religion =  sunni 
-		size = 2640
-	 } 	
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 139
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 8476
-	 } 	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 446
+		size = 8922
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 101162
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 5324
+		size = 106486
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  orthodox 
-		size = 42464
-	 }	
-	farmers = {
-		culture = arab
-		religion =  orthodox 
-		size = 2235
+		size = 44699
 	 } 
 	farmers = {
 		culture = egyptian
 		religion = secularism
-		size = 1769
-	 } 	
-	farmers = {
-		culture = arab
-		religion = secularism
-		size = 93
+		size = 1862
 	 } 
 }
 #Idfu - Idfu (35000/8750 POPS)
@@ -1807,12 +942,7 @@
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 6834
-	 }	
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 360
+		size = 7194
 	 } 
 }
 #Qina - Qina (1963000/490750 POPS)
@@ -1820,102 +950,52 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 3984
-	 } 	 
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 210
+		size = 4194
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 15940
-	 } 	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 839
+		size = 16779
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 18648
-	 }	
-	aristocrats = {
-		culture = arab
-		religion =  sunni 
-		size = 982
+		size = 19630
 	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 2330
-	 }	
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 123
+		size = 2453
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 4662
-	 } 	
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 245
+		size = 4907
 	 } 
 	clerks = {
 		culture = egyptian
 		religion =  sunni 
-		size = 7323
-	 }	
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 385
+		size = 7708
 	 } 
 	artisans = {
 		culture = egyptian
 		religion =  sunni 
-		size = 6956
-	 } 	
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 366
+		size = 7322
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 22334
-	 }	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1176
+		size = 23510
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 196618
-	 }	
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 10348
+		size = 206966
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  shiite 
-		size = 186485
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  shiite 
-		size = 9815
+		size = 196300
 	 } 
 }
 #Qusayr - Red Sea (84000/21000 POPS)
@@ -1923,22 +1003,12 @@
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 955
+		size = 1005
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 16396
-	 }	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 50
-	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 863
+		size = 17259
 	 } 
 }
 #Marsa Alam - Marsa Alam (35000/8750 POPS)
@@ -1946,12 +1016,7 @@
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 6834
-	 }	
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 360
+		size = 7194
 	 } 
 }
 #Ras Gharib - Ras Gharib (35000/8750 POPS)
@@ -1959,32 +1024,17 @@
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 2172
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 212
+		size = 5444
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  orthodox 
-		size = 1596
-	 }	
-	farmers = {
-		culture = arab
-		religion =  orthodox 
-		size = 84
+		size = 1680
 	 } 
 	farmers = {
 		culture = egyptian
 		religion = secularism
-		size = 66
-	 } 	
-	farmers = {
-		culture = arab
-		religion = secularism
-		size = 4
+		size = 70
 	 } 
 }
 #Halaib - Halaib (35000/8750 POPS)
@@ -1992,12 +1042,7 @@
 	farmers = {
 		culture = beja
 		religion =  sunni 
-		size = 6650
-	 } 
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 350
+		size = 7000
 	 } 
 }
 #Suhaj - Suhaj (2951000/737750 POPS)
@@ -2005,101 +1050,51 @@
 	officers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 5991
-	 } 	
-	officers = {
-		culture = arab
-		religion =  sunni 
-		size = 315
+		size = 6306
 	 } 
 	soldiers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 29363
-	 } 	
-	soldiers = {
-		culture = arab
-		religion =  sunni 
-		size = 1261
+		size = 25224
 	 } 
 	aristocrats = {
 		culture = egyptian
 		religion =  sunni 
-		size = 28034
-	 } 	
-	aristocrats = {
-		culture = arab
+		size = 29510
+	 } 
+	bureaucrats = {
+		culture = egyptian
 		religion =  sunni 
 		size = 1475
 	 } 
-	bureaucrats = {
-		culture = egyptian
-		religion =  sunni 
-		size = 1402
-	 } 	
-	bureaucrats = {
-		culture = arab
-		religion =  sunni 
-		size = 73
-	 } 
 	capitalists = {
 		culture = egyptian
 		religion =  sunni 
-		size = 3504
-	 } 	
-	capitalists = {
-		culture = arab
-		religion =  sunni 
-		size = 184
+		size = 3688
 	 } 
 	clergymen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 7009
-	 } 	
-	clergymen = {
-		culture = arab
-		religion =  sunni 
-		size = 368
+		size = 7377
 	 } 
 	clerks = {
+		culture = egyptian
+		religion =  sunni 
+		size = 11587
+	 } 
+	artisans = {
 		culture = egyptian
 		religion =  sunni 
 		size = 11008
-	 } 	
-	clerks = {
-		culture = arab
-		religion =  sunni 
-		size = 579
-	 } 
-	artisans = {
-		culture = egyptian
-		religion =  sunni 
-		size = 10458
-	 } 	
-	artisans = {
-		culture = arab
-		religion =  sunni 
-		size = 550
 	 } 
 	craftsmen = {
 		culture = egyptian
 		religion =  sunni 
-		size = 33575
-	 } 	
-	craftsmen = {
-		culture = arab
-		religion =  sunni 
-		size = 1767
+		size = 35342
 	 } 
 	farmers = {
 		culture = egyptian
 		religion =  sunni 
-		size = 575922
-	 } 	
-	farmers = {
-		culture = arab
-		religion =  sunni 
-		size = 30311
+		size = 606233
 	 } 
 }

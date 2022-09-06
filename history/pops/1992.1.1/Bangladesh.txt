@@ -623,12 +623,12 @@
 		size = 77134
 	 } 
 	farmers = {
-		culture = bengali
+		culture = asian_minor
 		religion =  protestant 
 		size = 125356
 	 } 
 	farmers = {
-		culture = bengali
+		culture = asian_minor
 		religion = secularism
 		size = 17094
 	 } 

@@ -1,9 +1,3 @@
-HAW = {
-	level = 5
-	value = 200
-	influence_value = 100
-	military_access = yes
-}
 ENG = {
 	value = 200
 }
@@ -50,12 +44,6 @@ XPI = {
 	military_access = yes
 }
 SWE = {
-	level = 5
-	value = 200
-	influence_value = 100
-	military_access = yes
-}
-FIN = {
 	level = 5
 	value = 200
 	influence_value = 100
@@ -290,9 +278,9 @@ LUX = {
 	military_access = yes
 }
 NOR = {
-	level = 4
+	level = 5
 	value = 200
-	influence_value = 50
+	influence_value = 100
 	military_access = yes
 }
 GRE = {
@@ -328,46 +316,51 @@ LEB = {
 
 leader = {
         name = "George Marshall"
-        date = 1945.12.31
+        date = 1945.1.1
         type = land
-        personality = fearsome
-        background = intellectual
+        personality = lackluster
+        background = school_of_the_bayonet
+        picture = marshall
         prestige = 0.2
 }
 
 leader = {
         name = "Dwight D. Eisenhower"
-        date = 1945.12.31
+        date = 1945.1.1
         type = land
-        personality = heroic
-        background = natural_born_leader
+        personality = audacious
+        background = cursed_luck
+        picture = dwight
         prestige = 0.5
 }
 
 leader = {
         name = "Douglas MacArthur"
-        date = 1945.12.31
+        date = 1945.1.1
         type = land
-        personality = imperious
-        background = brilliant_strategist
+        personality = audacious
+        background = school_of_the_bayonet
+        picture = douglas
         prestige = 0.2
 }
 
 leader = {
         name = "Omar Bradley"
-        date = 1945.12.31
+        date = 1945.1.1
         type = land
         personality = gallant
         background = school_of_the_bayonet
+        picture = omar
         prestige = 0.2
 }
 
 leader = {
         name = "Mark W. Clark"
-        date = 1945.12.31
+        date = 1945.1.1
         type = land
         personality = lackluster
         background = hated
+        picture = mark
         prestige = 0.2
 }
 

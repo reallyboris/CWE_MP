@@ -36,10 +36,6 @@ political_decisions = {
 			}
 			
 			NEP = { money = 200000 }
-			
-			#Libya
-			ENG = { set_country_flag = king_idris_of_libya }
-			FRA = { set_country_flag = FRA_indepedent_libya_agree_flag }
 
 			#RUS has developed the atomic bomb
 			RUS = { 
@@ -154,29 +150,11 @@ political_decisions = {
 			#South Tyrol
 			ITA = { 
 				set_country_flag = austrian_tyrol_autonomy 
-				set_country_flag = ITA_Piano_Fanfani
-				set_country_flag = parliamentary_system_republic
-				set_country_flag = ITA_1948_republic_flag
-				set_country_flag = 1948_ITA_Centrism
 				any_owned = { 
 					limit = { is_core = AUS } 
 					add_province_modifier = { name = devolved_local_government duration = -1 }
 				}
 			}
-			
-			#Bolivia
-			BOL = { set_country_flag = sexenio }
-			
-			#Romania
-			ROM = { set_country_flag = gheorghiu_dej_romania }
-			
-			#China cores
-			CHI_1552 = { add_core = MCK }
-			RUS_2589 = { add_core = MCK }
-			CHI_1479 = { add_core = MCK }
-			RUS_1072 = { add_core = MCK }
-			1533 = { add_core = IMN }
-			1002 = { add_core = IMN }
 
 		}
 		

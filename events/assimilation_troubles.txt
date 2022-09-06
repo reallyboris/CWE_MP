@@ -161,6 +161,7 @@ province_event = {
 			factor = 0.9
 			owner = {
 				citizenship_policy = full_citizenship
+				gender_rights = gender_equal
 			}
 		}
 		modifier = {
@@ -289,7 +290,7 @@ province_event = {
 		owner = {
 			civilized = yes
 			citizenship_policy = residency
-			civil_service = elitist_service
+			internet_infrastructure = open_unregulated
 		}
 		or = {
 			full_citizenship = 10

@@ -799,17 +799,12 @@
 	clergymen = {
 		culture = bulgarian
 		religion =  orthodox 
-		size = 1396
+		size = 1596
 	 } 
 	clergymen = {
 		culture = bulgarian
 		religion = secularism
-		size = 2004
-	 } 
-	clergymen = {
-		culture = bulgarian
-		religion =  sunni
-		size = 596
+		size = 2204
 	 } 
 	clerks = {
 		culture = bulgarian
@@ -839,27 +834,17 @@
 	craftsmen = {
 		culture = bulgarian
 		religion = secularism
-		size = 12000
-	 } 
-	craftsmen = {
-		culture = bulgarian
-		religion = sunni
-		size = 5654
+		size = 17654
 	 } 
 	farmers = {
 		culture = bulgarian
 		religion =  orthodox 
-		size = 80042
+		size = 90042
 	 } 
 	farmers = {
 		culture = bulgarian
 		religion = secularism
-		size = 60000
-	 } 
-	farmers = {
-		culture = bulgarian
-		religion = secularism
-		size = 84345
+		size = 124345
 	 } 
 	farmers = {
 		culture = turkish
@@ -962,17 +947,12 @@
 	farmers = {
 		culture = bulgarian
 		religion =  orthodox 
-		size = 60844
+		size = 63844
 	 } 
 	farmers = {
 		culture = bulgarian
 		religion = secularism
-		size = 76165
-	 } 
-	farmers = {
-		culture = bulgarian
-		religion = sunni
-		size = 15000
+		size = 88165
 	 } 
 	farmers = {
 		culture = roma
@@ -1085,17 +1065,12 @@
 	farmers = {
 		culture = bulgarian
 		religion =  orthodox 
-		size = 42237
+		size = 46237
 	 } 
 	farmers = {
 		culture = bulgarian
 		religion = secularism
-		size = 60852
-	 } 
-	farmers = {
-		culture = bulgarian
-		religion = secularism
-		size = 7000
+		size = 63852
 	 } 
 	farmers = {
 		culture = turkish

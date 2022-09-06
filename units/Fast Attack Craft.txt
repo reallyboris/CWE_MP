@@ -8,7 +8,7 @@ patrolboat = {
 	unit_type = light_ship
 	floating_flag = yes
 	colonial_points = 0
-	active = no
+	active = yes
 
 	move_sound = steam_move
 	select_sound = steam_selected
@@ -28,23 +28,22 @@ patrolboat = {
 		ships = 1
 		weaponry = 0.5
 		fuel = 0.25
-		canned_food = 0.2
-		ammunition = 0.2
 	}
-	min_port_level = 1
-	
+	min_port_level = 0
+	limit_per_port = -1
+	supply_consumption_score = 1
+
 	supply_consumption = 1.0
 	supply_cost = {
-		ammunition = 0.4
+		ammunition = 0.15
 		fuel = 0.5
-		canned_food = 0.3
-		ships = 0.5
+		canned_food = 0.1
 	}
 	
 	#Naval Abilties
 	hull = 2.5
 	gun_power = 2
-	fire_range = 0.08
+	fire_range = 0.15
 	evasion = 0.75
 }
 

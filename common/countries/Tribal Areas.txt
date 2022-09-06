@@ -1,18 +1,7 @@
 graphical_culture = IndianGC
 color = { 248 248 255 }
 party = {
-		name = "Khudai Khidmatgar"
-		citizenship_policy = full_citizenship
-		economic_policy = state_capitalism
-		ideology = nationalist
-		religious_policy = secularized
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1836.1.1
-		end_date = 2092.1.1
-}
-party = {
-		name = "Muttahida Majlis-e-Amal"
+		name = "party_conservative_0_AZK"
 		citizenship_policy = limited_citizenship
 		economic_policy = interventionism
 		ideology = conservative
@@ -23,18 +12,7 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "Khudai Khidmatgar"
-		citizenship_policy = full_citizenship
-		economic_policy = interventionism
-		ideology = big_tent
-		religious_policy = secularized
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1836.1.1
-		end_date = 2092.1.1
-}
-party = {
-		name = "Pashtun People's Party" #Based off moderates in the Pakistan People's Party
+		name = "party_liberal_0_AZK"
 		citizenship_policy = full_citizenship
 		economic_policy = laissez_faire
 		ideology = liberal
@@ -45,8 +23,8 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "Awami National Party"
-		citizenship_policy = full_citizenship
+		name = "party_socialist_0_AZK"
+		citizenship_policy = limited_citizenship
 		economic_policy = state_capitalism
 		ideology = socialist
 		religious_policy = pro_atheism
@@ -56,7 +34,7 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "Qaumi Watan Party"
+		name = "party_progressive_0_AZK"
 		citizenship_policy = full_citizenship
 		economic_policy = interventionism
 		ideology = progressive
@@ -67,18 +45,18 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "Khudai Khidmatgar" 
-		citizenship_policy = full_citizenship
+		name = "party_populist_0_AZK"
+		citizenship_policy = residency
 		economic_policy = state_capitalism
 		ideology = populist
-		religious_policy = moralism
+		religious_policy = secularized
 		trade_policy = protectionism
 		war_policy = jingoism
 		start_date = 1836.1.1
 		end_date = 2092.1.1
 }
 party = {
-		name = "Tribal Administration"
+		name = "party_traditionalist_0_AZK"
 		citizenship_policy = residency
 		economic_policy = state_capitalism
 		ideology = traditionalist
@@ -86,38 +64,27 @@ party = {
 		trade_policy = protectionism
 		war_policy = pro_military
 		start_date = 1836.1.1
-		end_date = 1980.1.1
-}
-party = {
-		name = "Jamiat Ulema-e-Islam"
-		citizenship_policy = residency
-		economic_policy = state_capitalism
-		ideology = traditionalist
-		religious_policy = moralism
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1980.1.1
 		end_date = 2092.1.1
 }
 party = {
-		name = "Pashtunkhwa Milli Awami Party"
+		name = "party_communist_0_AZK"
 		citizenship_policy = full_citizenship
 		economic_policy = planned_economy
 		ideology = communist
 		religious_policy = pro_atheism
 		trade_policy = protectionism
-		war_policy = pro_military
+		war_policy = pacifism
 		start_date = 1836.1.1
 		end_date = 2092.1.1
 }
 party = {
-		name = "Awami National Party (Left)"
+		name = "party_communist_social"
 		citizenship_policy = full_citizenship
-		economic_policy = planned_economy1
+		economic_policy = state_capitalism
 		ideology = communist_social
 		religious_policy = pro_atheism
 		trade_policy = protectionism
-		war_policy = pacifism
+		war_policy = pro_military
 		start_date = 1836.1.1
 		end_date = 2092.1.1
 }
@@ -148,4 +115,5 @@ unit_names = {
 	submarine = {
 		Alia Aurangabad Devki Fatimah Godvari Gulbargah Jalsena "Kala Jahazi" Khan "Lal Jahazi" Nausena "Nav ka Yudh" Niknaz "Nila Jahazi" Niloufa Sagar Salima Suhalia Shameena Yasmine
 	}
+
 }

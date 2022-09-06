@@ -16,4 +16,79 @@ army = {
 		type = cavalry
 		home = 849
 	}
+	regiment = {
+		name= "Regiment nr1"
+		type = irregular
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = irregular
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = irregular
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = irregular
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = irregular
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 849
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = cavalry
+		home = 849
+	}
 }

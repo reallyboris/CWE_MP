@@ -25,14 +25,13 @@ upper_house = {
 political_opinions = regulated_opinion
 minorities_reform = minorities_oppression
 immigration_policy = nobody_gets_out
-civil_service = elitist_service
 political_parties = parties_only_nominated
 lgbt_rights = lgbt_outlawed
 publishing_rights = censored_publishing
-union_rights = no_trade_unions
+gender_rights = gender_role_based
 voting_system = proportional_representation
 vote_franschise = registered_voting
-public_meetings = limited_meetings penal_system = capital_punishment
+public_meetings = limited_meetings
 # Social Reforms
 safety_regulations = some_regulations
 pensions = trinket_pensions
@@ -82,10 +81,10 @@ schools = army_tech_school
 	political_parties = parties_only_nominated
 	lgbt_rights = lgbt_outlawed
 	publishing_rights = censored_publishing
-	union_rights = no_trade_unions
+	gender_rights = gender_role_based
 	voting_system = proportional_representation
 	vote_franschise = registered_voting
-	public_meetings = limited_meetings penal_system = capital_punishment
+	public_meetings = limited_meetings
 	# Social Reforms
 	safety_regulations = some_regulations
 	pensions = trinket_pensions

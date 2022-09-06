@@ -8,11 +8,9 @@ bomber = {
 	unit_type = support
 	floating_flag = no
 	
-	primary_culture = yes
-	
 	#Core Abilities
 	priority = 25
-	max_strength = 3
+	max_strength = 4
 	default_organisation = 20
 	maximum_speed = 5.00
 	weighted_value = 4.0

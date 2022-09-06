@@ -689,7 +689,7 @@ guiTypes = {
 		}
 		
 		windowType = {
-			name = "civil_service"
+			name = "internet_infrastructure"
 			backGround =""
 			position = { x = 834 y = 258 }
 			size = { x=310 y=100 }
@@ -745,7 +745,7 @@ guiTypes = {
 		}
 		
 		windowType = {
-			name = "union_rights"
+			name = "gender_rights"
 			backGround =""
 			position = { x = 686 y = 358 }
 			size = { x=310 y=100 }
@@ -841,8 +841,8 @@ guiTypes = {
 			fullScreen = no
 			
 				iconType = {
-				name = "GFX_politics_conscription"
-				spriteType = "GFX_politics_conscription"
+				name = "politics_army_training"
+				spriteType = "GFX_politics_army_training"
 				position = { x= 11 y = 6 } #WAS { x= 7 y = 8 }
 				Orientation = "UPPER_LEFT"
 					}
@@ -912,34 +912,6 @@ guiTypes = {
 
 		}
 
-		windowType = {
-			name = "penal_system"
-			backGround =""
-			position = { x = 834 y = 528 }
-			size = { x=686 y= 100}
-			moveable = 0
-			dontRender = ""
-			horizontalBorder = "0"
-			verticalBorder = ""
-			fullScreen = no
-			
-			iconType = {
-				name = "politics_penal_system"
-			    spriteType = "GFX_politics_penal_system"
-				position = { x= 11 y = 6 } #WAS { x= 7 y = 8 }
-				Orientation = "UPPER_LEFT"
-			}
-			instantTextBoxType = { 
-				name = "reform_name"
-				position = { x = 40 y = 14 } #WAS { x = 40 y = 15 }
-				font = "vic_18"
-				text = "REFORM_NAME"	
-				maxWidth = 100
-				maxHeight = 20	
-			}
-
-		}
-
 
 			########################
 			### social
@@ -957,8 +929,8 @@ guiTypes = {
 			fullScreen = no
 			
 			iconType = {
-			 name = "politics_minwage"
-			 spriteType = "GFX_politics_minwage"
+			 name = "politics_unemplsub"
+			 spriteType = "GFX_politics_unemplsub"
 			 position = { x= 11 y = 6 } #WAS { x= 7 y = 8 }
 			 Orientation = "UPPER_LEFT"
 		 }
@@ -1042,7 +1014,7 @@ guiTypes = {
 			
 			iconType = {
 			 name = "politics_unemplsub"
-			 spriteType = "GFX_politics_unemplsub"
+			 spriteType = "GFX_politics_maxwork"
 			 position = { x= 11 y =6 } #WAS { x= 7 y = 11 }
 			 Orientation = "UPPER_LEFT"
 		 }
@@ -1181,8 +1153,8 @@ guiTypes = {
 			fullScreen = no
 			
 			iconType = {
-			 name = "politics_social_services"
-			 spriteType = "GFX_politics_social_services"
+			 name = "politics_healthcare"
+			 spriteType = "GFX_politics_tradeunions"
 			 position = { x= 10 y = 6 } #WAS { x= 7 y = 7 }
 			 Orientation = "UPPER_LEFT"
 		 }

@@ -224,7 +224,7 @@
 	soldiers = {
 		culture = dutch
 		religion = secularism
-		size = 2507
+		size = 42507
 	 } 
 	aristocrats = {
 		culture = dutch
@@ -314,7 +314,7 @@
 	farmers = {
 		culture = european
 		religion = secularism
-		size = 47502
+		size = 7502
 	 } 
 	farmers = {
 		culture = chinese

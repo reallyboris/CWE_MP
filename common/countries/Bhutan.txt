@@ -1,7 +1,7 @@
 graphical_culture = IndianGC
 color = { 255 99 49 }
 party = {
-		name = "Bhutan National Party"
+		name = "party_nationalist"
 		citizenship_policy = limited_citizenship
 		economic_policy = state_capitalism
 		ideology = nationalist
@@ -12,8 +12,8 @@ party = {
 		end_date = 2100.1.1
 }
 party = {
-		name = "Bhutan People's Unity Party"
-		citizenship_policy = limited_citizenship
+		name = "party_big_tent"
+		citizenship_policy = full_citizenship
 		economic_policy = interventionism
 		ideology = big_tent
 		religious_policy = secularized
@@ -22,63 +22,53 @@ party = {
 		start_date = 1836.1.1
 		end_date = 2100.1.1
 }
+
 party = {
-		name = "All People's Party"
+		name = "party_conservative_0_BHU"
 		citizenship_policy = limited_citizenship
 		economic_policy = interventionism
 		ideology = conservative
-		religious_policy = moralism
+		religious_policy = secularized
 		trade_policy = free_trade
 		war_policy = pro_military
 		start_date = 1836.1.1
-		end_date = 2007.7.25
-}
-party = {
-		name = "Druk Phuensum Tshogpa"
-		citizenship_policy = limited_citizenship
-		economic_policy = interventionism
-		ideology = conservative
-		religious_policy = moralism
-		trade_policy = free_trade
-		war_policy = pro_military
-		start_date = 2007.7.25
 		end_date = 2092.1.1
 }
 party = {
-		name = "People's Democratic Party"
-		citizenship_policy = limited_citizenship
+		name = "party_liberal_0_BHU"
+		citizenship_policy = full_citizenship
 		economic_policy = laissez_faire
 		ideology = liberal
-		religious_policy = moralism
+		religious_policy = secularized
 		trade_policy = free_trade
 		war_policy = pacifism
 		start_date = 1836.1.1
 		end_date = 2092.1.1
 }
 party = {
-		name = "Druk Nyamrup Tshogpa"
+		name = "party_socialist_0_BHU"
 		citizenship_policy = limited_citizenship
 		economic_policy = state_capitalism
 		ideology = socialist
-		religious_policy = secularized
+		religious_policy = pro_atheism
 		trade_policy = protectionism
 		war_policy = pro_military
 		start_date = 1836.1.1
 		end_date = 2092.1.1
 }
 party = {
-		name = "People's Democratic Party"
-		citizenship_policy = limited_citizenship
+		name = "party_progressive_0_BHU"
+		citizenship_policy = full_citizenship
 		economic_policy = interventionism
 		ideology = progressive
-		religious_policy = secularized
+		religious_policy = pro_atheism
 		trade_policy = protectionism
 		war_policy = pacifism
 		start_date = 1836.1.1
 		end_date = 2092.1.1
 }
 party = {
-		name = "Bhutan National Congress"
+		name = "party_populist_0_BHU"
 		citizenship_policy = residency
 		economic_policy = state_capitalism
 		ideology = populist
@@ -89,7 +79,7 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "Druk Gyalpo"
+		name = "party_traditionalist_0_BHU"
 		citizenship_policy = residency
 		economic_policy = state_capitalism
 		ideology = traditionalist
@@ -100,7 +90,7 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "Communist Party of Bhutan"
+		name = "party_communist_0_BHU"
 		citizenship_policy = full_citizenship
 		economic_policy = planned_economy
 		ideology = communist
@@ -111,9 +101,9 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "Bhutan Peoples' Party"
+		name = "party_communist_social"
 		citizenship_policy = full_citizenship
-		economic_policy = planned_economy1
+		economic_policy = state_capitalism
 		ideology = communist_social
 		religious_policy = pro_atheism
 		trade_policy = protectionism

@@ -36,7 +36,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 1745
+		size = 11745
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -61,7 +61,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 53450
+		size = 43450
 	 } 
 }
 #Gallipoli - Gallipoli (527000/131750 POPS)
@@ -106,7 +106,7 @@
 860 = {
 	capitalists = {
 		culture = jewish
-		religion =  jewish 
+		religion = jewish
 		size = 9084
 	 } 
 	capitalists = {
@@ -122,7 +122,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 53406
+		size = 103406
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -157,7 +157,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 1272070
+		size = 1172070
 	 } 
 	farmers = {
 		culture = kurdish
@@ -200,7 +200,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 6424
+		size = 36424
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -235,7 +235,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 196754
+		size = 166754
 	 } 
 }
 #Izmit - Izmit (770000/192500 POPS)
@@ -248,7 +248,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 4922
+		size = 24922
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -283,7 +283,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 150747
+		size = 130747
 	 } 
 }
 #Bursa - Bursa (1772000/443000 POPS)
@@ -296,7 +296,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 11328
+		size = 31328
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -336,7 +336,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 346907
+		size = 326907
 	 } 
 }
 #Balikesir - Balikesir (897000/224250 POPS)
@@ -349,7 +349,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 5734
+		size = 25734
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -384,7 +384,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 124033
+		size = 104033
 	 } 
 	farmers = {
 		culture = circassians
@@ -435,7 +435,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 4328
+		size = 24328
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -470,7 +470,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 132540
+		size = 112540
 	 } 
 }
 #Kutahya - Kutahya (547000/136750 POPS)
@@ -516,7 +516,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 3759
+		size = 13759
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -546,7 +546,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 115114
+		size = 105114
 	 } 
 }
 #Izmir - Izmir (3602000/900500 POPS)
@@ -559,7 +559,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 23027
+		size = 43027
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -599,7 +599,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 678154
+		size = 658154
 	 } 
 	farmers = {
 		culture = kurdish
@@ -665,7 +665,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 10273
+		size = 20273
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -705,7 +705,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 314607
+		size = 304607
 	 } 
 }
 #Mugla - Mugla (596000/149000 POPS)
@@ -713,7 +713,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 3810
+		size = 13810
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -743,7 +743,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 116681
+		size = 106681
 	 } 
 }
 #Konya - Konya (2360000/590000 POPS)
@@ -756,7 +756,7 @@
 	soldiers = {
 		culture = turkish
 		religion =  sunni 
-		size = 15087
+		size = 35087
 	 } 
 	aristocrats = {
 		culture = turkish
@@ -796,7 +796,7 @@
 	farmers = {
 		culture = turkish
 		religion =  sunni 
-		size = 462021
+		size = 432021
 	 } 
 }
 #Burdur - Burdur (641000/160250 POPS)
@@ -1410,7 +1410,7 @@
 		size = 26715
 	 } 
 }
-#Ardahan - Ardahan (110000/27500 POPS)
+#Ardahan_chinese - Ardahan_chinese (110000/27500 POPS)
 886 = {
 	craftsmen = {
 		culture = turkish
@@ -1837,7 +1837,7 @@
 		size = 233095
 	 } 
 	farmers = {
-		culture = sunni_arab
+		culture = arab
 		religion =  sunni 
 		size = 69570
 	 } 
@@ -2049,7 +2049,7 @@
 		size = 51660
 	 } 
 	farmers = {
-		culture = sunni_arab
+		culture = arab
 		religion =  sunni 
 		size = 43050
 	 } 

@@ -3,7 +3,7 @@
 	soldiers = {
 		culture = albanian
 		religion =  sunni 
-		size = 2502
+		size = 42502
 	 } 
 	aristocrats = {
 		culture = albanian
@@ -38,7 +38,7 @@
 	farmers = {
 		culture = albanian
 		religion =  sunni 
-		size = 316838
+		size = 266838
 	 } 
 }
 #Shkoder - Shkoder, Kukes, Lezhe (499000/124750 POPS)
@@ -124,6 +124,11 @@
 		religion =  sunni 
 		size = 2642
 	 } 
+	soldiers = {
+		culture = albanian
+		religion =  sunni 
+		size = 18642
+	 } 
 	craftsmen = {
 		culture = albanian
 		religion =  sunni 
@@ -132,7 +137,7 @@
 	farmers = {
 		culture = albanian
 		religion =  sunni 
-		size = 116260
+		size = 100260
 	 } 
 }
 #Gjirokaster - Gjirokaster, Korce (335000/83750 POPS)

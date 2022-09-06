@@ -25,14 +25,14 @@ upper_house = {
 political_opinions = regulated_opinion
 minorities_reform = minorities_oppression
 immigration_policy = quota_immigration
-civil_service = politicised_service
+internet_infrastructure = quality_of_service
 political_parties = parties_restrict_non_democratic
 lgbt_rights = lgbt_outlawed
 publishing_rights = censored_publishing
-union_rights = state_controlled_unions
+gender_rights = gender_equal
 voting_system = first_past_the_post
 vote_franschise = registered_voting
-public_meetings = no_meetings penal_system = capital_punishment
+public_meetings = no_meetings
 # Social Reforms
 safety_regulations = some_regulations
 pensions = no_pensions
@@ -73,7 +73,6 @@ command_of_the_sea = 1
 # Starting Consciousness
 consciousness = 1
 nonstate_consciousness = 1
-decision = renounce_war_right
 schools = industrial_tech_school
 oob = "/JAP_oob.txt"
 
@@ -87,14 +86,14 @@ decision = add_article_9
 	political_opinions = free_opinion
 	minorities_reform = minorities_oppression
 	immigration_policy = quota_immigration
-	civil_service = elitist_service
+	internet_infrastructure = open_unregulated
 	political_parties = parties_allowed
 	lgbt_rights = lgbt_outlawed
 	publishing_rights = unregulated_publishing
-	union_rights = no_trade_unions
+	gender_rights = gender_role_based
 	voting_system = proportional_representation
 	vote_franschise = universal_voting
-	public_meetings = free_meetings penal_system = capital_punishment
+	public_meetings = free_meetings
 }
 
 1992.1.1 = {
@@ -106,7 +105,7 @@ decision = add_article_9
 	literacy = 0.26
 	non_state_culture_literacy = 0.20
 	civilized = yes
-	prestige = 5000
+	prestige = 300
 	ruling_party = "Liberal Democratic Party"
 	upper_house = {
 		populist = 5
@@ -121,14 +120,14 @@ decision = add_article_9
 	political_opinions = free_opinion
 	minorities_reform = minorities_oppression
 	immigration_policy = quota_immigration
-	civil_service = elitist_service
+	internet_infrastructure = open_unregulated
 	political_parties = parties_allowed
 	lgbt_rights = lgbt_outlawed
 	publishing_rights = unregulated_publishing
-	union_rights = no_trade_unions
+	gender_rights = gender_role_based
 	voting_system = proportional_representation
 	vote_franschise = universal_voting
-	public_meetings = free_meetings penal_system = capital_punishment
+	public_meetings = free_meetings
 	# Social Reforms
 	safety_regulations = balanced_regulations
 	pensions = trinket_pensions
@@ -157,7 +156,6 @@ decision = add_article_9
 	second_generation_jet_fighters = 1
 	surface_to_air_missile = 1
 	third_generation_jet_fighters = 1
-	close_air_support = 1
 	cold_war_doctrine = 1
 	proxy_war = 1
 	mutual_assured_destruction = 1
@@ -210,8 +208,6 @@ decision = add_article_9
 	television = 1
 	semiconductor = 1
 	microprocessor = 1
-	microcomputer = 1
-	personal_computer = 1
 	intensive_farming = 1
 	mineral_processing = 1
 	heavy_mining = 1
@@ -244,9 +240,8 @@ decision = add_article_9
 	sea_denial_strategy = 1
 	power_projection = 1
 	green_blue_water_navies = 1
-	
-	oob = "1992/JAP_oob.txt"
-	decision = add_article_9
-	decision = build_shinkansen
-	decision = formtheadb
+oob = "1992/JAP_oob.txt"
+decision = build_shinkansen
+decision = formtheadb
+decision = add_article_9
 }

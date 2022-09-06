@@ -1,0 +1,694 @@
+#Tonkin Region (2784000)
+#under the rule of Annam in 1836
+#han_chineseoi (808000/202000 POPS)
+1369 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1104
+}	
+capitalists = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	25
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	22079
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	5520
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	5520
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	55197
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	466236
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	110393
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	970907
+}	
+farmers = {	
+culture =	yue
+religion = 	secularism
+size = 	970907
+}	
+}
+#Haiphong (596000/149000 POPS)
+1370 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	814
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	16286
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	4071
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	4071
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	40714
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	48857
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	81429
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1432327
+}	
+
+}
+#Cao Bang (272000/68000 POPS)
+1371 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	372
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	7432
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1858
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1858
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	18581
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	22297
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	37162
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	653680
+}	
+
+}
+#Son La (300000/75000 POPS)
+1372 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	410
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	8198
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	2049
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	2049
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	20494
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	24593
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	40988
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	720970
+}	
+
+}
+#Lang Son (324000/81000 POPS)
+1373 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	443
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	8853
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	2213
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	2213
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	22133
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	26560
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	44267
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	778648
+}	
+
+}
+#Than_chineseh Hoa (484000/121000 POPS)
+1374 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	661
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	13225
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	3306
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	3306
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	33063
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	39676
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	66127
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1163165
+}	
+
+}
+#Annam Region (2148000)
+#under the rule of Annam in 1836
+#Hue (1080000/270000 POPS)
+1375 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1476
+}	
+capitalists = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	25
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	29511
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	7378
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	7378
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	73778
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	88533
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	147555
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1297746
+}	
+farmers = {	
+culture =	asian_minor
+religion = 	secularism
+size = 	1297746
+}	
+}
+#Vinh (524000/131000 POPS)
+1376 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	716
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	14318
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	3580
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	3580
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	35796
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	42955
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	71592
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1259294
+}	
+
+}
+#Tourane (276000/69000 POPS)
+1377 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	377
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	7542
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1885
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1885
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	18854
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	22625
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	37709
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	663293
+}	
+
+}
+#Pleiku (148000 37000 POPS)
+1378 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	202
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	4044
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1011
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1011
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	10110
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	12132
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	20221
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	355679
+}	
+
+}
+#Quinhon (120000/30000 POPS)
+1379 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	164
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	3279
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	820
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	820
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	8198
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	9837
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	16395
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	288388
+}	
+
+}
+#Cochinchina Region (1384000)
+#under the rule of Annam in 1836
+#Saigon (848000/212000 POPS)
+1380 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1159
+}	
+capitalists = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	25
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	23172
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	5793
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	5793
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	57929
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	69515
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	115858
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1018971
+}	
+farmers = {	
+culture =	yue
+religion = 	secularism
+size = 	1018971
+}	
+
+}
+#Dongquai (244000/61000 POPS)
+1381 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	333
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	6667
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1667
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1667
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	16668
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	20002
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	33337
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	586389
+}	
+
+}
+#Hatien (172000/43000 POPS)
+1382 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	235
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	4700
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1175
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	1175
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	11750
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	14100
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	23500
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	413356
+}	
+
+}
+#Vinhlong (120000/30000 POPS)
+1383 = {
+officers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	164
+}	
+aristocrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	3279
+}	
+clergymen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	820
+}	
+bureaucrats = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	820
+}	
+artisans = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	8198
+}	
+soldiers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	9837
+}	
+craftsmen = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	16395
+}	
+farmers = {	
+culture =	vietnamese
+religion = 	secularism
+size = 	288388
+}	
+
+}

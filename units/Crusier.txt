@@ -30,24 +30,26 @@ cruiser = {
 		ships = 30
 		weaponry = 10
 		optics = 10
-		canned_food = 20
-		fuel = 15
 	}
 	min_port_level = 3
+	limit_per_port = -1
+	supply_consumption_score = 10
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		ammunition = 2
+		ammunition = 1
 		fuel = 4
-		canned_food = 1
-		ships = 1.5
-		weaponry = 0.75
+		canned_food = 0.8
+		clothes = 0.1
+		footwear = 0.1
+		ships = 0.5
+		weaponry = 0.25
 	}
 	
 	#Naval Abilties
 	hull = 50
 	gun_power = 30
-	fire_range = 0.40
+	fire_range = 0.75
 	evasion = 0.20
 	torpedo_attack = 2
 }

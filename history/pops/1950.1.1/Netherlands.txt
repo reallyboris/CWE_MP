@@ -143,9 +143,9 @@
 		size = 6
 	 } 
 	soldiers = {
-		culture = chinese
-		religion =  taoism 
-		size = 9635
+		culture = indonesian
+		religion =  sunni
+		size = 109635
 	 } 
 	soldiers = {
 		culture = chinese
@@ -215,7 +215,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 511479
+		size = 411479
 	 } 
 }
 #Cirebon - West Java (4375000/1093750 POPS)
@@ -228,7 +228,7 @@
 	soldiers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 13125
+		size = 43125
 	 } 
 	aristocrats = {
 		culture = indonesian
@@ -258,7 +258,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 925820
+		size = 885820
 	 } 
 }
 #Semarang - Central Java (4820000/1205000 POPS)
@@ -271,7 +271,7 @@
 	soldiers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 14460
+		size = 54460
 	 } 
 	aristocrats = {
 		culture = indonesian
@@ -301,7 +301,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 1019988
+		size = 979988
 	 } 
 }
 #Probolinggo - East Java (2899000/724750 POPS)
@@ -314,7 +314,7 @@
 	soldiers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 8697
+		size = 58697
 	 } 
 	aristocrats = {
 		culture = indonesian
@@ -339,7 +339,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 613474
+		size = 573474
 	 } 
 }
 #Madura - East Java (1303000/325750 POPS)
@@ -347,7 +347,7 @@
 	soldiers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 3909
+		size = 33909
 	 } 
 	aristocrats = {
 		culture = indonesian
@@ -372,7 +372,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 275736
+		size = 255736
 	 } 
 }
 #Muraleve - Central Kalimatan (71000/17750 POPS)
@@ -784,7 +784,7 @@
 	soldiers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 4020
+		size = 24020
 	 } 
 	aristocrats = {
 		culture = indonesian
@@ -809,7 +809,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 283565
+		size = 263565
 	 } 
 }
 #Bone - South Sulawesi (1352000/338000 POPS)
@@ -827,7 +827,7 @@
 	soldiers = {
 		culture = toraja
 		religion =  protestant 
-		size = 4045
+		size = 24045
 	 } 
 	soldiers = {
 		culture = toraja
@@ -892,7 +892,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 248556
+		size = 228556
 	 } 
 }
 #Mamuju - West Sulawesi (388000/97000 POPS)
@@ -933,7 +933,7 @@
 	soldiers = {
 		culture = gorontalo
 		religion =  protestant 
-		size = 2274
+		size = 22274
 	 } 
 	soldiers = {
 		culture = gorontalo
@@ -988,7 +988,7 @@
 	farmers = {
 		culture = gorontalo
 		religion =  protestant 
-		size = 115816
+		size = 105816
 	 } 
 	farmers = {
 		culture = gorontalo
@@ -1006,7 +1006,7 @@
 	soldiers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 2649
+		size = 42649
 	 } 
 	aristocrats = {
 		culture = indonesian
@@ -1031,7 +1031,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 186856
+		size = 146856
 	 } 
 }
 #Palu - Gorontalu (348000/87000 POPS)
@@ -1039,7 +1039,7 @@
 	soldiers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 1044
+		size = 21044
 	 } 
 	aristocrats = {
 		culture = indonesian
@@ -1054,7 +1054,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 73642
+		size = 53642
 	 } 
 }
 #Kendari - South East Sulawesi (412000/103000 POPS)
@@ -1062,7 +1062,7 @@
 	soldiers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 1236
+		size = 21236
 	 } 
 	aristocrats = {
 		culture = indonesian
@@ -1082,7 +1082,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 87186
+		size = 67186
 	 } 
 }
 #Bulon - South East Sulawesi (335000/83750 POPS)
@@ -1090,7 +1090,7 @@
 	soldiers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 1005
+		size = 21005
 	 } 
 	aristocrats = {
 		culture = indonesian
@@ -1105,7 +1105,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 70892
+		size = 50892
 	 } 
 }
 #Bali - Bali (1303000/325750 POPS)
@@ -1123,7 +1123,7 @@
 	soldiers = {
 		culture = bali
 		religion =  hindu 
-		size = 3899
+		size = 23899
 	 } 
 	soldiers = {
 		culture = bali
@@ -1178,7 +1178,7 @@
 	farmers = {
 		culture = bali
 		religion =  hindu 
-		size = 247306
+		size = 227306
 	 } 
 	farmers = {
 		culture = bali
@@ -1211,7 +1211,7 @@
 	soldiers = {
 		culture = moluccan
 		religion = secularism
-		size = 5
+		size = 22225
 	 } 
 	aristocrats = {
 		culture = moluccan
@@ -1261,7 +1261,7 @@
 	farmers = {
 		culture = moluccan
 		religion =  protestant 
-		size = 148601
+		size = 128601
 	 } 
 	farmers = {
 		culture = moluccan
@@ -1279,7 +1279,7 @@
 	soldiers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 2511
+		size = 22511
 	 } 
 	aristocrats = {
 		culture = indonesian
@@ -1304,7 +1304,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 177123
+		size = 157123
 	 } 
 }
 #Sumba - East Nusa Tenggara (230000/57500 POPS)
@@ -1317,7 +1317,7 @@
 	soldiers = {
 		culture = moluccan
 		religion =  protestant 
-		size = 688
+		size = 20688
 	 } 
 	soldiers = {
 		culture = moluccan
@@ -1367,7 +1367,7 @@
 	farmers = {
 		culture = moluccan
 		religion =  protestant 
-		size = 47669
+		size = 27669
 	 } 
 	farmers = {
 		culture = moluccan
@@ -1380,7 +1380,7 @@
 	soldiers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 2010
+		size = 22010
 	 } 
 	aristocrats = {
 		culture = indonesian
@@ -1400,7 +1400,7 @@
 	farmers = {
 		culture = indonesian
 		religion =  sunni 
-		size = 141783
+		size = 121783
 	 } 
 }
 #Roti - East Nusa Tenggara (40000/10000 POPS)
@@ -2489,7 +2489,7 @@
 	soldiers = {
 		culture = dutch
 		religion = secularism
-		size = 1353
+		size = 51353
 	 } 
 	aristocrats = {
 		culture = dutch
@@ -2564,12 +2564,12 @@
 	craftsmen = {
 		culture = dutch
 		religion = protestant
-		size = 222342
+		size = 202342
 	 } 
 	farmers = {
 		culture = dutch
 		religion = secularism
-		size = 43141
+		size = 23141
 	 } 
 	craftsmen = {
 		culture = european
@@ -2597,12 +2597,12 @@
 	soldiers = {
 		culture = dutch
 		religion = protestant 
-		size = 9108
+		size = 29108
 	 } 
 	soldiers = {
 		culture = dutch
 		religion = secularism
-		size = 1767
+		size = 11767
 	 } 
 	aristocrats = {
 		culture = dutch
@@ -2677,7 +2677,7 @@
 	farmers = {
 		culture = dutch
 		religion = protestant 
-		size = 290245
+		size = 270245
 	 } 
 	farmers = {
 		culture = dutch
@@ -2710,7 +2710,7 @@
 	soldiers = {
 		culture = dutch
 		religion = protestant 
-		size = 3190
+		size = 23190
 	 } 
 	soldiers = {
 		culture = dutch
@@ -2790,7 +2790,7 @@
 	farmers = {
 		culture = dutch
 		religion = protestant 
-		size = 101654
+		size = 81654
 	 } 
 	farmers = {
 		culture = dutch
@@ -2823,7 +2823,7 @@
 	soldiers = {
 		culture = dutch
 		religion = catholic 
-		size = 965
+		size = 20965
 	 } 
 	soldiers = {
 		culture = dutch
@@ -2903,7 +2903,7 @@
 	farmers = {
 		culture = dutch
 		religion = catholic 
-		size = 36509
+		size = 16509
 	 } 
 	farmers = {
 		culture = dutch
@@ -2926,7 +2926,7 @@
 	soldiers = {
 		culture = dutch
 		religion = catholic 
-		size = 6316
+		size = 26316
 	 } 
 	soldiers = {
 		culture = dutch
@@ -3006,7 +3006,7 @@
 	farmers = {
 		culture = dutch
 		religion = catholic 
-		size = 238745
+		size = 218745
 	 } 
 	farmers = {
 		culture = dutch
@@ -3029,7 +3029,7 @@
 	soldiers = {
 		culture = dutch
 		religion = catholic 
-		size = 1016
+		size = 11016
 	 } 
 	soldiers = {
 		culture = dutch
@@ -3109,7 +3109,7 @@
 	farmers = {
 		culture = dutch
 		religion = catholic 
-		size = 38431
+		size = 28431
 	 } 
 	farmers = {
 		culture = dutch

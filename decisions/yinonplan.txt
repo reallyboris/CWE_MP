@@ -1,0 +1,82 @@
+political_decisions = {	  
+ yinon_plan = {
+				picture = yinon
+                potential = {
+                        tag = ISR
+                        NOT = { has_country_flag = yinon_plan }
+                }
+
+                allow = {
+                       tag = ISR
+						has_unclaimed_cores = no
+                                                owns = 913
+                                                owns = 920
+                                                owns = 1755
+                                                owns = 1756
+                                                owns = 908
+                                                owns = 902
+                                                owns = 905
+						NOT = {	
+							has_country_flag = yinon_plan
+						}
+						is_vassal = no
+                        war_on_terror = 1
+						 
+                        OR = {
+                                ruling_party_ideology = populist
+                                ruling_party_ideology = nationalist
+                                jingoism = 15
+                        }
+                }
+
+                effect = {
+                        badboy = 25
+                        set_country_flag = yinon_plan
+                        922 = { add_core = ISR }
+                        908 = { add_core = ISR }
+                        909 = { add_core = ISR }
+                        910 = { add_core = ISR }
+                        911 = { add_core = ISR }
+			1772 = { add_core = ISR }
+			1763 = { add_core = ISR }
+			1765 = { add_core = ISR }
+			1764 = { add_core = ISR }
+		        1762 = { add_core = ISR }
+			2559 = { add_core = ISR }
+			1767 = { add_core = ISR }
+			1769 = { add_core = ISR }
+			1770 = { add_core = ISR }
+			1768 = { add_core = ISR }
+			1771 = { add_core = ISR }
+			902 = { add_core = ISR }
+			903 = { add_core = ISR }
+			906 = { add_core = ISR }
+			907 = { add_core = ISR }
+			904 = { add_core = ISR }
+			897 = { add_core = ISR }
+			905 = { add_core = ISR }
+			900 = { add_core = ISR }
+			931 = { add_core = ISR }
+			927 = { add_core = ISR }
+			926 = { add_core = ISR }
+			929 = { add_core = ISR }
+			934 = { add_core = ISR }
+			935 = { add_core = ISR }
+			1163 = { add_core = ISR }
+			1158 = { add_core = ISR }
+		        1154 = { add_core = ISR }
+			1160 = { add_core = ISR }
+		        1156 = { add_core = ISR }
+			913 = { add_core = ISR }
+			914 = { add_core = ISR }
+			915 = { add_core = ISR }
+			1746 = { add_core = ISR }
+			1748 = { add_core = ISR }
+			1749 = { add_core = ISR }
+			1755 = { add_core = ISR }
+			1756 = { add_core = ISR }
+			1757 = { add_core = ISR }
+                        }
+                }
+
+        }

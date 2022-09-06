@@ -1,0 +1,21 @@
+#independence event
+country_event = {
+	id = 60162
+	title = "Leadership"
+	desc = "Heres some leadership"
+
+	trigger = {
+		exists = yes
+		NOT = { has_country_flag = existing_country1 }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "Thanks!"
+		set_country_flag = existing_country1
+		leadership = 160
+		}
+	}

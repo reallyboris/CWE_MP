@@ -1,7 +1,7 @@
 graphical_culture = AfricanGC
 color = { 255 131 40 }
 party = {
-		name = "ELF"
+		name = "party_nationalist"
 		citizenship_policy = limited_citizenship
 		economic_policy = state_capitalism
 		ideology = nationalist
@@ -12,29 +12,30 @@ party = {
 		end_date = 2100.1.1
 }
 party = {
-		name = "ELF"
-		citizenship_policy = limited_citizenship
-		economic_policy = state_capitalism
+		name = "party_big_tent"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
 		ideology = big_tent
 		religious_policy = secularized
-		trade_policy = protectionism
+		trade_policy = free_trade
 		war_policy = pro_military
 		start_date = 1836.1.1
-		end_date = 1994.1.1
-}
-party = {
-		name = "PFDJ (Centrists)"
-		citizenship_policy = limited_citizenship
-		economic_policy = state_capitalism
-		ideology = big_tent
-		religious_policy = secularized
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1994.1.1
 		end_date = 2100.1.1
 }
+
 party = {
-		name = "Eritrea for Eritreans Party"
+		name = "party_conservative_0_ERI"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_liberal_0_ERI"
 		citizenship_policy = full_citizenship
 		economic_policy = laissez_faire
 		ideology = liberal
@@ -45,7 +46,18 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "FDPE"
+		name = "party_socialist_0_ERI"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_progressive_0_ERI"
 		citizenship_policy = full_citizenship
 		economic_policy = interventionism
 		ideology = progressive
@@ -56,7 +68,18 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "Eritrean Islamic Jihad"
+		name = "party_populist_0_ERI"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = populist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_traditionalist_0_ERI"
 		citizenship_policy = residency
 		economic_policy = state_capitalism
 		ideology = traditionalist
@@ -67,73 +90,7 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "ELF"
-		citizenship_policy = limited_citizenship
-		economic_policy = interventionism
-		ideology = conservative
-		religious_policy = secularized
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1836.1.1
-		end_date = 2092.1.1
-}
-party = {
-		name = "ELF"
-		citizenship_policy = limited_citizenship
-		economic_policy = state_capitalism
-		ideology = socialist
-		religious_policy = secularized
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1836.1.1
-		end_date = 1982.1.1
-}
-party = {
-		name = "EPLF (Socialists)"
-		citizenship_policy = limited_citizenship
-		economic_policy = state_capitalism
-		ideology = socialist
-		religious_policy = secularized
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1970.1.1
-		end_date = 1994.1.1
-}
-party = {
-		name = "PFDJ (Socialists)"
-		citizenship_policy = residency
-		economic_policy = state_capitalism
-		ideology = socialist
-		religious_policy = secularized
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1994.1.1
-		end_date = 2092.1.1
-}
-party = {
-		name = "ELF"
-		citizenship_policy = residency
-		economic_policy = interventionism
-		ideology = populist
-		religious_policy = secularized
-		trade_policy = protectionism
-		war_policy = jingoism
-		start_date = 1836.1.1
-		end_date = 1994.1.1
-}
-party = {
-		name = "PFDJ (Populists)"
-		citizenship_policy = residency
-		economic_policy = state_capitalism
-		ideology = populist
-		religious_policy = secularized
-		trade_policy = protectionism
-		war_policy = jingoism
-		start_date = 1994.1.1
-		end_date = 2092.1.1
-}
-party = {
-		name = "ELF"
+		name = "party_communist_0_ERI"
 		citizenship_policy = full_citizenship
 		economic_policy = planned_economy
 		ideology = communist
@@ -141,64 +98,19 @@ party = {
 		trade_policy = protectionism
 		war_policy = pro_military
 		start_date = 1836.1.1
-		end_date = 1982.1.1
-}
-party = {
-		name = "EPLF"
-		citizenship_policy = full_citizenship
-		economic_policy = planned_economy
-		ideology = communist
-		religious_policy = pro_atheism
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1970.1.1
-		end_date = 1994.1.1
-}
-party = {
-		name = "PFDJ (Marxist)"
-		citizenship_policy = full_citizenship
-		economic_policy = planned_economy
-		ideology = communist
-		religious_policy = pro_atheism
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1994.1.1
 		end_date = 2092.1.1
 }
 party = {
-		name = "ELF"
+		name = "party_communist_social"
 		citizenship_policy = full_citizenship
-		economic_policy = planned_economy1
+		economic_policy = state_capitalism
 		ideology = communist_social
 		religious_policy = pro_atheism
 		trade_policy = protectionism
 		war_policy = pro_military
 		start_date = 1836.1.1
-		end_date = 1982.1.1
-}
-party = {
-		name = "EPLF"
-		citizenship_policy = full_citizenship
-		economic_policy = planned_economy1
-		ideology = communist_social
-		religious_policy = pro_atheism
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1970.1.1
-		end_date = 1994.1.1
-}
-party = {
-		name = "PFDJ (Market Socialist)"
-		citizenship_policy = full_citizenship
-		economic_policy = planned_economy1
-		ideology = communist_social
-		religious_policy = pro_atheism
-		trade_policy = protectionism
-		war_policy = pro_military
-		start_date = 1994.1.1
 		end_date = 2092.1.1
 }
-
 unit_names = {
 	carrier = {
 		Yodit Shewa "Mara Takla" Lalibela "Yekuno Amlak" Tigray Tatadum Seyum "Kedus Harbe" "Na'akueto La'ab" Yetbarak

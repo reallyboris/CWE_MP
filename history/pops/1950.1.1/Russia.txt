@@ -13,7 +13,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 2655
+		size = 22655
 	 } 
 	soldiers = {
 		culture = russian
@@ -73,7 +73,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 30982
+		size = 10982
 	 } 
 	farmers = {
 		culture = russian
@@ -167,84 +167,84 @@
 #Manzhouli - Hulunbuir (500000/125000 POPS)
 1002 = {
 	officers = {
-		culture = mongol
-		religion =  buddhist 
-		size = 591
+		culture = chinese
+		religion =  taoism 
+		size = 298
 	 } 
 	officers = {
-		culture = mongol
+		culture = chinese
 		religion = secularism
-		size = 151
+		size = 76
 	 } 
 	soldiers = {
-		culture = mongol
-		religion =  buddhist 
-		size = 2365
+		culture = chinese
+		religion =  taoism 
+		size = 1192
 	 } 
 	soldiers = {
-		culture = mongol
+		culture = chinese
 		religion = secularism
-		size = 609
+		size = 307
 	 } 
 	bureaucrats = {
-		culture = mongol
-		religion =  buddhist 
-		size = 9068
+		culture = chinese
+		religion =  taoism 
+		size = 4571
 	 } 
 	bureaucrats = {
-		culture = mongol
+		culture = chinese
 		religion = secularism
-		size = 2337
+		size = 1178
 	 } 
 	clergymen = {
-		culture = mongol
-		religion =  buddhist 
-		size = 3942
+		culture = chinese
+		religion =  taoism 
+		size = 1987
 	 } 
 	clergymen = {
-		culture = mongol
+		culture = chinese
 		religion = secularism
-		size = 1016
+		size = 512
 	 } 
 	craftsmen = {
-		culture = mongol
-		religion =  buddhist 
-		size = 3700
+		culture = chinese
+		religion =  taoism 
+		size = 1865
 	 } 
 	craftsmen = {
-		culture = mongol
+		culture = chinese
 		religion = secularism
-		size = 952
+		size = 480
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 50000
+		size = 76541
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 9878
+		size = 19737
 	 } 
 	farmers = {
 		culture = mongol
 		religion =  buddhist 
-		size = 17741
+		size = 8943
 	 } 
 	farmers = {
 		culture = mongol
 		religion = secularism
-		size = 4575
+		size = 2306
 	 } 
 	farmers = {
-		culture = mongol
-		religion =  buddhist
-		size = 7883
+		culture = manchu
+		religion =  taoism 
+		size = 3974
 	 } 
 	farmers = {
-		culture = mongol
+		culture = manchu
 		religion = secularism
-		size = 2033
+		size = 1025
 	 } 
 }
 #Novgorod - Novgorod (455000/113750 POPS)
@@ -749,12 +749,12 @@
 		religion = secularism
 		size = 29071
 	 } 
-	farmers = {
+	craftsmen = {
 		culture = russian
 		religion =  orthodox 
 		size = 842109
 	 } 
-	craftsmen = {
+	farmers = {
 		culture = russian
 		religion = secularism
 		size = 842109
@@ -820,7 +820,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 1765
+		size = 31765
 	 } 
 	soldiers = {
 		culture = russian
@@ -880,7 +880,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 20604
+		size = 10604
 	 } 
 	farmers = {
 		culture = russian
@@ -903,7 +903,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 9436
+		size = 29436
 	 } 
 	soldiers = {
 		culture = russian
@@ -963,7 +963,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 110086
+		size = 80086
 	 } 
 	farmers = {
 		culture = russian
@@ -986,7 +986,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 16527
+		size = 46527
 	 } 
 	soldiers = {
 		culture = russian
@@ -1046,7 +1046,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 192809
+		size = 152809
 	 } 
 	farmers = {
 		culture = russian
@@ -1069,7 +1069,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 11903
+		size = 31903
 	 } 
 	soldiers = {
 		culture = russian
@@ -1129,7 +1129,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 138867
+		size = 108867
 	 } 
 	farmers = {
 		culture = russian
@@ -1152,7 +1152,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 14639
+		size = 44639
 	 } 
 	soldiers = {
 		culture = russian
@@ -1212,7 +1212,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 170790
+		size = 150790
 	 } 
 	farmers = {
 		culture = russian
@@ -1235,7 +1235,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 5311
+		size = 35311
 	 } 
 	soldiers = {
 		culture = russian
@@ -1295,7 +1295,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 61963
+		size = 41963
 	 } 
 	farmers = {
 		culture = russian
@@ -1318,7 +1318,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 5567
+		size = 25567
 	 } 
 	soldiers = {
 		culture = russian
@@ -1378,7 +1378,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 64951
+		size = 44951
 	 } 
 	farmers = {
 		culture = russian
@@ -1401,7 +1401,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 13049
+		size = 43049
 	 } 
 	soldiers = {
 		culture = russian
@@ -1461,7 +1461,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 152234
+		size = 122234
 	 } 
 	farmers = {
 		culture = russian
@@ -1484,7 +1484,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 7872
+		size = 27872
 	 } 
 	soldiers = {
 		culture = russian
@@ -1544,7 +1544,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 91844
+		size = 71844
 	 } 
 	farmers = {
 		culture = russian
@@ -1567,7 +1567,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 12213
+		size = 32213
 	 } 
 	soldiers = {
 		culture = russian
@@ -1627,7 +1627,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 136690
+		size = 116690
 	 } 
 	farmers = {
 		culture = russian
@@ -1660,7 +1660,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 21865
+		size = 41865
 	 } 
 	soldiers = {
 		culture = russian
@@ -1725,7 +1725,7 @@
 	farmers = {
 		culture = russian
 		religion = secularism
-		size = 42938
+		size = 22938
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -1753,7 +1753,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 32893
+		size = 62893
 	 } 
 	soldiers = {
 		culture = russian
@@ -1813,7 +1813,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 373325
+		size = 343325
 	 } 
 	farmers = {
 		culture = russian
@@ -1841,7 +1841,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 21852
+		size = 41852
 	 } 
 	soldiers = {
 		culture = russian
@@ -1901,7 +1901,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 182377
+		size = 152377
 	 } 
 	farmers = {
 		culture = russian
@@ -1939,7 +1939,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 11660
+		size = 34660
 	 } 
 	soldiers = {
 		culture = russian
@@ -1999,7 +1999,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 136036
+		size = 106036
 	 } 
 	farmers = {
 		culture = russian
@@ -2022,7 +2022,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 3612
+		size = 23612
 	 } 
 	soldiers = {
 		culture = russian
@@ -2082,7 +2082,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 42148
+		size = 22148
 	 } 
 	farmers = {
 		culture = russian
@@ -2105,7 +2105,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 3531
+		size = 23531
 	 } 
 	soldiers = {
 		culture = russian
@@ -2165,7 +2165,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 41204
+		size = 21204
 	 } 
 	farmers = {
 		culture = russian
@@ -2188,7 +2188,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 11687
+		size = 21687
 	 } 
 	soldiers = {
 		culture = russian
@@ -2248,7 +2248,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 136350
+		size = 116350
 	 } 
 	farmers = {
 		culture = russian
@@ -2271,7 +2271,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 27447
+		size = 227447
 	 } 
 	soldiers = {
 		culture = russian
@@ -2331,7 +2331,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 281139
+		size = 261139
 	 } 
 	farmers = {
 		culture = russian
@@ -2374,7 +2374,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 2655
+		size = 12655
 	 } 
 	soldiers = {
 		culture = russian
@@ -2434,7 +2434,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 30982
+		size = 20982
 	 } 
 	farmers = {
 		culture = russian
@@ -2457,7 +2457,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 2655
+		size = 12655
 	 } 
 	soldiers = {
 		culture = russian
@@ -2517,7 +2517,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 30982
+		size = 20982
 	 } 
 	farmers = {
 		culture = russian
@@ -2540,7 +2540,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 14977
+		size = 54977
 	 } 
 	soldiers = {
 		culture = russian
@@ -2600,7 +2600,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 162882
+		size = 122882
 	 } 
 	farmers = {
 		culture = russian
@@ -2638,7 +2638,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 26570
+		size = 56570
 	 } 
 	soldiers = {
 		culture = russian
@@ -2698,7 +2698,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 87332
+		size = 67332
 	 } 
 	farmers = {
 		culture = russian
@@ -2736,7 +2736,7 @@
 	soldiers = {
 		culture = russian
 		religion = secularism
-		size = 2465
+		size = 32465
 	 } 
 	bureaucrats = {
 		culture = russian
@@ -2791,7 +2791,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 80626
+		size = 50626
 	 } 
 	farmers = {
 		culture = russian
@@ -2829,7 +2829,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 4232
+		size = 24232
 	 } 
 	soldiers = {
 		culture = russian
@@ -2889,7 +2889,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 15253
+		size = 5253
 	 } 
 	farmers = {
 		culture = russian
@@ -2927,7 +2927,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 11822
+		size = 31822
 	 } 
 	soldiers = {
 		culture = russian
@@ -2967,7 +2967,7 @@
 	craftsmen = {
 		culture = russian
 		religion =  orthodox 
-		size = 4556
+		size = 556
 	 } 
 	craftsmen = {
 		culture = russian
@@ -2977,7 +2977,7 @@
 	craftsmen = {
 		culture = russian
 		religion =  orthodox 
-		size = 14390
+		size = 4390
 	 } 
 	craftsmen = {
 		culture = russian
@@ -3113,7 +3113,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 12388
+		size = 42388
 	 } 
 	soldiers = {
 		culture = russian
@@ -3173,12 +3173,12 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 97520
+		size = 77520
 	 } 
 	farmers = {
 		culture = russian
 		religion = secularism
-		size = 16873
+		size = 6873
 	 } 
 	farmers = {
 		culture = tatar
@@ -3216,7 +3216,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 7063
+		size = 27063
 	 } 
 	soldiers = {
 		culture = russian
@@ -3276,7 +3276,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 56723
+		size = 36723
 	 } 
 	farmers = {
 		culture = russian
@@ -3309,7 +3309,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 23780
+		size = 43780
 	 } 
 	soldiers = {
 		culture = russian
@@ -3369,7 +3369,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 258618
+		size = 458618
 	 } 
 	farmers = {
 		culture = russian
@@ -3485,7 +3485,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 20369
+		size = 40369
 	 } 
 	soldiers = {
 		culture = russian
@@ -3542,7 +3542,7 @@
 		religion = secularism
 		size = 4289
 	 } 
-	craftsmen = {
+	farmers = {
 		culture = russian
 		religion =  orthodox 
 		size = 231187
@@ -3550,7 +3550,7 @@
 	farmers = {
 		culture = russian
 		religion = secularism
-		size = 40000
+		size = 20000
 	 } 
 	farmers = {
 		culture = kazak
@@ -3734,22 +3734,22 @@
 		size = 1617
 	 } 
 	farmers = {
-		culture = mongol
+		culture = kalmyk
 		religion =  buddhist 
 		size = 20685
 	 } 
 	farmers = {
-		culture = mongol
+		culture = kalmyk
 		religion = secularism
 		size = 3579
 	 } 
 	farmers = {
-		culture = avar
+		culture = asian_minor
 		religion =  protestant 
 		size = 3147
 	 } 
 	farmers = {
-		culture = avar
+		culture = asian_minor
 		religion = secularism
 		size = 544
 	 } 
@@ -3990,7 +3990,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 9624
+		size = 39624
 	 } 
 	soldiers = {
 		culture = russian
@@ -4050,7 +4050,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 83376
+		size = 53376
 	 } 
 	farmers = {
 		culture = russian
@@ -4314,7 +4314,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 8856
+		size = 48856
 	 } 
 	soldiers = {
 		culture = russian
@@ -4374,7 +4374,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 94923
+		size = 54923
 	 } 
 	farmers = {
 		culture = russian
@@ -4422,7 +4422,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 22647
+		size = 42647
 	 } 
 	soldiers = {
 		culture = russian
@@ -4487,7 +4487,7 @@
 	farmers = {
 		culture = russian
 		religion = secularism
-		size = 40757
+		size = 20757
 	 } 
 	farmers = {
 		culture = armenian
@@ -4525,7 +4525,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 34470
+		size = 54470
 	 } 
 	soldiers = {
 		culture = russian
@@ -4585,7 +4585,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 353342
+		size = 153342
 	 } 
 	farmers = {
 		culture = russian
@@ -4628,7 +4628,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 21340
+		size = 41340
 	 } 
 	soldiers = {
 		culture = russian
@@ -4688,7 +4688,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 194970
+		size = 174970
 	 } 
 	farmers = {
 		culture = russian
@@ -5374,12 +5374,12 @@
 		size = 100
 	 } 
 	farmers = {
-		culture = avar
+		culture = asian_minor
 		religion =  protestant 
 		size = 5236
 	 } 
 	farmers = {
-		culture = avar
+		culture = asian_minor
 		religion = secularism
 		size = 905
 	 } 
@@ -5457,12 +5457,12 @@
 		size = 72080
 	 } 
 	farmers = {
-		culture = mongol
+		culture = kalmyk
 		religion =  buddhist 
 		size = 49926
 	 } 
 	farmers = {
-		culture = mongol
+		culture = kalmyk
 		religion = secularism
 		size = 8638
 	 } 
@@ -5477,12 +5477,12 @@
 		size = 18020
 	 } 
 	farmers = {
-		culture = avar
+		culture = asian_minor
 		religion =  protestant 
 		size = 57607
 	 } 
 	farmers = {
-		culture = avar
+		culture = asian_minor
 		religion = secularism
 		size = 9967
 	 } 
@@ -5502,7 +5502,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 41763
+		size = 81763
 	 } 
 	soldiers = {
 		culture = russian
@@ -5567,7 +5567,7 @@
 	farmers = {
 		culture = russian
 		religion = secularism
-		size = 79727
+		size = 49727
 	 } 
 	farmers = {
 		culture = tatar
@@ -5590,7 +5590,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 32084
+		size = 62084
 	 } 
 	soldiers = {
 		culture = russian
@@ -5650,7 +5650,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 313422
+		size = 13422
 	 } 
 	farmers = {
 		culture = russian
@@ -5693,7 +5693,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 9624
+		size = 29624
 	 } 
 	soldiers = {
 		culture = russian
@@ -5753,7 +5753,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 83376
+		size = 63376
 	 } 
 	farmers = {
 		culture = russian
@@ -5801,7 +5801,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 37059
+		size = 67059
 	 } 
 	soldiers = {
 		culture = russian
@@ -5861,7 +5861,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 362016
+		size = 332016
 	 } 
 	farmers = {
 		culture = russian
@@ -5899,7 +5899,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 9261
+		size = 39261
 	 } 
 	soldiers = {
 		culture = russian
@@ -5959,7 +5959,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 103649
+		size = 73649
 	 } 
 	farmers = {
 		culture = russian
@@ -5997,7 +5997,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 24629
+		size = 44629
 	 } 
 	soldiers = {
 		culture = russian
@@ -6062,7 +6062,7 @@
 	farmers = {
 		culture = russian
 		religion = secularism
-		size = 49039
+		size = 29039
 	 } 
 	farmers = {
 		culture = german
@@ -6173,12 +6173,12 @@
 		size = 10560
 	 } 
 	farmers = {
-		culture = tatar
+		culture = asian_minor
 		religion =  protestant 
 		size = 1125
 	 } 
 	farmers = {
-		culture = tatar
+		culture = asian_minor
 		religion = secularism
 		size = 194
 	 } 
@@ -6198,7 +6198,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 24467
+		size = 44467
 	 } 
 	soldiers = {
 		culture = russian
@@ -6258,7 +6258,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 285437
+		size = 265437
 	 } 
 	farmers = {
 		culture = russian
@@ -6349,12 +6349,12 @@
 		size = 2143
 	 } 
 	farmers = {
-		culture = tatar
+		culture = altay
 		religion =  orthodox 
 		size = 10736
 	 } 
 	farmers = {
-		culture = tatar
+		culture = altay
 		religion = secularism
 		size = 2203
 	 } 
@@ -6859,12 +6859,12 @@
 		size = 21931
 	 } 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion =  buddhist 
 		size = 15413
 	 } 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion = secularism
 		size = 2666
 	 } 
@@ -6952,12 +6952,12 @@
 		size = 11784
 	 } 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion =  buddhist 
 		size = 34935
 	 } 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion = secularism
 		size = 6044
 	 } 
@@ -7415,84 +7415,84 @@
 #Ulusamudan - Yanbian (947000/236750 POPS)
 1085 = {
 	officers = {
-		culture = korean
+		culture = chinese
 		religion =  taoism 
-		size = 342
+		size = 564
 	 } 
 	officers = {
-		culture = korean
+		culture = chinese
 		religion = secularism
-		size = 88
+		size = 145
 	 } 
 	soldiers = {
-		culture = korean
+		culture = chinese
 		religion =  taoism 
-		size = 1367
+		size = 2258
 	 } 
 	soldiers = {
-		culture = korean
+		culture = chinese
 		religion = secularism
-		size = 352
+		size = 582
 	 } 
 	bureaucrats = {
-		culture = korean
+		culture = chinese
 		religion =  taoism 
-		size = 5242
+		size = 8657
 	 } 
 	bureaucrats = {
-		culture = korean
+		culture = chinese
 		religion = secularism
-		size = 1352
+		size = 2232
 	 } 
 	clergymen = {
-		culture = korean
+		culture = chinese
 		religion =  taoism 
-		size = 2279
+		size = 3764
 	 } 
 	clergymen = {
-		culture = korean
+		culture = chinese
 		religion = secularism
-		size = 587
+		size = 970
 	 } 
 	craftsmen = {
-		culture = korean
+		culture = chinese
 		religion =  taoism 
-		size = 545
+		size = 900
 	 } 
 	craftsmen = {
-		culture = korean
+		culture = chinese
 		religion = secularism
-		size = 140
-	 } 
-	farmers = {
-		culture = korean
-		religion =  taoism 
-		size = 63163
-	 } 
-	farmers = {
-		culture = korean
-		religion = secularism
-		size = 16287
-	 } 
-	farmers = {
-		culture = korean
-		religion =  taoism 
-		size = 37609
-	 } 
-	farmers = {
-		culture = korean
-		religion = secularism
-		size = 9698
+		size = 232
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 45000
+		size = 104312
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 6890
+		size = 26898
+	 } 
+	farmers = {
+		culture = korean
+		religion =  taoism 
+		size = 62110
+	 } 
+	farmers = {
+		culture = korean
+		religion = secularism
+		size = 16016
+	 } 
+	farmers = {
+		culture = manchu
+		religion =  taoism 
+		size = 5646
+	 } 
+	farmers = {
+		culture = manchu
+		religion = secularism
+		size = 1455
 	 } 
 }
 #Pogobi - Pogobi (231000/57750 POPS)
@@ -9827,7 +9827,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 2569
+		size = 22569
 	 } 
 	soldiers = {
 		culture = russian
@@ -9867,7 +9867,7 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 22771
+		size = 2771
 	 } 
 	farmers = {
 		culture = russian
@@ -10330,12 +10330,12 @@
 		size = 1007
 	 } 
 	farmers = {
-		culture = tatar
+		culture = tuvans
 		religion =  buddhist 
 		size = 42147
 	 } 
 	farmers = {
-		culture = tatar
+		culture = tuvans
 		religion = secularism
 		size = 7292
 	 } 
@@ -10345,92 +10345,92 @@
 	officers = {
 		culture = chinese
 		religion =  taoism 
-		size = 4610
+		size = 4129
 	 } 
 	officers = {
 		culture = chinese
 		religion = secularism
-		size = 1188
+		size = 1064
 	 } 
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 18440
+		size = 16518
 	 } 
 	soldiers = {
 		culture = chinese
 		religion = secularism
-		size = 4755
+		size = 4259
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion =  taoism 
-		size = 70689
+		size = 63320
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion = secularism
-		size = 18228
+		size = 16328
 	 } 
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 30734
+		size = 27530
 	 } 
 	clergymen = {
 		culture = chinese
 		religion = secularism
-		size = 7925
+		size = 7099
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 7359
+		size = 6592
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 1897
+		size = 1699
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 23242
+		size = 20819
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 5993
+		size = 5368
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 1043580
+		size = 934792
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 269098
+		size = 241046
 	 } 
 	farmers = {
 		culture = manchu
 		religion =  taoism 
-		size = 100000
+		size = 275308
 	 } 
 	farmers = {
 		culture = manchu
 		religion = secularism
-		size = 8429
+		size = 70991
 	 } 
 	farmers = {
-		culture = korean
+		culture = mongol
 		religion =  buddhist 
-		size = 20000
+		size = 27530
 	 } 
 	farmers = {
-		culture = korean
+		culture = mongol
 		religion = secularism
-		size = 2706
+		size = 7099
 	 } 
 }
 #Jinzhou - Chaoyang, Huludao, Jinzhou, Fuxin (4428000/1107000 POPS)
@@ -10438,82 +10438,72 @@
 	officers = {
 		culture = chinese
 		religion =  taoism 
-		size = 3498
+		size = 2640
 	 } 
 	officers = {
 		culture = chinese
 		religion = secularism
-		size = 901
+		size = 680
 	 } 
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 13991
+		size = 10560
 	 } 
 	soldiers = {
 		culture = chinese
 		religion = secularism
-		size = 3608
+		size = 2723
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion =  taoism 
-		size = 55634
+		size = 40482
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion = secularism
-		size = 13830
+		size = 10439
 	 } 
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 23319
+		size = 17601
 	 } 
 	clergymen = {
 		culture = chinese
 		religion = secularism
-		size = 6012
+		size = 4538
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 5583
+		size = 4214
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 1439
+		size = 1086
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 1019317
+		size = 769362
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 262843
+		size = 198389
 	 } 
 	farmers = {
 		culture = manchu
 		religion =  taoism 
-		size = 80000
+		size = 35202
 	 } 
 	farmers = {
 		culture = manchu
 		religion = secularism
-		size = 4102
-	 } 
-	farmers = {
-		culture = mongol
-		religion = buddhist 
-		size = 27000
-	 } 
-	farmers = {
-		culture = mongol
-		religion = secularism
-		size = 4719
+		size = 9077
 	 } 
 }
 #Port Arthur - Dailan (2791000/697750 POPS)
@@ -10521,145 +10511,135 @@
 	officers = {
 		culture = chinese
 		religion =  taoism 
-		size = 723
+		size = 1663
 	 } 
 	officers = {
 		culture = chinese
 		religion = secularism
-		size = 187
+		size = 429
 	 } 
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 2895
+		size = 6656
 	 } 
 	soldiers = {
 		culture = chinese
 		religion = secularism
-		size = 746
+		size = 1716
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion =  taoism 
-		size = 11097
+		size = 25516
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion = secularism
-		size = 2861
+		size = 6579
 	 } 
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 4825
+		size = 11094
 	 } 
 	clergymen = {
 		culture = chinese
 		religion = secularism
-		size = 1244
+		size = 2860
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 1155
+		size = 2656
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 297
+		size = 684
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 220556
+		size = 507124
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 56873
-	 } 
-	farmers = {
-		culture = manchu
-		religion =  taoism 
-		size = 5000
-	 } 
-	farmers = {
-		culture = manchu
-		religion = secularism
-		size = 2716
+		size = 130767
 	 } 
 }
 #Jirim Chuulgan - Chifeng, Tongliao, Ulanqab (4015000/1003750 POPS)
 1533 = {
 	officers = {
-		culture = mongol
-		religion =  buddhist 
-		size = 1097
+		culture = chinese
+		religion =  taoism 
+		size = 2393
 	 } 
 	officers = {
-		culture = mongol
+		culture = chinese
 		religion = secularism
-		size = 283
+		size = 617
 	 } 
 	soldiers = {
-		culture = mongol
-		religion =  buddhist 
-		size = 4389
+		culture = chinese
+		religion =  taoism 
+		size = 9575
 	 } 
 	soldiers = {
-		culture = mongol
+		culture = chinese
 		religion = secularism
-		size = 1132
+		size = 2469
 	 } 
 	bureaucrats = {
-		culture = mongol
-		religion =  buddhist 
-		size = 16826
+		culture = chinese
+		religion =  taoism 
+		size = 36706
 	 } 
 	bureaucrats = {
-		culture = mongol
+		culture = chinese
 		religion = secularism
-		size = 4339
+		size = 9465
 	 } 
 	clergymen = {
-		culture = mongol
-		religion =  buddhist 
-		size = 7316
+		culture = chinese
+		religion =  taoism 
+		size = 15959
 	 } 
 	clergymen = {
-		culture = mongol
+		culture = chinese
 		religion = secularism
-		size = 1886
+		size = 4115
 	 } 
 	craftsmen = {
-		culture = mongol
-		religion =  buddhist 
-		size = 1752
+		culture = chinese
+		religion =  taoism 
+		size = 3821
 	 } 
 	craftsmen = {
-		culture = mongol
+		culture = chinese
 		religion = secularism
-		size = 452
+		size = 985
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 200000
+		size = 601846
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 26830
+		size = 155193
 	 } 
 	farmers = {
 		culture = mongol
 		religion =  buddhist 
-		size = 58527
+		size = 127676
 	 } 
 	farmers = {
 		culture = mongol
 		religion = secularism
-		size = 15092
+		size = 32923
 	 } 
 }
 #Qiqihar - Qiqihar, Daqing, Harbin, Suihua (5976000/1494000 POPS)
@@ -10667,72 +10647,72 @@
 	officers = {
 		culture = chinese
 		religion =  taoism 
-		size = 1044
+		size = 3563
 	 } 
 	officers = {
 		culture = chinese
 		religion = secularism
-		size = 269
+		size = 918
 	 } 
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 4177
+		size = 14252
 	 } 
 	soldiers = {
 		culture = chinese
 		religion = secularism
-		size = 1077
+		size = 3675
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion =  taoism 
-		size = 16014
+		size = 54635
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion = secularism
-		size = 4129
+		size = 14088
 	 } 
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 6962
+		size = 23754
 	 } 
 	clergymen = {
 		culture = chinese
 		religion = secularism
-		size = 1795
+		size = 6125
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 1667
+		size = 5688
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 430
+		size = 1466
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 311296
+		size = 1062081
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 80271
+		size = 273869
 	 } 
 	farmers = {
 		culture = manchu
 		religion =  taoism 
-		size = 13366
+		size = 23754
 	 } 
 	farmers = {
-		culture = mongol
-		religion = buddhist
-		size = 5753
+		culture = manchu
+		religion = secularism
+		size = 6125
 	 } 
 }
 #Aigun - Hengang, Da Hinggan Ling, Heihe, Yichun (1831000/457750 POPS)
@@ -10740,67 +10720,62 @@
 	officers = {
 		culture = chinese
 		religion =  taoism 
-		size = 47
+		size = 1091
 	 } 
 	officers = {
 		culture = chinese
 		religion = secularism
-		size = 12
+		size = 281
 	 } 
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 188
+		size = 4366
 	 } 
 	soldiers = {
 		culture = chinese
 		religion = secularism
-		size = 48
+		size = 1126
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion =  taoism 
-		size = 720
+		size = 16739
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion = secularism
-		size = 186
+		size = 4316
 	 } 
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 313
+		size = 7278
 	 } 
 	clergymen = {
 		culture = chinese
 		religion = secularism
-		size = 81
+		size = 1876
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 75
+		size = 1742
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 19
+		size = 449
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 14300
+		size = 332692
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 3687
-	 } 
-	farmers = {
-		culture = manchu
-		religion = secularism
-		size = 3091
+		size = 85788
 	 } 
 }
 #Ninguta - Heilongjiang the rest (3088000/772000 POPS)
@@ -10808,72 +10783,72 @@
 	officers = {
 		culture = chinese
 		religion =  taoism 
-		size = 706
+		size = 1841
 	 } 
 	officers = {
 		culture = chinese
 		religion = secularism
-		size = 182
+		size = 474
 	 } 
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 2824
+		size = 7364
 	 } 
 	soldiers = {
 		culture = chinese
 		religion = secularism
-		size = 728
+		size = 1899
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion =  taoism 
-		size = 10826
+		size = 28232
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion = secularism
-		size = 2791
+		size = 7279
 	 } 
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 4707
+		size = 12274
 	 } 
 	clergymen = {
 		culture = chinese
 		religion = secularism
-		size = 1214
+		size = 3165
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 1127
+		size = 2939
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 290
+		size = 757
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 205745
+		size = 536538
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 53054
+		size = 138352
 	 } 
 	farmers = {
 		culture = manchu
 		religion =  taoism 
-		size = 24491
+		size = 24549
 	 } 
 	farmers = {
-		culture = korean
+		culture = manchu
 		religion = secularism
-		size = 7344
+		size = 6330
 	 } 
 }
 #Jilin - Jilin (4173000/1043250 POPS)
@@ -10881,102 +10856,102 @@
 	officers = {
 		culture = chinese
 		religion =  taoism 
-		size = 5341
+		size = 2487
 	 } 
 	officers = {
 		culture = chinese
 		religion = secularism
-		size = 1376
+		size = 641
 	 } 
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 21371
+		size = 9952
 	 } 
 	soldiers = {
 		culture = chinese
 		religion = secularism
-		size = 5510
+		size = 2566
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion =  taoism 
-		size = 81926
+		size = 38151
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion = secularism
-		size = 21124
+		size = 9837
 	 } 
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 35619
+		size = 16587
 	 } 
 	clergymen = {
 		culture = chinese
 		religion = secularism
-		size = 9184
+		size = 4277
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 8527
+		size = 3971
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 2199
+		size = 1024
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 26935
+		size = 12543
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 6945
+		size = 3234
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 1441005
+		size = 671044
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 371579
+		size = 173036
 	 } 
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 30000
+		size = 33175
 	 } 
 	farmers = {
 		culture = korean
 		religion = secularism
-		size = 3965
+		size = 8554
 	 } 
 	farmers = {
 		culture = manchu
 		religion =  taoism 
-		size = 54000
+		size = 33175
 	 } 
 	farmers = {
 		culture = manchu
 		religion = secularism
-		size = 5969
+		size = 8554
 	 } 
 	farmers = {
 		culture = mongol
 		religion =  buddhist 
-		size = 5000
+		size = 8293
 	 } 
 	farmers = {
 		culture = mongol
 		religion = secularism
-		size = 400
+		size = 2138
 	 } 
 }
 #Chengde - Chengde (1813000/453250 POPS)
@@ -10984,82 +10959,82 @@
 	officers = {
 		culture = chinese
 		religion =  taoism 
-		size = 4583
+		size = 1080
 	 } 
 	officers = {
 		culture = chinese
 		religion = secularism
-		size = 1180
+		size = 278
 	 } 
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 18350
+		size = 4324
 	 } 
 	soldiers = {
 		culture = chinese
 		religion = secularism
-		size = 4728
+		size = 1114
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion =  taoism 
-		size = 70337
+		size = 16574
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion = secularism
-		size = 18138
+		size = 4274
 	 } 
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 30581
+		size = 7206
 	 } 
 	clergymen = {
 		culture = chinese
 		religion = secularism
-		size = 7885
+		size = 1858
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 7321
+		size = 1725
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 1884
+		size = 444
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 862791
+		size = 203305
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 222478
+		size = 52424
 	 } 
 	farmers = {
 		culture = manchu
 		religion =  taoism 
-		size = 30000
+		size = 100893
 	 } 
 	farmers = {
 		culture = manchu
 		religion = secularism
-		size = 6832
+		size = 26016
 	 } 
 	farmers = {
 		culture = mongol
 		religion =  buddhist 
-		size = 40000
+		size = 25222
 	 } 
 	farmers = {
 		culture = mongol
 		religion = secularism
-		size = 3304
+		size = 6504
 	 } 
 }
 #Pyongyang - Pyongyang (3438000/859500 POPS)
@@ -11082,7 +11057,7 @@
 	soldiers = {
 		culture = korean
 		religion = secularism
-		size = 1340
+		size = 31340
 	 } 
 	bureaucrats = {
 		culture = korean
@@ -11117,7 +11092,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 671433
+		size = 651433
 	 }
 	craftsmen = {
 		culture = korean
@@ -11150,7 +11125,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 4136
+		size = 14136
 	 } 
 	soldiers = {
 		culture = korean
@@ -11195,7 +11170,7 @@
 	farmers = {
 		culture = korean
 		religion = secularism
-		size = 46254
+		size = 36254
 	 } 
 }
 #Hamhung - Hamhung (1207000/301750 POPS)
@@ -11213,7 +11188,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 3150
+		size = 23150
 	 } 
 	soldiers = {
 		culture = korean
@@ -11253,7 +11228,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 235724
+		size = 215724
 	 } 
 	farmers = {
 		culture = korean
@@ -11276,7 +11251,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 1362
+		size = 11362
 	 } 
 	soldiers = {
 		culture = korean
@@ -11316,7 +11291,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 101945
+		size = 91945
 	 } 
 	farmers = {
 		culture = korean
@@ -11339,7 +11314,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 1025
+		size = 9025
 	 } 
 	soldiers = {
 		culture = korean
@@ -11379,7 +11354,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 76753
+		size = 66753
 	 } 
 	farmers = {
 		culture = korean
@@ -11402,7 +11377,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 1025
+		size = 9025
 	 } 
 	soldiers = {
 		culture = korean
@@ -11442,7 +11417,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 76753
+		size = 75753
 	 } 
 	farmers = {
 		culture = korean
@@ -11465,7 +11440,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 2372
+		size = 12372
 	 } 
 	soldiers = {
 		culture = korean
@@ -11505,7 +11480,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 177526
+		size = 167526
 	 } 
 	farmers = {
 		culture = korean
@@ -11533,7 +11508,7 @@
 	soldiers = {
 		culture = korean
 		religion = secularism
-		size = 170
+		size = 19170
 	 } 
 	bureaucrats = {
 		culture = korean
@@ -11568,7 +11543,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 85541
+		size = 65541
 	 } 
 	farmers = {
 		culture = korean
@@ -11591,7 +11566,7 @@
 	soldiers = {
 		culture = korean
 		religion =  taoism 
-		size = 1516
+		size = 31516
 	 } 
 	soldiers = {
 		culture = korean
@@ -11631,7 +11606,7 @@
 	farmers = {
 		culture = korean
 		religion =  taoism 
-		size = 113468
+		size = 93468
 	 } 
 	farmers = {
 		culture = korean
@@ -12296,92 +12271,92 @@
 	officers = {
 		culture = chinese
 		religion =  taoism 
-		size = 3217
+		size = 2487
 	 } 
 	officers = {
 		culture = chinese
 		religion = secularism
-		size = 829
+		size = 641
 	 } 
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 12874
+		size = 9952
 	 } 
 	soldiers = {
 		culture = chinese
 		religion = secularism
-		size = 3319
+		size = 2566
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion =  taoism 
-		size = 49353
+		size = 38151
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion = secularism
-		size = 12725
+		size = 9837
 	 } 
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 21457
+		size = 16587
 	 } 
 	clergymen = {
 		culture = chinese
 		religion = secularism
-		size = 5533
+		size = 4277
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 5137
+		size = 3971
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 1325
+		size = 1024
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 16226
+		size = 12543
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 4184
+		size = 3234
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 728604
+		size = 563224
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 187879
+		size = 145234
 	 } 
 	farmers = {
 		culture = manchu
 		religion =  taoism 
-		size = 70000
+		size = 165876
 	 } 
 	farmers = {
 		culture = manchu
 		religion = secularism
-		size = 4441
+		size = 42773
 	 } 
 	farmers = {
-		culture = chinese
-		religion =  taoism
-		size = 21457
+		culture = mongol
+		religion =  buddhist 
+		size = 16587
 	 } 
 	farmers = {
 		culture = mongol
 		religion = secularism
-		size = 5533
+		size = 4277
 	 } 
 }
 #Mordiyakha - Mordiyakha (21000/5250 POPS)
@@ -12482,12 +12457,12 @@
 		size = 315
 	 } 
 	farmers = {
-		culture = komi
+		culture = asian_minor
 		religion =  protestant 
 		size = 268
 	 } 
 	farmers = {
-		culture = komi
+		culture = asian_minor
 		religion = secularism
 		size = 46
 	 } 
@@ -12723,22 +12698,22 @@
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 14745
+		size = 15745
 	 } 
 	farmers = {
 		culture = russian
 		religion = secularism
-		size = 2062
+		size = 2362
 	 } 
 	farmers = {
 		culture = jewish
 		religion =  jewish 
-		size = 7300
+		size = 6300
 	 } 
 	farmers = {
 		culture = jewish
 		religion = secularism
-		size = 1251
+		size = 1051
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -13113,22 +13088,22 @@
 		size = 375
 	 } 
 	craftsmen = {
-		culture = mongol
+		culture = buryat
 		religion = buddhist
 		size = 623
 	 } 
 	craftsmen = {
-		culture = mongol
+		culture = buryat
 		religion = secularism
 		size = 105
 	 } 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion = buddhist
 		size = 2947
 	 } 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion = secularism
 		size = 511
 	 } 
@@ -13221,12 +13196,12 @@
 		size = 5130
 	 } 
 	farmers = {
-		culture = komi
+		culture = asian_minor
 		religion =  protestant 
 		size = 4373
 	 } 
 	farmers = {
-		culture = komi
+		culture = asian_minor
 		religion = secularism
 		size = 756
 	 } 
@@ -13314,12 +13289,12 @@
 		size = 5893
 	 } 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion =  buddhist 
 		size = 1952
 	 } 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion = secularism
 		size = 337
 	 } 
@@ -13407,12 +13382,12 @@
 		size = 5893
 	 } 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion =  buddhist 
 		size = 1952
 	 } 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion = secularism
 		size = 337
 	 } 
@@ -13515,12 +13490,12 @@
 		size = 4660
 	 } 
 	farmers = {
-		culture = kazak
+		culture = asian_minor
 		religion =  protestant 
 		size = 496
 	 } 
 	farmers = {
-		culture = kazak
+		culture = asian_minor
 		religion = secularism
 		size = 85
 	 } 
@@ -13731,12 +13706,12 @@
 		size = 15090
 	 } 
 	farmers = {
-		culture = komi
+		culture = asian_minor
 		religion =  protestant 
 		size = 12864
 	 } 
 	farmers = {
-		culture = komi
+		culture = asian_minor
 		religion = secularism
 		size = 2225
 	 } 
@@ -18252,82 +18227,62 @@
 	officers = {
 		culture = chinese
 		religion =  taoism 
-		size = 4818
+		size = 2487
 	 } 
 	officers = {
 		culture = chinese
 		religion = secularism
-		size = 1242
+		size = 641
 	 } 
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 19279
+		size = 9952
 	 } 
 	soldiers = {
 		culture = chinese
 		religion = secularism
-		size = 4971
+		size = 2566
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion =  taoism 
-		size = 73907
+		size = 38151
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion = secularism
-		size = 19056
+		size = 9837
 	 } 
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 32133
+		size = 16587
 	 } 
 	clergymen = {
 		culture = chinese
 		religion = secularism
-		size = 8285
+		size = 4277
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 7693
+		size = 3971
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 1984
+		size = 1024
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 1468859
+		size = 758232
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 378762
-	 } 
-	farmers = {
-		culture = manchu
-		religion =  taoism 
-		size = 100000
-	 } 
-	farmers = {
-		culture = manchu
-		religion = secularism
-		size = 17526
-	 } 
-	farmers = {
-		culture = korean
-		religion =  taoism 
-		size = 45000
-	 } 
-	farmers = {
-		culture = chinese
-		religion = secularism
-		size = 3767
+		size = 195519
 	 } 
 }
 #Baffin Island - Changchun (7286000/1821500 POPS)
@@ -18335,92 +18290,72 @@
 	officers = {
 		culture = chinese
 		religion =  taoism 
-		size = 566
+		size = 4343
 	 } 
 	officers = {
 		culture = chinese
 		religion = secularism
-		size = 146
+		size = 1120
 	 } 
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 2265
+		size = 17377
 	 } 
 	soldiers = {
 		culture = chinese
 		religion = secularism
-		size = 584
+		size = 4480
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion =  taoism 
-		size = 8684
+		size = 66612
 	 } 
 	bureaucrats = {
 		culture = chinese
 		religion = secularism
-		size = 2239
+		size = 17176
 	 } 
 	clergymen = {
 		culture = chinese
 		religion =  taoism 
-		size = 3775
+		size = 28961
 	 } 
 	clergymen = {
 		culture = chinese
 		religion = secularism
-		size = 974
+		size = 7468
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 904
+		size = 6935
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 233
+		size = 1788
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 2855
+		size = 21901
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 736
+		size = 5647
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 106745
+		size = 818842
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 106745
-	 } 
-	farmers = {
-		culture = manchu
-		religion =  taoism 
-		size = 10000
-	 } 
-	farmers = {
-		culture = chinese
-		religion = secularism
-		size = 6776
-	 } 
-	farmers = {
-		culture = korean
-		religion =  taoism 
-		size = 18000
-	 } 
-	farmers = {
-		culture = chinese
-		religion = secularism
-		size = 2429
+		size = 818842
 	 } 
 }
 #Schwerin - Mecklenburg-Vorpommern (286000/71500 POPS)
@@ -21164,7 +21099,7 @@
 		religion = secularism
 		size = 5249
 	 } 
-	craftsmen = {
+	farmers = {
 		culture = russian
 		religion =  orthodox 
 		size = 101785
@@ -22546,9 +22481,9 @@
 		size = 80
 	 } 
 	soldiers = {
-		culture = jewish
+		culture = ukrainian
 		religion =  jewish 
-		size = 2485
+		size = 32485
 	 } 
 	soldiers = {
 		culture = jewish
@@ -22608,7 +22543,7 @@
 	farmers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 65846
+		size = 35846
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -22641,7 +22576,7 @@
 	soldiers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 3159
+		size = 23159
 	 } 
 	soldiers = {
 		culture = ukrainian
@@ -22696,7 +22631,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = secularism
-		size = 23878
+		size = 3878
 	 } 
 	farmers = {
 		culture = polish
@@ -22797,7 +22732,7 @@
 	soldiers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 3047
+		size = 23047
 	 } 
 	soldiers = {
 		culture = ukrainian
@@ -22847,7 +22782,7 @@
 	farmers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 207757
+		size = 187757
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -22870,7 +22805,7 @@
 	soldiers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 2636
+		size = 22636
 	 } 
 	soldiers = {
 		culture = ukrainian
@@ -22925,7 +22860,7 @@
 	farmers = {
 		culture = ukrainian
 		religion = secularism
-		size = 18784
+		size = 16784
 	 } 
 	farmers = {
 		culture = polish
@@ -22953,7 +22888,7 @@
 	soldiers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 2376
+		size = 22376
 	 } 
 	soldiers = {
 		culture = ukrainian
@@ -23003,7 +22938,7 @@
 	farmers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 130288
+		size = 110288
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -23036,7 +22971,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 6520
+		size = 66520
 	 } 
 	soldiers = {
 		culture = russian
@@ -23106,7 +23041,7 @@
 	farmers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 444469
+		size = 384469
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -23129,7 +23064,7 @@
 	soldiers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 2936
+		size = 22936
 	 } 
 	soldiers = {
 		culture = ukrainian
@@ -23179,7 +23114,7 @@
 	farmers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 200156
+		size = 180156
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -23202,7 +23137,7 @@
 	soldiers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 3937
+		size = 33937
 	 } 
 	soldiers = {
 		culture = ukrainian
@@ -23252,7 +23187,7 @@
 	farmers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 268383
+		size = 238383
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -23275,7 +23210,7 @@
 	soldiers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 2955
+		size = 32955
 	 } 
 	soldiers = {
 		culture = ukrainian
@@ -23325,7 +23260,7 @@
 	farmers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 201424
+		size = 181424
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -23348,7 +23283,7 @@
 	soldiers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 2527
+		size = 32527
 	 } 
 	soldiers = {
 		culture = ukrainian
@@ -23398,7 +23333,7 @@
 	farmers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 172286
+		size = 142286
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -23421,7 +23356,7 @@
 	soldiers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 5708
+		size = 35708
 	 } 
 	soldiers = {
 		culture = ukrainian
@@ -23471,7 +23406,7 @@
 	farmers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 389093
+		size = 359093
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -23494,7 +23429,7 @@
 	soldiers = {
 		culture = russian
 		religion =  orthodox 
-		size = 23777
+		size = 53777
 	 } 
 	soldiers = {
 		culture = russian
@@ -23569,7 +23504,7 @@
 	farmers = {
 		culture = ukrainian
 		religion =  orthodox 
-		size = 93975
+		size = 63975
 	 } 
 	farmers = {
 		culture = ukrainian
@@ -25375,12 +25310,12 @@
 		size = 278
 	 } 
 	farmers = {
-		culture = komi
+		culture = asian_minor
 		religion =  protestant 
 		size = 596
 	 } 
 	farmers = {
-		culture = komi
+		culture = asian_minor
 		religion = secularism
 		size = 103
 	 } 

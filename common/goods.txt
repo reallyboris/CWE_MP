@@ -249,7 +249,6 @@ consumer_goods = {
 	pharmaceuticals = {
 		cost = 2
 		color = { 253 199 110 }
-		available_from_start = no
 	}
 
 	computers = {
@@ -310,11 +309,13 @@ consumer_goods = {
 	heating_electricity = {
 		cost = 3.5
 		color = { 186 50 40 }
+		available_from_start = no
 	}
 
 	transport = {
 		cost = 3
 		color = { 123 0 54 }
+		available_from_start = no
 	}
 
 	communication = {
@@ -353,3 +354,4 @@ consumer_goods = {
 		money = yes
 	}
 }
+

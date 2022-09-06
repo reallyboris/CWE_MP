@@ -1,7 +1,7 @@
 owner = AFG
 controller = AFG
 add_core = AFG
-trade_goods = gold_silver
+trade_goods = wool
 life_rating = 35
 terrain = tundra_mountains
 colonial = 0

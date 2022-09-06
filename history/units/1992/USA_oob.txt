@@ -566,11 +566,67 @@ army = {
 		type = artillery
 		home = 126
 	}
+	regiment = {
+		name = "16th Inf. Rgt. 'New York's Own'"
+		type = mechanized_infantry
+		home = 232
+	}
+	regiment = {
+		name = "18th Inf. Rgt. 'Vanguards'"
+		type = mechanized_infantry
+		home = 126
+	}
+	regiment = {
+		name = "Big Red One Armor Brg. 1"
+		type = tank
+		home = 126
+	}
+	regiment = {
+		name = "Big Red One Armor Brg. 2"
+		type = tank
+		home = 126
+	}
+	regiment = {
+		name = "Big Red One Support Brg."
+		type = artillery
+		home = 126
+	}
 }
 army = {
 	name = "1st Cavalry Division"
 	location = 132
 	
+	regiment = {
+		name = "1st Armored Regiment"
+		type = tank
+		home = 132
+		#experience = 65
+	}
+	
+	regiment = {
+		name = "1st Cavalry Engineers"
+		type = mechanized_infantry
+		home = 132
+		#experience = 45
+	}
+	
+	regiment = {
+		name = "1st Cavalry 1st Troopers"
+		type = mechanized_infantry
+		home = 132
+	}
+	
+	regiment = {
+		name = "1st Cavalry 2nd Troopers"
+		type = mechanized_infantry
+		home = 132
+	}
+	
+	regiment = {
+		name = "1st Cavalry 3rd Troopers"
+		type = mechanized_infantry
+		home = 132
+	}
 	regiment = {
 		name = "1st Armored Regiment"
 		type = tank
@@ -627,11 +683,61 @@ army = {
 		#experience = 75
 		home = 90
 	}
+	regiment = {
+		name = "1st Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 90
+	}
+	
+	regiment = {
+		name = "2nd Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 90
+	}
+	
+	regiment = {
+		name = "3rd Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 90
+	}
 }
 army = {
 	name = "2nd Inf. Div. 'Indianhead'"
 	location = 1628
 	
+	regiment = {
+		name = "5th Inf. Rgt. 'Bobcats'"
+		type = mechanized_infantry
+		home = 215
+	}	
+	regiment = {
+		name = "9th Inf. Rgt. 'Manchu'"
+		type = mechanized_infantry
+		home = 213
+	}
+	regiment = {
+		name = "Art. Support Unit 'Fort Lewis'"
+		type = tank
+		home = 216
+	}
+	regiment = {
+		name = "USAF Indianhead Squadron"
+		type = bomber
+		home = 214
+	}
+	regiment = {
+		name = "2nd Combat Aviation Brg."
+		type = cavalry
+		home = 210
+	}
+	regiment = {
+		name = "Korean Helicopter Detachment"
+		type = cavalry
+		home = 215
+	}
 	regiment = {
 		name = "5th Inf. Rgt. 'Bobcats'"
 		type = mechanized_infantry
@@ -687,11 +793,60 @@ army = {
 		#experience = 75
 		home = 90
 	}
+	regiment = {
+		name = "4th Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 90
+	}
+	
+	regiment = {
+		name = "5th Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 90
+	}
+	
+	regiment = {
+		name = "6th Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 90
+	}
 }
 army = {
 	name = "3rd Inf. Div. 'The Marne'"
 	location = 2555
 	
+	regiment = {
+		name = "Brigade Combat Team A"
+		type = mechanized_infantry
+		home = 2555
+	}
+	
+	regiment = {
+		name = "Brigade Combat Team B"
+		type = mechanized_infantry
+		home = 2555
+	}
+	
+	regiment = {
+		name = "Brigade Combat Team C"
+		type = mechanized_infantry
+		home = 2555
+	}
+	
+	regiment = {
+		name = "3rd Division Aviation Brigade"
+		type = bomber
+		home = 2555
+	}
+	
+	regiment = {
+		name = "3rd Division Art. Support"
+		type = artillery
+		home = 2555
+	}
 	regiment = {
 		name = "Brigade Combat Team A"
 		type = mechanized_infantry
@@ -746,6 +901,26 @@ army = {
 		#experience = 75
 		home = 90
 	}
+	regiment = {
+		name = "7th Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 90
+	}
+	
+	regiment = {
+		name = "8th Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 90
+	}
+	
+	regiment = {
+		name = "9th Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 90
+	}
 }
 army = {
 	name = "4th Inf. Div. 'Ivy Div.'"
@@ -777,11 +952,57 @@ army = {
 		type = tank
 		home = 106
 	}
+	regiment = {
+		name = "12th Inf. Rgt. 'Red Warriors'"
+		#experience = 50
+		type = mechanized_infantry
+		home = 106
+	}	
+	regiment = {
+		name = "22nd Inf. Rgt."
+		type = mechanized_infantry
+		home = 106
+	}
+	regiment = {
+		name = "1st Stryker BCT"
+		type = mechanized_infantry
+		home = 106
+	}
+	regiment = {
+		name = "2nd Infantry BCT"
+		type = mechanized_infantry
+		home = 106
+	}
+	regiment = {
+		name = "3rd Armored BCT"
+		type = tank
+		home = 106
+	}
 }
 army = {
 	name = "4th Marine Division"
 	location = 139
 	
+	regiment = {
+		name = "10th Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 139
+	}
+	
+	regiment = {
+		name = "11th Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 139
+	}
+	
+	regiment = {
+		name = "12th Marine Infantry"
+		type = mechanized_infantry
+		#experience = 75
+		home = 139
+	}
 	regiment = {
 		name = "10th Marine Infantry"
 		type = mechanized_infantry
@@ -837,6 +1058,96 @@ army = {
 		type = irregular
 		home = 140
 	}
+	regiment = {
+		name = "Red Diamond 1st Inf. Brg."
+		type = mechanized_infantry
+		home = 142
+	}
+	regiment = {
+		name = "Red Diamond 2nd Inf. Brg."
+		type = mechanized_infantry
+		home = 141
+	}
+	regiment = {
+		name = "61st Inf. (Training) Rgt."
+		type = mechanized_infantry
+		home = 142
+	}
+	regiment = {
+		name = "Red Diamond USAF Detachment"
+		type = bomber
+		home = 142
+	}
+	regiment = {
+		name = "Red Diamond Art. Support Rgt."
+		type = artillery
+		home = 141
+	}
+	regiment = {
+		name = "5th Military Police Detachment"
+		type = irregular
+		home = 140
+	}
+	regiment = {
+		name = "Red Diamond 1st Inf. Brg."
+		type = mechanized_infantry
+		home = 142
+	}
+	regiment = {
+		name = "Red Diamond 2nd Inf. Brg."
+		type = mechanized_infantry
+		home = 141
+	}
+	regiment = {
+		name = "61st Inf. (Training) Rgt."
+		type = mechanized_infantry
+		home = 142
+	}
+	regiment = {
+		name = "Red Diamond USAF Detachment"
+		type = bomber
+		home = 142
+	}
+	regiment = {
+		name = "Red Diamond Art. Support Rgt."
+		type = artillery
+		home = 141
+	}
+	regiment = {
+		name = "5th Military Police Detachment"
+		type = irregular
+		home = 140
+	}
+	regiment = {
+		name = "Red Diamond 1st Inf. Brg."
+		type = mechanized_infantry
+		home = 142
+	}
+	regiment = {
+		name = "Red Diamond 2nd Inf. Brg."
+		type = mechanized_infantry
+		home = 141
+	}
+	regiment = {
+		name = "61st Inf. (Training) Rgt."
+		type = mechanized_infantry
+		home = 142
+	}
+	regiment = {
+		name = "Red Diamond USAF Detachment"
+		type = bomber
+		home = 142
+	}
+	regiment = {
+		name = "Red Diamond Art. Support Rgt."
+		type = artillery
+		home = 141
+	}
+	regiment = {
+		name = "5th Military Police Detachment"
+		type = irregular
+		home = 140
+	}
 }
 army = {
 	name = "6th Inf. Div. 'Red Star'"
@@ -854,11 +1165,38 @@ army = {
 		type = tank
 		home = 85
 	}
+	regiment = {
+		name = "Army Reserve's 205th Inf. Brg."
+		#experience = 30
+		type = mechanized_infantry
+		home = 85
+	}
+	
+	regiment = {
+		name = "16th Armored Rgt."
+		type = tank
+		home = 85
+	}
 }
 army = {
 	name = "10th Mountain Div."
 	location = 239
 	
+	regiment = {
+		name = "85th Inf. Rgt."
+		type = mechanized_infantry
+		home = 239
+	}
+	regiment = {
+		name = "86th Inf. Rgt."
+		type = mechanized_infantry
+		home = 239
+	}
+	regiment = {
+		name = "87th Inf. Rgt."
+		type = mechanized_infantry
+		home = 239
+	}
 	regiment = {
 		name = "85th Inf. Rgt."
 		type = mechanized_infantry
@@ -894,11 +1232,101 @@ army = {
 		type = tank
 		home = 2555
 	}
+	regiment = {
+		name = "7th Inf. Rgt. 'Cottonbalers'"
+		type = mechanized_infantry
+		home = 2555
+	}		
+	regiment = {
+		name = "48th Georgia National Guard Inf."
+		type = irregular
+		home = 2555
+	}	
+	regiment = {
+		name = "Armored Detachment of the 24th"
+		type = tank
+		home = 2555
+	}
 }
 army = {
 	name = "25th Inf. Div. 'Tropic Lightning'"
 	location = 658
 		
+	regiment = {
+		name = "14th Inf. Rgt. 'Golden Dragons'"
+		type = mechanized_infantry
+		home = 132
+	}
+	regiment = {
+		name = "35th Inf. Rgt. 'Cacti'"
+		type = mechanized_infantry
+		home = 132
+	}
+	regiment = {
+		name = "Tropic Lightning Aviation Brg."
+		type = bomber
+		home = 132
+	}
+	regiment = {
+		name = "Tropic Lightning USAF Support Detachment A"
+		type = cavalry
+		home = 658
+	}
+	regiment = {
+		name = "Tropic Lightning USAF Support Detachment B"
+		type = cavalry
+		home = 658
+	}
+	regiment = {
+		name = "14th Inf. Rgt. 'Golden Dragons'"
+		type = mechanized_infantry
+		home = 132
+	}
+	regiment = {
+		name = "35th Inf. Rgt. 'Cacti'"
+		type = mechanized_infantry
+		home = 132
+	}
+	regiment = {
+		name = "Tropic Lightning Aviation Brg."
+		type = bomber
+		home = 132
+	}
+	regiment = {
+		name = "Tropic Lightning USAF Support Detachment A"
+		type = cavalry
+		home = 658
+	}
+	regiment = {
+		name = "Tropic Lightning USAF Support Detachment B"
+		type = cavalry
+		home = 658
+	}
+	regiment = {
+		name = "14th Inf. Rgt. 'Golden Dragons'"
+		type = mechanized_infantry
+		home = 132
+	}
+	regiment = {
+		name = "35th Inf. Rgt. 'Cacti'"
+		type = mechanized_infantry
+		home = 132
+	}
+	regiment = {
+		name = "Tropic Lightning Aviation Brg."
+		type = bomber
+		home = 132
+	}
+	regiment = {
+		name = "Tropic Lightning USAF Support Detachment A"
+		type = cavalry
+		home = 658
+	}
+	regiment = {
+		name = "Tropic Lightning USAF Support Detachment B"
+		type = cavalry
+		home = 658
+	}
 	regiment = {
 		name = "14th Inf. Rgt. 'Golden Dragons'"
 		type = mechanized_infantry
@@ -974,11 +1402,66 @@ army = {
 		type = irregular
 		home = 178
 	}
+	regiment = {
+		name = "152nd Inf. (Indiana) Rgt."
+		type = mechanized_infantry
+		home = 172
+	}	
+	regiment = {
+		name = "Indiana 1st National Guard"
+		type = irregular
+		home = 172
+	}
+	regiment = {
+		name = "Indiana 2nd National Guard"
+		type = irregular
+		home = 172
+	}
+	regiment = {
+		name = "Delaware 1st National Guard"
+		type = irregular
+		home = 222
+	}
+	regiment = {
+		name = "Tennessee 1st National Guard"
+		type = irregular
+		home = 188
+	}
+	regiment = {
+		name = "Tennessee 2nd National Guard"
+		type = irregular
+		home = 188
+	}
+	regiment = {
+		name = "Michigan 1st National Guard"
+		type = irregular
+		home = 173
+	}
+	regiment = {
+		name = "Kentucky 1st National Guard"
+		type = irregular
+		home = 184
+	}
+	regiment = {
+		name = "Ohio 1st National Guard"
+		type = irregular
+		home = 178
+	}
 }
 army = {
 	name = "63rd US Reserve Inf. Div."
 	location = 89
 	
+	regiment = {
+		name = "66th Infantry (Reserve) Rgt."
+		type = irregular
+		home = 87
+	}
+	regiment = {
+		name = "13th Armored (Reserve) Div."
+		type = tank
+		home = 89
+	}
 	regiment = {
 		name = "66th Infantry (Reserve) Rgt."
 		type = irregular
@@ -999,11 +1482,79 @@ army = {
 		type = mechanized_infantry
 		home = 100
 	}
+	regiment = {
+		name = "59th Inf. Rgt."
+		type = mechanized_infantry
+		home = 100
+	}
 }
 army = {
 	name = "101st Airborne Div. 'Screaming Eagles'"
 	location = 186
 	
+	regiment = {
+		name = "26th Inf. Rgt. 'Blue Spaders'"
+		type = mechanized_infantry
+		home = 187
+	}
+	regiment = {
+		name = "101st Airborne Ground Troops"
+		type = mechanized_infantry
+		home = 186
+		#experience = 100
+	}
+	regiment = {
+		name = "101st Airborne Air Attachment 1"
+		type = bomber
+		home = 186
+	}
+	regiment = {
+		name = "101st Airborne Air Attachment 2"
+		type = bomber
+		home = 181
+	}
+	regiment = {
+		name = "26th Inf. Rgt. 'Blue Spaders'"
+		type = mechanized_infantry
+		home = 187
+	}
+	regiment = {
+		name = "101st Airborne Ground Troops"
+		type = mechanized_infantry
+		home = 186
+		#experience = 100
+	}
+	regiment = {
+		name = "101st Airborne Air Attachment 1"
+		type = bomber
+		home = 186
+	}
+	regiment = {
+		name = "101st Airborne Air Attachment 2"
+		type = bomber
+		home = 181
+	}
+	regiment = {
+		name = "26th Inf. Rgt. 'Blue Spaders'"
+		type = mechanized_infantry
+		home = 187
+	}
+	regiment = {
+		name = "101st Airborne Ground Troops"
+		type = mechanized_infantry
+		home = 186
+		#experience = 100
+	}
+	regiment = {
+		name = "101st Airborne Air Attachment 1"
+		type = bomber
+		home = 186
+	}
+	regiment = {
+		name = "101st Airborne Air Attachment 2"
+		type = bomber
+		home = 181
+	}
 	regiment = {
 		name = "26th Inf. Rgt. 'Blue Spaders'"
 		type = mechanized_infantry
@@ -1059,11 +1610,51 @@ army = {
 		type = bomber
 		home = 196
 	}
+	regiment = {
+		name = "1st Alabama National Guard"
+		type = irregular
+		home = 195
+	}
+	
+	regiment = {
+		name = "2nd Alabama National Guard"
+		type = irregular
+		home = 195
+	}
+	
+	regiment = {
+		name = "3rd Alabama National Guard"
+		type = irregular
+		home = 196
+	}
+	
+	regiment = {
+		name = "4th Alabama National Guard"
+		type = irregular
+		home = 197
+	}
+	
+	regiment = {
+		name = "Alabama State Air Squadron"
+		type = bomber
+		home = 196
+	}
 }
 army = {
 	name = "Alaska State Forces"
 	location = 2630
 	
+	regiment = {
+		name = "Alaska Army National Guard"
+		type = irregular
+		home = 2630
+	}
+	
+	regiment = {
+		name = "Alaska State Air Squadron"
+		type = bomber
+		home = 2630
+	}
 	regiment = {
 		name = "Alaska Army National Guard"
 		type = irregular
@@ -1100,11 +1691,101 @@ army = {
 		type = mechanized_infantry
 		home = 203
 	}
+	regiment = {
+		name = "11th Inf. Rgt. 'Wandering 11th'"
+		type = mechanized_infantry
+		home = 200
+	}
+	regiment = {
+		name = "58th Inf. Rgt."
+		type = mechanized_infantry
+		home = 201
+	}
+	regiment = {
+		name = "198th Inf. (Training) Brg. Rgt. A"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "198th Inf. (Training) Brg. Rgt. B"
+		type = mechanized_infantry
+		home = 203
+	}
+	regiment = {
+		name = "11th Inf. Rgt. 'Wandering 11th'"
+		type = mechanized_infantry
+		home = 200
+	}
+	regiment = {
+		name = "58th Inf. Rgt."
+		type = mechanized_infantry
+		home = 201
+	}
+	regiment = {
+		name = "198th Inf. (Training) Brg. Rgt. A"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "198th Inf. (Training) Brg. Rgt. B"
+		type = mechanized_infantry
+		home = 203
+	}
+	regiment = {
+		name = "11th Inf. Rgt. 'Wandering 11th'"
+		type = mechanized_infantry
+		home = 200
+	}
+	regiment = {
+		name = "58th Inf. Rgt."
+		type = mechanized_infantry
+		home = 201
+	}
+	regiment = {
+		name = "198th Inf. (Training) Brg. Rgt. A"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "198th Inf. (Training) Brg. Rgt. B"
+		type = mechanized_infantry
+		home = 203
+	}
 }
 army = {
 	name = "Army Training and Doctrine Command"
 	location = 213
 	
+	regiment = {
+		name = "10th Inf. (Training) Rgt."
+		type = mechanized_infantry
+		home = 213
+	}
+	regiment = {
+		name = "13th Inf. Rgt. 'First at Vicksburg'"
+		type = mechanized_infantry
+		home = 214
+	}
+	regiment = {
+		name = "28th Inf. Rgt. 'Lions of Cantigny'"
+		type = mechanized_infantry
+		home = 215
+	}
+	regiment = {
+		name = "30th Inf. (Training) Rgt."
+		type = mechanized_infantry
+		home = 216
+	}
+	regiment = {
+		name = "32nd Inf. Rgt. 'Spearhead'"
+		type = mechanized_infantry
+		home = 217
+	}
+	regiment = {
+		name = "50th Inf. (Training) Rgt."
+		type = mechanized_infantry
+		home = 218
+	}
 	regiment = {
 		name = "10th Inf. (Training) Rgt."
 		type = mechanized_infantry
@@ -1163,11 +1844,51 @@ army = {
 		type = cavalry
 		home = 102
 	}
+	regiment = {
+		name = "1st Arizona National Guard"
+		type = irregular
+		home = 100
+	}
+	
+	regiment = {
+		name = "2nd Arizona National Guard"
+		type = irregular
+		home = 101
+	}
+	
+	regiment = {
+		name = "Arizona State Air Squadron"
+		type = bomber
+		home = 101
+	}
+	
+	regiment = {
+		name = "Arizona Air Support"
+		type = cavalry
+		home = 102
+	}
 }
 army = {
 	name = "Arkansas State Forces"
 	location = 143
 	
+	regiment = {
+		name = "1st Arkansas National Guard"
+		type = irregular
+		home = 143
+	}
+	
+	regiment = {
+		name = "2nd Arkansas National Guard"
+		type = irregular
+		home = 144
+	}
+	
+	regiment = {
+		name = "Arkansas Air Squadron"
+		type = bomber
+		home = 145
+	}
 	regiment = {
 		name = "1st Arkansas National Guard"
 		type = irregular
@@ -1220,11 +1941,58 @@ army = {
 		type = cavalry
 		home = 90
 	}
+	regiment = {
+		name = "1st California National Guard"
+		type = irregular
+		home = 84
+	}
+	regiment = {
+		name = "2nd California National Guard"
+		type = irregular
+		home = 85
+	}
+	regiment = {
+		name = "3rd California National Guard"
+		type = irregular
+		home = 86
+	}
+	regiment = {
+		name = "4th California National Guard"
+		type = irregular
+		home = 87
+	}
+	regiment = {
+		name = "5th California National Guard"
+		type = irregular
+		home = 88
+	}
+	regiment = {
+		name = "California State Air Support"
+		type = cavalry
+		home = 90
+	}
 }
 army = {
 	name = "Camp Darby Garrison"
 	location = 745
 	
+	regiment = {
+		name = "7th Medical Command"
+		type = mechanized_infantry
+		home = 174
+	}
+	
+	regiment = {
+		name = "405th Army Field Support Unit"
+		type = mechanized_infantry
+		home = 173
+	}
+	
+	regiment = {
+		name = "Italian Infantry Support Rgt."
+		type = mechanized_infantry
+		home = 173
+	}
 	regiment = {
 		name = "7th Medical Command"
 		type = mechanized_infantry
@@ -1270,11 +2038,39 @@ army = {
 		type = irregular
 		home = 206
 	}
+	regiment = {
+		name = "1st North Carolina NG"
+		type = irregular
+		home = 207
+	}
+	
+	regiment = {
+		name = "2nd North Carolina NG"
+		type = irregular
+		home = 208
+	}	
+	
+	regiment = {
+		name = "3rd North Carolina NG"
+		type = irregular
+		home = 209
+	}	
+	
+	regiment = {
+		name = "1st South Carolina NG"
+		type = irregular
+		home = 206
+	}
 }
 army = {
 	name = "Colorado Forces"
 	location = 106
 	
+	regiment = {
+		name = "Colorado 1st National Guard"
+		type = irregular
+		home = 105
+	}
 	regiment = {
 		name = "Colorado 1st National Guard"
 		type = irregular
@@ -1295,6 +2091,16 @@ army = {
 		type = irregular
 		home = 241
 	}	
+	regiment = {
+		name = "102nd Inf. Rgt."
+		type = mechanized_infantry
+		home = 241
+	}
+	regiment = {
+		name = "Connecticut Volunteers"
+		type = irregular
+		home = 241
+	}
 }
 army = {
 	name = "Florida State Forces"
@@ -1320,11 +2126,154 @@ army = {
 		type = bomber
 		home = 200
 	}
+	regiment = {
+		name = "1st Florida National Guard"
+		type = irregular
+		home = 198
+	}
+	regiment = {
+		name = "2nd Florida National Guard"
+		type = irregular
+		home = 199
+	}
+	regiment = {
+		name = "3rd Florida National Guard"
+		type = irregular
+		home = 200
+	}
+	regiment = {
+		name = "Florida State Air Squadron"
+		type = bomber
+		home = 200
+	}
 }
 army = {
 	name = "Fort Benning Garrison"
 	location = 202
 	
+	regiment = {
+		name = "19th Inf. Rgt. 'The Rock'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "29th Inf. Rgt. 'Pioneers'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "37th Inf. Rgt. 'Freedom'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "38th Inf. Rgt. 'Rock of the Marne'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "47th Inf. Rgt. 'Raiders'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "54th Inf. Rgt."
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "75th Ranger Rgt."
+		#experience = 100
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "194th Armor (Training) Brg."
+		type = tank
+		home = 202
+	}
+	regiment = {
+		name = "19th Inf. Rgt. 'The Rock'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "29th Inf. Rgt. 'Pioneers'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "37th Inf. Rgt. 'Freedom'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "38th Inf. Rgt. 'Rock of the Marne'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "47th Inf. Rgt. 'Raiders'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "54th Inf. Rgt."
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "75th Ranger Rgt."
+		#experience = 100
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "194th Armor (Training) Brg."
+		type = tank
+		home = 202
+	}
+	regiment = {
+		name = "19th Inf. Rgt. 'The Rock'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "29th Inf. Rgt. 'Pioneers'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "37th Inf. Rgt. 'Freedom'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "38th Inf. Rgt. 'Rock of the Marne'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "47th Inf. Rgt. 'Raiders'"
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "54th Inf. Rgt."
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "75th Ranger Rgt."
+		#experience = 100
+		type = mechanized_infantry
+		home = 202
+	}
+	regiment = {
+		name = "194th Armor (Training) Brg."
+		type = tank
+		home = 202
+	}
 	regiment = {
 		name = "19th Inf. Rgt. 'The Rock'"
 		type = mechanized_infantry
@@ -1412,6 +2361,129 @@ army = {
 		type = artillery
 		home = 136
 	}
+	regiment = {
+		name = "6th Inf. Rgt. 'Regulars'"
+		#experience = 40
+		type = mechanized_infantry
+		home = 136
+	}
+	regiment = {
+		name = "17th Inf. Rgt. 'Buffalos'"
+		#experience = 40
+		type = mechanized_infantry
+		home = 136
+	}
+	regiment = {
+		name = "15th Sustainment Brg. 'Wagonmasters'"
+		#experience = 40
+		type = mechanized_infantry
+		home = 136
+	}
+	regiment = {
+		name = "1st US Armored Div. Rgt. A"
+		#experience = 40
+		type = tank
+		home = 136
+	}
+	regiment = {
+		name = "1st US Armored Div. Rgt. B"
+		#experience = 30
+		type = tank
+		home = 136
+	}
+	regiment = {
+		name = "1st US Armored Div. Rgt. C"
+		type = tank
+		home = 136
+	}	
+	regiment = {
+		name = "402nd Field Art. Brg."
+		#experience = 25
+		type = artillery
+		home = 136
+	}
+	regiment = {
+		name = "6th Inf. Rgt. 'Regulars'"
+		#experience = 40
+		type = mechanized_infantry
+		home = 136
+	}
+	regiment = {
+		name = "17th Inf. Rgt. 'Buffalos'"
+		#experience = 40
+		type = mechanized_infantry
+		home = 136
+	}
+	regiment = {
+		name = "15th Sustainment Brg. 'Wagonmasters'"
+		#experience = 40
+		type = mechanized_infantry
+		home = 136
+	}
+	regiment = {
+		name = "1st US Armored Div. Rgt. A"
+		#experience = 40
+		type = tank
+		home = 136
+	}
+	regiment = {
+		name = "1st US Armored Div. Rgt. B"
+		#experience = 30
+		type = tank
+		home = 136
+	}
+	regiment = {
+		name = "1st US Armored Div. Rgt. C"
+		type = tank
+		home = 136
+	}	
+	regiment = {
+		name = "402nd Field Art. Brg."
+		#experience = 25
+		type = artillery
+		home = 136
+	}
+	regiment = {
+		name = "6th Inf. Rgt. 'Regulars'"
+		#experience = 40
+		type = mechanized_infantry
+		home = 136
+	}
+	regiment = {
+		name = "17th Inf. Rgt. 'Buffalos'"
+		#experience = 40
+		type = mechanized_infantry
+		home = 136
+	}
+	regiment = {
+		name = "15th Sustainment Brg. 'Wagonmasters'"
+		#experience = 40
+		type = mechanized_infantry
+		home = 136
+	}
+	regiment = {
+		name = "1st US Armored Div. Rgt. A"
+		#experience = 40
+		type = tank
+		home = 136
+	}
+	regiment = {
+		name = "1st US Armored Div. Rgt. B"
+		#experience = 30
+		type = tank
+		home = 136
+	}
+	regiment = {
+		name = "1st US Armored Div. Rgt. C"
+		type = tank
+		home = 136
+	}	
+	regiment = {
+		name = "402nd Field Art. Brg."
+		#experience = 25
+		type = artillery
+		home = 136
+	}
 
 }
 army = {
@@ -1423,11 +2495,61 @@ army = {
 		type = mechanized_infantry
 		home = 88
 	}
+	regiment = {
+		name = "52nd Inf. Rgt. 'Ready Rifles'"
+		type = mechanized_infantry
+		home = 88
+	}
 }
 army = {
 	name = "Fort Jackson Garrison"
 	location = 206
 	
+	regiment = {
+		name = "39th Inf. Rgt. 'Fighting Falcons'"
+		type = mechanized_infantry
+		home = 206
+	}
+	regiment = {
+		name = "60th Inf. (Training) Rgt. 'Devils'"
+		type = mechanized_infantry
+		home = 206
+	}
+	regiment = {
+		name = "165th Inf. (Training) Brg."
+		type = mechanized_infantry
+		home = 213
+	}
+	regiment = {
+		name = "39th Inf. Rgt. 'Fighting Falcons'"
+		type = mechanized_infantry
+		home = 206
+	}
+	regiment = {
+		name = "60th Inf. (Training) Rgt. 'Devils'"
+		type = mechanized_infantry
+		home = 206
+	}
+	regiment = {
+		name = "165th Inf. (Training) Brg."
+		type = mechanized_infantry
+		home = 213
+	}
+	regiment = {
+		name = "39th Inf. Rgt. 'Fighting Falcons'"
+		type = mechanized_infantry
+		home = 206
+	}
+	regiment = {
+		name = "60th Inf. (Training) Rgt. 'Devils'"
+		type = mechanized_infantry
+		home = 206
+	}
+	regiment = {
+		name = "165th Inf. (Training) Brg."
+		type = mechanized_infantry
+		home = 213
+	}
 	regiment = {
 		name = "39th Inf. Rgt. 'Fighting Falcons'"
 		type = mechanized_infantry
@@ -1463,6 +2585,21 @@ army = {
 		type = irregular
 		home = 184
 	}
+	regiment = {
+		name = "2nd Inf. Rgt. 'Ramrods'"
+		type = mechanized_infantry
+		home = 184
+	}	
+	regiment = {
+		name = "46th Inf. Rgt. 'The Professionals'"
+		type = mechanized_infantry
+		home = 184
+	}
+	regiment = {
+		name = "149th Inf. (Reserve) Rgt."
+		type = irregular
+		home = 184
+	}
 }
 army = {
 	name = "Fort Myer Garrison"
@@ -1473,6 +2610,11 @@ army = {
 		type = mechanized_infantry
 		home = 212
 	}	
+	regiment = {
+		name = "3rd Inf. Rgt. 'The Old Guard'"
+		type = mechanized_infantry
+		home = 212
+	}
 }
 army = {
 	name = "Fort Wainwright Garrison"
@@ -1483,11 +2625,41 @@ army = {
 		type = mechanized_infantry
 		home = 2630
 	}
+	regiment = {
+		name = "21st Inf. Rgt. 'Gimlet'"
+		type = mechanized_infantry
+		home = 2630
+	}
 }
 army = {
 	name = "Georgia State Forces"
 	location = 202
 	
+	regiment = {
+		name = "1st Georgia National Guard"
+		type = irregular
+		home = 202
+	}
+	regiment = {
+		name = "2nd Georgia National Guard"
+		type = irregular
+		home = 201
+	}
+	regiment = {
+		name = "3rd Georgia National Guard"
+		type = irregular
+		home = 204
+	}
+	regiment = {
+		name = "4th Georgia National Guard"
+		type = irregular
+		home = 202
+	}
+	regiment = {
+		name = "Georgia State Air Support"
+		type = cavalry
+		home = 2555
+	}
 	regiment = {
 		name = "1st Georgia National Guard"
 		type = irregular
@@ -1535,11 +2707,33 @@ army = {
 		type = irregular
 		home = 248
 	}
+	regiment = {
+		name = "Vermont National Guard"
+		type = irregular
+		home = 246
+	}
+	
+	regiment = {
+		name = "New Hampshire National Guard"
+		type = irregular
+		home = 247
+	}
+	
+	regiment = {
+		name = "Maine National Guard"
+		type = irregular
+		home = 248
+	}
 }
 army = {
 	name = "Hawaii State Forces"
 	location = 658
 	
+	regiment = {
+		name = "1st Hawaii National Guard"
+		type = irregular
+		home = 658
+	}
 	regiment = {
 		name = "1st Hawaii National Guard"
 		type = irregular
@@ -1560,11 +2754,46 @@ army = {
 		type = mechanized_infantry
 		home = 200
 	}
+	regiment = {
+		name = "4th Inf. Rgt. 'Warriors'"
+		type = mechanized_infantry
+		home = 211
+	}	
+	regiment = {
+		name = "41st Inf. Rgt."
+		type = mechanized_infantry
+		home = 200
+	}
+	regiment = {
+		name = "4th Inf. Rgt. 'Warriors'"
+		type = mechanized_infantry
+		home = 211
+	}	
+	regiment = {
+		name = "41st Inf. Rgt."
+		type = mechanized_infantry
+		home = 200
+	}
+	regiment = {
+		name = "4th Inf. Rgt. 'Warriors'"
+		type = mechanized_infantry
+		home = 211
+	}	
+	regiment = {
+		name = "41st Inf. Rgt."
+		type = mechanized_infantry
+		home = 200
+	}
 }
 army = {
 	name = "Idaho State Forces"
 	location = 92
 	
+	regiment = {
+		name = "1st Idaho National Guard"
+		type = irregular
+		home = 92
+	}
 	regiment = {
 		name = "1st Idaho National Guard"
 		type = irregular
@@ -1592,11 +2821,45 @@ army = {
 		type = irregular
 		home = 168
 	}	
+	regiment = {
+		name = "1st Illinois National Guard"
+		type = irregular
+		home = 165
+	}
+	
+	regiment = {
+		name = "2nd Illinois National Guard"
+		type = irregular
+		home = 167
+	}
+
+	regiment = {
+		name = "3rd Illinois National Guard"
+		type = irregular
+		home = 168
+	}
 }
 army = {
 	name = "Iowa State Forces"
 	location = 151
 	
+	regiment = {
+		name = "1st Iowa National Guard"
+		type = irregular
+		home = 151
+	}
+	
+	regiment = {
+		name = "2nd Iowa National Guard"
+		type = irregular
+		home = 152
+	}	
+	
+	regiment = {
+		name = "Iowa State Air Support"
+		type = cavalry
+		home = 153
+	}
 	regiment = {
 		name = "1st Iowa National Guard"
 		type = irregular
@@ -1636,11 +2899,79 @@ army = {
 		type = bomber
 		home = 128
 	}
+	regiment = {
+		name = "1st Kansas National Guard"
+		type = irregular
+		home = 126
+	}
+	
+	regiment = {
+		name = "2nd Kansas National Guard"
+		type = irregular
+		home = 127
+	}
+	
+	regiment = {
+		name = "Kansas Air Squadron"
+		type = bomber
+		home = 128
+	}
+	regiment = {
+		name = "1st Kansas National Guard"
+		type = irregular
+		home = 126
+	}
+	
+	regiment = {
+		name = "2nd Kansas National Guard"
+		type = irregular
+		home = 127
+	}
+	
+	regiment = {
+		name = "Kansas Air Squadron"
+		type = bomber
+		home = 128
+	}
+	regiment = {
+		name = "1st Kansas National Guard"
+		type = irregular
+		home = 126
+	}
+	
+	regiment = {
+		name = "2nd Kansas National Guard"
+		type = irregular
+		home = 127
+	}
+	
+	regiment = {
+		name = "Kansas Air Squadron"
+		type = bomber
+		home = 128
+	}
 }
 army = {
 	name = "Louisiana State Forces"
 	location = 140
 	
+	regiment = {
+		name = "156th Inf. Rgt. 'Dieu et moi'"
+		type = mechanized_infantry
+		home = 140
+	}
+	
+	regiment = {
+		name = "Louisiana 1st National Guard"
+		type = irregular
+		home = 141
+	}
+	
+	regiment = {
+		name = "Louisiana 2nd National Guard"
+		type = irregular
+		home = 142
+	}	
 	regiment = {
 		name = "156th Inf. Rgt. 'Dieu et moi'"
 		type = mechanized_infantry
@@ -1668,11 +2999,33 @@ army = {
 		type = mechanized_infantry
 		home = 227
 	}	
+
+	regiment = {
+		name = "23rd Inf. Rgt. 'Tomahawks'"
+		type = mechanized_infantry
+		home = 227
+	}	
+	regiment = {
+		name = "23rd Inf. Rgt. 'Tomahawks'"
+		type = mechanized_infantry
+		home = 227
+	}	
+
+	regiment = {
+		name = "23rd Inf. Rgt. 'Tomahawks'"
+		type = mechanized_infantry
+		home = 227
+	}
 }
 army = {
 	name = "Maryland State Forces"
 	location = 219
 	
+	regiment = {
+		name = "Maryland National Guard"
+		type = irregular
+		home = 142
+	}
 	regiment = {
 		name = "Maryland National Guard"
 		type = irregular
@@ -1700,6 +3053,23 @@ army = {
 		type = bomber
 		home = 243
 	}
+	regiment = {
+		name = "Massachusetts National Guard"
+		type = irregular
+		home = 243
+	}
+	
+	regiment = {
+		name = "Rhode Island National Guard"
+		type = irregular
+		home = 242
+	}
+	
+	regiment = {
+		name = "Massachusetts Air Squadron"
+		type = bomber
+		home = 243
+	}
 }
 army = {
 	name = "Mississippi State Forces"
@@ -1710,11 +3080,33 @@ army = {
 		type = mechanized_infantry
 		home = 192
 	}
+	regiment = {
+		name = "155th Inf. Rgt."
+		type = mechanized_infantry
+		home = 192
+	}
 }
 army = {
 	name = "Missouri State Forces"
 	location = 146
 	
+	regiment = {
+		name = "131st Inf. Reg."
+		type = mechanized_infantry
+		home = 146
+	}
+	
+	regiment = {
+		name = "1st Missouri National Guard"
+		type = irregular
+		home = 147
+	}
+
+	regiment = {
+		name = "2nd Missouri National Guard"
+		type = irregular
+		home = 148
+	}
 	regiment = {
 		name = "131st Inf. Reg."
 		type = mechanized_infantry
@@ -1742,6 +3134,11 @@ army = {
 		type = irregular
 		home = 145
 	}
+	regiment = {
+		name = "Montana National Guard"
+		type = irregular
+		home = 145
+	}
 }
 army = {
 	name = "Nebraska State Forces"
@@ -1752,11 +3149,21 @@ army = {
 		type = irregular
 		home = 123
 	}
+	regiment = {
+		name = "Nebraska 1st National Guard"
+		type = irregular
+		home = 123
+	}
 }
 army = {
 	name = "Nevada National Guard"
 	location = 96
 	
+	regiment = {
+		name = "Nevada 1st National Guard"
+		type = irregular
+		home = 96
+	}
 	regiment = {
 		name = "Nevada 1st National Guard"
 		type = irregular
@@ -1778,11 +3185,27 @@ army = {
 		type = irregular
 		home = 229
 	}
+	regiment = {
+		name = "1st NJ National Guard"
+		type = irregular
+		home = 229
+	}
+	
+	regiment = {
+		name = "2nd NJ National Guard"
+		type = irregular
+		home = 229
+	}
 }
 army = {
 	name = "New Mexico National Guard"
 	location = 103
 	
+	regiment = {
+		name = "1st NM National Guard"
+		type = irregular
+		home = 103
+	}
 	regiment = {
 		name = "1st NM National Guard"
 		type = irregular
@@ -1818,11 +3241,91 @@ army = {
 		type = bomber
 		home = 231
 	}
+	regiment = {
+		name = "69th US Infantry Rgt."
+		type = mechanized_infantry
+		home = 232
+	}
+	regiment = {
+		name = "1st New York National Guard"
+		type = irregular
+		home = 232
+	}
+	regiment = {
+		name = "2nd New York National Guard"
+		type = irregular
+		home = 231
+	}
+	regiment = {
+		name = "3rd New York National Guard"
+		type = irregular
+		home = 230
+	}	
+	regiment = {
+		name = "New York Air Squadron"
+		type = bomber
+		home = 231
+	}
+	regiment = {
+		name = "69th US Infantry Rgt."
+		type = mechanized_infantry
+		home = 232
+	}
+	regiment = {
+		name = "1st New York National Guard"
+		type = irregular
+		home = 232
+	}
+	regiment = {
+		name = "2nd New York National Guard"
+		type = irregular
+		home = 231
+	}
+	regiment = {
+		name = "3rd New York National Guard"
+		type = irregular
+		home = 230
+	}	
+	regiment = {
+		name = "New York Air Squadron"
+		type = bomber
+		home = 231
+	}
+	regiment = {
+		name = "69th US Infantry Rgt."
+		type = mechanized_infantry
+		home = 232
+	}
+	regiment = {
+		name = "1st New York National Guard"
+		type = irregular
+		home = 232
+	}
+	regiment = {
+		name = "2nd New York National Guard"
+		type = irregular
+		home = 231
+	}
+	regiment = {
+		name = "3rd New York National Guard"
+		type = irregular
+		home = 230
+	}	
+	regiment = {
+		name = "New York Air Squadron"
+		type = bomber
+		home = 231
+	}
 }
 army = {
 	name = "Ohio State Forces"
 	location = 178
 	
+	regiment = {
+		name = "145th Armored Rgt."
+		type = tank
+		home = 178
+	}
 	regiment = {
 		name = "145th Armored Rgt."
 		type = tank
@@ -1844,6 +3347,17 @@ army = {
 		type = irregular
 		home = 131
 	}	
+	regiment = {
+		name = "1st Oklahoma National Guard"
+		type = irregular
+		home = 129
+	}
+	
+	regiment = {
+		name = "2nd Oklahoma National Guard"
+		type = irregular
+		home = 131
+	}
 }
 army = {
 	name = "Oregon State Forces"
@@ -1854,11 +3368,26 @@ army = {
 		type = irregular
 		home = 89
 	}
+	regiment = {
+		name = "1st Oregon National Guard"
+		type = irregular
+		home = 89
+	}
 }
 army = {
 	name = "Panama Force"
 	location = 1723
 	
+	regiment = {
+		name = "27th Inf. Rgt. 'Wolfhounds'"
+		type = mechanized_infantry
+		home = 232
+	}
+	regiment = {
+		name = "Panama Volunteers"
+		type = irregular
+		home = 1723
+	}
 	regiment = {
 		name = "27th Inf. Rgt. 'Wolfhounds'"
 		type = mechanized_infantry
@@ -1893,11 +3422,88 @@ army = {
 		type = irregular
 		home = 223
 	}
+	regiment = {
+		name = "1st Pennslyvania NG"
+		type = irregular
+		home = 223
+	}
+	regiment = {
+		name = "2nd Pennslyvania NG"
+		type = irregular
+		home = 223
+	}
+	regiment = {
+		name = "3rd Pennslyvania NG"
+		type = irregular
+		home = 223
+	}	
+	regiment = {
+		name = "4th Pennslyvania NG"
+		type = irregular
+		home = 223
+	}
+	regiment = {
+		name = "1st Pennslyvania NG"
+		type = irregular
+		home = 223
+	}
+	regiment = {
+		name = "2nd Pennslyvania NG"
+		type = irregular
+		home = 223
+	}
+	regiment = {
+		name = "3rd Pennslyvania NG"
+		type = irregular
+		home = 223
+	}	
+	regiment = {
+		name = "4th Pennslyvania NG"
+		type = irregular
+		home = 223
+	}
+	regiment = {
+		name = "1st Pennslyvania NG"
+		type = irregular
+		home = 223
+	}
+	regiment = {
+		name = "2nd Pennslyvania NG"
+		type = irregular
+		home = 223
+	}
+	regiment = {
+		name = "3rd Pennslyvania NG"
+		type = irregular
+		home = 223
+	}	
+	regiment = {
+		name = "4th Pennslyvania NG"
+		type = irregular
+		home = 223
+	}
 }
 army = {
 	name = "Puerto Rico Force"
 	location = 2222
 	
+	regiment = {
+		name = "65th Inf. Rgt."
+		type = mechanized_infantry
+		home = 96
+	}
+	
+	regiment = {
+		name = "1st Puerto Rico National Guard"
+		type = irregular
+		home = 96
+	}
+	
+	regiment = {
+		name = "2nd Puerto Rico National Guard"
+		type = irregular
+		home = 96
+	}
 	regiment = {
 		name = "65th Inf. Rgt."
 		type = mechanized_infantry
@@ -1959,11 +3565,176 @@ army = {
 		type = artillery
 		home = 131
 	}
+	regiment = {
+		name = "1st Texas National Guard"
+		type = irregular
+		home = 132
+	}
+	regiment = {
+		name = "2nd Texas National Guard"
+		type = irregular
+		home = 132
+	}	
+	regiment = {
+		name = "3rd Texas National Guard"
+		type = irregular
+		home = 131
+	}
+	regiment = {
+		name = "4th Texas National Guard"
+		type = irregular
+		home = 130
+	}		
+	regiment = {
+		name = "5th Texas National Guard"
+		type = irregular
+		home = 134
+	}
+	regiment = {
+		name = "6th Texas National Guard"
+		type = irregular
+		home = 133
+	}			
+	regiment = {
+		name = "Texas Air Squadron"
+		type = bomber
+		home = 131
+	}
+	regiment = {
+		name = "Texas Art. Regiment"
+		type = artillery
+		home = 131
+	}
+	regiment = {
+		name = "1st Texas National Guard"
+		type = irregular
+		home = 132
+	}
+	regiment = {
+		name = "2nd Texas National Guard"
+		type = irregular
+		home = 132
+	}	
+	regiment = {
+		name = "3rd Texas National Guard"
+		type = irregular
+		home = 131
+	}
+	regiment = {
+		name = "4th Texas National Guard"
+		type = irregular
+		home = 130
+	}		
+	regiment = {
+		name = "5th Texas National Guard"
+		type = irregular
+		home = 134
+	}
+	regiment = {
+		name = "6th Texas National Guard"
+		type = irregular
+		home = 133
+	}			
+	regiment = {
+		name = "Texas Air Squadron"
+		type = bomber
+		home = 131
+	}
+	regiment = {
+		name = "Texas Art. Regiment"
+		type = artillery
+		home = 131
+	}
+	regiment = {
+		name = "1st Texas National Guard"
+		type = irregular
+		home = 132
+	}
+	regiment = {
+		name = "2nd Texas National Guard"
+		type = irregular
+		home = 132
+	}	
+	regiment = {
+		name = "3rd Texas National Guard"
+		type = irregular
+		home = 131
+	}
+	regiment = {
+		name = "4th Texas National Guard"
+		type = irregular
+		home = 130
+	}		
+	regiment = {
+		name = "5th Texas National Guard"
+		type = irregular
+		home = 134
+	}
+	regiment = {
+		name = "6th Texas National Guard"
+		type = irregular
+		home = 133
+	}			
+	regiment = {
+		name = "Texas Air Squadron"
+		type = bomber
+		home = 131
+	}
+	regiment = {
+		name = "Texas Art. Regiment"
+		type = artillery
+		home = 131
+	}
 }
 army = {
 	name = "Washington State Force"
 	location = 78
 	
+	regiment = {
+		name = "1st Washington National Guard"
+		type = irregular
+		home = 78
+	}
+	regiment = {
+		name = "2nd Washington National Guard"
+		type = irregular
+		home = 79
+	}
+	regiment = {
+		name = "3rd Washington National Guard"
+		type = irregular
+		home = 80
+	}
+	regiment = {
+		name = "1st Washington National Guard"
+		type = irregular
+		home = 78
+	}
+	regiment = {
+		name = "2nd Washington National Guard"
+		type = irregular
+		home = 79
+	}
+	regiment = {
+		name = "3rd Washington National Guard"
+		type = irregular
+		home = 80
+	}
+	regiment = {
+		name = "1st Washington National Guard"
+		type = irregular
+		home = 78
+	}
+	regiment = {
+		name = "2nd Washington National Guard"
+		type = irregular
+		home = 79
+	}
+	regiment = {
+		name = "3rd Washington National Guard"
+		type = irregular
+		home = 80
+	}
 	regiment = {
 		name = "1st Washington National Guard"
 		type = irregular
@@ -1989,11 +3760,21 @@ army = {
 		type = mechanized_infantry
 		home = 235
 	}	
+	regiment = {
+		name = "1st Inf. Rgt. 'Semper Primus'"
+		type = mechanized_infantry
+		home = 235
+	}
 }
 army = {
 	name = "West Virginia Forces"
 	location = 217
 	
+	regiment = {
+		name = "150th Cavalry Rgt."
+		type = tank
+		home = 217
+	}
 	regiment = {
 		name = "150th Cavalry Rgt."
 		type = tank
@@ -2009,11 +3790,27 @@ army = {
 		type = irregular
 		home = 159
 	}
+	regiment = {
+		name = "1st Wisconsin National Guard"
+		type = irregular
+		home = 159
+	}
 }
 army = {
 	name = "Virginia Forces"
 	location = 213
 	
+	regiment = {
+		name = "1st Virginia National Guard"
+		type = irregular
+		home = 213
+	}
+	
+	regiment = {
+		name = "2nd Virginia National Guard"
+		type = irregular
+		home = 214
+	}	
 	regiment = {
 		name = "1st Virginia National Guard"
 		type = irregular
@@ -2041,11 +3838,33 @@ army = {
 		type = irregular
 		home = 97
 	}	
+	regiment = {
+		name = "1st Utah National Guard"
+		type = irregular
+		home = 97
+	}
+
+	regiment = {
+		name = "2nd Utah National Guard"
+		type = irregular
+		home = 97
+	}
 }
 army = {
 	name = "Wyoming Forces"
 	location = 112
 	
+	regiment = {
+		name = "1st Wyoming National Guard"
+		type = irregular
+		home = 110
+	}
+	
+	regiment = {
+		name = "2nd Wyoming National Guard"
+		type = irregular
+		home = 112
+	}
 	regiment = {
 		name = "1st Wyoming National Guard"
 		type = irregular
@@ -2067,11 +3886,21 @@ army = {
 		type = cavalry
 		home = 220
 	}
+	regiment = {
+		name = "1st Helicopter Squadron"
+		type = cavalry
+		home = 220
+	}
 }
 army = {
 	name = "USAF Special Operations Command"
 	location = 104
 	
+	regiment = {
+		name = "20th Special Operations Squadron"
+		type = cavalry
+		home = 104
+	}
 	regiment = {
 		name = "20th Special Operations Squadron"
 		type = cavalry
@@ -2093,6 +3922,17 @@ army = {
 		type = bomber
 		home = 199
 	}	
+	regiment = {
+		name = "1st Air Squadron"
+		type = bomber
+		home = 200
+	}
+
+	regiment = {
+		name = "2nd Air Squadron"
+		type = bomber
+		home = 199
+	}
 }
 army = {
 	name = "2nd Air Force"
@@ -2103,11 +3943,32 @@ army = {
 		type = bomber
 		home = 90
 	}
+	regiment = {
+		name = "3rd Air Squadron"
+		type = bomber
+		home = 90
+	}
 }
 army = {
 	name = "3rd Air Force"
 	location = 571
 	
+	regiment = {
+		name = "1st Ramstein Squadron"
+		type = bomber
+		#experience = 70
+		home = 232
+	}
+	regiment = {
+		name = "2nd Ramstein Squadron"
+		type = bomber
+		home = 233
+	}
+	regiment = {
+		name = "Ramstein Air Support A"
+		type = cavalry
+		home = 96
+	}
 	regiment = {
 		name = "1st Ramstein Squadron"
 		type = bomber
@@ -2135,11 +3996,21 @@ army = {
 		type = bomber
 		home = 87
 	}
+	regiment = {
+		name = "4th Air Squadron"
+		type = bomber
+		home = 87
+	}
 }
 army = {
 	name = "5th Air Force"
 	location = 1653
 	
+	regiment = {
+		name = "1st Japanese Air Squadron"
+		type = bomber
+		home = 135
+	}
 	regiment = {
 		name = "1st Japanese Air Squadron"
 		type = bomber
@@ -2160,11 +4031,27 @@ army = {
 		type = bomber
 		home = 134
 	}	
+	regiment = {
+		name = "1st Korean Air Squadron"
+		type = bomber
+		home = 134
+	}
+	regiment = {
+		name = "2nd Korean Air Squadron"
+		type = bomber
+		home = 134
+	}
 }
 army = {
 	name = "8th Air Force"
 	location = 142
 	
+	regiment = {
+		name = "5th Air Squadron"
+		type = bomber
+		home = 142
+	}
+
 	regiment = {
 		name = "5th Air Squadron"
 		type = bomber
@@ -2185,11 +4072,26 @@ army = {
 		type = cavalry
 		home = 205
 	}
+	regiment = {
+		name = "6th Air Squadron"
+		type = bomber
+		home = 205
+	}
+	regiment = {
+		name = "9th Air Force Air Support"
+		type = cavalry
+		home = 205
+	}
 }
 army = {
 	name = "10th Air Force"
 	location = 134
 	
+	regiment = {
+		name = "7th Air Squadron"
+		type = bomber
+		home = 134
+	}
 	regiment = {
 		name = "7th Air Squadron"
 		type = bomber
@@ -2210,11 +4112,26 @@ army = {
 		type = cavalry
 		home = 3
 	}
+	regiment = {
+		name = "8th Air Squadron"
+		type = bomber
+		home = 3
+	}
+	regiment = {
+		name = "11th Air Force Support Squadron"
+		type = cavalry
+		home = 3
+	}
 }
 army = {
 	name = "12th Air Force"
 	location = 101
 	
+	regiment = {
+		name = "9th Air Squadron"
+		type = bomber
+		home = 101
+	}
 	regiment = {
 		name = "9th Air Squadron"
 		type = bomber
@@ -2236,11 +4153,37 @@ army = {
 		type = bomber
 		home = 658
 	}
+	regiment = {
+		name = "1st Hawaii Squadron"
+		type = bomber
+		home = 658
+	}
+	
+	regiment = {
+		name = "2nd Hawaii Squadron"
+		type = bomber
+		home = 658
+	}
 }
 army = {
 	name = "14th Air Force"
 	location = 87
 	
+	regiment = {
+		name = "10th Air Squadron"
+		type = bomber
+		home = 87
+	}
+	regiment = {
+		name = "11th Air Squadron"
+		type = bomber
+		home = 87
+	}
+	regiment = {
+		name = "1st Air Support Squadron"
+		type = cavalry
+		home = 87
+	}
 	regiment = {
 		name = "10th Air Squadron"
 		type = bomber
@@ -2276,11 +4219,31 @@ army = {
 		type = cavalry
 		home = 86
 	}
+	regiment = {
+		name = "12th Air Squadron"
+		type = bomber
+		home = 86
+	}
+	regiment = {
+		name = "13th Air Squadron"
+		type = bomber
+		home = 86
+	}
+	regiment = {
+		name = "2nd Air Support Squadron"
+		type = cavalry
+		home = 86
+	}
 }
 army = {
 	name = "16th Air Exped. Task Force"
 	location = 489
 	
+	regiment = {
+		name = "14th Air Squadron"
+		type = bomber
+		home = 100
+	}
 	regiment = {
 		name = "14th Air Squadron"
 		type = bomber
@@ -2300,7 +4263,17 @@ army = {
 		name = "Ramstein Air Support B"
 		type = cavalry
 		home = 90
-	}	
+	}
+	regiment = {
+		name = "3rd Ramstein Squadron"
+		type = bomber
+		home = 234
+	}
+	regiment = {
+		name = "Ramstein Air Support B"
+		type = cavalry
+		home = 90
+	}		
 }
 army = {
 	name = "18th Air Force"
@@ -2311,11 +4284,26 @@ army = {
 		type = bomber
 		home = 168
 	}
+	regiment = {
+		name = "15th Air Squadron"
+		type = bomber
+		home = 168
+	}
 }
 army = {
 	name = "19th Air Force"
 	location = 137
 	
+	regiment = {
+		name = "16th Air Squadron"
+		type = bomber
+		home = 137
+	}
+	regiment = {
+		name = "17th Air Squadron"
+		type = bomber
+		home = 137
+	}
 	regiment = {
 		name = "16th Air Squadron"
 		type = bomber
@@ -2346,11 +4334,31 @@ army = {
 		type = cavalry
 		home = 110
 	}
+	regiment = {
+		name = "18th Air Squadron"
+		type = bomber
+		home = 110
+	}
+	regiment = {
+		name = "19th Air Squadron"
+		type = bomber
+		home = 110
+	}
+	regiment = {
+		name = "Wyoming Support Wing"
+		type = cavalry
+		home = 110
+	}
 }
 army = {
 	name = "21st Exped. Mobility Task Force"
 	location = 231
 	
+	regiment = {
+		name = "20th Air Squadron"
+		type = bomber
+		home = 231
+	}
 	regiment = {
 		name = "20th Air Squadron"
 		type = bomber
@@ -2372,11 +4380,27 @@ army = {
 		type = bomber
 		home = 199
 	}
+	regiment = {
+		name = "18th Flight Test Squadron"
+		type = cavalry
+		home = 199
+	}
+	
+	regiment = {
+		name = "11th Intelligence Squadron"
+		type = bomber
+		home = 199
+	}
 }
 army = {
 	name = "Air Electronic Security Command"
 	location = 198
 	
+	regiment = {
+		name = "Electronic Security Squadron"
+		type = cavalry
+		home = 198
+	}
 	regiment = {
 		name = "Electronic Security Squadron"
 		type = cavalry
@@ -2479,6 +4503,199 @@ navy = {
 		name = "USS Wasp (LHD-1)"
 		type = transportship
 	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+	ship = {
+		name = "USS Wasp (LHD-1)"
+		type = transportship
+	}
+
 }
 navy = {
 	name = "US 2nd Fleet Texas Deployment"
