@@ -4554,6 +4554,8 @@ immigrant_attract = -1
 pop_militancy_modifier = 0.05
 local_RGO_throughput = -0.25
 local_factory_output = -0.30
+supply_limit = -1000
+max_attrition = 25
 icon = 26
 }
 
@@ -7450,4 +7452,42 @@ law_changed_by_force1 = {
     icon = 6
 }
 
- 
+crat_1 = {
+    icon = 6
+}
+
+crat_2 = {
+    icon = 6
+}
+
+crat_3 = {
+    icon = 6
+}
+
+crat_4 = {
+    icon = 6
+}
+
+crat_5 = {
+    icon = 6
+}
+
+crat_6 = {
+    icon = 6
+}
+
+crat_7 = {
+    icon = 6
+}
+
+crat_8 = {
+    icon = 6
+}
+
+crat_9 = {
+    icon = 6
+}
+
+crat_10 = {
+    icon = 6
+}

@@ -433,47 +433,6 @@ prestige = 100
 
 }
 
-
-#AI Nuke Money
-country_event = {
-	id = 1410151
-	title = "$COUNTRY$ Nuclear Weapons Development Push"
-	desc = "$COUNTRY$ has decided to push its Nuclear Weapons development forward by sourcing the funds required from the treasury and black budgets."
-	picture = "1410150"
-	
-trigger = { 
-ai = yes
-NOT = { has_country_modifier = develop_atomic_bomb }
-NOT = { has_country_modifier = develop_hydrogen_bomb }
-NOT = { has_country_modifier = hydrogen_nation }
-NOT = { has_country_modifier = atomic_nation }
-OR = { 
-AND = { tag = ENG ai = yes year = 1949 }
-AND = { tag = FRA ai = yes year = 1956 }
-AND = { tag = CHI ai = yes year = 1960 }
-
-AND = { tag = HND ai = yes year = 1970 }
-AND = { tag = PAK ai = yes year = 1980 }
-AND = { tag = NKO ai = yes year = 2003 }
-AND = { tag = ISR ai = yes year = 1963 }
-AND = { tag = SAF ai = yes year = 1979 }
-}
-NOT = { has_country_flag = nuke_money_aid }
-}
-
-mean_time_to_happen = { 
-months = 4
-}
-
-option = {
-name = "Onwards!"
-set_country_flag = nuke_money_aid
-money = 2000000
-badboy = -10
-		}
-
-}
-
 #AI Open Borders
 country_event = {
 	id = 1410152

@@ -1,5 +1,84 @@
 political_decisions = {
 
+nuclear_ultimatum = {
+	picture = "nuclear_ultimatum"
+		potential = {
+
+			war = yes
+			OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation }
+
+			OR = {
+				has_country_modifier = nuclear_cap_high
+				has_country_modifier = nuclear_cap_medium 
+				has_country_modifier = nuclear_cap_low
+			}
+
+		}
+
+		allow = {
+		
+			#Pacifists will never choose to blow up the world
+			NOT = { war_policy = pacifism }
+
+			NOT = { has_country_modifier = nuclear_system_down }
+
+			OR = { 
+			
+				ai = no
+				
+				#Escalation if tatical nukes were used
+				AND = { 
+					NOT = { war_policy = pacifism } 
+					any_owned_province = { has_province_modifier = tactical_nuked } 
+				}
+
+				#Normal willingness
+				AND = { 
+					national_provinces_occupied = 0.40 
+					war_policy = jingoism 
+				}
+				
+				#Special cases
+				AND = { 
+					national_provinces_occupied = 0.20
+					has_country_flag = more_willing_nuke_behaviour 
+				}
+
+			}
+
+			NOT = { has_country_modifier = nukes_used_recently }
+			NOT = { has_global_flag = someone_is_firing_nukes }
+		}
+
+		effect = {
+
+			#Choose what kind of ultimatum
+			country_event = 1331427
+
+			add_country_modifier = { name = nukes_used_recently duration = 365 }
+
+			badboy = 20
+			
+			set_global_flag = someone_is_firing_nukes
+
+			#Increase Pacifism
+			any_pop = {
+				dominant_issue = {
+					value = pacifism
+					factor = 0.25
+				}
+			}
+
+		}
+	
+		ai_will_do = { 
+			factor = 0.75 
+		}
+
+	}
+
+
+
 fire_tactical_nuke = {
 	picture = "fire_tactical_nuke"
 		potential = {

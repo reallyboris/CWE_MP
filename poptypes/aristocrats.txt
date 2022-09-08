@@ -1036,7 +1036,56 @@ promote_to = {
 			}
 			modifier = {
 				factor = -100
-				state_scope = { bureaucrats = 0.040 }
+				state_scope = { bureaucrats = 0.1 }
+			}
+		}
+		modifier = {
+			factor = -100 
+			OR = {
+				AND = {
+					country = { has_country_flag = crat_1 }
+					state_scope = { bureaucrats = 0.01 }
+				}
+				AND = {
+					country = { has_country_flag = crat_2 }
+					state_scope = { bureaucrats = 0.02 }
+				}
+				AND = {
+					country = { has_country_flag = crat_3 }
+					state_scope = { bureaucrats = 0.03 }
+				}
+				AND = {
+					country = { has_country_flag = crat_4 }
+					state_scope = { bureaucrats = 0.04 }
+				}
+				AND = {
+					country = { has_country_flag = crat_4 }
+					state_scope = { bureaucrats = 0.4 }
+				}
+				AND = {
+					country = { has_country_flag = crat_5 }
+					state_scope = { bureaucrats = 0.05 }
+				}
+				AND = {
+					country = { has_country_flag = crat_6 }
+					state_scope = { bureaucrats = 0.06 }
+				}
+				AND = {
+					country = { has_country_flag = crat_7 }
+					state_scope = { bureaucrats = 0.07 }
+				}
+				AND = {
+					country = { has_country_flag = crat_8 }
+					state_scope = { bureaucrats = 0.08 }
+				}
+				AND = {
+					country = { has_country_flag = crat_9 }
+					state_scope = { bureaucrats = 0.09 }
+				}
+				AND = {
+					country = { has_country_flag = crat_10 }
+					state_scope = { bureaucrats = 0.1 }
+				}
 			}
 		}
 		
@@ -1128,43 +1177,43 @@ promote_to = {
 		
 		group = {
 			modifier = {
-				factor = 2
+				factor = 5
 				crime_fighting = 0.1
 			}
 			modifier = {
-				factor = 2
+				factor = 5
 				crime_fighting = 0.2
 			}
 			modifier = {
-				factor = 2
+				factor = 5
 				crime_fighting = 0.3
 			}
 			modifier = {
-				factor = 2
+				factor = 5
 				crime_fighting = 0.4
 			}
 			modifier = {
-				factor = 2
+				factor = 5
 				crime_fighting = 0.5
 			}
 			modifier = {
-				factor = 2
+				factor = 5
 				crime_fighting = 0.6
 			}
 			modifier = {
-				factor = 2
+				factor = 5
 				crime_fighting = 0.7
 			}
 			modifier = {
-				factor = 2
+				factor = 5
 				crime_fighting = 0.8
 			}
 			modifier = {
-				factor = 2
+				factor = 5
 				crime_fighting = 0.9
 			}
 			modifier = {
-				factor = 2
+				factor = 5
 				crime_fighting = 0.99
 			}
 		}

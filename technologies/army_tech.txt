@@ -1207,7 +1207,6 @@ antitank_weapons = {
 	unciv_military = yes
 
 	#Artillery
-	activate_unit = artillery
 	
 	tank = {
 		supply_consumption = 0.05
@@ -1627,8 +1626,6 @@ first_generation_subsonic_jet_fighters = {
 
 	#Interceptor Fighter
 	activate_unit = cavalry 
-
-	activate_building = aeroplane_factory
 	
 	ai_chance = {
 		factor = 1.1

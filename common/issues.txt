@@ -15,19 +15,8 @@ party_issues = {
 	economic_policy = {
 		laissez_faire = {
 			max_tax = 0.75
-
-
-			factory_maintenance = 0.3
-
-			factory_throughput = 0.3
-
-			tax_efficiency = 0.2
-
-			factory_owner_cost = 0.25
-			
-			factory_output = 0.25
-
-			import_cost = -0.20
+			factory_owner_cost = 0.05
+			factory_output = 0.2
 
 			rules = {
 				build_factory = no
@@ -53,17 +42,8 @@ party_issues = {
 		interventionism = {
 			min_tax = 0.1
 
-			factory_maintenance = 0.1
-
-			factory_throughput = 0.10
-
-			tax_efficiency = 0.05
-		
 			factory_owner_cost = 0.1
-
 			factory_output = 0.1
-
-			import_cost = -0.20
 
 			rules = {
 				build_factory = no
@@ -90,9 +70,7 @@ party_issues = {
 		}
 		state_capitalism = {
 			min_tax = 0.25
-			
-			import_cost = 0.05
-			factory_owner_cost = 0.10
+			factory_owner_cost = 0.15
 
 			rules = {
 				build_factory = yes
@@ -120,13 +98,10 @@ party_issues = {
 			min_tax = 0.30
 			min_tariff = 0.10
 			tax_efficiency = 0.05
-
-                        mobilisation_economy_impact = -0.25
+			
 			
 			factory_maintenance = 0.1
-
-			import_cost = 0.10
-			factory_owner_cost = 0.10
+			factory_owner_cost = 0.8
 			
 			factory_throughput = 0.10
 
@@ -158,14 +133,8 @@ party_issues = {
 			tax_efficiency = 0.10
 			
 			factory_maintenance = 0.2
-
-			mobilisation_economy_impact = -0.50
-			
-			import_cost = 0.15
 			factory_owner_cost = -1
-			
-			factory_throughput = 0.20
-			factory_output = 0.20
+			factory_throughput = 0.2
 
 			rules = {
 				build_factory = yes
@@ -217,31 +186,27 @@ party_issues = {
 	war_policy = {
 		jingoism = {
 			max_military_spending = 1
-			min_military_spending = 0.2
-                        supply_consumption = 0.05
-			war_exhaustion_effect = 0.5
-			cb_generation_speed_modifier = 0.3
+			supply_consumption = 0.2
+			org_regain = 0.25
+			reinforce_speed = 0.25
 			mobilization_impact = 4
-                        org_regain = 0.5
-                        reinforce_speed = 0.5
+			min_military_spending = 0.2
+			cb_generation_speed_modifier = 0.3
 			is_jingoism = yes
 		}
 		pro_military = {
 			max_military_spending = 1
-			min_military_spending = 0.1
+			supply_consumption = 0.1
+			org_regain = 0.125
+			reinforce_speed = 0.125
 			mobilization_impact = 3
-			org_regain = 0.25
-			reinforce_speed = 0.25
-			war_exhaustion_effect = 0.7
+			min_military_spending = 0.1
 		}
 		pacifism = {
 			max_military_spending = 0.5
-                        supply_consumption = -0.25
-                        war_exhaustion_effect = 1.5
-			org_regain = -0.25
-                        badboy = -0.02
+			supply_consumption = -0.15
+			mobilization_impact = 2
 			cb_generation_speed_modifier = -0.3
-			global_pop_militancy_modifier = -0.02
 		}
 	}
 }
