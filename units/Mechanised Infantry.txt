@@ -31,8 +31,6 @@ tactical_drone = {
 		ammunition = 0.12
 		canned_food = 0.07
 		fuel = 0.15
-		clothes = 0.05
-		clothes_footwear = 0.05
 		automobiles = 0.2
 	}
 	

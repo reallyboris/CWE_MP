@@ -31,8 +31,6 @@ modern_infantry = {
 		ammunition = 0.15
 		canned_food = 0.06
 		fuel = 0.1
-		clothes = 0.1
-		clothes_footwear = 0.05
 		automobiles = 0.075
 		small_arms = 0.05
 	}

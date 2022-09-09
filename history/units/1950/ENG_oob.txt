@@ -1930,4 +1930,441 @@ navy = {
 		name= "RMS Aurania"
 		type = transportship
 	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+}
+
+navy = {
+	name = "British Merchant Navy"
+	location = 1923
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Elizabeth"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Queen Mary"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Alaunia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ascania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aquitania"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Orduna"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Scythia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Samaria"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Antonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Ausonia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Franconia"
+		type = transportship
+	}
+	ship = {
+		name= "RMS Aurania"
+		type = transportship
+	}
 }

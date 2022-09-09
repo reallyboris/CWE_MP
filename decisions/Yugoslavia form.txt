@@ -10,7 +10,6 @@ political_decisions = {
 			war = no
 			is_vassal = no
 
-			NOT = { OR = { ruling_party_ideology = nationalist ruling_party_ideology = populist ruling_party_ideology = traditionalist } }
 
 			OR = { 
 				YUG = { all_core = { owned_by = THIS } }

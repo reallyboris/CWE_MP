@@ -16,7 +16,6 @@ NOT = { has_country_flag = hide_superstate }
 
 OR = { part_of_sphere = no sphere_owner = { OR = { has_country_flag = xum_ambition NOT = { has_country_flag = deny_superstate } } } }
 
-			OR = { government = nationalist_dictatorship pop_majority_religion = shiite }
 			bank_for_international_settlements = 1
 			war = no
 		}
@@ -52,7 +51,6 @@ NOT = { has_country_flag = hide_superstate }
 AND = { part_of_sphere = yes sphere_owner = { 
 NOT = { has_country_flag = xum_ambition } has_country_flag = deny_superstate } }
 				
-				NOT = { OR = { government = nationalist_dictatorship pop_majority_religion = shiite } }
 				has_country_modifier = in_bankrupcy
 			}
 			war = no
@@ -90,7 +88,6 @@ NOT = { has_country_flag = hide_superstate }
 		}
 		allow = {
 			has_country_flag = xum_ambition
-			OR = { government = nationalist_dictatorship pop_majority_religion = shiite }
 			capitalism = 1
 			war = no
 		}
@@ -110,7 +107,6 @@ NOT = { has_country_flag = hide_superstate }
 		allow = {
 			has_country_flag = xum_ambition
 			capital_scope = { has_province_modifier = single_market }
-			OR = { government = nationalist_dictatorship pop_majority_religion = shiite }
 			economic_globalization = 1
 			election = no
 			war = no
@@ -131,7 +127,6 @@ NOT = { has_country_flag = hide_superstate }
 		allow = {
 			has_country_flag = xum_ambition
 			capital_scope = { has_province_modifier = currency_union_province }
-			OR = { government = nationalist_dictatorship pop_majority_religion = shiite }
 			election = no
 			#has_unclaimed_cores = no
 			war = no
@@ -152,7 +147,6 @@ NOT = { has_country_flag = hide_superstate }
 		allow = {
 			has_country_flag = xum_ambition
 			capital_scope = { is_core = XUM }
-			OR = { government = nationalist_dictatorship pop_majority_religion = shiite }
 			election = no
 			war = no
 			age_of_protests = 1
@@ -177,7 +171,6 @@ NOT = { has_country_flag = hide_superstate }
 		allow = {
 			has_country_flag = xum_ambition
 			capital_scope = { has_province_modifier = defence_union } 
-			OR = { government = nationalist_dictatorship pop_majority_religion = shiite }
 			election = no
 			OR = { is_greater_power = yes is_secondary_power = yes }
 			political_polarization = 1
@@ -207,7 +200,6 @@ NOT = { has_country_flag = hide_superstate }
 			any_neighbor_country = { has_country_flag = xum_ambition in_sphere = THIS NOT = { has_country_modifier = rejected_union } }
 		}
 		allow = {
-			OR = { government = nationalist_dictatorship pop_majority_religion = shiite }
 			election = no
 			OR = { is_greater_power = yes is_secondary_power = yes }
 			political_polarization = 1

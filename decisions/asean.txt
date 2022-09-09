@@ -19,7 +19,6 @@ political_decisions = {
 				part_of_sphere = no 
 				sphere_owner = { OR = { has_country_flag = xan_ambition NOT = { has_country_flag = deny_superstate } } }
 			}
-			OR = { government = socialist_democracy government = democracy government = democracy1 government = hms_government government = hms_government1 government = presidential_dictatorship government = absolute_monarchy }
 			new_synthesis = 1
 			war = no
 			is_vassal = no
@@ -57,7 +56,6 @@ political_decisions = {
 		allow = {
 			OR = { 
 				AND = { part_of_sphere = yes sphere_owner = { NOT = { has_country_flag = xan_ambition } has_country_flag = deny_superstate } }
-				NOT = { OR = { government = socialist_democracy government = democracy government = democracy1 government = hms_government government = hms_government1 government = presidential_dictatorship government = absolute_monarchy } }
 				has_country_modifier = in_bankrupcy
 			}
 			war = no
@@ -101,7 +99,6 @@ political_decisions = {
 			has_country_flag = xan_ambition
 			capitalism = 1
 			war = no
-NOT = { OR = { ruling_party_ideology = populist ruling_party_ideology = nationalist ruling_party_ideology = traditionalist } }
 		}
 
 		effect = {
@@ -126,7 +123,6 @@ capital_scope = { has_province_modifier = single_market }
 			economic_globalization = 1
 			election = no
 			war = no
-NOT = { OR = { ruling_party_ideology = populist ruling_party_ideology = nationalist ruling_party_ideology = traditionalist } }
 		}
 
 		effect = {
@@ -151,7 +147,6 @@ NOT = { OR = { ruling_party_ideology = populist ruling_party_ideology = national
 			election = no
 			war = no
 			commodities_and_credit = 1
-NOT = { OR = { ruling_party_ideology = populist ruling_party_ideology = nationalist ruling_party_ideology = traditionalist } }
 		}
 
 		effect = {
@@ -176,7 +171,6 @@ NOT = { OR = { ruling_party_ideology = populist ruling_party_ideology = national
 			election = no
 			war = no
 			age_of_protests = 1
-NOT = { OR = { ruling_party_ideology = populist ruling_party_ideology = nationalist ruling_party_ideology = traditionalist } }
 		}
 
 		effect = {
@@ -248,9 +242,7 @@ capital_scope = { has_province_modifier = defence_union }
 				any_core = { 
 					owner = { 
 						NOT = { tag = THIS }
-NOT = { OR = { ruling_party_ideology = populist ruling_party_ideology = nationalist ruling_party_ideology = traditionalist } }
 
-OR = { government = socialist_democracy government = democracy government = democracy1 government = hms_government government = hms_government1 government = presidential_dictatorship government = absolute_monarchy }
 			OR = { in_sphere = THIS vassal_of = THIS } 
 					has_country_flag = xan_ambition
 		NOT = { has_country_modifier = rejected_union }
@@ -271,7 +263,6 @@ OR = { government = socialist_democracy government = democracy government = demo
 				limit = {
 			has_country_flag = xan_ambition 
 			OR = { vassal_of = THIS in_sphere = THIS }
-NOT = { OR = { ruling_party_ideology = populist ruling_party_ideology = nationalist ruling_party_ideology = traditionalist } }
 				} 
 			country_event = 11106
 			}

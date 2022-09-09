@@ -17,9 +17,8 @@ NOT = { has_country_flag = hide_superstate }
 OR = { part_of_sphere = no sphere_owner = { OR = { has_country_flag = xms_ambition NOT = { has_country_flag = deny_superstate } } } }
 
 
-			OR = { government = democracy1 government = democracy government = hms_government government = hms_government1 government = socialist_democracy ruling_party_ideology = socialist ruling_party_ideology = communist ruling_party_ideology = communist_social }
+		
 
-NOT = { government = proletarian_dictatorship }
 
 			bank_for_international_settlements = 1
 			war = no
@@ -59,7 +58,6 @@ AND = { part_of_sphere = yes sphere_owner = {
 NOT = { has_country_flag = xms_ambition } has_country_flag = deny_superstate } }
 
 
-				OR = { government = proletarian_dictatorship NOT = { OR = { government = democracy1 government = democracy government = hms_government government = hms_government1 government = socialist_democracy ruling_party_ideology = socialist ruling_party_ideology = communist ruling_party_ideology = communist_social } } }
 
 				has_country_modifier = in_bankrupcy
 				exists = XSU exists = XAC
@@ -99,9 +97,8 @@ NOT = { has_country_flag = hide_superstate }
 		}
 		allow = {
 			has_country_flag = xms_ambition
-			OR = { government = democracy1 government = democracy government = hms_government government = hms_government1 government = socialist_democracy ruling_party_ideology = socialist ruling_party_ideology = communist_social }
 
-NOT = { government = proletarian_dictatorship }
+
 			capitalism = 1
 			war = no
 		}
@@ -121,9 +118,7 @@ NOT = { has_country_flag = hide_superstate }
 		allow = {
 			has_country_flag = xms_ambition
 			capital_scope = { has_province_modifier = single_market }
-			OR = { government = democracy1 government = democracy government = hms_government government = hms_government1 government = socialist_democracy ruling_party_ideology = socialist ruling_party_ideology = communist_social }
 
-NOT = { government = proletarian_dictatorship }
 			economic_globalization = 1
 			election = no
 			war = no
@@ -144,9 +139,7 @@ NOT = { has_country_flag = hide_superstate }
 		allow = {
 			has_country_flag = xms_ambition
 			capital_scope = { has_province_modifier = currency_union_province }
-			OR = { government = democracy1 government = democracy government = hms_government government = hms_government1 government = socialist_democracy ruling_party_ideology = socialist ruling_party_ideology = communist ruling_party_ideology = communist_social }
 
-NOT = { government = proletarian_dictatorship }
 			election = no
 
 			#has_unclaimed_cores = no
@@ -169,9 +162,7 @@ NOT = { has_country_flag = hide_superstate }
 		allow = {
 			has_country_flag = xms_ambition
 			capital_scope = { is_core = XMS }
-			OR = { government = democracy1 government = democracy government = hms_government government = hms_government1 government = socialist_democracy ruling_party_ideology = socialist ruling_party_ideology = communist ruling_party_ideology = communist_social }
 
-NOT = { government = proletarian_dictatorship }
 			election = no
 			war = no
 			age_of_protests = 1
@@ -199,9 +190,7 @@ NOT = { has_country_flag = hide_superstate }
 			has_country_flag = xms_ambition
 	capital_scope = { has_province_modifier = defence_union } 
 
-		OR = { government = democracy1 government = democracy government = hms_government government = hms_government1 government = socialist_democracy ruling_party_ideology = socialist ruling_party_ideology = communist ruling_party_ideology = communist_social }
 
-NOT = { government = proletarian_dictatorship }
 
 			election = no
 			is_greater_power = yes
@@ -237,9 +226,7 @@ NOT = { has_country_flag = hide_superstate }
 		}
 		allow = {
 
-			OR = { government = democracy1 government = democracy government = hms_government government = hms_government1 government = socialist_democracy ruling_party_ideology = socialist ruling_party_ideology = communist ruling_party_ideology = communist_social }
 
-NOT = { government = proletarian_dictatorship }
 
 			election = no
 			is_greater_power = yes

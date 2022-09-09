@@ -8,6 +8,8 @@ tank = {
 	unit_type = cavalry
 	floating_flag = yes
 	
+	primary_culture = yes
+	
 	#Core Abilities
 	priority = 50
 	max_strength = 3
@@ -31,7 +33,6 @@ tank = {
 		ammunition = 0.15
 		canned_food = 0.1
 		fuel = 0.4
-		machine_parts = 0.1
 		weaponry = 0.1
 	}
 	

@@ -1,318 +1,314 @@
-leader = {
-        name = "Ariel Sharon"
-        date = 1945.12.31
-        type = land
-        personality = implacable
-        background = uncommonly_young
-        picture = ariel
-        prestige = 1
-}
-
-leader = {
-        name = "Israel Tal"
-        date = 1945.12.31
-        type = land
-        personality = efficient
-        background = innovative_tactician
-        picture = tal
-}
-
 army = {
-	name = "Israel Jerusalem Army"
-	location = 919
+	name = "Rearmed German Army"
+	location = 567
 	regiment = {
 		name= "Regiment nr1"
 		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = artillery
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = artillery
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = artillery
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = artillery
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = artillery
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = artillery
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = artillery
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = artillery
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = artillery
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = infantry
-		home = 919
-	}
-	regiment = {
-		name= "Regiment nr1"
-		type = infantry
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = bomber
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = bomber
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = bomber
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = bomber
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = bomber
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = bomber
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = bomber
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = bomber
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = bomber
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
 		type = bomber
-		home = 919
+		home = 574
 	}
 	regiment = {
 		name= "Regiment nr1"
-		type = bomber
-		home = 919
+		type = tank
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 574
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 574
 	}
 }

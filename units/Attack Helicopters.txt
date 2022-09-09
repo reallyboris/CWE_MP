@@ -8,13 +8,14 @@ missile = {
 	unit_type = cavalry
 	floating_flag = no
 	
+	primary_culture = yes
+	
 	#Core Abilities
 	priority = 35
 	max_strength = 3
 	default_organisation = 20
 	maximum_speed = 6.00
 	weighted_value = 6.0
-
 
 	#Building Costs
 	build_time = 150
@@ -31,9 +32,6 @@ missile = {
 		ammunition = 0.2
 		canned_food = 0.02
 		fuel = 0.5
-		clothes = 0.01
-		clothes_footwear = 0.01
-		optics = 0.1
 		aeroplanes = 0.1
 	}
 

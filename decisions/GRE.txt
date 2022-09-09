@@ -49,14 +49,7 @@ political_decisions = {
 ### MAM: This should be redone: make it possible to do it with only the sphering of Turkey, Bulgaria and maybe some more states (Macedonia? Cyprus? Yet to be decided)
 	form_byzantine_empire = {
 		potential = {
-			tag = GRE
-			OR = {
-				government = absolute_monarchy
-				government = absolute_monarchy_emperor
-				government = prussian_constitutionalism
-				government = hms_government
-			}
-			is_greater_power = yes			
+			tag = GRE		
 		}
 		
 		allow = {

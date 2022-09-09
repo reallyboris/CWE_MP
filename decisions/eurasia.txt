@@ -76,7 +76,6 @@ NOT = { has_country_flag = hide_superstate }
 
 AND = { part_of_sphere = yes sphere_owner = { has_country_flag = deny_superstate NOT = { has_country_flag = xea_ambition } } }
 
-NOT = { OR = { government = presidential_dictatorship government = nationalist_dictatorship government = populist_dictatorship government = proletarian_dictatorship government = socialist_democracy AND = { has_country_flag = trade_block_ambition OR = { government = democracy government = democracy1 } } } }
 				has_country_modifier = in_bankrupcy
 			}
 			war = no

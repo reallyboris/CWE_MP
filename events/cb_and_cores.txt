@@ -628,7 +628,6 @@ province_event = {
 		}
 		owner = {
 			tag = THIS
-			wars_of_national_liberation = 1
 		}
 	}
 	

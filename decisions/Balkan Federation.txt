@@ -12,13 +12,6 @@ political_decisions = {
 			NOT = { has_country_flag = balkan_cores_added }
 		}
 		allow = {
-			NOT = { 
-				OR = { 
-					ruling_party_ideology = nationalist 
-					ruling_party_ideology = populist 
-					ruling_party_ideology = traditionalist 
-				} 
-			}
 			OR = { 
 				has_global_flag = 1953_balkan_treaty 
 				cultural_imperialism = 1 
@@ -67,13 +60,6 @@ political_decisions = {
 				has_global_flag = tito_stalin_split
 				cultural_imperialism = 1 
 			}
-			NOT = { 
-				OR = { 
-					ruling_party_ideology = nationalist 
-					ruling_party_ideology = populist 
-					ruling_party_ideology = traditionalist 
-				} 
-			}
 			is_vassal = no
 			war = no
 			election = no
@@ -108,13 +94,6 @@ political_decisions = {
 			has_country_flag = balkan_cores_added
 		}
 		allow = {
-			NOT = { 
-				OR = { 
-					ruling_party_ideology = nationalist 
-					ruling_party_ideology = populist 
-					ruling_party_ideology = traditionalist 
-				}
-			}
 			OR = { 
 				has_global_flag = 1953_balkan_treaty 
 				cultural_imperialism = 1 

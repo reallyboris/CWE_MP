@@ -18,7 +18,6 @@ nuclear_ultimatum = {
 		allow = {
 		
 			#Pacifists will never choose to blow up the world
-			NOT = { war_policy = pacifism }
 
 			NOT = { has_country_modifier = nuclear_system_down }
 
@@ -77,8 +76,6 @@ nuclear_ultimatum = {
 
 	}
 
-
-
 fire_tactical_nuke = {
 	picture = "fire_tactical_nuke"
 		potential = {
@@ -115,7 +112,7 @@ fire_tactical_nuke = {
 
 		effect = {
 			add_country_modifier = { name = nukes_used_recently duration = 92 }
-			badboy = 10
+			badboy = 5
 			any_country = { limit = { war_with = THIS } country_event = 1610031 }
 		}
 		
@@ -140,13 +137,17 @@ nuclear_second_strike = {
 
 		allow = {
 			war = yes
-			has_country_modifier = recently_attacked_nuke
 			NOT = { has_country_modifier = nuclear_system_down }
+			
+			#Has not expended nuclear arsenal
+			NOT = { has_country_modifier = nukes_used_recently }
 		}
 
 		effect = {
 	
 			remove_country_modifier = recently_attacked_nuke
+			
+			add_country_modifier = { name = nukes_used_recently duration = 365 }
 		
 			#Inform of retaliatory strike
 			any_country = { 

@@ -20,7 +20,7 @@ carrier = {
 	priority = 40
 	max_strength = 100
 	default_organisation = 45
-	maximum_speed = 10
+	maximum_speed = 20
 	weighted_value = 5.0
 	
 
@@ -32,26 +32,25 @@ carrier = {
 		weaponry = 40
 		aeroplanes = 360
 		optics = 60
+		canned_food = 60
+		ammunition = 60
+		fuel = 65
 	}
 	min_port_level = 3
-	limit_per_port = 1
-	supply_consumption_score = 50
 	
 	supply_consumption = 1.0
 	supply_cost = { 
-		aeroplanes = 1.6
+		aeroplanes = 4.8
 		ammunition = 4
 		fuel = 10
 		canned_food = 4
-		clothes = 1
-		footwear = 1
-		ships = 1.5
+		ships = 6
 	}
 	
 	#Naval Abilties
 	hull = 40
 	gun_power = 80
-	fire_range = 2
+	fire_range = 1
 	evasion = 0
 	torpedo_attack = 1.5
 }

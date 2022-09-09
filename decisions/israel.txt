@@ -20,8 +20,6 @@ political_decisions = {
 
 			wars_of_national_liberation = 1
 
-			ruling_party_ideology = populist
-			
 			#Must have applicable annexees
 			OR = { is_our_vassal = LEB is_sphere_leader_of = LEB }
 			OR = { is_our_vassal = JOR is_sphere_leader_of = JOR }
@@ -137,12 +135,6 @@ political_decisions = {
 			
 			neoliberalism = 1
 
-			#Ruling party
-			OR = {
-				AND = { ruling_party_ideology = progressive pop_majority_ideology = progressive }
-				ruling_party_ideology = communist
-				ruling_party_ideology = communist_social
-			}
 
 			#Puppet or Sphere or conquest route
 			OR = { is_our_vassal = PAL is_sphere_leader_of = PAL owns = 918 } # West Bank, PA capital

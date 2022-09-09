@@ -17,7 +17,7 @@ frigate = {
 	priority = 15
 	max_strength = 100
 	default_organisation = 30
-	maximum_speed = 14
+	maximum_speed = 28
 	weighted_value = 5.0
 	can_build_overseas = yes
 
@@ -29,25 +29,24 @@ frigate = {
 		ships = 10
 		weaponry = 5
 		optics = 10
+		canned_food = 5
+		ammunition = 5
+		fuel = 5
 	}
 	min_port_level = 1
-	limit_per_port = -1
-	supply_consumption_score = 2
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		ammunition = 0.5
+		ammunition = 1
 		fuel = 2
-		canned_food = 0.4
-		clothes = 0.05
-		footwear = 0.05
-		ships = 0.25
+		canned_food = 1
+		ships = 0.75
 	}
 	
 	#Naval Abilties
 	hull = 20
 	gun_power = 10
-	fire_range = 0.5
+	fire_range = 0.25
 	evasion = 0.35
 	torpedo_attack = 2
 }

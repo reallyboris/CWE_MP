@@ -1,7 +1,6 @@
 owner = ENG
 controller = ENG
 add_core = ENG
-add_core = END
 trade_goods = fish
 life_rating = 40
 terrain = marginal_farmland
@@ -19,7 +18,7 @@ state_building = {
 	upgrade = yes
 }
 state_building = {
-	level = 2
+	level = 12
 	building = ships_factory
 	upgrade = yes
 }

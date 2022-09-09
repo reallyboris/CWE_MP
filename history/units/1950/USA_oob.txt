@@ -3305,5 +3305,1090 @@ navy = {
 		name= "USS Electron"
 		type = transportship
 	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+}
 
+
+navy = {
+	name = "US Merchant Navy"
+	location = 1651
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
+	ship = {
+		name= "USS Abnaki"
+		type = transportship
+	}
+	ship = {
+		name= "USS Acadia"
+		type = transportship
+	}
+	ship = {
+		name= "USS Banner"
+		type = transportship
+	}
+	ship = {
+		name= "USS Bellatrix"
+		type = transportship
+	}
+	ship = {
+		name= "USS Belmont"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cacapon"
+		type = transportship
+	}
+	ship = {
+		name= "USS Cadmus"
+		type = transportship
+	}
+	ship = {
+		name= "USS Caloosahatchee"
+		type = transportship
+	}
+	ship = {
+		name= "USS Deucalion"
+		type = transportship
+	}
+	ship = {
+		name= "USS Electron"
+		type = transportship
+	}
 }

@@ -10,9 +10,6 @@ form_ibu = {
 			war = no
 			is_vassal = no
 
-SPA = { NOT = { government = populist_dictatorship government = nationalist_dictatorship  } }
-
-POR = { NOT = { government = populist_dictatorship government = nationalist_dictatorship  } }
 
 		OR = { 
 

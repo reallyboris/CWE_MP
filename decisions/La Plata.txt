@@ -10,7 +10,6 @@ political_decisions = {
 			war = no
 			is_vassal = no
 
-			NOT = { OR = { ruling_party_ideology = nationalist ruling_party_ideology = populist } }
 
 			OR = { 
 				LPL = { all_core = { owned_by = THIS } }

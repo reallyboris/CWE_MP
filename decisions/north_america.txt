@@ -17,7 +17,6 @@ political_decisions = {
 			has_country_flag = trade_block_ambition 
 			NOT = { has_country_modifier = in_bankrupcy } 
 			OR = { part_of_sphere = no sphere_owner = { OR = { has_country_flag = xna_ambition NOT = { has_country_flag = deny_superstate } } } }
-			OR = { government = democracy government = hms_government1 }
 			cultural_imperialism = 1
 			war = no
 		}

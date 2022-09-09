@@ -19,7 +19,7 @@ modern_cruiser = {
 	priority = 25
 	max_strength = 100
 	default_organisation = 40
-	maximum_speed = 10
+	maximum_speed = 20
 	weighted_value = 50.0
 	can_build_overseas = no
 
@@ -31,26 +31,25 @@ modern_cruiser = {
 		ships = 100
 		weaponry = 30
 		optics = 25
+		fuel = 20
+		canned_food = 25
+		ammunition = 20
 	}
 	min_port_level = 4
-	limit_per_port = 2
-	supply_consumption_score = 40
 	
 	supply_consumption = 1.0
 	#cost 1B
 	supply_cost = {
 		ammunition = 4
 		fuel = 8
-		canned_food = 1.6
-		clothes = 0.2
-		footwear = 0.2
-		ships = 1
-		weaponry = 1.2
+		canned_food = 2
+		ships = 3.9
+		weaponry = 2.5
 	}
 	
 	#Naval Abilties
 	hull = 80
 	gun_power = 55
-	fire_range = 1.2
+	fire_range = 0.6
 	evasion = 0.15
 }

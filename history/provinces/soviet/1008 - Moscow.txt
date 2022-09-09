@@ -10,17 +10,17 @@ colonial = 0
 
 #Military Goods
 state_building = {
-	level = 3
+	level = 20
 	building = ammunition_factory
 	upgrade = yes
 }
 state_building = {
-	level = 3
+	level = 4
 	building = small_arms_factory
 	upgrade = yes
 }
 state_building = {
-	level = 3
+	level = 7
 	building = weaponry_factory
 	upgrade = yes
 }

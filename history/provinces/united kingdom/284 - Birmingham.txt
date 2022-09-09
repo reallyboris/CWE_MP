@@ -1,14 +1,13 @@
 owner = ENG
 controller = ENG
 add_core = ENG
-add_core = END
 trade_goods = other_minerals
 life_rating = 35
 terrain = good_farmland
 railroad = 1
 colonial = 0
 state_building = {
-	level = 1
+	level = 6
 	building = weaponry_factory
 	upgrade = yes
 }
@@ -23,7 +22,7 @@ state_building = {
 	upgrade = yes
 }
 state_building = {
-	level = 1
+	level = 3
 	building = small_arms_factory
 	upgrade = yes
 }

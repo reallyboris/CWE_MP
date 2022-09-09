@@ -30,7 +30,6 @@ sphere_owner = { has_country_flag = imp_ambition NOT = { has_country_flag = deny
 			} 
 			NOT = { has_country_modifier = in_bankrupcy } 
 
-OR = { government = hms_government government = hms_government1 }
 
 OR = { has_country_modifier = commonwealthmember has_country_modifier = commonwealthmembereng }
 
@@ -68,7 +67,6 @@ NOT = { has_country_flag = hide_superstate }
 			OR = { 
 AND = { part_of_sphere = yes sphere_owner = { has_country_flag = deny_superstate NOT = { has_country_flag = imp_ambition } } }
 
-NOT = { OR = { government = hms_government government = hms_government1 } }
 
 NOT = { OR = { has_country_modifier = commonwealthmember has_country_modifier = commonwealthmembereng } }
 
@@ -128,7 +126,6 @@ NOT = { has_country_flag = hide_superstate }
 				primary_culture = british
 				primary_culture = black_anglo
 			}
-			government = hms_government
 			capitalism = 1
 			war = no
 		}
@@ -156,7 +153,6 @@ NOT = { has_country_flag = hide_superstate }
 			capital_scope = { has_province_modifier = single_market }
 		}
 		allow = {
-			government = hms_government
 			economic_globalization = 1
 			election = no
 			war = no
@@ -185,7 +181,6 @@ NOT = { has_country_flag = hide_superstate }
 			capital_scope = { has_province_modifier = currency_union_province }
 		}
 		allow = {
-			OR = { government = democracy government = hms_government }
 			election = no
 
 			#has_unclaimed_cores = no
@@ -217,7 +212,6 @@ NOT = { has_country_flag = hide_superstate }
 			capital_scope = { is_core = IMP }
 		}
 		allow = {
-			OR = { government = democracy government = hms_government }
 			election = no
 			war = no
 			age_of_protests = 1
@@ -250,7 +244,6 @@ NOT = { has_country_flag = hide_superstate }
 			capital_scope = { has_province_modifier = defence_union } 
 		}
 		allow = {
-			OR = { government = democracy government = hms_government }
 			election = no
 			is_greater_power = yes 
 			political_polarization = 1
@@ -317,7 +310,6 @@ any_neighbor_country = { OR = { has_country_flag = IMP_ambition in_sphere = THIS
 		}
 
 		allow = {
-			government = hms_government
 			election = no
 			is_greater_power = yes 
 			political_polarization = 1

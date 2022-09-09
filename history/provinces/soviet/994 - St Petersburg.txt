@@ -9,7 +9,7 @@ railroad = 1
 colonial = 0
 naval_base = 3
 state_building = {
-	level = 3
+	level = 12
 	building = aeroplane_factory
 	upgrade = yes
 }
@@ -29,7 +29,7 @@ state_building = {
 	upgrade = yes
 }
 state_building = {
-	level = 3
+	level = 10
 	building = aluminium_factory
 	upgrade = yes
 }
