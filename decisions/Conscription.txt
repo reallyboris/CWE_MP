@@ -84,7 +84,7 @@ political_decisions = {
 		}
 			
 		effect = {
-			add_country_modifier = { name = law_changed_by_force duration = 1000 }
+			add_country_modifier = { name = law_changed_by_force duration = 365 }
 			random_owned = {
 				limit = {
 					owner = {

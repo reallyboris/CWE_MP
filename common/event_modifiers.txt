@@ -5954,7 +5954,7 @@ communist_bloc_leader = {
 democratic_bloc_leader = {
     global_pop_consciousness_modifier = 0.02
     global_pop_militancy_modifier = -0.05
-	supply_consumption = 0.50
+	supply_consumption = 0.4
 	
 	factory_throughput = 0.4
 	rgo_output = 0.5

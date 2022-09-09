@@ -775,6 +775,413 @@ army = {
 		home = 300
 	}
 }
+
+army = {
+	name = "United Kingdom Chelmsford Army"
+	location = 293
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = mechanized_infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr4"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr4"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = mechanized_infantry
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = tank
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr1"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr2"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr3"
+		type = bomber
+		home = 300
+	}
+	regiment = {
+		name= "Regiment nr4"
+		type = bomber
+		home = 300
+	}
+}
+
+
 army = {
 	name = "United Kingdom Hull Army"
 	location = 281
