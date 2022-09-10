@@ -4,7 +4,7 @@
 
 
 - Better chinese reunification decision
-
+- Fixed early mass chinese unemployment
 
 
 
