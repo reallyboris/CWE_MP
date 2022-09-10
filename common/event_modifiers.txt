@@ -7494,3 +7494,9 @@ crat_9 = {
 crat_10 = {
     icon = 6
 }
+
+unemployment_fix = {
+	icon = 6
+	local_rgo_output = -0.99
+	local_rgo_throughput = -0.99
+}

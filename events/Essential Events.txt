@@ -71,91 +71,18 @@ country_event = {
 #Startup capital
 country_event = {
 	id = 783
-	title = "Start up capital"
-	desc = "Bankers laden with gold have mysteriously appeared in our country."
+	title = "remove unemployment fix"
+	desc = "remove unemployment fix"
 	picture = "GOLD"
 	
-	fire_only_once = yes
+	is_triggered_only = yes
 	
-	trigger = {
-		ai = yes
-	}
 	
 	immediate = {
 		any_country = {
-			limit = {
-				OR = {
-					tag = USA
-					tag = RUS
-				}
+			any_owned = {
+				remove_province_modifier = unemployment_fix
 			}
-			money = 2000000
-			money = 2000000
-			money = 2000000
-			leadership = 600
-			aeroplanes = 2000
-			ships = 2000
-			weaponry = 2000
-			small_arms = 2000
-			ammunition = 2000
-			fuel = 2000
-			optics = 2000
-		}
-		any_country = {
-			limit = {
-				OR = {
-					is_greater_power = yes
-					tag = CHI
-				}
-				NOT = {
-					tag = USA
-					tag = RUS
-				}
-			}
-			money = 2000000
-			leadership = 350
-			aeroplanes = 1000
-			ships = 1000
-			weaponry = 1000
-			small_arms = 1000
-			ammunition = 1000
-			fuel = 1000
-			optics = 1000
-		}
-		any_country = {
-			limit = {
-				is_secondary_power = yes
-			}
-			money = 1000000
-			leadership = 200
-			aeroplanes = 500
-			ships = 500
-			weaponry = 500
-			small_arms = 500
-			ammunition = 500
-			fuel = 500
-			optics = 500
-		}
-		any_country = {
-			limit = {
-				is_secondary_power = no
-				is_greater_power = no
-			}
-			money = 200000
-			leadership = 120
-			aeroplanes = 250
-			ships = 250
-			weaponry = 250
-			small_arms = 250
-			ammunition = 250
-			fuel = 250
-			optics = 250
-		}
-		any_country = { limit = { is_greater_power = yes } capitalists = { money = 1000 } aristocrats = { money = 500 } artisans = { money = 200 } farmers = { money = 100 } labourers = { money = 100 } }
-		any_country = { limit = { is_secondary_power = yes } capitalists = { money = 800 } aristocrats = { money = 400 } artisans = { money = 100 } farmers = { money = 50 } labourers = { money = 50 } }
-		any_country = {
-			limit = { is_greater_power = no is_secondary_power = no civilized = yes }
-			capitalists = { money = 500 } aristocrats = { money = 200 } artisans = { money = 50 } farmers = { money = 25 } labourers = { money = 25 } 
 		}
 	}
 	
