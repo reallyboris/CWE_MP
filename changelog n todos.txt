@@ -6,6 +6,8 @@
 - Better chinese reunification decision
 - Fixed early mass chinese unemployment
 
+- Removed gov/rulling party requirements for getting cores/formables for alot of countries
+
 
 
 
