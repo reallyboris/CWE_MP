@@ -3,7 +3,7 @@
 
 
 
-keep defines:
+- Better chinese reunification decision
 
 
 
@@ -11,6 +11,8 @@ keep defines:
 
 
 TODOS:
+
+- TODO: run it through the validator
 
 - TODO: gas atk (reduce its bonus roll to one)
 
@@ -21,6 +23,8 @@ TODOS:
 . TODO: implement host and utility decision
 
 - TOdo: new cwe terrain modifiers?
+
+- TODO: Lower WS cost
 
 - todo: new grants
 
