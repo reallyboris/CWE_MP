@@ -607,13 +607,67 @@ promote_to =
 			}
 		}
 
-		modifier = {
-			factor = 25
-			literacy = 0.20
-			location = {
-				work_available = { worker = craftsmen } 
-				NOT = { unemployment_by_type = { type = craftsmen value = 0.1 } } 
-			} 
+		group = {
+			modifier = {
+				factor = 5
+				literacy = 0.025
+				location = {
+					work_available = { worker = craftsmen } 
+					NOT = { unemployment_by_type = { type = craftsmen value = 0.10 } } 
+				} 
+			}
+			
+			modifier = {
+				factor = 5
+				literacy = 0.05
+				location = {
+					work_available = { worker = craftsmen } 
+					NOT = { unemployment_by_type = { type = craftsmen value = 0.10 } } 
+				} 
+			}
+			
+			modifier = {
+				factor = 5
+				literacy = 0.10
+				location = {
+					work_available = { worker = craftsmen } 
+					NOT = { unemployment_by_type = { type = craftsmen value = 0.10 } } 
+				} 
+			}
+			
+			modifier = {
+				factor = 5
+				literacy = 0.15
+				location = {
+					work_available = { worker = craftsmen } 
+					NOT = { unemployment_by_type = { type = craftsmen value = 0.10 } } 
+				} 
+			}
+			
+			modifier = {
+				factor = 5
+				literacy = 0.20
+				location = {
+					work_available = { worker = craftsmen } 
+					NOT = { unemployment_by_type = { type = craftsmen value = 0.10 } } 
+				} 
+			}
+			modifier = {
+				factor = 5
+				literacy = 0.25
+				location = {
+					work_available = { worker = craftsmen } 
+					NOT = { unemployment_by_type = { type = craftsmen value = 0.10 } } 
+				} 
+			}
+			modifier = {
+				factor = 5
+				literacy = 0.30
+				location = {
+					work_available = { worker = craftsmen } 
+					NOT = { unemployment_by_type = { type = craftsmen value = 0.10 } } 
+				} 
+			}
 		}
 		
 		modifier = {

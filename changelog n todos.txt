@@ -30,8 +30,6 @@ TODOS:
 
 - todo: new grants
 
-- TODO: chinese unemployment?
-
 - TODO: new cwe/alstadt internal migration stuff
 
 - TODO: look at money, too much?
