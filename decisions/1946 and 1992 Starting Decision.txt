@@ -265,12 +265,6 @@ any_country = {
 	}
 	set_country_flag = president_for_life
 }
-	
-#Set Tax Havens
-
-SWI = { set_country_flag = tax_haven }
-
-LUX = { set_country_flag = tax_haven }
 
 #Determine Republican type
 
@@ -573,50 +567,12 @@ limit = { tech_school = army_tech_school ruling_party_ideology = traditionalist 
 tech_school = traditional_academic
 }
 
-#Apply agarian economy
-
-any_country = {
-	limit = {
-		OR = { tag = IDO tag = HND tag = RAJ tag = CHI }
-	}
-	set_country_flag = agarian_economy
-}
-
-random_country = {
-	limit = { 
-		tag = KMT
-		owns = 2221
-		2221 = { is_capital = yes } 
-	}
-	set_country_flag = agarian_economy
-}
-
-#Apply economic_malaise
-
-any_country = {
-	limit = {
-		NOT = { literacy = 0.15 }
-		OR = { tag = BRZ tag = PHI tag = THI tag = BNG tag = BUR tag = ETH tag = NGE tag = MEX tag = HND tag = RAJ }
-	}
-	set_country_flag = economic_malaise
-}
-
-#Apply industrious_nation
-set_country_flag = industrious_nation
-
 any_country = {
 limit = {
 OR = {
 
-literacy = 0.30
+literacy = 0.25
 
-tag = BRU tag = SAA tag = IRQ tag = YUG tag = SAF tag = RHO 
-tag = CAF tag = KUW tag = UAE tag = QAT tag = BHR tag = AST 
-tag = NZL tag = XCC tag = XEU tag = SWE tag = NOR tag = USA
-
-tag = AUS tag = SWI tag = LUX tag = BEL tag = NET tag = DEN
-tag = POR tag = FIN tag = IRE tag = CAN tag = SPA tag = ISR
-tag = DAI tag = SVI tag = SYR tag = TRI tag = GRE tag = PER 
 }
 	}
 set_country_flag = industrious_nation
@@ -635,22 +591,8 @@ set_country_flag = industrious_nation
 clr_country_flag = economic_malaise
 }
 
-#Apply Nationalisation and De-nationalisation
-add_country_modifier = { name = privatisation_of_industry duration = -1 }
 
-any_country = {
-limit = {
-NOT = { OR = { economic_policy = planned_economy economic_policy = planned_economy1 economic_policy = state_capitalism } }
-	}
-add_country_modifier = { name = privatisation_of_industry duration = -1 }
-}
 
-any_country = {
-limit = {
-OR = { economic_policy = planned_economy economic_policy = planned_economy1 economic_policy = state_capitalism }
-	}
-add_country_modifier = { name = nationalisation_of_industry duration = -1 }
-}
 
 #Apply Centralisation & Decentralisation
 add_country_modifier = { name = centrallow duration = -1 }
@@ -761,8 +703,6 @@ add_core = RUS
 	}
 }
 
-#Soviet and Russian economy balancing
-RUS = { set_country_flag = economic_malaise }
 
 #PRC is not in the UNSC and tax boosts for the civil war
 random_owned = { 
@@ -777,17 +717,6 @@ set_country_flag = not_participating_UNSC
 	}
 }
 
-#KMT is in the UNSC
-random_owned = { 
-limit = { owner = { NOT = { year = 1990 } } }
-owner = {
-KMT = {
-add_country_modifier = { name = united_nations_ga_member duration = -1 }
-add_country_modifier = { name = unsc_permanent_member duration = -1 }
-country_event = 1512261
-}
-	}
-}
 
 #Japanese economy in 1946
 random_owned = { 
@@ -814,36 +743,6 @@ BEL = { relation = { who = USA value = 200 } }
 LUX = { relation = { who = USA value = 200 } }
 ITA = { relation = { who = USA value = 200 } }
 
-### AI Western economy boost ###
-
-#USA ai
-random_owned = { 
-limit = { owner = { NOT = { year = 1990 } } }
-owner = {
-add_country_modifier = { name = post_war_tax duration = 3650 }
-	}
-}
-
-#Other western allies
-any_country = { 
-limit = { 
-NOT = { year = 1990 }
-ai = yes 
-OR = { 
-tag = ENG 
-tag = FRA 
-tag = BEL 
-tag = NET 
-tag = LUX 
-tag = DEN
-tag = NOR
-tag = AST
-tag = NZL
-tag = SAF
-	} 
-} 
-add_country_modifier = { name = post_war_tax duration = 3650 } 
-}
 
 ### Democratic and Communist Bloc ###
 
@@ -851,7 +750,7 @@ add_country_modifier = { name = post_war_tax duration = 3650 }
 random_owned = { 
 limit = { owner = { NOT = { year = 1990 } } }
 owner = {
-USA = { add_country_modifier = { name = democratic_bloc_leader duration = -1 } set_country_flag = joindemo }
+USA = { set_country_flag = joindemo }
 	}
 }
 
@@ -859,21 +758,19 @@ USA = { add_country_modifier = { name = democratic_bloc_leader duration = -1 } s
 random_owned = { 
 limit = { owner = { NOT = { year = 1990 } } }
 owner = {
-RUS = { add_country_modifier = { name = communist_bloc_leader duration = -1 } add_country_modifier = { name = soviet_stability duration = 13000 } set_country_flag = joincomm }
+RUS = { add_country_modifier = { name = soviet_stability duration = 13000 } set_country_flag = joincomm }
 	}
 }
 
 #Democratic Bloc
 any_country = {
 limit = { NOT = { year = 1990 } OR = { in_sphere = USA tag = ENG tag = FRA tag = AST tag = NZL tag = CAN } NOT = { tag = FIN } }
-add_country_modifier = { name = democratic_bloc duration = -1 }
 set_country_flag = joindemo
 }
 
 #Communist Bloc
 any_country = {
 limit = { NOT = { year = 1990 } OR = { in_sphere = RUS ruling_party_ideology = communist ruling_party_ideology = communist_social } NOT = { tag = FIN } }
-add_country_modifier = { name = communist_bloc duration = -1 }
 set_country_flag = joincomm
 }
 
@@ -918,36 +815,9 @@ set_country_flag = semi_presidential_system_republic
 MSY = { set_country_flag = elective_monarchy }
 UAE = { set_country_flag = elective_monarchy }
 
-#India population
-random_country = {
-	limit = { 
-		NOT = { year = 1992 } 
-		OR = { tag = RAJ tag = HND } 
-	}
-	add_country_modifier = { name = industrial_pop_boom duration = 3650 }
-}
 
-#South American population
-any_country = {
-	limit = { 
-		year = 1946
-		NOT = { year = 1992 } 
-		capital_scope = { continent = south_america }
-		exists = yes
-	}
-	add_country_modifier = { name = industrial_pop_boom duration = 3650 }
-}
 
-#KMT and Taiwan population - 1946 & 1950 start
-any_country = {
-	limit = { 
-		year = 1946
-		NOT = { year = 1992 } 
-		OR = { tag = KMT tag = TAI }
-		exists = yes
-	}
-	add_country_modifier = { name = industrial_pop_boom duration = 1825 }
-}
+
 
 #PRC population - 1946 start
 random_country = {
@@ -967,17 +837,6 @@ random_country = {
 		tag = CHI
 	}
 	add_country_modifier = { name = depressed_population duration = 1825 }
-}
-
-#Superpower population
-random_owned = {
-	limit = { 
-		owner = { 
-			NOT = { year = 1992 } 
-			OR = { tag = USA tag = RUS } 
-		} 
-	}
-	owner = { add_country_modifier = { name = industrial_pop_boom duration = 7300 } }
 }
 
 	}

@@ -1973,7 +1973,7 @@ oil_seeds_ranch = {
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
-	value = 5.0
+	value = 5.8
 	mine = yes
 }
 
@@ -1994,7 +1994,7 @@ copper_mine = {
 bauxite_mine = {
 	template = RGO_template_labourers
 	output_goods = bauxite 
-	value = 2.5
+	value = 3
 	mine = yes
 }
 

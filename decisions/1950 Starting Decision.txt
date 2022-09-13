@@ -48,32 +48,23 @@ political_decisions = {
 			set_global_flag = 1950_start_date_flag
 		
 			#NATO
-			add_country_modifier = { name = nato_leader duration = -1 }
 			set_country_flag = nato_leader
 			set_country_flag = nato_flag_member
 			set_global_flag = form_nato
-			add_country_modifier = { name = alliance_nato duration = 1825 }
 
 			any_country = {
 				limit = { OR = { tag = BEL tag = CAN tag = DEN tag = FRA tag = ICL tag = ITA tag = LUX tag = NET tag = NOR tag = POR tag = ENG tag = GRE tag = TUR tag = GER tag = SPA } }
 				set_country_flag = nato_flag_member
-				add_country_modifier = { name = alliance_nato duration = 1825 }
 				create_alliance = USA
 				relation = { who = USA value = 200 }
 			}
 			
-			#UK is the head of the Commonwealth
-			ENG = {
-				set_global_flag = commonwealthofnations
-				add_country_modifier = { name = commonwealthmembereng duration = -1 }
-			}
 			
 			#Commonwealth members
 			any_country = {
 				limit = { in_sphere = ENG OR = { government = hms_government government = hms_government1 } NOT = { capital_scope = { continent = mena } } }
 				set_country_flag = commonwealthmember
 				tech_school = commonwealth
-				add_country_modifier = { name = commonwealthmember duration = -1 }
 			}
 			
 			#IAR
@@ -113,19 +104,6 @@ political_decisions = {
 				}
 			}
 			
-			#Bretton Woods
-			random_owned = { 
-				limit = { owner = { year = 1946 NOT = { year = 1971 } } }
-				owner = { add_country_modifier = { name = bretton_system duration = -1 } }
-			}
-			
-			any_country = {
-				limit = { 
-					NOT = { OR = { ruling_party_ideology = communist ruling_party_ideology = communist_social } } 
-					year = 1946 NOT = { year = 1971 }
-				}
-				add_country_modifier = { name = bretton_system duration = -1 }
-			}
 			
 			#1947 Paris Peace Treaties
 			random_owned = { 

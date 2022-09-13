@@ -408,7 +408,7 @@ political_reforms = {
 		}
 		gender_promotive = { # non_socialist
 			social_reform_desire = 0.2
-			factory_input = 0.125
+			factory_input = 0.03
 			global_immigrant_attract = 0.2
 			ruling_party_support = 0.05
 		}
@@ -416,7 +416,7 @@ political_reforms = {
 			social_reform_desire = 0.3
 			global_immigrant_attract = 0.3
 			factory_maintenance = 0.50
-			factory_input = 0.25
+			factory_input = 0.06
 			global_pop_consciousness_modifier = 0.01
 		}
 	}
@@ -820,30 +820,31 @@ social_reforms = {
 			factory_throughput = 0.25
 		}
 		trinket_envir = {
+			global_immigrant_attract = 0.1
 			factory_maintenance = 0.1
-			administrative_multiplier = 2
-			RGO_output = -0.10
+			administrative_multiplier = 1
+			factory_throughput = 0.2
 			goods_demand = -0.10
 		}
 		low_envir = {
-			factory_maintenance = 0.2
-			factory_throughput = -0.10			
-			administrative_multiplier = 4
-			RGO_output = -0.20
+			global_immigrant_attract = 0.2
+			factory_maintenance = 0.2			
+			administrative_multiplier = 2
+			factory_throughput = 0.15
 			goods_demand = -0.20
 		}
 		acceptable_envir = {
-			factory_maintenance = 0.3
-			factory_throughput = -0.15			
-			administrative_multiplier = 6
-			RGO_output = -0.30
+			global_immigrant_attract = 0.3
+			factory_maintenance = 0.3		
+			administrative_multiplier = 3
+			factory_throughput = 0.1
 			goods_demand = -0.30
 		}
 		good_envir = {
+			global_immigrant_attract = 0.4
 			factory_maintenance = 0.4
-			factory_throughput = -0.25		
-			administrative_multiplier = 8
-			RGO_output = -0.40
+			factory_throughput = 0.05	
+			administrative_multiplier = 4
 			goods_demand = -0.40
 		}
 	}
@@ -855,25 +856,25 @@ social_reforms = {
 		public_education = {
 			education_efficiency_modifier = 0.10
 			global_immigrant_attract = 0.1
-			administrative_multiplier = 1
+			administrative_multiplier = 2
 		}
 		subsidised_higher_education = {
 			education_efficiency_modifier = 0.20
 			global_immigrant_attract = 0.2
 			global_pop_consciousness_modifier = 0.01
-			administrative_multiplier = 2
+			administrative_multiplier = 4
 		}
 		public_higher_education = {
 			education_efficiency_modifier = 0.30
 			global_immigrant_attract = 0.3
 			global_pop_consciousness_modifier = 0.02
-			administrative_multiplier = 3
+			administrative_multiplier = 6
 		}
 		unlimited_education = {
 			education_efficiency_modifier = 0.40
 			global_immigrant_attract = 0.4
 			global_pop_consciousness_modifier = 0.03
-			administrative_multiplier = 4
+			administrative_multiplier = 8
 		}
 	}
 	social_service_reform = { # arts_endowment

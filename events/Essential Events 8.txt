@@ -544,7 +544,6 @@ trigger = {
 tag = GER
 is_vassal = no
 election = no
-ruling_party_ideology = nationalist
 }
 
 mean_time_to_happen = { months = 6 }

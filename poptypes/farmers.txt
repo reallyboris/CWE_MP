@@ -585,38 +585,9 @@ promote_to =
 
 		modifier = { factor = 5 country = { has_country_flag = generic_land_reform } }
 		
-		#Nerf for planned_economy1
-		modifier = { 
-			factor = -25
-			country = { 
-				economic_policy = planned_economy1
-				NOT = { has_country_flag = economic_malaise } 
-				has_country_flag = exportfocus
-			}
-		}
-		
-		#Nerf for planned_economies
-		modifier = {
-			factor = -10
-			country = {
-				OR = { 
-					economic_policy = planned_economy 
-					economic_policy = planned_economy1 
-				}
-				NOT = { has_country_flag = economic_malaise }
-			}
-		}
 
 		group = {
-			modifier = {
-				factor = 5
-				literacy = 0.025
-				location = {
-					work_available = { worker = craftsmen } 
-					NOT = { unemployment_by_type = { type = craftsmen value = 0.10 } } 
-				} 
-			}
-			
+		
 			modifier = {
 				factor = 5
 				literacy = 0.05
@@ -710,10 +681,6 @@ promote_to =
 			} 
 		}
 
-		modifier = { factor = 10 AND = { total_pops = 250000 country = { has_country_flag = economic_malaise NOT = { has_country_flag = exportfocus } } } }
-		modifier = { factor = 10 AND = { total_pops = 375000 country = { has_country_flag = economic_malaise NOT = { has_country_flag = exportfocus } } } }
-		modifier = { factor = 10 AND = { total_pops = 500000 country = { has_country_flag = economic_malaise NOT = { has_country_flag = exportfocus } } } }
-
 		group = {
 			modifier = { factor = -5 NOT = { literacy = 0.025 } }
 			modifier = { factor = -5 NOT = { literacy = 0.05 } }
@@ -722,27 +689,9 @@ promote_to =
 			modifier = { factor = -5 NOT = { literacy = 0.20 } }
 		}
 
-		modifier = { factor = 25 country = { has_country_flag = exportfocus } }
-
-		modifier = { factor = -5 country = { has_country_flag = sea_economy_slow } }
-
-		modifier = { factor = -40 country = { has_country_flag = economic_malaise } }
-
 		modifier = { factor = 25 country = { has_country_flag = industrious_nation } }
 		
-		#India and China balancing
-		modifier = {
-			factor = -25
-			NOT = { literacy = 0.10 }
-			country = { has_country_flag = agarian_economy } 
-		}
 		
-		modifier = {
-			factor = -5
-			location = { craftsmen = 0.04 }
-			NOT = { literacy = 0.10 }
-			country = { has_country_flag = agarian_economy } 
-		}
 
 	}
 	

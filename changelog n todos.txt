@@ -1,8 +1,4 @@
 
-
-
-
-
 - Better chinese reunification decision
 
 - Fixed early mass chinese unemployment
@@ -35,6 +31,16 @@
 
 - Increased land unit speed
 
+- Removed a ton of leftover CWE modifiers day1
+
+- Imported tech from newer CWE
+
+- Reduced Chinas prestige day1
+
+- Increased iron and bauxite production
+
+- Made the strait between sumatra and java and some japanese straits not blockadable
+
 
 TODOS:
 
@@ -51,9 +57,5 @@ TODOS:
 - TODO: new cwe/alstadt internal migration stuff
 
 - TODO: look at money, too much?
-
-- TODO: nukes too cheap?
-
-- TODO: check you can disarm secondaries/puppets of their nukes
 
 - TODO: new cwe immigration?
