@@ -468,7 +468,7 @@ isolated_nation = {
 		immigration_policy = nobody_gets_out			
 	}
 	supply_consumption = -0.10
-	research_points_modifier = -0.25
+	research_points_modifier = -0.34
 	
 }
 

@@ -42,17 +42,6 @@ political_decisions = {
 				#For the player
 				AND = { ai = no money = 2000000 }
 				
-				#Historical nuclear powers
-				AND = { tag = RUS ai = yes year = 1945 }
-				AND = { tag = ENG ai = yes year = 1949 money = 2000000 }
-				AND = { tag = FRA ai = yes year = 1956 money = 2000000 }
-				AND = { tag = CHI ai = yes year = 1960 money = 2000000 }
-
-				AND = { tag = HND ai = yes year = 1970 money = 2000000 }
-				AND = { tag = PAK ai = yes year = 1980 money = 2000000 }
-				AND = { tag = NKO ai = yes year = 2003 }
-				AND = { tag = ISR ai = yes year = 1963 money = 2000000 }
-				AND = { tag = SAF ai = yes year = 1979 money = 2000000 }
 
 				#When a neighbour have nukes
 				AND = { 

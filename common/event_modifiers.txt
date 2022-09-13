@@ -7500,3 +7500,9 @@ unemployment_fix = {
 	local_rgo_output = -0.99
 	local_rgo_throughput = -0.99
 }
+
+unemployment_fix_nation = {
+	icon = 6
+	rgo_output = -0.99
+	rgo_throughput = -0.99
+}

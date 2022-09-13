@@ -105,18 +105,17 @@ political_decisions = {
 				capitalists = { money = 500 } aristocrats = { money = 200 } artisans = { money = 50 } farmers = { money = 25 } labourers = { money = 25 } 
 			}
 			any_country = {
-				any_owned = {
-					add_province_modifier = {
-						name = unemployment_fix
-						duration = -1
-					}
-				
+				add_country_modifier = {
+					name = unemployment_fix_nation
+					duration = -1
 				}
+				
+				
 			}
 			THIS = {
 				country_event = {
 					id = 783
-					days = 4
+					days = 6
 				}
 			}
 			set_global_flag = global_unemployment_setup_done

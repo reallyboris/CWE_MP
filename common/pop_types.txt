@@ -408,23 +408,23 @@ migration_chance = { # 1
 
 	group = {
         modifier = {
-            factor = -0.2
+            factor = -0.1
             not = { consciousness = 8 }
         }
         modifier = {
-            factor = -0.2
+            factor = -0.1
             not = { consciousness = 7 }
         }
         modifier = {
-            factor = -0.2
+            factor = -0.1
             not = { consciousness = 6 }
         }
 		modifier = {
-            factor = -0.2
+            factor = -0.1
             not = { consciousness = 5 }
         }
 		modifier = {
-            factor = -0.2
+            factor = -0.1
             not = { consciousness = 4 }
         }
     }
@@ -438,6 +438,13 @@ migration_chance = { # 1
 	modifier = {
         factor = -2.0
         location = { is_overseas = yes }
+    }
+	
+	#Increase movement away from rural provinces when there is urban focus
+	modifier = {
+        factor = 0.2
+        location = { is_state_capital = no }
+		country = { has_country_flag = urban_focus }
     }
 
     modifier = {
@@ -467,12 +474,23 @@ migration_chance = { # 1
             not = { everyday_needs = 0.1 }
             not = { luxury_needs = 0.1 }
         }
-    }
-
-    modifier = {
-        factor = -0.3
-        state_scope = {
-            has_factories = yes
+		modifier = {
+            factor = 0.1
+            not = { life_needs = 0.6 }
+            not = { everyday_needs = 0.1 }
+            not = { luxury_needs = 0.1 }
+        }
+		modifier = {
+            factor = 0.1
+            not = { life_needs = 0.5 }
+            not = { everyday_needs = 0.1 }
+            not = { luxury_needs = 0.1 } 
+        }
+		modifier = {
+            factor = 0.2
+            not = { life_needs = 0.4 }
+            not = { everyday_needs = 0.1 }
+            not = { luxury_needs = 0.1 }
         }
     }
 
@@ -529,12 +547,12 @@ migration_chance = { # 1
 	#Less developed nations have less emigration
 	group = {
 		modifier = {
-			factor = -0.1
+			factor = -0.3
 			NOT = { literacy = 0.05 }
 		}
 		
 		modifier = {
-			factor = -0.1
+			factor = -0.2
 			NOT = { literacy = 0.10 }
 		}
 		
@@ -586,7 +604,7 @@ migration_chance = { # 1
 
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = {
-	factor = 1
+	factor = 0.25
 
     modifier = {
         factor = -0.5
@@ -608,15 +626,15 @@ colonialmigration_chance = {
     }
 	group = {
         modifier = {
-            factor = 0.2
+            factor = 0.1
             not = { literacy = 0.05 }
         }
         modifier = {
-            factor = 0.2
+            factor = 0.1
             not = { literacy = 0.10 }
         }
         modifier = {
-            factor = 0.2
+            factor = 0.1
             not = { literacy = 0.15 }
         }
     }
@@ -624,7 +642,7 @@ colonialmigration_chance = {
         factor = -5
         OR = {
             state_scope = { is_colonial = yes }
-            not = { location = { total_pops = 500 } }
+            not = { location = { total_pops = 20000 } }
             not = { location = { controlled_by = owner } }
         }
     }
@@ -651,30 +669,30 @@ colonialmigration_chance = {
 
     group = {
         modifier = {
-            factor = 0.2
+            factor = 0.1
             unemployment = 0.1
         }
 
         modifier = {
-            factor = 0.3
+            factor = 0.1
             location = { controlled_by = owner }
             unemployment = 0.2
         }
 
         modifier = {
-            factor = 0.4
+            factor = 0.1
             location = { controlled_by = owner }
             unemployment = 0.3
         }
 
         modifier = {
-            factor = 0.5
+            factor = 0.1
             location = { controlled_by = owner }
             unemployment = 0.4
         }
 
         modifier = {
-            factor = 0.6
+            factor = 0.1
             location = { controlled_by = owner }
             unemployment = 0.5
         }
@@ -684,11 +702,11 @@ colonialmigration_chance = {
 
 #general emigration chance
 emigration_chance = { # 0.5
-	factor = 1
+	factor = 0.5
 	
 	#Immigrants don't leave democratic Great Powers
 	modifier = {
-		factor = -1.5
+		factor = -0.5
 		country = { 
 			is_greater_power = yes 
 			OR = { 
@@ -702,7 +720,7 @@ emigration_chance = { # 0.5
 		}
 	}
 	modifier = {
-		factor = -1.0
+		factor = -0.5
 		country = { 
 			is_secondary_power = yes 
 			OR = { 
@@ -742,7 +760,7 @@ emigration_chance = { # 0.5
     }
 	#Slightly less emigration from Europe, Ocenia, North America
 	modifier = {
-        factor = 0.1
+        factor = -0.1
 		location = { 
 			OR = { 
 				continent = europe
@@ -754,45 +772,22 @@ emigration_chance = { # 0.5
 	
 	#Capital has fallen, everyone panics
 	modifier = {
-		factor = 0.5
+		factor = 0.2
 		country = { 
 			war = yes 
 			capital_scope = { NOT = { controlled_by = owner } } 
 		}
 	}
 	
-	#Rebellions encourage immigration
+	#Losing control of provinces encourages immigration
 	group = {
 		modifier = { 
-			factor = 0.1
-			country = { revolt_percentage = 0.2 }
+			factor = 0.05
+			country = { national_provinces_occupied = 0.1 }
 		}
 
 		modifier = { 
-			factor = 0.1
-			country = { revolt_percentage = 0.4 }
-		}
-
-		modifier = { 
-			factor = 0.1
-			country = { revolt_percentage = 0.6 }
-		}
-
-		modifier = { 
-			factor = 0.1
-			country = { revolt_percentage = 0.8 }
-		}
-		
-		modifier = { 
-			factor = 0.1
-			country = { revolt_percentage = 1.0 }
-		}
-	}
-	
-	#Losing wars encourage immigration
-	group = {
-		modifier = { 
-			factor = 0.1
+			factor = 0.05
 			country = { national_provinces_occupied = 0.2 }
 		}
 
@@ -803,41 +798,32 @@ emigration_chance = { # 0.5
 
 		modifier = { 
 			factor = 0.1
-			country = { national_provinces_occupied = 0.4 }
-		}
-
-		modifier = { 
-			factor = 0.1
 			country = { national_provinces_occupied = 0.5 }
 		}
 
 		modifier = { 
 			factor = 0.1
-			country = { national_provinces_occupied = 0.6 }
+			country = { national_provinces_occupied = 0.7 }
+		}
+		
+		modifier = { 
+			factor = 0.1
+			country = { national_provinces_occupied = 0.9 }
 		}
 	}
 
-	#Immigration increases over time
+#More immigration between 1946 and 2000 to compensate for smaller immigrant pool
 	group = {
-		modifier = { factor = 0.1 year = 1950 }
 
-		modifier = { factor = 0.1 year = 1960 }
+		modifier = { factor = 0.1 NOT = { year = 1960 } }
 
-		modifier = { factor = 0.1 year = 1970 }
+		modifier = { factor = 0.1 NOT = { year = 1970 } }
 
-		modifier = { factor = 0.1 year = 1980 }
+		modifier = { factor = 0.1 NOT = { year = 1980 } }
 
-		modifier = { factor = 0.1 year = 1990 }
+		modifier = { factor = 0.1 NOT = { year = 1990 } }
 
-		modifier = { factor = 0.1 year = 2000 }
-
-		modifier = { factor = 0.1 year = 2010 }
-
-		modifier = { factor = 0.1 year = 2020 }
-		
-		modifier = { factor = 0.1 year = 2030 }
-		
-		modifier = { factor = 0.1 year = 2040 }
+		modifier = { factor = 0.1 NOT = { year = 2000 } }
 	}
 
     group = {
@@ -859,22 +845,22 @@ emigration_chance = { # 0.5
         }
     }
 	
-	group = {
+		group = {
         modifier = {
             factor = -0.05
+			NOT = { consciousness = 1 }
+        }
+        modifier = {
+			factor = -0.05
 			NOT = { consciousness = 2 }
         }
         modifier = {
 			factor = -0.05
-			NOT = { consciousness = 4 }
-        }
-        modifier = {
-			factor = -0.05
-            NOT = { consciousness = 6 }
+            NOT = { consciousness = 3 }
         }
         modifier = {
             factor = -0.05
-            NOT = { consciousness = 8 }
+            NOT = { consciousness = 4 }
         }
     }
 
@@ -892,6 +878,11 @@ emigration_chance = { # 0.5
         modifier = {
             factor = -0.1
             not = { consciousness = 6 }
+            country = { NOT = { has_country_flag = ethnic_cleansing } }
+        }
+		modifier = {
+            factor = -0.1
+            not = { consciousness = 5 }
             country = { NOT = { has_country_flag = ethnic_cleansing } }
         }
     }
@@ -927,14 +918,26 @@ emigration_chance = { # 0.5
             not = { everyday_needs = 0.1 }
             not = { luxury_needs = 0.1 }
         }
+		modifier = {
+            factor = 0.1
+            not = { life_needs = 0.4 }
+            not = { everyday_needs = 0.1 }
+            not = { luxury_needs = 0.1 }
+        }
+		modifier = {
+            factor = 0.1
+            not = { life_needs = 0.3 }
+            not = { everyday_needs = 0.1 }
+            not = { luxury_needs = 0.1 }
+        }
+		modifier = {
+            factor = 0.1
+            not = { life_needs = 0.2 }
+            not = { everyday_needs = 0.1 }
+            not = { luxury_needs = 0.1 }
+        }
     }
 
-    modifier = {
-        factor = -0.3
-        state_scope = { has_factories = yes }
-        country = { NOT = { has_country_flag = ethnic_cleansing } }
-    }
-	
 	modifier = {
 		factor = 0.5
 		is_primary_culture = no
@@ -946,29 +949,41 @@ emigration_chance = { # 0.5
         modifier = {
             factor = 0.1
             unemployment = 0.1
+			location = { controlled_by = owner }
         }
         modifier = {
             factor = 0.1
             unemployment = 0.2
+			location = { controlled_by = owner }
         }
         modifier = {
             factor = 0.1
             unemployment = 0.3
+			location = { controlled_by = owner }
         }
-
         modifier = {
             factor = 0.1
             unemployment = 0.4
+			location = { controlled_by = owner }
         }
-
         modifier = {
             factor = 0.1
             unemployment = 0.5
+			location = { controlled_by = owner }
+        }
+		modifier = {
+            factor = 0.1
+            unemployment = 0.6
+			location = { controlled_by = owner }
         }
     }
+	modifier = {
+		factor = 0.3
+		location = { NOT = { controlled_by = owner } }
+	}
 	
     modifier = {
-        factor = -0.2
+        factor = -0.4
         OR = { agree_with_ruling_party = 0.30 culture = this }
     }
 
@@ -1023,11 +1038,11 @@ emigration_chance = { # 0.5
 
 	group = {
 		modifier = {
-			factor = -0.1
+			factor = -0.2
 			country = { administration_spending = 0.1 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.1
+			factor = -0.2
 			country = { administration_spending = 0.2 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
@@ -1066,23 +1081,23 @@ emigration_chance = { # 0.5
 	
 	group = {
 		modifier = {
-			factor = -0.1
+			factor = -0.2
 			country = { military_spending = 0.1 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.1
+			factor = -0.2
 			country = { military_spending = 0.2 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.1
+			factor = -0.2
 			country = { military_spending = 0.3 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.1
+			factor = -0.2
 			country = { military_spending = 0.4 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.1
+			factor = -0.2
 			country = { military_spending = 0.5 immigration_policy = nobody_gets_out }
 		}
 		modifier = {

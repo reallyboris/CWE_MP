@@ -25,6 +25,10 @@
 
 - Made it so acquire core can also take capital
 
+- Everyone can use the break out of sphere decision
+
+- Increased overseas maintenance abit
+
 
 TODOS:
 
@@ -38,20 +42,12 @@ TODOS:
 
 - TODO: Lower WS cost
 
-- todo: new grants
-
 - TODO: new cwe/alstadt internal migration stuff
 
 - TODO: look at money, too much?
 
 - TODO: nukes too cheap?
 
-- TODO: make anybody able to break out of sphere, not just secondaries
-
 - TODO: check you can disarm secondaries/puppets of their nukes
-
-- TODO: increase overseas maintenance?
-
-- TODO: Remove ideology/gov requirements for italian irredenta and ottoman stuff
 
 - TODO: new cwe immigration?

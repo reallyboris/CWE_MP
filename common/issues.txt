@@ -497,7 +497,7 @@ political_reforms = {
                         mobilization_impact = 0.2
 			org_regain = 0.5
 			political_reform_desire = 0.2
-			supply_consumption = 0.016
+			supply_consumption = 0.16
 			allow = { not = { war_policy = pacifism } }
 		}
 		lgbt_allowed = { # three_year_draft
@@ -509,7 +509,7 @@ political_reforms = {
                         mobilization_impact = 0.1
 			org_regain = 0.4
 			political_reform_desire = 0.175
-			supply_consumption = 0.012
+			supply_consumption = 0.12
 			allow = { not = { war_policy = pacifism } }
 		}
 		lgbt_equal_rights = { # two_year_draft

@@ -21,14 +21,6 @@ AND = { tag = ITA has_country_modifier = dirigisme }
 #4 asian tigers
 AND = { tag = KMT capital = 1485 } tag = SKO tag = HKG tag = SNG tag = MSY 
 
-#Balance for incompetent AI
-tag = BRU tag = SAA tag = IRQ tag = YUG tag = SAF tag = RHO 
-tag = CAF tag = KUW tag = UAE tag = QAT tag = BHR tag = AST 
-tag = NZL tag = XCC tag = XEU tag = SWE tag = NOR tag = USA
-
-tag = AUS tag = SWI tag = LUX tag = BEL tag = NET tag = DEN
-tag = POR tag = FIN tag = IRE tag = CAN tag = SPA tag = ISR
-tag = DAI tag = SVI tag = SYR tag = TRI tag = GRE tag = PER 
 
 #Historical Economic Great Powers
 AND = { tag = GER is_vassal = no OR = { has_country_modifier = germaneconomy year = 1990 } }
@@ -68,7 +60,7 @@ country_event = {
 		}
 }
 
-#Startup capital
+#unemployment_fix
 country_event = {
 	id = 783
 	title = "remove unemployment fix"
@@ -80,9 +72,7 @@ country_event = {
 	
 	immediate = {
 		any_country = {
-			any_owned = {
-				remove_province_modifier = unemployment_fix
-			}
+			remove_country_modifier = unemployment_fix_nation
 		}
 	}
 	

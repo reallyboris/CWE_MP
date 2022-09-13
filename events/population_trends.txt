@@ -23,7 +23,7 @@ country_event = {
 		
 		#Low development
 		literacy = 0.05
-		NOT = { literacy = 0.2 }
+		NOT = { literacy = 0.18 }
 		
 		war = no
 	}
@@ -53,7 +53,7 @@ country_event = {
 		has_country_modifier = industrial_pop_boom
 		
 		#Medium development
-		literacy = 0.2
+		literacy = 0.18
 	}
 	
 	mean_time_to_happen = { days = 1 }
