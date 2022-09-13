@@ -41,6 +41,7 @@
 
 - Made the strait between sumatra and java and some japanese straits not blockadable
 
+- Naval invading into a stack will give the -2 roll penalty
 
 TODOS:
 
