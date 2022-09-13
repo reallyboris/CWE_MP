@@ -47,11 +47,7 @@ TODOS:
 
 - TODO: run it through the validator
 
-- TODO: increase land unit speed significantly
-
 . TODO: implement host and utility decision
-
-- TOdo: new cwe terrain modifiers?
 
 - TODO: Lower WS cost
 
