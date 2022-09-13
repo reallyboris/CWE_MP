@@ -14,7 +14,7 @@ tank = {
 	priority = 50
 	max_strength = 3
 	default_organisation = 25
-	maximum_speed = 5.00
+	maximum_speed = 10.00
 	weighted_value = 10.0
 
 

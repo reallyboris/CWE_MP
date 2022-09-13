@@ -14,7 +14,7 @@ missile = {
 	priority = 35
 	max_strength = 3
 	default_organisation = 20
-	maximum_speed = 6.00
+	maximum_speed = 12.00
 	weighted_value = 6.0
 
 	#Building Costs

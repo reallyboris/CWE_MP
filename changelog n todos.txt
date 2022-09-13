@@ -29,6 +29,12 @@
 
 - Increased overseas maintenance abit
 
+- Increased migration
+
+- Increased the money cost of gettin nukes
+
+- Increased land unit speed
+
 
 TODOS:
 

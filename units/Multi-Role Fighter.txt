@@ -14,7 +14,7 @@ modern_fighter = {
 	priority = 45
 	max_strength = 3
 	default_organisation = 20
-	maximum_speed = 7.00
+	maximum_speed = 14.00
 	weighted_value = 10.0
 
 	#Building Costs

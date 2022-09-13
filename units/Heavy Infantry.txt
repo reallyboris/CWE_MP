@@ -12,7 +12,7 @@ mechanized_infantry = {
 	priority = 18
 	max_strength = 3
 	default_organisation = 40
-	maximum_speed = 4.00
+	maximum_speed = 10.00
 	weighted_value = 9.0
 
 

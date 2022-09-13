@@ -70,6 +70,7 @@ set_country_flag = has_nuke_clouds
 
 any_owned = { limit = { is_capital = yes }
 add_province_modifier = { name = nuke_low duration = 1825 }
+any_pop = { reduce_pop = 0.90 }
 set_province_flag = disease
 set_province_flag = nuked_before
 infrastructure = -2
@@ -79,14 +80,13 @@ fort = -2
 
 any_owned = { limit = { total_pops = 1000000 }
 add_province_modifier = { name = nuke_low duration = 1825 }
+any_pop = { reduce_pop = 0.90 }
 set_province_flag = disease
 set_province_flag = nuked_before
 infrastructure = -2
 naval_base = -2
 fort = -2
 }
-
-any_pop = { reduce_pop = 0.90 }
 
 		}
 
@@ -118,6 +118,7 @@ set_country_flag = has_nuke_clouds
 
 any_owned = { limit = { is_capital = yes }
 add_province_modifier = { name = nuke_medium duration = 1825 }
+any_pop = { reduce_pop = 0.80 }
 set_province_flag = disease
 set_province_flag = nuked_before
 infrastructure = -4
@@ -127,6 +128,7 @@ fort = -4
 
 any_owned = { limit = { AND = { total_pops = 500000 NOT = { total_pops = 1000000 } } }
 add_province_modifier = { name = nuke_low duration = 1825 }
+any_pop = { reduce_pop = 0.90 }
 set_province_flag = disease
 set_province_flag = nuked_before
 infrastructure = -2
@@ -136,6 +138,7 @@ fort = -2
 
 any_owned = { limit = { total_pops = 1000000 }
 add_province_modifier = { name = nuke_medium duration = 1825 }
+any_pop = { reduce_pop = 0.80 }
 set_province_flag = disease
 set_province_flag = nuked_before
 infrastructure = -4
@@ -143,7 +146,6 @@ naval_base = -4
 fort = -4
 }
 
-any_pop = { reduce_pop = 0.80 }
 
 		}
 
@@ -176,6 +178,7 @@ set_country_flag = has_nuke_clouds
 
 any_owned = { limit = { is_capital = yes }
 add_province_modifier = { name = nuke_high duration = 1825 }
+any_pop = { reduce_pop = 0.70 }
 set_province_flag = disease
 set_province_flag = nuked_before
 infrastructure = -6
@@ -185,6 +188,7 @@ fort = -6
 
 any_owned = { limit = { AND = { total_pops = 250000 NOT = { total_pops = 500000 } } }
 add_province_modifier = { name = nuke_low duration = 1825 }
+any_pop = { reduce_pop = 0.90 }
 set_province_flag = disease
 set_province_flag = nuked_before
 infrastructure = -2
@@ -194,6 +198,7 @@ fort = -2
 
 any_owned = { limit = { AND = { total_pops = 500000 NOT = { total_pops = 1000000 } } }
 add_province_modifier = { name = nuke_medium duration = 1825 }
+any_pop = { reduce_pop = 0.80 }
 set_province_flag = disease
 set_province_flag = nuked_before
 infrastructure = -4
@@ -203,6 +208,7 @@ fort = -4
 
 any_owned = { limit = { total_pops = 1000000 }
 add_province_modifier = { name = nuke_high duration = 1825 }
+any_pop = { reduce_pop = 0.70 }
 set_province_flag = disease
 set_province_flag = nuked_before
 infrastructure = -6

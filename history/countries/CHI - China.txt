@@ -69,7 +69,7 @@ schools = army_tech_school
 oob = "/CHI_oob.txt"
 
 1950.1.1 = {
-	prestige = 1000
+	prestige = 0
 	capital = 1612
         oob = "1950/CHI_oob.txt"
 }

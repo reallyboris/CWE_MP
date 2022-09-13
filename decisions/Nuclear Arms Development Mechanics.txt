@@ -40,7 +40,7 @@ political_decisions = {
 
 			OR = { 
 				#For the player
-				AND = { ai = no money = 2000000 }
+				AND = { ai = no money = 3000000 }
 				
 
 				#When a neighbour have nukes
@@ -108,6 +108,7 @@ political_decisions = {
 			set_country_flag = atomic_bomb_developed
 			prestige = 50
 			money = -2000000
+			money = -1000000
 		}
 
 		ai_will_do = {
@@ -148,7 +149,7 @@ political_decisions = {
 
 		allow = {
 		
-			money = 2000000
+			money = 3000000
 		
 			election = no
 			war = no
@@ -220,6 +221,7 @@ political_decisions = {
 			set_country_flag = hydrogen_bomb_developed
 			prestige = 50
 			money = -2000000
+			money = -1000000
 		}
 
 	}

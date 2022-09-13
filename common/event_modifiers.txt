@@ -4520,7 +4520,7 @@ icon = 23
 
 nuke_high = {
 immigrant_push = 10
-population_growth = -0.001
+population_growth = -0.002
 immigrant_attract = -3
 pop_militancy_modifier = 0.20
 local_RGO_throughput = -0.75
@@ -4531,7 +4531,7 @@ icon = 26
 
 nuke_medium = {
 immigrant_push = 5
-population_growth = -0.001
+population_growth = -0.0015
 immigrant_attract = -2
 pop_militancy_modifier = 0.10
 local_RGO_throughput = -0.50
@@ -4558,7 +4558,7 @@ pop_militancy_modifier = 0.05
 local_RGO_throughput = -0.25
 local_factory_output = -0.30
 supply_limit = -1000
-max_attrition = 25
+max_attrition = 30
 icon = 26
 }
 
@@ -7493,12 +7493,6 @@ crat_9 = {
 
 crat_10 = {
     icon = 6
-}
-
-unemployment_fix = {
-	icon = 6
-	local_rgo_output = -0.99
-	local_rgo_throughput = -0.99
 }
 
 unemployment_fix_nation = {
