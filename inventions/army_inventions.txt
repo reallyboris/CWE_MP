@@ -10,6 +10,10 @@ modern_gas_weaponry = {
 			NOT = { has_country_modifier = chemical_nation }
 		}
 		modifier = {
+			factor = 100
+			has_country_modifier = chemical_nation
+		}
+		modifier = {
 			factor = 2
 			has_country_modifier = unethical_exp 
 		}

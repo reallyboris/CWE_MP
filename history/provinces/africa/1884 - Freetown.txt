@@ -1,10 +1,10 @@
 owner = ENG
 controller = ENG
 add_core = SRN
-trade_goods = gold_silver
+trade_goods = fish
 life_rating = 35
 terrain = jungle_farmland
-colonial = 0
+colonial = 2
 1992.1.1 = {
 owner = SRN
 controller = SRN

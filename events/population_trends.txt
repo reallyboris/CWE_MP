@@ -23,12 +23,12 @@ country_event = {
 		
 		#Low development
 		literacy = 0.05
-		NOT = { literacy = 0.15 }
+		NOT = { literacy = 0.2 }
 		
 		war = no
 	}
 	
-	mean_time_to_happen = { months = 6 }
+	mean_time_to_happen = { days = 1 }
 	
 	option = {
 		name = "We welcome these new $COUNTRY_ADJ$ Citizens"
@@ -53,11 +53,10 @@ country_event = {
 		has_country_modifier = industrial_pop_boom
 		
 		#Medium development
-		literacy = 0.15
-		NOT = { literacy = 0.25 }
+		literacy = 0.2
 	}
 	
-	mean_time_to_happen = { months = 6 }
+	mean_time_to_happen = { days = 1 }
 	
 	option = {
 		name = "$COUNTRY_ADJ$ Population growth is stabilising"
@@ -90,7 +89,7 @@ country_event = {
 		literacy = 0.25
 	}
 	
-	mean_time_to_happen = { months = 60 }
+	mean_time_to_happen = { days = 1 }
 	
 	option = {
 		name = "This is a consequence of decreasing fertility rates and longer lifespans"

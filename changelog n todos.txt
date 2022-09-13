@@ -15,16 +15,20 @@
 
 - Increased naval supply range
 
+- Buffed the mob reforms abit, at the cost of extra supply costs
 
+- Made gas a guarrentie once you develop chemical weapons
+
+- Made the demograhic transition not instantly nation ruin the western countries
+
+- Nefed the gigachad ethiopian tech
+
+- Made it so acquire core can also take capital
 
 
 TODOS:
 
-- TODO: ethiopia has 10 tech for some reason??
-
 - TODO: run it through the validator
-
-- TODO: make african colonies into actual colonies
 
 - TODO: increase land unit speed significantly
 
@@ -39,8 +43,6 @@ TODOS:
 - TODO: new cwe/alstadt internal migration stuff
 
 - TODO: look at money, too much?
-
-- todo: longer naval range
 
 - TODO: nukes too cheap?
 

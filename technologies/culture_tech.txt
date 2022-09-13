@@ -617,7 +617,7 @@ compulsory_primary_education = {
 	year = 1946
 	cost = 3600
 
-	education_efficiency = 0.025
+	education_efficiency = 0.085
 	
 	ai_chance = {
 		factor = 1.01
@@ -640,7 +640,7 @@ compulsory_secondary_education = {
 	year = 1946
 	cost = 3600
 
-	education_efficiency = 0.025
+	education_efficiency = 0.085
 	
 	ai_chance = {
 		factor = 1.01
@@ -663,7 +663,7 @@ tripartite_system = {
 	year = 1946
 	cost = 4800
 
-	education_efficiency = 0.025
+	education_efficiency = 0.085
 	
 	ai_chance = {
 		factor = 1.01
@@ -686,7 +686,7 @@ comprehensive_education = {
 	year = 1965
 	cost = 7200
 
-	education_efficiency = 0.05
+	education_efficiency = 0.1
 	
 	ai_chance = {
 		factor = 1.01
@@ -709,7 +709,7 @@ preschool_education = {
 	year = 1980
 	cost = 10800
 
-	education_efficiency = 0.05
+	education_efficiency = 0.1
 	
 	ai_chance = {
 		factor = 1.01
@@ -733,7 +733,7 @@ global_enrollment = {
 	year = 1990
 	cost = 12600
 
-	education_efficiency = 0.05
+	education_efficiency = 0.1
 	
 	ai_chance = {
 		factor = 1.01
@@ -753,7 +753,7 @@ informatization_education = {
 	year = 2000
 	cost = 14400
 
-	education_efficiency = 0.05
+	education_efficiency = 0.1
 	
 	ai_chance = {
 		factor = 1.01
@@ -773,7 +773,7 @@ learning_management_systems = {
 	year = 2020
 	cost = 18000
 
-	education_efficiency = 0.05
+	education_efficiency = 0.1
 	
 	ai_chance = {
 		factor = 1.01
@@ -793,7 +793,7 @@ blended_learning = {
 	year = 2050
 	cost = 21600
 
-	education_efficiency = 0.05
+	education_efficiency = 0.1
 	
 	ai_chance = {
 		factor = 1.01
@@ -813,7 +813,7 @@ virtual_learning = {
 	year = 2070
 	cost = 25200
 	
-	education_efficiency = 0.05
+	education_efficiency = 0.1
 	
 	ai_chance = {
 		factor = 1.01
