@@ -11,15 +11,18 @@
 
 - Increased the effect of lit on craftsmen promotion
 
+- Changed the chemical warfare roll buff from 3 to 1, but made it so you dont get gas def
+
+- Increased naval supply range
 
 
 
 
 TODOS:
 
-- TODO: run it through the validator
+- TODO: ethiopia has 10 tech for some reason??
 
-- TODO: gas atk (reduce its bonus roll to one)
+- TODO: run it through the validator
 
 - TODO: make african colonies into actual colonies
 

@@ -38,7 +38,6 @@ modern_gas_weaponry = {
 	}
 	effect = {
 		gas_attack = yes
-		gas_defence = yes
 	}
 }
 
