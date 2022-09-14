@@ -50,6 +50,9 @@
 - Increased the amount of national foci you get from the 1st NF tech
 
 TODOS:
+- TODO: more nuke cost?
+
+- TODO: more promotion?
 
 - TODO: run it through the validator
 
@@ -58,7 +61,3 @@ TODOS:
 - TODO: Lower WS cost
 
 - TODO: new cwe/alstadt internal migration stuff
-
-- TODO: look at money, too much?
-
-- TODO: new cwe immigration?
