@@ -47,6 +47,8 @@
 
 - Franco british union decision is more like a standard nation form decision now, and good friday agreement decision works
 
+- Increased the amount of national foci you get from the 1st NF tech
+
 TODOS:
 
 - TODO: run it through the validator
