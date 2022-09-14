@@ -120,48 +120,6 @@ ai_chance = { factor = 0.2 }
 }
 
 
-#Generic FBU formation
-country_event = {
-	id = 1512221
-title = "Union of Britain and France?"
-	desc = EVTDESC1512221
-	picture = "FBU_union_generic"
-
-is_triggered_only = yes
-
-option = {
-name = "Join the union!"
-
-ENG = {
-prestige = 500
-add_accepted_culture = french
-
-add_accepted_culture = breton
-
-change_tag = FBU
-
-any_country = { limit = { vassal_of = FRA } country_event = 1410122 }
-
-any_country = { limit = { in_sphere = FRA } country_event = 1410123 }
-
-any_country = { limit = { in_sphere = FBU } country_event = 1410123 }
-
-inherit = FRA
-}
-ai_chance = { factor = 1 }
-		}
-
-option = {
-name = "France will never be British!"
-prestige = 50
-set_global_flag = rejected_FBU_union_flag
-ai_chance = { factor = 0 }
-		}
-
-}
-
-
-
 #European Central Bank
 country_event = {
 	id = 1512229

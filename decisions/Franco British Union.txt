@@ -4,26 +4,77 @@ political_decisions = {
 		picture = "form_ENG_FRA_union"
 		potential = {
 			FBU = { exists = no }
-			tag = ENG
-			FRA = { exists = yes }
+			OR = {
+				tag = ENG
+				tag = FRA
+			}
 			NOT = { has_global_flag = rejected_FBU_union_flag }
 		}
 
 		allow = {
-			war = yes
-			NOT = { national_provinces_occupied = 0.25 }
-
-			OR = { government = hms_government government = democracy }
-
-			FRA = { exists = yes government = democracy }
+			war = no
+			ENG = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+								OR = {
+									in_sphere = THIS
+									vassal_of = THIS
+								}
+						}
+					}
+				}
+			}
+			FRA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+								OR = {
+									in_sphere = THIS
+									vassal_of = THIS
+								}
+						}
+					}
+				}
+			}
 
 			is_greater_power = yes
-			alliance_with = FRA
-			FRA = { war = yes national_provinces_occupied = 0.5 }
 		}
 
 		effect = {
-			FRA = { country_event = 1512221 }
+			change_tag = FBU
+			ENG = {
+				all_core = {
+					add_core = FBU
+				}
+			}
+			FRA = {
+				all_core = {
+					add_core = FBU
+				}
+			}
+			add_accepted_culture = french
+			add_accepted_culture = breton
+			add_accepted_culture = british
+			add_accepted_culture = english
+			add_accepted_culture = scottish
+			add_accepted_culture = welsh
+			any_country = {
+				limit = {
+					OR = {
+						tag = ENG
+						tag = FRA
+					}
+					NOT = { tag = THIS }
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				country_event = { id=11101 days=0 }
+			}
 		}
 		ai_will_do = {
 			factor = 1
