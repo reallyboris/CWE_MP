@@ -43,6 +43,10 @@
 
 - Naval invading into a stack will give the -2 roll penalty
 
+- More sensible taiwan starting oob
+
+- Franco british union decision is more like a standard nation form decision now, and good friday agreement decision works
+
 TODOS:
 
 - TODO: run it through the validator

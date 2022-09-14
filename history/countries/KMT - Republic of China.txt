@@ -79,6 +79,8 @@ oob = "/KMT_oob.txt"
 #Conscription
 gender_rights = lgbt_equal_rights
 
+oob = "1950/KMT_oob.txt"
+
 }
 
 1992.1.1 = {
