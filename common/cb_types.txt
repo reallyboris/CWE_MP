@@ -3266,7 +3266,6 @@ dismantle_cb = {
 			to = jingoism
 			value = 0.10
 		}
-		country_event = 96000
 	}
 	
 	on_po_accepted = {
@@ -3446,7 +3445,6 @@ war_policy = jingoism war = yes } }
 			to = jingoism
 			value = 0.10
 		}
-		country_event = 96000
 	}
 	
 	on_po_accepted = {
