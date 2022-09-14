@@ -1185,7 +1185,7 @@
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 9250
+		size = 46250
 	 } 
 	soldiers = {
 		culture = chinese
@@ -1245,7 +1245,7 @@
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 161175
+		size = 198175
 	 } 
 	farmers = {
 		culture = chinese
@@ -8486,7 +8486,7 @@
 	soldiers = {
 		culture = chinese
 		religion =  taoism 
-		size = 5033
+		size = 25165
 	 } 
 	soldiers = {
 		culture = chinese
@@ -8496,7 +8496,7 @@
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 25167
+		size = 45299
 	 } 
 	farmers = {
 		culture = chinese

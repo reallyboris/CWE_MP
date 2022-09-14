@@ -3576,7 +3576,7 @@ great_war_penalty_cb = {
 	months = 0
 	crisis = no
 	
-	great_war_obligatory = no
+	great_war_obligatory = yes
 	
 	badboy_factor = 0
 	prestige_factor = 1.8
@@ -3592,7 +3592,6 @@ great_war_penalty_cb = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	po_disarmament = yes
 	po_reparations = yes
 
 	war_name = WAR_NAME
