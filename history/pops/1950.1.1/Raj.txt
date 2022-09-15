@@ -535,6 +535,11 @@
         religion = sunni
         size = 4372
     }
+	bureaucrats = {
+        culture = punjabi
+        religion = sunni
+        size = 6500
+    }
 
     clergymen = {
         culture = punjabi
