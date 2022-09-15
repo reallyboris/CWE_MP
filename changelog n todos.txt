@@ -49,6 +49,8 @@
 
 - Increased the amount of national foci you get from the 1st NF tech
 
+- Changed GW cut down to be only reps
+
 TODOS:
 - TODO: more nuke cost?
 
