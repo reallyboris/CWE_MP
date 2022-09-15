@@ -88,7 +88,7 @@ country = {
 	COLONIZATION_COLONY_STATE_DISTANCE = 400,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_DAY = 0.08,
 	COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
-	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.5, -- Drops the ruling party loyalty if war is lost.
+	PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0, -- Drops the ruling party loyalty if war is lost.
 	RESEARCH_POINTS_ON_CONQUER_MULT = 60, -- multiplier to RP got by conquering as unciv when got enacted military reforms
 	MAX_RESEARCH_POINTS = 25000, -- max RP you can store for uncivs
 },
