@@ -1959,6 +1959,7 @@ political_decisions = {
 			has_unclaimed_cores = no
 			is_vassal = no
 			prestige = 45
+			year = 1951
 		}
 
 		effect = {
