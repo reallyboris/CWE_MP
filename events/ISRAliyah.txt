@@ -106,7 +106,6 @@ province_event = {
     option = {
         name = "EVT98405OPTA"
         remove_province_modifier = jewish_diaspora
-        ISR = { country_event = 19471947100 }
         any_pop = {
             limit = {
                 OR = {
@@ -217,7 +216,6 @@ province_event = {
     option = {
         name = "EVT98405OPTA"
         remove_province_modifier = jewish_diaspora
-        ISR = { country_event = 19471947100 }
         any_pop = {
             limit = {
                 OR = {
@@ -328,7 +326,6 @@ province_event = {
     option = {
         name = "EVT98405OPTA"
         remove_province_modifier = jewish_diaspora
-        ISR = { country_event = 19471947100 }
         any_pop = {
             limit = {
                 OR = {
@@ -439,7 +436,6 @@ province_event = {
     option = {
         name = "EVT98405OPTA"
         remove_province_modifier = jewish_diaspora
-        ISR = { country_event = 19471947100 }
         any_pop = {
             limit = {
                 OR = {

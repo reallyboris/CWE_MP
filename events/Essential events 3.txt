@@ -1,6 +1,4 @@
 
-}
-
 #Enable Canals
 country_event = {
 	id = 1400037
@@ -109,7 +107,7 @@ clr_province_flag = chemical_before
                                 }
 	            }
 
-#
+
 
 #Nuclear Blackmail
 country_event = {
@@ -234,79 +232,6 @@ option = {
 prestige = 50
 clr_country_flag = acquiring_bomb
 add_country_modifier = { name = acquired_bomb duration = -1 }
-			}
-
-}
-
-
-
-#Franco-British Union
-country_event = {
-	id = 1410141
-	title = "Franco-British Union"
-	desc = EVTDESC1410120
-	picture = "fbu_union"
-	
-trigger = {
-tag = FRA
-ai = no
-exists = ENG
-ENG = { government = hms_government }
-FRA = { government = democracy }
-year = 1956
-NOT = { year = 1990 }
-NOT = { has_global_flag = fbu_fired }
-
-
-#Franco-British Union
-country_event = {
-	id = 1410142
-	title = "Franco-British Union"
-	desc = EVTDESC1410120
-	picture = "fbu_union"
-	
-is_triggered_only = yes	
-
-option = {
-	name = "Accept the Union!"
-ai_chance = { factor = 0.2 }
-
-FRA = { change_tag = FBU
-government = hms_government }
-
-any_country = { limit = { OR = { vassal_of = ENG vassal_of = RAJ } } country_event = 1410122 }
-
-any_country = { limit = { in_sphere = ENG } country_event = 1410123 }
-
-any_country = { limit = { in_sphere = FBU } country_event = 1410123 }
-
-FBU = { 
-
-add_country_modifier = { name = commonwealthmembereng duration = -1 }
-
-primary_culture = british
-
-add_accepted_culture = english
-
-add_accepted_culture = french
-
-add_accepted_culture = scottish
-
-add_accepted_culture = irish
-
-add_accepted_culture = welsh
-
-add_accepted_culture = chinese_cantonese
-
-inherit = ENG
-prestige = 50
-}
-			}
-
-option = {
-	name = "Keep our independence!"
-ai_chance = { factor = 0.8 }
-prestige = 100
 			}
 
 }

@@ -894,6 +894,7 @@ army = {
 		type = artillery
 		home = 1561
 	}
+}
 
 army = {
 	name = "China Yenan Army"

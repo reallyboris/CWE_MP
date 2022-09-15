@@ -384,46 +384,6 @@ fort = -2
 
 }
 
-
-#End state of emergency
-
-clr_country_flag = prolonged_state_of_emergency
-
-#What meeting laws to revert back to
-
-random_owned = { 
-	limit = { owner = { has_country_flag = return_to_free_meetings } }
-	owner = { political_reform = free_meetings clr_country_flag = return_to_free_meetings }
-	}
-
-random_owned = { 
-	limit = { owner = { has_country_flag = return_to_limited_meetings } }
-	owner = { political_reform = limited_meetings clr_country_flag = return_to_limited_meetings }
-	}
-
-#What press laws to revert back to
-			
-random_owned = { 
-	limit = { owner = { has_country_flag = return_to_responsible_publishing  } }
-	owner = { political_reform = responsible_publishing clr_country_flag = return_to_responsible_publishing }
-	}
-
-random_owned = { 
-	limit = { owner = { has_country_flag = return_to_unregulated_publishing} }
-	owner = { political_reform = unregulated_publishing clr_country_flag = return_to_unregulated_publishing }
-	}
-
-random_owned = { 
-	limit = { owner = { has_country_flag = return_to_firewall_publishing } }
-	owner = { political_reform = firewall_publishing clr_country_flag = return_to_firewall_publishing }
-	}
-
-remove_country_modifier = martial_law
-
-	}
-
-}
-
 #Disarm WMDs CB - Loser
 country_event = {
 	id = 1610033

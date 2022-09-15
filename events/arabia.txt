@@ -20,8 +20,8 @@ country_event = {
 		name = "EVT_101930_A"
 		set_country_flag = arab_league
 		prestige = 2
-	}
-}
+	
+
 
 	set_global_flag = arab_spring
 	set_country_flag = arab_spring_country_flag

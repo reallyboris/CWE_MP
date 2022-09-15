@@ -48,7 +48,6 @@ dismantle_cb_add_new
 acquire_core_state 
 annex_core_country
 acquire_substate_region
-annex_all_cores
 annex_un_occupied_territories
 free_allied_cores
 install_democracy
@@ -3556,10 +3555,6 @@ rude_boy = {
 	}
 	
 	on_po_accepted = {
-		badboy = -1000
-		badboy = 24
-
-		country_event = 10020
 
 		THIS = { set_country_flag = this_won_CB }
 		set_country_flag = this_lost_CB

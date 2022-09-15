@@ -27,8 +27,6 @@ OR = { 603 = { NOT = { has_province_modifier = liechenstein } }
 					}
 		}
 
-}
-
 #Biological weapons developed
 country_event = {
 	id = 1412061
