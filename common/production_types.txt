@@ -1994,7 +1994,7 @@ copper_mine = {
 bauxite_mine = {
 	template = RGO_template_labourers
 	output_goods = bauxite 
-	value = 3
+	value = 3.4
 	mine = yes
 }
 
