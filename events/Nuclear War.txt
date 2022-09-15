@@ -60,7 +60,7 @@ name = "We must retaliate!"
 
 prestige_factor = -0.06
 
-war_exhaustion = 8
+war_exhaustion = 10
 
 add_country_modifier = { name = recently_attacked_nuke duration = 31 }
 
@@ -110,7 +110,7 @@ name = "We must retaliate!"
 
 prestige_factor = -0.125
 
-war_exhaustion = 16
+war_exhaustion = 20
 
 add_country_modifier = { name = recently_attacked_nuke duration = 31 }
 
@@ -172,7 +172,7 @@ name = "We must retaliate!"
 
 prestige_factor = -0.25
 
-war_exhaustion = 22
+war_exhaustion = 30
 
 add_country_modifier = { name = recently_attacked_nuke duration = 31 }
 
