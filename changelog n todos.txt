@@ -51,10 +51,9 @@
 
 - Changed GW cut down to be only reps
 
-TODOS:
-- TODO: more nuke cost?
+- Increased promotion overall
 
-- TODO: more promotion?
+TODOS:
 
 - TODO: run it through the validator
 
