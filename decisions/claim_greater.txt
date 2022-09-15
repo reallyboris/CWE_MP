@@ -167,16 +167,9 @@ political_decisions = {
 
 		allow = {
 
-			#
 
 			has_unclaimed_cores = no
 			is_vassal = no
-			OR = {
-				ruling_party_ideology = populist
-				ruling_party_ideology = nationalist
-				jingoism = 24
-NOT = { government = democracy government = hms_government }
-			}
 		}
 
 		effect = {
@@ -3008,18 +3001,8 @@ NOT = { government = democracy government = hms_government }
 			has_unclaimed_cores = no
 			war = no
 			has_recently_lost_war = no
-			NOT = {	
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal 
-			}
 			is_vassal = no
 			prestige = 45
-			OR = {
-				ruling_party_ideology = populist
-				ruling_party_ideology = nationalist
-				jingoism = 24
-			}
 		}
 
 		effect = {
@@ -3749,18 +3732,8 @@ NOT = { government = democracy government = hms_government }
 		allow = {
 			#
 			has_unclaimed_cores = no
-			NOT = {	
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal 
-			}
 			is_vassal = no
 			prestige = 45
-			OR = {
-				ruling_party_ideology = populist
-				ruling_party_ideology = nationalist
-				jingoism = 24
-			}
 		}
 
 		effect = {
