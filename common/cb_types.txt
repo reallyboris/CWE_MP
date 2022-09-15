@@ -3574,7 +3574,7 @@ great_war_penalty_cb = {
 	months = 0
 	crisis = no
 	
-	great_war_obligatory = yes
+	great_war_obligatory = no
 	
 	badboy_factor = 0
 	prestige_factor = 1.8
