@@ -35,47 +35,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_afghanistan = {
-		picture = "claim_greater_afghanistan"
-		potential = {
-			has_country_flag = claim_greater_afghanistan
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_afghanistan
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 1223
-						province_id = 1219
-						province_id = 1218
-						province_id = 2653
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
-
 	claim_greater_albania = {
 		picture = "claim_greater_albania"
 		potential = {
@@ -114,49 +73,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_albania = {
-		picture = "claim_greater_albania"
-		potential = {
-			has_country_flag = claim_greater_albania
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_albania
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 807
-						province_id = 806
-						province_id = 802
-						province_id = 803
-						province_id = 800
-						province_id = 824
-						province_id = 826
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_argentina = {
 		picture = "claim_greater_argentina"
@@ -179,48 +95,6 @@ political_decisions = {
 		}
 
 		ai_will_do = { factor = 1 }
-
-	}
-
-	abandon_claim_greater_argentina = {
-		picture = "claim_greater_argentina"
-		potential = {
-			has_country_flag = claim_greater_argentina
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-
-			#part_of_sphere = yes
-
-			NOT = { jingoism = 5 }
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_argentina
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 2131
-						province_id = 2133
-					}
-				}
-				remove_core = THIS
-			}
-		}
 
 	}
 
@@ -264,51 +138,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_armenia = {
-		picture = "claim_greater_armenia"
-		potential = {
-			has_country_flag = claim_greater_armenia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_armenia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 1093
-						province_id = 1106
-						province_id = 1101
-						province_id = 890
-						province_id = 885
-						province_id = 886
-						province_id = 891
-						province_id = 887
-						province_id = 882
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_azerbaijan = {
 		picture = "claim_greater_azerbaijan"
@@ -347,48 +176,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_azerbaijan = {
-		picture = "claim_greater_azerbaijan"
-		potential = {
-			has_country_flag = claim_greater_azerbaijan
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_azerbaijan
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 1100
-						province_id = 1098
-						province_id = 1099
-						province_id = 1057
-						province_id = 885
-						province_id = 1123
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_bangladesh = {
 		picture = "claim_greater_bangladesh"
@@ -440,60 +227,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_bangladesh = {
-		picture = "claim_greater_bangladesh"
-		potential = {
-			has_country_flag = claim_greater_bangladesh
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_bangladesh
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 1251
-						province_id = 1252
-						province_id = 1253
-						province_id = 2622
-						province_id = 2660
-						province_id = 2661
-						province_id = 3280
-						province_id = 2693
-						province_id = 1258
-						province_id = 1260
-						province_id = 1593
-						province_id = 2566
-						province_id = 1259
-						province_id = 3279
-						province_id = 3278
-						province_id = 1328
-						province_id = 1345
-						province_id = 1320
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_bolivia = {
 		picture = "claim_greater_bolivia"
@@ -533,49 +266,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_bolivia = {
-		picture = "claim_greater_bolivia"
-		potential = {
-			has_country_flag = claim_greater_bolivia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_bolivia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 2305
-						province_id = 2309
-						province_id = 2370
-						province_id = 2371
-						province_id = 2337
-						province_id = 2338
-						province_id = 2549
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_peru = {
 		picture = "claim_greater_peru"
@@ -610,44 +300,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_peru = {
-		picture = "claim_greater_peru"
-		potential = {
-			has_country_flag = claim_greater_peru
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_peru
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 2307
-						province_id = 2308
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_bosnia = {
 		picture = "claim_greater_bosnia"
@@ -684,46 +336,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_bosnia = {
-		picture = "claim_greater_bosnia"
-		potential = {
-			has_country_flag = claim_greater_bosnia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_bosnia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 2577
-						province_id = 804
-						province_id = 2569
-						province_id = 2583
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_bulgaria = {
 		picture = "claim_greater_bulgaria"
@@ -764,50 +376,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_bulgaria = {
-		picture = "claim_greater_bulgaria"
-		potential = {
-			has_country_flag = claim_greater_bulgaria
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_bulgaria
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 823
-						province_id = 829
-						province_id = 830
-						province_id = 807
-						province_id = 806
-						province_id = 799
-						province_id = 674
-						province_id = 675
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_cambodia = {
 		picture = "claim_greater_cambodia"
@@ -843,44 +411,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_cambodia = {
-		picture = "claim_greater_cambodia"
-		potential = {
-			has_country_flag = claim_greater_cambodia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_cambodia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 1382
-						province_id = 1383
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_china = {
 		picture = "claim_greater_china"
@@ -941,75 +471,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_china = {
-		picture = "claim_greater_china"
-		potential = {
-			tag = CHI
-			has_country_flag = claim_greater_china
-			OR = {
-				government = democracy
-				government = democracy1
-				government = hms_government
-				government = hms_government1
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_china
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 1496
-						province_id = 1498
-						province_id = 2562
-						province_id = 1485
-						province_id = 1341
-						province_id = 1208
-						province_id = 1678
-						province_id = 2576
-						province_id = 1469
-						province_id = 1467
-						province_id = 2207
-						province_id = 1465
-						province_id = 1466
-						province_id = 1468
-						province_id = 2608
-						province_id = 2679
-						province_id = 2678
-						province_id = 1082
-						province_id = 1083
-						province_id = 1084
-						province_id = 2617
-						province_id = 2618
-						province_id = 2641
-						province_id = 1080
-						province_id = 2697
-						province_id = 1086
-						province_id = 1087
-						province_id = 3342
-						province_id = 3343
-						province_id = 1593
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_comoros = {
 		picture = "claim_greater_comoros"
@@ -1043,41 +504,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_comoros = {
-		picture = "claim_greater_comoros"
-		potential = {
-			has_country_flag = claim_greater_comoros
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_comoros
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					province_id = 2124
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_croatia = {
 		picture = "claim_greater_croatia"
@@ -1123,55 +549,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_croatia = {
-		picture = "claim_greater_croatia"
-		potential = {
-			has_country_flag = claim_greater_croatia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_croatia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 788
-						province_id = 2688
-						province_id = 784
-						province_id = 789
-						province_id = 785
-						province_id = 783
-						province_id = 786
-						province_id = 787
-						province_id = 2582
-						province_id = 2538
-						province_id = 791
-						province_id = 2577
-						province_id = 804
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_south = {
 		picture = "claim_greater_south"
@@ -1244,85 +621,7 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_south = {
-		picture = "claim_greater_south"
-		potential = {
-			has_country_flag = claim_greater_south
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
 
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_south
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 200
-						province_id = 199
-						province_id = 198
-						province_id = 132
-						province_id = 134
-						province_id = 133
-						province_id = 137
-						province_id = 138
-						province_id = 135
-						province_id = 136
-						
-						province_id = 143
-			            province_id = 144
-			            province_id = 145
-			            province_id = 188
-			            province_id = 189
-			            province_id = 190
-			            province_id = 191
-			            province_id = 207
-			            province_id = 208
-			            province_id = 209
-			            province_id = 210
-			            province_id = 2556
-			            province_id = 211
-			            province_id = 212
-			            province_id = 213
-			            province_id = 214
-			            province_id = 215
-			            province_id = 216
-						
-						#Arizona and New Mexico
-						province_id = 100
-						province_id = 101
-						province_id = 102
-						province_id = 103
-						province_id = 104
-						province_id = 105
-			
-						#Washington DC, the ultimate prize
-						province_id = 220
-						
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
-	
-	###
 	
 	claim_oklaoma = {
 		picture = "claim_greater_oklaoma"
@@ -1359,47 +658,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_oklaoma = {
-		picture = "claim_greater_oklaoma"
-		potential = {
-			has_country_flag = claim_oklaoma
-			OR = {
-				government = democracy
-				government = democracy1
-				government = hms_government
-				government = hms_government1
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -3
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_oklaoma
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 129
-						province_id = 130
-						province_id = 131
-					}
-				}
-				remove_core = THIS
-			}
-		}
-		
-	}
 
 	claim_missouri = {
 		picture = "claim_greater_missouri"
@@ -1437,49 +695,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_missouri = {
-		picture = "claim_greater_missouri"
-		potential = {
-			has_country_flag = claim_missouri
-			OR = {
-				government = democracy
-				government = democracy1
-				government = hms_government
-				government = hms_government1
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -3
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_missouri
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 146
-						province_id = 147
-						province_id = 148
-						province_id = 149
-						province_id = 150
-					}
-				}
-				remove_core = THIS
-			}
-		}
-	
-	}
 
 	claim_kentucky = {
 		picture = "claim_greater_kentucky"
@@ -1516,46 +731,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_kentucky = {
-		picture = "claim_greater_kentucky"
-		potential = {
-			has_country_flag = claim_kentucky
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -3
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_missouri
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 184
-						province_id = 185
-						province_id = 186
-						province_id = 187
-					}
-				}
-				remove_core = THIS
-			}
-		}
-		
-	}
 
 	claim_west_virginia = {
 		picture = "claim_greater_west_virginia"
@@ -1590,46 +765,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_west_virginia = {
-		picture = "claim_greater_west_virginia"
-		potential = {
-			has_country_flag = claim_west_virginia
-			OR = {
-				government = democracy
-				government = democracy1
-				government = hms_government
-				government = hms_government1
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -3
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_west_virginia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 217
-						province_id = 218
-					}
-				}
-				remove_core = THIS
-			}
-		}
-		
-	}
 	
 	claim_greater_denmark = {
 		picture = "claim_greater_denmark"
@@ -1664,49 +799,6 @@ political_decisions = {
 			370 = { add_core = DEN } # Flensburg
 			533 = { add_core = DEN } # Heligoland
 			331 = { add_core = DEN }
-		}
-
-	}
-
-	abandon_claim_greater_denmark = {
-		picture = "claim_greater_denmark"
-		potential = {
-			has_country_flag = claim_greater_denmark
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_denmark
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 334
-						province_id = 335
-						province_id = 369
-						province_id = 370
-						province_id = 533
-						province_id = 331
-					}
-				}
-				remove_core = THIS
-			}
 		}
 
 	}
@@ -1748,48 +840,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_fer = {
-		picture = "claim_greater_fer"
-		potential = {
-			has_country_flag = claim_greater_fer
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_fer
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 1072
-						province_id = 2639
-						province_id = 2614
-						province_id = 2590
-						province_id = 2633
-						province_id = 1074
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_finland = {
 		picture = "claim_greater_finland"
@@ -1828,49 +878,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_finland = {
-		picture = "claim_greater_finland"
-		potential = {
-			has_country_flag = claim_greater_finland
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_finland
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 339
-						province_id = 982
-						province_id = 995
-						province_id = 988
-						province_id = 984
-						province_id = 983
-						province_id = 2587
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_karelia = {
 		picture = "claim_greater_karelia"
@@ -1906,46 +913,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_karelia = {
-		picture = "claim_greater_karelia"
-		potential = {
-			has_country_flag = claim_greater_karelia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -5
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_karelia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 339
-						province_id = 982
-						province_id = 983
-						province_id = 2587
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_france = {
 		picture = "claim_greater_france"
@@ -1996,69 +963,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_france = {
-		picture = "claim_greater_france"
-		potential = {
-			has_country_flag = claim_greater_france
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_france
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 573
-						province_id = 571
-						province_id = 570
-						province_id = 574
-						province_id = 572
-						province_id = 397
-						province_id = 575
-						province_id = 576
-						province_id = 396
-						province_id = 398
-						province_id = 392
-						province_id = 387
-						province_id = 394
-						province_id = 393
-						province_id = 388
-						province_id = 389
-						province_id = 395
-						province_id = 391
-						province_id = 390
-						province_id = 381
-						province_id = 577
-						province_id = 379
-						province_id = 380
-						province_id = 378
-						province_id = 607
-						province_id = 609
-						province_id = 608
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_germany = {
 		picture = "claim_greater_germany"
@@ -2106,65 +1010,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_germany = {
-		picture = "claim_greater_germany"
-		potential = {
-			has_country_flag = claim_greater_germany
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -12
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_germany
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 685
-						province_id = 684
-						province_id = 683
-						province_id = 682
-						province_id = 681
-						province_id = 546
-						province_id = 679
-						province_id = 692
-						province_id = 680
-						province_id = 693
-						province_id = 696
-						province_id = 695
-						province_id = 698
-						province_id = 697
-						province_id = 690
-						province_id = 691
-						province_id = 694
-						province_id = 699
-						province_id = 700
-						province_id = 701
-						province_id = 371
-						province_id = 412
-						province_id = 409
-						province_id = 410
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_greece = {
 		picture = "claim_greater_greece"
@@ -2214,56 +1059,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_greece = {
-		picture = "claim_greater_greece"
-		potential = {
-			has_country_flag = claim_greater_greece
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			ny_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_greece
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 869
-						province_id = 828
-						province_id = 859
-						province_id = 858
-						province_id = 860
-						province_id = 861
-						province_id = 862
-						province_id = 864
-						province_id = 865
-						province_id = 870
-						province_id = 872
-						province_id = 855
-						province_id = 856
-						province_id = 857
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_northern_epirus = {
 		picture = "claim_greater_greece"
@@ -2297,41 +1092,6 @@ political_decisions = {
 		}
 	}
 
-	abandon_claim_northern_epirus = {
-		picture = "claim_greater_greece"
-		potential = {
-			has_country_flag = claim_northern_epirus
-			OR = {
-				government = democracy
-				government = hms_government
-			} 
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -2
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_northern_epirus
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					province_id = 853
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_india = {
 		picture = "claim_greater_india"
@@ -2383,72 +1143,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_india = {
-		picture = "claim_greater_india"
-		potential = {
-			has_country_flag = claim_greater_india
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_india
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 1256
-						province_id = 1257
-						province_id = 1254
-						province_id = 1255
-						province_id = 1290
-						province_id = 1288
-						province_id = 1289
-						province_id = 1222
-						province_id = 1221
-						province_id = 1220
-						province_id = 1219
-						province_id = 1218
-						province_id = 1223
-						province_id = 1231
-						province_id = 1228
-						province_id = 1232
-						province_id = 1227
-						province_id = 1229
-						province_id = 1230
-						province_id = 2673
-						province_id = 2653
-						province_id = 2692
-						province_id = 2666
-						province_id = 1070
-						province_id = 2637
-						province_id = 2657
-						province_id = 2658
-						province_id = 2680
-						province_id = 3340
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
-
 	claim_tamil_ceylon = {
 		picture = "claim_greater_india"
 		potential = {
@@ -2476,40 +1170,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_tamil_ceylon = {
-		picture = "claim_greater_india"
-		potential = {
-			has_country_flag = claim_tamil_ceylon
-			OR = {
-				government = democracy
-				government = hms_government
-			} 
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			} 
-		}
-
-		effect = {
-			badboy = -2
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_tamil_ceylon
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					is_core = TAE
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 	
 	claim_greater_ingushetia = {
 		picture = "claim_greater_ingushetia"
@@ -2544,43 +1204,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_ingushetia = {
-		picture = "claim_greater_ingushetia"
-		potential = {
-			has_country_flag = claim_greater_ingushetia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_ingushetia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 1054
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_chechnya = {
 		picture = "claim_greater_chechnya"
@@ -2618,44 +1241,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_chechnya = {
-		picture = "claim_greater_chechnya"
-		potential = {
-			has_country_flag = claim_greater_chechnya
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_chechnya
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					OR = {
-						province_id = 1054
-						province_id = 1053
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_hungary = {
 		picture = "claim_greater_hungary"
@@ -2688,52 +1273,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_hungary = {
-		picture = "claim_greater_hungary"
-		potential = {
-			has_country_flag = claim_greater_hungary
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_hungary
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 638
-						province_id = 637
-						province_id = 950
-						province_id = 2538
-						province_id = 647
-						province_id = 651
-						province_id = 654
-						province_id = 660
-						province_id = 661
-						province_id = 2533
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_indonesia = {
 		picture = "claim_greater_indonesia"
@@ -2773,59 +1312,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_indonesia = {
-		picture = "claim_greater_indonesia"
-		potential = {
-			has_country_flag = claim_greater_indonesia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_indonesia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 1397
-						province_id = 1396
-						province_id = 1393
-						province_id = 1395
-						province_id = 1394
-						province_id = 2576
-						province_id = 1384
-						province_id = 1385
-						province_id = 1386
-						province_id = 1387
-						province_id = 1390
-						province_id = 1391
-						province_id = 2575
-						province_id = 1388
-						province_id = 1389
-						province_id = 1392
-						province_id = 1446
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_ireland = {
 		picture = "claim_greater_ireland"
@@ -2856,45 +1342,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_ireland = {
-		picture = "claim_greater_ireland"
-		potential = {
-			has_country_flag = claim_greater_ireland
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_ireland
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 254
-						province_id = 255
-						province_id = 256
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_israel = {
 		picture = "claim_greater_israel"
@@ -2945,48 +1392,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_israel = {
-		picture = "claim_greater_israel"
-		potential = {
-			has_country_flag = claim_greater_israel
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				has_country_flag = claim_greater_israel
-				has_country_flag = claim_greater_israel_1
-			}
-			OR = {
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -12
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_israel
-			clr_country_flag = claim_greater_israel_1
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						region = EGY_910
-						region = EGY_915
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_taiwan = {
 		picture = "claim_greater_taiwan"
@@ -3043,74 +1448,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_taiwan = {
-		picture = "claim_greater_taiwan"
-		potential = {
-			has_country_flag = claim_greater_taiwan
-			OR = {
-				government = democracy
-				government = democracy1
-				government = hms_government
-				government = hms_government1
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_taiwan
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 1496
-						province_id = 1498
-						province_id = 2562
-						province_id = 1485
-						province_id = 1341
-						province_id = 1208
-						province_id = 1678
-						province_id = 2576
-						province_id = 1469
-						province_id = 1467
-						province_id = 2207
-						province_id = 1465
-						province_id = 1466
-						province_id = 1468
-						province_id = 2608
-						province_id = 2679
-						province_id = 2678
-						province_id = 1082
-						province_id = 1083
-						province_id = 1084
-						province_id = 2617
-						province_id = 2618
-						province_id = 2641
-						province_id = 1080
-						province_id = 2697
-						province_id = 1086
-						province_id = 1087
-						province_id = 3342
-						province_id = 3343
-						province_id = 1593
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_macedonia = {
 		picture = "claim_greater_macedonia"
@@ -3150,49 +1487,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_macedonia = {
-		picture = "claim_greater_macedonia"
-		potential = {
-			has_country_flag = claim_greater_macedonia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			has_country_flag = claim_greater_macedonia
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_macedonia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 808
-						province_id = 819
-						province_id = 821
-						province_id = 805
-						province_id = 823
-						province_id = 822
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_mexico = {
 		picture = "claim_greater_mexico"
@@ -3235,53 +1529,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_mexico = {
-		picture = "claim_greater_mexico"
-		potential = {
-			has_country_flag = claim_greater_mexico
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_mexico
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						state_id = 84
-						state_id = 86
-						state_id = 89
-						state_id = 90
-						state_id = 96
-						state_id = 97
-						state_id = 102
-						state_id = 103
-						state_id = 132
-						state_id = 134
-						state_id = 137
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 		
 	claim_greater_morocco = {
 		picture = "claim_greater_morocco"
@@ -3328,56 +1575,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_morocco = {
-		picture = "claim_greater_morocco"
-		potential = {
-			has_country_flag = claim_greater_morocco
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_morocco
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 1774
-						province_id = 1773
-						province_id = 1714
-						province_id = 1716
-						province_id = 1782
-						province_id = 1775
-						province_id = 1779
-						province_id = 1781
-						province_id = 1776
-						province_id = 1777
-						province_id = 1778
-						province_id = 1780
-						province_id = 1689
-						province_id = 2136
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_northern_mariana = {
 		picture = "claim_greater_northern_mariana"
@@ -3411,41 +1608,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_northern_mariana = {
-		picture = "claim_greater_northern_mariana"
-		potential = {
-			has_country_flag = claim_greater_northern_mariana
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_northern_mariana
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					province_id = 2517
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_norway = {
 		picture = "claim_greater_norway"
@@ -3487,53 +1649,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_norway = {
-		picture = "claim_greater_norway"
-		potential = {
-			has_country_flag = claim_greater_norway
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_norway
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 251
-						province_id = 252
-						province_id = 253
-						province_id = 319
-						province_id = 329
-						province_id = 982
-						province_id = 983
-						province_id = 2587
-						province_id = 3246
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
-	
-	###
 
 	claim_greater_papal_state = {
 		picture = "claim_greater_papal_state"
@@ -3573,54 +1688,6 @@ political_decisions = {
 
 	}
 	
-	abandon_claim_greater_papal_state = {
-		picture = "claim_greater_papal_state"
-		potential = {
-			tag = PAP
-			has_country_flag = claim_greater_PAP
-			OR = {
-				government = democracy
-				government = democracy1
-				government = hms_government
-				government = hms_government1
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_papal_state
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 750
-						province_id = 751
-						province_id = 752
-						province_id = 741
-						province_id = 742
-						province_id = 743
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
-
-	###
-
 	claim_greater_iran = {
 		picture = "claim_greater_iran"
 		potential = {
@@ -3664,64 +1731,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_iran = {
-		picture = "claim_greater_iran"
-		potential = {
-			has_country_flag = claim_greater_iran
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_iran
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						is_core = IRQ
-						is_core = ARM
-						is_core = AFG
-						is_core = AZB
-						is_core = TAJ
-						is_core = TKR
-						is_core = UZB
-						province_id = 890
-						province_id = 891
-						province_id = 892
-						province_id = 1090
-						province_id = 1091
-						province_id = 1057
-						province_id = 1203
-						province_id = 1223
-						province_id = 2653
-						province_id = 1218
-						province_id = 1219
-						province_id = 1220
-						province_id = 1221
-						province_id = 1222
-						province_id = 3340
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_romania = {
 		picture = "claim_greater_romania"
@@ -3750,48 +1759,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_romania = {
-		picture = "claim_greater_romania"
-		potential = {
-			has_country_flag = claim_greater_romania
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_romania
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 662
-						province_id = 676
-						province_id = 677
-						province_id = 678
-						province_id = 2589
-						province_id = 818
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_russia = {
 		picture = "claim_greater_russia"
@@ -3838,64 +1805,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_russia = {
-		picture = "claim_greater_russia"
-		potential = {
-			has_country_flag = claim_greater_russia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_russia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 966
-						province_id = 967
-						province_id = 964
-						province_id = 350
-						province_id = 1187
-						province_id = 1181
-						province_id = 1184
-						province_id = 2611
-						province_id = 677
-						province_id = 678
-						province_id = 968
-						province_id = 969
-						province_id = 971
-						province_id = 970
-						province_id = 972
-						province_id = 965
-						province_id = 973
-						province_id = 976
-						province_id = 975
-						province_id = 974
-						province_id = 978
-						province_id = 980
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_novorossiya = {
 		picture = "claim_greater_russia"
@@ -3971,41 +1880,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_samoa = {
-		picture = "claim_greater_samoa"
-		potential = {
-			has_country_flag = claim_greater_samoa
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_samoa
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					province_id = 2544
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_serbia = {
 		picture = "claim_greater_serbia"
@@ -4055,59 +1929,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_serbia = {
-		picture = "claim_greater_serbia"
-		potential = {
-			has_country_flag = claim_greater_serbia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_serbia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 793
-						province_id = 789
-						province_id = 774
-						province_id = 772
-						province_id = 776
-						province_id = 777
-						province_id = 779
-						province_id = 782
-						province_id = 783
-						province_id = 787
-						province_id = 786
-						province_id = 785
-						province_id = 780
-						province_id = 781
-						province_id = 2688
-						province_id = 784
-						province_id = 788
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_sgf = {
 		picture = "claim_greater_sgf"
@@ -4146,46 +1967,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_sgf = {
-		picture = "claim_greater_sgf"
-		potential = {
-			has_country_flag = claim_greater_sgf
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_sgf
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						is_core = AUS
-						province_id = 571
-						region = BAD_586
-						region = WUR_589
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_somalia = {
 		picture = "claim_greater_somalia"
@@ -4223,47 +2004,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_somalia = {
-		picture = "claim_greater_somalia"
-        potential = {
-			has_country_flag = claim_greater_somalia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_somalia
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 2031
-						province_id = 1875
-						province_id = 1865
-						province_id = 1867
-						province_id = 1866
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_texas = {
 		picture = "claim_greater_texas"
@@ -4300,46 +2040,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_texas = {
-		picture = "claim_greater_texas"
-		potential = {
-			has_country_flag = claim_greater_texas
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-				ruling_party_ideology = big_tent
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_texas
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 105
-						province_id = 103
-						province_id = 109
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_guatemala = {
 		picture = "claim_greater_guatemala"
@@ -4373,41 +2073,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_guatemala = {
-		picture = "claim_greater_guatemala"
-		potential = {
-			has_country_flag = claim_greater_guatemala
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_guatemala
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS } 
-					province_id = 2190
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_venezuela = {
 		picture = "claim_greater_venezuela"
@@ -4442,47 +2107,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 
 	}
-
-	abandon_claim_greater_venezuela = {
-		picture = "claim_greater_venezuela"
-		potential = {
-			has_country_flag = claim_greater_venezuela
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			part_of_sphere = yes
-			NOT = { jingoism = 5 }
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -1
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_venezuela
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 2242
-						province_id = 2243
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}		
+		
 
 	claim_greater_italy = {
 		picture = "claim_greater_italy"
@@ -4521,58 +2146,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_italy = {
-		picture = "claim_greater_italy"
-		potential = {
-			has_country_flag = claim_greater_italy
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_italy
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 465
-						province_id = 466
-						province_id = 472
-						province_id = 473
-						province_id = 2568
-						province_id = 769
-						province_id = 770
-						province_id = 778
-						province_id = 781
-						province_id = 780
-						province_id = 782
-						province_id = 800
-						province_id = 826
-						province_id = 827
-						province_id = 854
-						province_id = 2582
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_paraguay = {
 		picture = "claim_greater_paraguay"
@@ -4609,46 +2182,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_paraguay = {
-		picture = "claim_greater_paraguay"
-		potential = {
-			has_country_flag = claim_greater_paraguay
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_paraguay
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 2420
-						province_id = 2554
-						province_id = 2366
-						province_id = 2367
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 	
 	claim_greater_poland = {
 		picture = "claim_greater_poland"
@@ -4675,56 +2208,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_poland = {
-		picture = "claim_greater_poland"
-		potential = {
-			tag = POL
-			has_country_flag = claim_greater_poland
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_poland
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 936
-						province_id = 937
-						province_id = 938
-						province_id = 947
-						province_id = 939
-						province_id = 940
-						province_id = 957
-						province_id = 956
-						province_id = 955
-						province_id = 952
-						province_id = 953
-						province_id = 951
-						province_id = 702
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_mongolia = {
 		picture = "claim_greater_mongolia"
@@ -4767,51 +2250,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_mongolia = {
-		picture = "claim_greater_mongolia"
-		potential = {
-			has_country_flag = claim_greater_mongolia
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -12
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_mongolia
-			remove_accepted_culture = tuvans
-			remove_accepted_culture = altay
-			remove_accepted_culture = buryat
-			remove_accepted_culture = kalmyk
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						region = RUS_1069
-						region = RUS_1072
-						region = RUS_1075
-						region = CHI_1468
-						region = CHI_1532
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_tibet = {
 		picture = "claim_greater_tibet"
@@ -4854,51 +2292,6 @@ political_decisions = {
 
 	}
 
-	abandon_claim_greater_tibet = {
-		picture = "claim_greater_tibet"
-		potential = {
-			has_country_flag = claim_greater_tibet
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -12
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_tibet
-			remove_accepted_culture = ngalop
-			remove_accepted_culture = sikkim
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 1226
-						province_id = 1328
-						province_id = 1329
-						province_id = 1593
-						province_id = 3281
-						region = CHI_1557
-						region = CHI_1586
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 
 	claim_greater_turkey = {
 		picture = "claim_greater_turkey"
@@ -4937,60 +2330,6 @@ political_decisions = {
 		}
 
 	}
-
-	abandon_claim_greater_turkey = {
-		picture = "claim_greater_turkey"
-		potential = {
-			has_country_flag = claim_greater_turkey
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_turkey
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 1096
-						province_id = 830
-						province_id = 923
-						province_id = 924
-						province_id = 925
-						province_id = 1101
-						province_id = 897
-						province_id = 907
-						province_id = 901
-						province_id = 1110
-						province_id = 1109
-						province_id = 846
-						province_id = 843
-						province_id = 844
-						province_id = 829
-						province_id = 823
-						province_id = 822
-					}
-				}
-				remove_core = THIS
-			}
-		}
-
-	}
 	
 	claim_greater_togo = {
 		picture = "claim_greater_togo"
@@ -5021,46 +2360,6 @@ political_decisions = {
 			set_country_flag = claim_greater_togo
 			1915 = { add_core = TOG }
 			1916 = { add_core = TOG }
-		}
-
-	}
-
-	abandon_claim_greater_togo = {
-		picture = "claim_greater_togo"
-		potential = {
-			tag = TOG
-			has_country_flag = claim_greater_togo
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_togo
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 1915
-						province_id = 1916
-					}
-				}
-				remove_core = THIS
-			}
 		}
 
 	}
@@ -5095,45 +2394,6 @@ political_decisions = {
 			707 = { add_core = LIT } # Suwalki
 			936 = { add_core = LIT } # Grodno
 			947 = { add_core = LIT }
-		}
-
-	}
-	abandon_claim_greater_lithuania = {
-		picture = "claim_greater_lithuania"
-		potential = {
-			has_country_flag = claim_greater_lithuania
-			OR = {
-				government = democracy
-				government = hms_government
-			}
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			OR = {
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal
-			}
-		}
-
-		effect = {
-			badboy = -6
-			prestige = 10
-			any_pop = { consciousness = 1 }
-			clr_country_flag = claim_greater_lithuania
-			all_core = { 
-				limit = { 
-					NOT = { owned_by = THIS }
-					OR = {
-						province_id = 707
-						province_id = 936
-						province_id = 947
-					}
-				}
-				remove_core = THIS
-			}
 		}
 
 	}

@@ -554,12 +554,15 @@ diplomacy = {
 	INVESTMENT_INFLUENCE_DEFENSE = 1.0,	-- maximum defense factor in sphere of having invested in a country
 	RELATION_INFLUENCE_MODIFIER = 400, -- divisor for relation
 	ON_CB_DETECTED_RELATION_CHANGE = -100, -- relations decreased when CB detected.
+	
 	GW_INTERVENE_MIN_RELATIONS = 100, -- minimum relations required to intervene in great war
 	GW_INTERVENE_MAX_EXHAUSTION = 1, -- max war exhaustion required to intervene in great war
 	GW_JUSTIFY_CB_BADBOY_IMPACT = 0.33, -- % deduction of infamy cost for justify CB in great war
 	GW_CB_CONSTRUCTION_SPEED = 0.25, -- faster CB construction against enemies while at great war
-	GW_WARGOAL_JINGOISM_REQUIREMENT_MOD = 1, -- % deduction of required jingoists in country
+	GW_WARGOAL_JINGOISM_REQUIREMENT_MOD = 0.25, -- % deduction of required jingoists in country
 	GW_WARSCORE_COST_MOD = 0.65, -- cost reduction factor on warscore needed to fulfill goal if great war
+	GW_WARSCORE_COST_MOD_2 = 0.3, -- cost reduction factor on warscore needed to fulfill goal if late game great war
+	GW_WARSCORE_2_THRESHOLD = 50, -- warscore threshold where a GW turns into a world war for winner side
 
 	TENSION_DECAY = -0.8,
 	TENSION_FROM_CB = 0.04,

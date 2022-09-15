@@ -2,7 +2,7 @@
 
 #mutual_assured_destruction, 1960
 modern_gas_weaponry = {
-	limit = { mutual_assured_destruction = 1 }
+	limit = { has_country_modifier = chemical_nation }
 	chance = {
 		base = 0
 		modifier = {

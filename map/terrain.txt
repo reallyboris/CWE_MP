@@ -161,7 +161,7 @@ categories =  {
 
 	forested_farmland = {
 		movement_cost = 1.25
-		defence = 2
+		defence = 1
 		attrition = 0
 		color = { 86 71 146 }
 		farm_rgo_size = 0.05
