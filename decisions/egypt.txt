@@ -106,12 +106,6 @@ random_country = { limit = { owns = 1755 } relation = { who = THIS value = -100 
 	ruling_party_ideology = populist 
 	}
 
-	any_neighbor_country = {
-	ai = yes 
-	primary_culture = arab 
-	OR = { in_sphere = THIS vassal_of = THIS AND = { is_vassal = no relation = { who = THIS value = 200 } } } 
-	}
-
 			}
 
 		effect = {

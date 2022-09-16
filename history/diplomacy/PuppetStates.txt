@@ -116,13 +116,13 @@ vassal = {
 	start_date = 1950.1.1
 	end_date = 1956.1.1
 }
-substate = {
+vassal = {
 	first = HND
 	second = SIK
 	start_date = 1950.1.1
 	end_date = 1975.1.1
 }
-substate = {
+vassal = {
 	first = HND
 	second = BHU
 	start_date = 1950.1.1

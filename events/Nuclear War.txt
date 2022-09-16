@@ -617,7 +617,7 @@ is_triggered_only = yes
 	option = {
 name = "Terrible!"
 prestige = -50
-any_pop = { militancy = 10 }
+any_pop = { militancy = 4 }
 		}
 	}
 
@@ -637,8 +637,7 @@ country_event = {
 	option = {
 		name = "Terrible!"
 		prestige_factor = -0.25
-		war_exhaustion = 50
-		any_pop = { militancy = 10 }
+		any_pop = { militancy = 4 }
 		
 #FROM has High Nuke Cap and no ABM
 random_owned = {

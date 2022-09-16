@@ -1545,6 +1545,8 @@ modern_roads = {
 
 	activate_building = railroad
 	
+	activate_building = transport_factory
+	
 	#Increase supply limit
 	supply_limit = 0.25
 	
