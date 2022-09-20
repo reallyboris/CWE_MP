@@ -2203,7 +2203,19 @@ political_decisions = {
 		effect = {
 			badboy = 12
 			set_country_flag = claim_greater_poland
-			country_event = 8224000
+			936 = { add_core =  THIS }
+			937 = { add_core =  THIS }
+			938 = { add_core =  THIS }
+			947 = { add_core =  THIS }
+			939 = { add_core =  THIS }
+			940 = { add_core =  THIS }
+			957 = { add_core =  THIS }
+			956 = { add_core =  THIS }
+			955 = { add_core =  THIS }
+			952 = { add_core =  THIS }
+			953 = { add_core =  THIS }
+			951 = { add_core =  THIS }
+			702 = { add_core =  THIS }
 		}
 
 	}

@@ -10,16 +10,31 @@ political_decisions = {
 			war = no
 			is_vassal = no
 
-			OR = { 
-				PCC = { all_core = { owned_by = THIS } }
-
-				AND = { 
-					OR = { is_sphere_leader_of = POL is_our_vassal = POL tag = POL }
-					OR = { is_sphere_leader_of = CZH is_our_vassal = CZH tag = CZH }
-					OR = { is_sphere_leader_of = BOH is_our_vassal = BOH tag = BOH }
-					OR = { is_sphere_leader_of = SLV is_our_vassal = SLV tag = SLV }
+			CZH = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+								OR = {
+									in_sphere = THIS
+									vassal_of = THIS
+								}
+							}
+					}
 				}
- 
+			}
+			POL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+								OR = {
+									in_sphere = THIS
+									vassal_of = THIS
+								}
+							}
+					}
+				}
 			}
 		}
 		effect = {

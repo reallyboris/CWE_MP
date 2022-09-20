@@ -1545,8 +1545,6 @@ modern_roads = {
 
 	activate_building = railroad
 	
-	activate_building = transport_factory
-	
 	#Increase supply limit
 	supply_limit = 0.25
 	
@@ -1584,6 +1582,8 @@ early_highway = {
 	
 	#Increase supply limit
 	supply_limit = 0.25
+	
+	activate_building = transport_factory
 
 	#Economic buff
 	factory_input = -0.02
