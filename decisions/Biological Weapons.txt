@@ -69,7 +69,7 @@ political_decisions = {
 		}
 
 		allow = {
-			NOT = { war_policy = pacifism }
+
 		}
 
 		effect = {

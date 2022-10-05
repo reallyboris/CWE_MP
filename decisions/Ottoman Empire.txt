@@ -12,7 +12,6 @@ NOT = { OR = { government = hms_government government = hms_government1 governme
 		war = no
 	OR = { government = democracy government = democracy1 }
 		ruling_party_ideology = traditionalist
-		pop_majority_ideology = traditionalist
 		}
 
 		effect = {

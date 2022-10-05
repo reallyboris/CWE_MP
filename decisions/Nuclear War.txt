@@ -60,18 +60,10 @@ nuclear_ultimatum = {
 			
 			set_global_flag = someone_is_firing_nukes
 
-			#Increase Pacifism
-			any_pop = {
-				dominant_issue = {
-					value = pacifism
-					factor = 0.25
-				}
-			}
-
 		}
 	
 		ai_will_do = { 
-			factor = 0.75 
+			factor = 0
 		}
 
 	}

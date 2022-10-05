@@ -47,10 +47,6 @@ start_strategic_bombardment = {
 		}
 		alert = no
 		allow = {
-			OR = { 
-				NOT = { war_policy = pacifism } 
-				war_exhaustion = 50 
-			}
 			OR = {
 			money = 500000
 			military_score = 500 }
@@ -92,7 +88,7 @@ end_strategic_bombardment = {
 		}
 		alert = no
 		allow = {
-			OR = { war_policy = pacifism badboy = 0.85 is_vassal = yes }
+		
 		}
 
 		effect = {

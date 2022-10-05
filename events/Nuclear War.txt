@@ -41,6 +41,16 @@ country_event = {
 
 		ai_chance = { factor = 0.1 }
 	}
+	
+	option = {
+		name = "Nevermind (closes event window without nuking)"
+		
+		remove_country_modifier = nukes_used_recently
+		clr_global_flag = someone_is_firing_nukes
+		badboy = -15
+
+		ai_chance = { factor = 0 }
+	}
 
 }
 
