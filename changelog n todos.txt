@@ -62,3 +62,7 @@ TODOS:
 - TODO: Lower WS cost
 
 - TODO: new cwe/alstadt internal migration stuff
+
+- TODO: look at nukes (make em cost goods? And check requirements for firing and getting em)
+
+- TODO: Give north korea some non-coastal provinces?
