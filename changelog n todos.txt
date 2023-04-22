@@ -66,3 +66,5 @@ TODOS:
 - TODO: look at nukes (make em cost goods? And check requirements for firing and getting em)
 
 - TODO: Give north korea some non-coastal provinces?
+
+- TODO: make benelux forming decision not dumb
