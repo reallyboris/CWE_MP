@@ -56,7 +56,6 @@ nuclear_ultimatum = {
 
 			add_country_modifier = { name = nukes_used_recently duration = 365 }
 
-			badboy = 15
 			
 			set_global_flag = someone_is_firing_nukes
 

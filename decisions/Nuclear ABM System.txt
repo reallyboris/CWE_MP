@@ -6,7 +6,6 @@ political_decisions = {
 
 			year = 1960
 
-			OR = { has_global_flag = sdi_race_banned NOT = { has_global_flag = blocsenabled } }
 
 			NOT = { has_country_modifier = abm_treaty }
 			NOT = { has_country_modifier = sdi_development }	
@@ -17,12 +16,6 @@ political_decisions = {
 		}
 		allow = {
 
-			OR = { ai = no has_global_flag = blocsenabled war_policy = pacifism NOT = { OR = { is_greater_power = yes is_secondary_power = yes } } }
-
-			NOT = { OR = { has_country_modifier = world_high has_country_modifier = cold_war_high war = yes } }
-
-		
-			OR = { has_global_flag = sdi_race_banned NOT = { has_global_flag = blocsenabled } }
 
 		}
 		effect = {
@@ -51,8 +44,6 @@ political_decisions = {
 		picture = "military_abm"
 		potential = {
 
-			OR = { has_global_flag = sdi_race_banned NOT = { has_global_flag = blocsenabled } }
-
 			NOT = { has_country_modifier = sdi_completed }
 			NOT = { has_country_modifier = sdi_development }
 			NOT = { has_country_modifier = abm_treaty }
@@ -61,33 +52,20 @@ political_decisions = {
 		}
 		allow = {
 			NOT = { is_disarmed = yes }
-			election = no
 			is_vassal = no
-
-			OR = { has_global_flag = sdi_race_banned NOT = { has_global_flag = blocsenabled } }
-
-			OR = { ai = no has_country_modifier = world_high has_country_modifier = cold_war_high war = yes }
 
 			OR = { is_greater_power = yes is_secondary_power = yes }
 
 			missile_launch_facility = 1
 
-			OR = { 
-				ai = no 
-				any_greater_power = { has_country_modifier = sdi_completed } 
-				any_greater_power = { has_country_modifier = sdi_development } 
-				any_neighbor_country = { badboy = 0.9 OR = { has_country_modifier = hydrogen_nation has_country_modifier = atomic_nation } } 
-			}
 	
 			OR = { ai = no NOT = { badboy = 0.25 } }
-
-			OR = { AND = { has_country_modifier = hydrogen_nation NOT = { war_policy = pacifism } } war_policy = jingoism }
 
 			money = 10000000
 		}
 		effect = {
 			prestige = 50
-			money = -2000000
+			money = -10000000
 			add_country_modifier = { name = sdi_development duration = 3650 }
 			badboy = 15
 			set_country_flag = abm_school
@@ -108,9 +86,9 @@ political_decisions = {
 		alert = no
 		
 		allow = {
-			OR = { ai = no is_disarmed = yes AND = { badboy = 1 war_policy = pacifism } is_vassal = yes }
-			election = no
-			OR = { has_global_flag = sdi_race_banned NOT = { has_global_flag = blocsenabled } }
+
+
+		
 		}
 		effect = {
 			add_country_modifier = { name = abm_treaty duration = -1 }
@@ -148,26 +126,11 @@ political_decisions = {
 		
 		allow = {
 			is_disarmed = no
-			election = no
 			war = no
-			OR = { has_global_flag = sdi_race_banned NOT = { has_global_flag = blocsenabled } }
-
-			OR = { ai = no has_country_modifier = world_high has_country_modifier = cold_war_high war = yes }
 
 			OR = { is_greater_power = yes is_secondary_power = yes }
 
 			missile_launch_facility = 1
-
-			OR = { 
-				ai = no 
-				any_greater_power = { has_country_modifier = sdi_completed } 
-				any_greater_power = { has_country_modifier = sdi_development } 
-				any_neighbor_country = { badboy = 0.9 OR = { has_country_modifier = hydrogen_nation has_country_modifier = atomic_nation } } 
-			}
-	
-			OR = { ai = no NOT = { badboy = 0.25 } }
-
-			OR = { AND = { has_country_modifier = hydrogen_nation NOT = { war_policy = pacifism } } war_policy = jingoism }
 
 			money = 10000000
 		}
@@ -199,26 +162,6 @@ political_decisions = {
 		alert = no
 		
 		allow = {
-			election = no
-			OR = { ai = no AND = { NOT = { badboy = 0.25 } money = 5000000 } }
-
-			OR = { 
-				ai = no 
-				AND = { 
-					has_country_modifier = abmhigh 
-					NOT = { money = 40000000 } 
-				}
-
-				AND = { 
-					has_country_modifier = abmmedium 
-					NOT = { 
-						AND = { NOT = { money = 40000000 } money = 20000000 } 
-					}
-				}
-
-				AND = { has_country_modifier = abmlow money = 20000000 }
-
-			}
 
 		}
 		effect = {
@@ -251,9 +194,7 @@ political_decisions = {
 		}
 		allow = {
 
-			OR = { ai = no money = 40000000 }
-
-			OR = { ai = no NOT = { badboy = 0.25 } }
+		money = 2000000
 
 		}
 
@@ -284,11 +225,7 @@ political_decisions = {
 			}
 		}
 		allow = { 
-
-			OR = { ai = no AND = { NOT = { money = 40000000 } money = 20000000 } }
-
-			OR = { ai = no NOT = { badboy = 0.25 } }
-
+			money = 1000000
 		}
 
 		effect = {
@@ -320,9 +257,7 @@ political_decisions = {
 		}
 
 		allow = { 
-			OR = { ai = no NOT = { money = 20000000 } }
-
-			OR = { ai = no NOT = { badboy = 0.25 } }
+		money = 500000
 		}
 
 		effect = {

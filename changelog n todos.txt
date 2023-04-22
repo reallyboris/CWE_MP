@@ -58,7 +58,18 @@
 
 - made benelux forming decision not dumb
 
+- New nuke mechanics:
+
+- Atomic bomb unlocks T1 nukes, and costs 6k of a bunch of goods in addition to the money cost.
+
+- Hydrogen bomb unlocks T2 and 3 nukes assuming you have proper tech.
+only GPs can get T3 nukes. Costs 15k of a bunch of goods in addition to money.
+
 TODOS:
+
+- TODO: fix natural gas liquefication plants too op VS oil rgo
+
+- TODO: make infantry units get more stats from tech
 
 - TODO: run it through the validator
 
@@ -67,7 +78,5 @@ TODOS:
 - TODO: Lower WS cost
 
 - TODO: new cwe/alstadt internal migration stuff
-
-- TODO: look at nukes (make em cost goods? And check requirements for firing and getting em)
 
 - TODO: Give north korea some non-coastal provinces?
