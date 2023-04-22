@@ -256,11 +256,11 @@ space_capable_icbm = {
 			has_country_modifier = wonder_weapons
 		}
 		modifier = {
-			factor = 2
+			factor = 5
 			military_spending = 0.50
 		}
 		modifier = {
-			factor = 2
+			factor = 5
 			military_spending = 0.75
 		}
 		modifier = {
@@ -298,11 +298,11 @@ second_generation_icbm = {
 			has_country_modifier = wonder_weapons
 		}
 		modifier = {
-			factor = 2
+			factor = 6
 			military_spending = 0.50
 		}
 		modifier = {
-			factor = 2
+			factor = 6
 			military_spending = 0.75
 		}
 		modifier = {
@@ -340,11 +340,11 @@ third_generation_icbm = {
 			has_country_modifier = wonder_weapons
 		}
 		modifier = {
-			factor = 2
+			factor = 6
 			military_spending = 0.50
 		}
 		modifier = {
-			factor = 2
+			factor = 6
 			military_spending = 0.75
 		}
 		modifier = {

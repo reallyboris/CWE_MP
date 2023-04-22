@@ -1627,7 +1627,7 @@ ewaste_recycling = {
 asphalt_paving = {
 	limit = { modern_roads = 1 }
 	chance = {
-		base = 2
+		base = 50
 		modifier = {
 			factor = 2
 			oil_well = 1
@@ -1639,6 +1639,7 @@ asphalt_paving = {
 	}
 	effect = {
 		rgo_throughput = 0.05
+		activate_building = transport_factory
 	}
 }
 concrete_paving = {
