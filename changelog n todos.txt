@@ -1,3 +1,4 @@
+1.1 changes:
 
 - Better chinese reunification decision
 
@@ -53,6 +54,10 @@
 
 - Increased promotion overall
 
+1.2 changes:
+
+- made benelux forming decision not dumb
+
 TODOS:
 
 - TODO: run it through the validator
@@ -66,5 +71,3 @@ TODOS:
 - TODO: look at nukes (make em cost goods? And check requirements for firing and getting em)
 
 - TODO: Give north korea some non-coastal provinces?
-
-- TODO: make benelux forming decision not dumb

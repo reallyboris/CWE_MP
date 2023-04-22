@@ -241,6 +241,17 @@ remove_country_modifier = icbm_bomb
 remove_country_modifier = sub_bomb
 remove_country_modifier = air_bomb
 remove_country_modifier = tactical_nukes
+
+clr_country_flag = hydrogen_bomb_goods_needed
+clr_country_flag = atomic_bomb_goods_needed
+set_variable = {
+					which = hydrogen_bomb_dev
+					value = 0
+				}
+set_variable = {
+					which = atomic_bomb_dev
+					value = 0
+				}
 prestige_factor = -0.1
 		}
 
@@ -336,6 +347,17 @@ remove_country_modifier = icbm_bomb
 remove_country_modifier = sub_bomb
 remove_country_modifier = air_bomb
 remove_country_modifier = tactical_nukes
+
+clr_country_flag = hydrogen_bomb_goods_needed
+clr_country_flag = atomic_bomb_goods_needed
+set_variable = {
+					which = hydrogen_bomb_dev
+					value = 0
+				}
+set_variable = {
+					which = atomic_bomb_dev
+					value = 0
+				}
 prestige_factor = -0.2
 		}
 
@@ -347,3 +369,118 @@ prestige = 20
 		}
 
 	}
+	
+country_event = {
+	id = 1231442
+	title = "Goods for Atomic Bomb development"
+	desc = "The event will take 1000 of each of these goods 6 times to complete the bomb: §R Optics.  Research and Development.  Cement.  Electricity.  Electric Gear.  Telecommunications§!"
+	picture = "nuclear_disarmament_un"
+	
+	trigger = {
+		has_country_flag = atomic_bomb_goods_needed
+		optics = 1000
+		education_rnd = 1000
+		heating_electricity = 1000
+		electric_gear = 1000
+		cement = 1000
+		telecommunications = 1000
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		optics = -1000
+		education_rnd -1000
+		heating_electricity - 1000
+		electric_gear = -1000
+		cement = -1000
+		telecommunications -1000
+		change_variable = {
+			which = atomic_bomb_dev
+			value = 1
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					check_variable = {
+						which = atomic_bomb_dev
+						value = 6
+					}
+				}
+			}
+			owner = {
+				remove_country_modifier = develop_atomic_bomb
+				add_country_modifier = { name = develop_atomic_bomb duration = 1460 }
+				clr_country_flag = atomic_bomb_goods_needed
+				set_variable = {
+					which = atomic_bomb_dev
+					value = 0
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "One step closer to MAD!"
+	}
+
+}
+
+country_event = {
+	id = 1231443
+	title = "Goods for Hydrogen Bomb development"
+	desc = "The event will take 1000 of each of these goods 15 times to complete the bomb: §R Optics.  Research and Development.  Cement.  Electricity.  Electric Gear.  Telecommunications§!"
+	picture = "nuclear_disarmament_un"
+	
+	trigger = {
+		has_country_flag = hydrogen_bomb_goods_needed
+		optics = 1000
+		education_rnd = 1000
+		heating_electricity = 1000
+		electric_gear = 1000
+		cement = 1000
+		telecommunications = 1000
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		optics = -1000
+		education_rnd -1000
+		heating_electricity - 1000
+		electric_gear = -1000
+		cement = -1000
+		telecommunications -1000
+		change_variable = {
+			which = hydrogen_bomb_dev
+			value = 1
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					check_variable = {
+						which = hydrogen_bomb_dev
+						value = 15
+					}
+				}
+			}
+			owner = {
+				remove_country_modifier = develop_hydrogen_bomb
+				add_country_modifier = { name = develop_hydrogen_bomb duration = 1460 }
+				clr_country_flag = hydrogen_bomb_goods_needed
+				set_variable = {
+					which = hydrogen_bomb_dev
+					value = 0
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "One step closer to MAD!"
+	}
+
+}
+	
+	
+

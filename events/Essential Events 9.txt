@@ -430,6 +430,17 @@ clr_country_flag = sub_bomb
 clr_country_flag = air_bomb
 remove_country_modifier = tactical_nukes
 
+clr_country_flag = hydrogen_bomb_goods_needed
+clr_country_flag = atomic_bomb_goods_needed
+set_variable = {
+				which = hydrogen_bomb_dev
+				value = 0
+			}
+set_variable = {
+				which = atomic_bomb_dev
+				value = 0
+			}
+
 #Remove Chemical modifiers
 
 clr_country_flag = nerve_bomb
