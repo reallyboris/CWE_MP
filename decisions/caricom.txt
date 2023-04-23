@@ -155,7 +155,7 @@ political_decisions = {
 			election = no
 			#has_unclaimed_cores = no
 			war = no
-			commodities_and_credit = 1
+			economic_globalization = 1
 		}
 
 		effect = {
@@ -180,7 +180,7 @@ political_decisions = {
 			capital_scope = { is_core = XCC }
 			election = no
 			war = no
-			age_of_protests = 1
+			economic_globalization = 1
 			#has_unclaimed_cores = no
 		}
 
@@ -209,7 +209,7 @@ political_decisions = {
 			capital_scope = { has_province_modifier = defence_union } 
 			election = no
 			OR = { is_greater_power = yes is_secondary_power = yes }
-			political_polarization = 1
+			economic_globalization = 1
             war = no
             XCC = { 
 				any_core = { 
@@ -267,7 +267,7 @@ political_decisions = {
 		allow = {
 			election = no
 			OR = { is_greater_power = yes is_secondary_power = yes }
-			political_polarization = 1
+			economic_globalization = 1
             war = no
 		}
 

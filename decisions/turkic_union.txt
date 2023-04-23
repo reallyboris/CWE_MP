@@ -127,7 +127,7 @@ NOT = { has_country_flag = hide_superstate }
 			election = no
 			
 			war = no
-			commodities_and_credit = 1
+			economic_globalization = 1
 		}
 		effect = {
 			all_core = { add_core = XTC }
@@ -146,7 +146,7 @@ NOT = { has_country_flag = hide_superstate }
 			capital_scope = { is_core = XTC }
 			election = no
 			war = no
-			age_of_protests = 1
+			economic_globalization = 1
 			
 		}
 		effect = {
@@ -170,7 +170,7 @@ NOT = { has_country_flag = hide_superstate }
 			capital_scope = { has_province_modifier = defence_union } 
 			election = no
 			OR = { is_greater_power = yes is_secondary_power = yes }
-			political_polarization = 1
+			economic_globalization = 1
             war = no
             XTC = { any_core = { owner = { war = no OR = { tag = THIS in_sphere = THIS vassal_of = THIS } has_country_flag = xtc_ambition } } }
 		}
@@ -205,7 +205,7 @@ NOT = { has_country_flag = hide_superstate }
 		allow = {
 			election = no
 			OR = { is_greater_power = yes is_secondary_power = yes }
-			political_polarization = 1
+			economic_globalization = 1
             war = no
 		}
 		effect = {

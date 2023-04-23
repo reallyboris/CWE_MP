@@ -187,7 +187,7 @@ NOT = { has_country_flag = hide_superstate }
 
 			war = no
 
-			commodities_and_credit = 1
+			economic_globalization = 1
 		}
 		effect = {
 			all_core = { add_core = IMP }
@@ -214,7 +214,7 @@ NOT = { has_country_flag = hide_superstate }
 		allow = {
 			election = no
 			war = no
-			age_of_protests = 1
+			economic_globalization = 1
 			#has_unclaimed_cores = no
 		}
 		effect = {
@@ -246,7 +246,7 @@ NOT = { has_country_flag = hide_superstate }
 		allow = {
 			election = no
 			is_greater_power = yes 
-			political_polarization = 1
+			economic_globalization = 1
             war = no
             IMP = {
                 any_core = {
@@ -312,7 +312,7 @@ any_neighbor_country = { OR = { has_country_flag = IMP_ambition in_sphere = THIS
 		allow = {
 			election = no
 			is_greater_power = yes 
-			political_polarization = 1
+			economic_globalization = 1
             war = no
 		}
 

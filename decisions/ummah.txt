@@ -149,7 +149,7 @@ NOT = { has_country_flag = hide_superstate }
 			capital_scope = { is_core = XUM }
 			election = no
 			war = no
-			age_of_protests = 1
+			economic_globalization = 1
 			#has_unclaimed_cores = no
 		}
 		effect = {
@@ -173,7 +173,7 @@ NOT = { has_country_flag = hide_superstate }
 			capital_scope = { has_province_modifier = defence_union } 
 			election = no
 			OR = { is_greater_power = yes is_secondary_power = yes }
-			political_polarization = 1
+			economic_globalization = 1
             war = no
             XUM = { any_core = { owner = { war = no OR = { tag = THIS in_sphere = THIS vassal_of = THIS } has_country_flag = xum_ambition } } }
 		}
@@ -202,7 +202,7 @@ NOT = { has_country_flag = hide_superstate }
 		allow = {
 			election = no
 			OR = { is_greater_power = yes is_secondary_power = yes }
-			political_polarization = 1
+			economic_globalization = 1
             war = no
 		}
 		effect = {

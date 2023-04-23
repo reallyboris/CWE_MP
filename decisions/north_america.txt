@@ -140,7 +140,7 @@ NOT = { has_country_flag = hide_superstate }
 			election = no
 			#has_unclaimed_cores = no
 			war = no
-			commodities_and_credit = 1
+			economic_globalization = 1
 		}
 		effect = {
 			all_core = { add_core = XNA }
@@ -160,7 +160,7 @@ NOT = { has_country_flag = hide_superstate }
 			OR = { government = democracy government = hms_government1 }
 			election = no
 			war = no
-			age_of_protests = 1
+			economic_globalization = 1
 			#has_unclaimed_cores = no
 		}
 		effect = {
@@ -189,7 +189,7 @@ NOT = { has_country_flag = hide_superstate }
 			OR = { government = democracy government = hms_government1 }
 			election = no
 			is_greater_power = yes
-			political_polarization = 1
+			economic_globalization = 1
             war = no
             XNA = { any_core = { owner = { war = no OR = { tag = THIS in_sphere = THIS vassal_of = THIS } has_country_flag = xna_ambition } } }
 		}
@@ -221,7 +221,7 @@ NOT = { has_country_flag = hide_superstate }
 			OR = { government = democracy government = democracy1 government = hms_government1 }
 			election = no
 			is_greater_power = yes
-			political_polarization = 1
+			economic_globalization = 1
             war = no
 		}
 		effect = {

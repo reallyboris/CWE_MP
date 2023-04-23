@@ -187,7 +187,7 @@ political_decisions = {
 			has_country_modifier = currency_union
 			election = no
 			war = no
-			commodities_and_credit = 1
+			economic_globalization = 1
 		}
 		effect = {
 			# add core to all provinces
@@ -223,7 +223,7 @@ political_decisions = {
 			capital_scope = { is_core = XSU }
 			election = no
 			war = no
-			age_of_protests = 1
+			economic_globalization = 1
 			#has_unclaimed_cores = no
 			OR = { 
 				is_greater_power = yes
@@ -259,7 +259,7 @@ political_decisions = {
 		allow = {
 			election = no
 			is_greater_power = yes 
-			political_polarization = 1
+			economic_globalization = 1
             war = no
 			capital_scope = { has_province_modifier = defence_union } 
 			
@@ -312,7 +312,7 @@ political_decisions = {
 			}
 			election = no
 			is_greater_power = yes 
-			political_polarization = 1
+			economic_globalization = 1
             war = no
 		}
 		effect = {

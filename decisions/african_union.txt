@@ -138,7 +138,7 @@ NOT = { has_country_flag = hide_superstate }
 			election = no
 			
 			war = no
-			commodities_and_credit = 1
+			economic_globalization = 1
 		}
 		effect = {
 			any_owned = { limit = { continent = africa } add_core = XAU }
@@ -160,7 +160,7 @@ NOT = { has_country_flag = hide_superstate }
 			OR = { government = democracy government = hms_government }
 			election = no
 			war = no
-			age_of_protests = 1
+			economic_globalization = 1
 			#has_unclaimed_cores = no
 		}
 		effect = {
@@ -185,7 +185,7 @@ NOT = { has_country_flag = hide_superstate }
 			OR = { government = democracy government = hms_government }
 			election = no
 			is_greater_power = yes
-			political_polarization = 1
+			economic_globalization = 1
             war = no
             XAU = { any_core = { owner = { war = no OR = { tag = THIS in_sphere = THIS vassal_of = THIS } has_country_flag = xau_ambition } } }
 		}
@@ -292,7 +292,7 @@ NOT = { has_country_flag = hide_superstate }
 			OR = { government = democracy government = hms_government }
 			election = no
 			is_greater_power = yes
-			political_polarization = 1
+			economic_globalization = 1
             war = no
 		}
 		effect = {
