@@ -6,7 +6,6 @@ nuclear_defense_system = {
 NOT = { has_country_modifier = sdi_completed }
 NOT = { has_country_modifier = sdi_development }
 	has_country_modifier = abm_treaty
-	has_global_flag = sdi_race_banned
 	has_country_flag = disabled_for_now
 		}
 
@@ -22,7 +21,7 @@ alert = no
 	effect = {
 		prestige = 100
 		badboy = 50
-		add_tax_relative_income = -200
+		money = -50000000
 add_country_modifier = { name = sdi_development duration = 9125 }
 	}
 	ai_will_do = {
