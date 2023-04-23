@@ -70,6 +70,8 @@ only GPs can get T3 nukes. Costs 15k of a bunch of goods in addition to money.
 
 - Buffed the infantry and tank centric techs, to make them a little less worthless
 
+- buffed tanks
+
 - Fixed ABMs
 TODOS:
 
