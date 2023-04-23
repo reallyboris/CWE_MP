@@ -41,5 +41,5 @@ missile = {
 	defence = 16
 	discipline = 0.75
 	support = 0.0
-	maneuver = 3
+	maneuver = 4
 }

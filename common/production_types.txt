@@ -732,7 +732,7 @@ petroleum_fuel_factory = {
 gas_fuel_factory = {
 	template = fuel_template
 	input_goods = {
-		natural_gas = 1.5
+		natural_gas = 2.6
 	} 
 	output_goods = petroleum
 	# make this more profitable than coal fuel
@@ -2015,7 +2015,7 @@ gas_rig = {
 petroleum_rig = {
 	template = RGO_template_oil
 	output_goods = petroleum 
-	value = 0.4
+	value = 1
 	mine = yes
 }
 
@@ -2354,10 +2354,10 @@ artisan_luxury_tailor = {
 
 artisan_gas_fuel = {    # liquefied natural gas  
 	input_goods = {    
-		natural_gas = 5
+		natural_gas = 4
 	} 
 	output_goods = fuel 
-	value = 15
+	value = 6
 	owner = {
 		poptype = artisan 
 		effect = output

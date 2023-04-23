@@ -585,6 +585,8 @@ infantry = {
 	irregular = {
 		supply_consumption = 0.05
 	}
+	
+	regular_experience_level = 5
 
 	ai_chance = {
 		factor = 1.1
@@ -635,6 +637,7 @@ guerrilla = {
 	irregular = {
 		supply_consumption = 0.05
 	}
+	regular_experience_level = 5
 	
 	ai_chance = {
 		factor = 1.1
@@ -689,6 +692,7 @@ mechanized_infantry = {
 	irregular = {
 		supply_consumption = 0.05
 	}
+	regular_experience_level = 5
 
 	ai_chance = {
 		factor = 1.1
@@ -747,6 +751,7 @@ special_forces = {
 	irregular = {
 		supply_consumption = 0.05
 	}
+	regular_experience_level = 5
 
 	ai_chance = {
 		factor = 1.1
@@ -806,6 +811,7 @@ modern_rifles = {
 	irregular = {
 		supply_consumption = 0.05
 	}
+	regular_experience_level = 5
 
 	ai_chance = {
 		factor = 1.1
@@ -866,6 +872,8 @@ precision_long_ranged_weapons = {
 	irregular = {
 		supply_consumption = 0.05
 	}
+	
+	regular_experience_level = 5
 	
 	ai_chance = {
 		factor = 1.1
@@ -933,6 +941,8 @@ spec_ops = {
 		supply_consumption = 0.05
 	}
 	
+	regular_experience_level = 5
+	
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -997,6 +1007,7 @@ lightweight_small_arms = {
 	irregular = {
 		supply_consumption = 0.05
 	}
+	regular_experience_level = 5
 		
 	ai_chance = {
 		factor = 6
@@ -1063,6 +1074,8 @@ adaptive_camouflage = {
 		supply_consumption = 0.05
 	}
 	
+	regular_experience_level = 5
+	
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -1122,6 +1135,8 @@ future_force_warrior = {
 	irregular = {
 		supply_consumption = 0.05
 	}
+	
+	regular_experience_level = 5
 	
 	ai_chance = {
 		factor = 1.1
@@ -1295,7 +1310,7 @@ main_battle_tank = {
 }
 missile_armed_tanks = {
 	area = heavy_armament
-	year = 1980
+	year = 1970
 	cost = 10800
 	unciv_military = yes
 
@@ -2211,7 +2226,6 @@ cold_war_doctrine = {
 	#Combat Support
 	activate_unit = modern_mechanized_infantry
 	
-	regular_experience_level = 5
 
 	army_base = {
 		supply_consumption = 0.10
@@ -2251,7 +2265,6 @@ proxy_war = {
 
 	combat_width = 1
 	
-	regular_experience_level = 5
 
 	army_base = {
 		supply_consumption = 0.10
@@ -2290,8 +2303,6 @@ mutual_assured_destruction = {
 	military_tactics = 0.20
 
 	combat_width = 1
-	
-	regular_experience_level = 5
 
 	army_base = {
 		supply_consumption = 0.10
@@ -2330,8 +2341,6 @@ assymetric_warfare = {
 	combat_width = 1
 
 	activate_building = advanced_weaponry_factory
-	
-	regular_experience_level = 5
 
 	army_base = {
 		supply_consumption = 0.10
@@ -2372,8 +2381,6 @@ arms_race_doctrine = {
 
 	supply_limit = 0.1
 	
-	regular_experience_level = 5
-	
 	army_base = {
 		supply_consumption = 0.10
 	}
@@ -2413,7 +2420,6 @@ fourth_generation_warfare = {
 
 	supply_limit = 0.1
 	
-	regular_experience_level = 5
 	
 	army_base = {
 		supply_consumption = 0.20
@@ -2473,8 +2479,6 @@ network_centric_warfare = {
 	military_tactics = 0.30
 
 	supply_limit = 0.1
-	
-	regular_experience_level = 5
 
 	army_base = {
 		supply_consumption = 0.15
@@ -2535,8 +2539,6 @@ modern_asymmetric_warfare = {
 	military_tactics = 0.25
 
 	supply_limit = 0.1
-	
-	regular_experience_level = 5
 
 	army_base = {
 		supply_consumption = 0.10
@@ -2597,8 +2599,6 @@ full_spectrum_dominance = {
 	military_tactics = 0.25
 
 	supply_limit = 0.1
-	
-	regular_experience_level = 5
 
 	army_base = {
 		supply_consumption = 0.20
@@ -2660,8 +2660,6 @@ fifth_generation_warfare = {
 
 	supply_limit = 0.1
 	
-	regular_experience_level = 5
-
 	army_base = {
 		supply_consumption = 0.20
 	}

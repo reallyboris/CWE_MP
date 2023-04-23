@@ -90,7 +90,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	#Attack Helicopters
 	missile = {
 	reconnaissance = 1
-	maneuver = 1
+	maneuver = 2
 	}
 
 	#Bomber
@@ -170,7 +170,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	#Attack Helicopters
 	missile = {
 	reconnaissance = 1
-	maneuver = 1
+	maneuver = 2
 	}
 
 	#Bomber
@@ -847,7 +847,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	#Attack Helicopters
 	missile = {
 	reconnaissance = 1
-	maneuver = 1
+	maneuver = 2
 	}
 
 	#Interceptor Fighter
@@ -1294,7 +1294,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 1 }
+		infantry = { attack = 2 }
+		infantry = { defence = 1 }
 	}
 }
 
@@ -1332,15 +1333,15 @@ post_ww2_infantry = {
 	#Light Infantry
 	infantry = {
 	reconnaissance = 1
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Heavy Infantry
 	mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
@@ -1381,6 +1382,7 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
+		infantry = { attack = 2 }
 		infantry = { attack = 1 }
 	}
 }
@@ -1413,15 +1415,15 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	#Light Infantry
 	infantry = {
 	reconnaissance = 1
-	attack = 2
-	defence = 1
+	attack = 3
+	defence = 2
 	maneuver = 1
 	}
 
 	#Heavy Infantry
 	mechanized_infantry = {
-	attack = 2
-	defence = 1
+	attack = 4
+	defence = 3
 	maneuver = 1
 	}
 
@@ -1458,7 +1460,10 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	}
 	effect = {
 		irregular = { defence = 1 }
-		infantry = { defence = 1 }
+		infantry = { 
+		defence = 2 
+		attack = 1
+		}
 	}
 }
 cordon_and_search = {
@@ -1486,8 +1491,14 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	}
 	effect = {
 		irregular = { defence = 1 }
-		infantry = { defence = 1 }
-		mechanized_infantry = { defence = 1 }
+		infantry = { 
+		defence = 2 
+		attack = 1
+		}
+		mechanized_infantry = { 
+		defence = 2 
+		attack = 1
+		}
 	}
 }
 population_control = {
@@ -1515,8 +1526,14 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	}
 	effect = {
 		irregular = { defence = 1 }
-		infantry = { defence = 1 }
-		mechanized_infantry = { defence = 1 }
+		infantry = { 
+		defence = 2 
+		attack = 1 
+		}
+		mechanized_infantry = { 
+		defence = 2
+		attack = 1
+		}
 	}
 }
 
@@ -1550,14 +1567,14 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	}
 	effect = {
 	tactical_drone = {
-	defence = 1
-	attack = 1
+	defence = 2
+	attack = 2
 		}
 
 	#Heavy Infantry
 	mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
@@ -1592,15 +1609,15 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	}
 	effect = {
 		tactical_drone = {
-			defence = 1
-			attack = 1
+			defence = 4
+			attack = 4
 		}
 
 	#Light Infantry
 	infantry = {
 	reconnaissance = 1
-	attack = 1
-	defence = 1
+	attack = 3
+	defence = 3
 	maneuver = 1
 	}
 
@@ -1610,8 +1627,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	}
 	#Heavy Infantry
 	mechanized_infantry = {
-			defence = 1
-			attack = 1
+			defence = 4
+			attack = 4
 		}
 
 	}
@@ -1651,15 +1668,15 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	#Light Infantry
 	infantry = {
 	reconnaissance = 1
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Heavy Infantry
 	mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
@@ -1670,8 +1687,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Mechanised Infantry
 	tactical_drone = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
@@ -1742,6 +1759,31 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 			discipline = 2
 			maneuver = 1
 		}
+		infantry = {
+		reconnaissance = 1
+		attack = 2
+		defence = 2
+		maneuver = 1
+		}
+
+		#Heavy Infantry
+		mechanized_infantry = {
+		attack = 2
+		defence = 2
+		maneuver = 1
+		}
+
+		#Irregular
+		irregular = {
+		maneuver = 1
+		}
+
+		#Mechanised Infantry
+		tactical_drone = {
+		attack = 2
+		defence = 2
+		maneuver = 1
+		}
 	}
 }
 range_reconnaissance_patrol = {
@@ -1802,15 +1844,15 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	#Light Infantry
 	infantry = {
 	reconnaissance = 1
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Heavy Infantry
 	mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
@@ -1821,17 +1863,17 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Mechanised Infantry
 	tactical_drone = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Special Forces
 	modern_infantry = {
 	reconnaissance = 1
-	attack = 1
+	attack = 2
 	siege = 1
-	defence = 1
+	defence = 2
 	support = 1
 	maneuver = 1
 	}
@@ -1867,10 +1909,10 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
 	}
 }
 bullpup = {
@@ -1901,10 +1943,10 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
 	}
 }
 picatinny_rail = {
@@ -1935,10 +1977,10 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
 	}
 }
 red_dot_sight = {
@@ -1969,10 +2011,10 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
 	}
 }
 
@@ -2006,38 +2048,38 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	#Light Infantry
 	infantry = {
 	reconnaissance = 1
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Heavy Infantry
 	mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Irregular
 	irregular = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Mechanised Infantry
 	tactical_drone = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Special Forces
 	modern_infantry = {
 	reconnaissance = 1
-	attack = 1
+	attack = 2
 	siege = 1
-	defence = 1
+	defence = 2
 	support = 1
 	maneuver = 1
 	}
@@ -2073,8 +2115,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		modern_infantry = { attack = 1 }
-		tank = { attack = 1 }
+		modern_infantry = { attack = 2 }
+		tank = { attack = 2 }
 	}
 }
 third_gen_guidance = {
@@ -2105,7 +2147,10 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		tank = { attack = 1 }
+		tank = { 
+		attack = 2 
+		defence = 2 
+		}
 	}
 }
 heat_warhead = {
@@ -2136,7 +2181,10 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		tank = { attack = 1 }
+		tank = { 
+		attack = 2 
+		defence = 2 
+		}
 	}
 }
 tandem_charge = {
@@ -2167,11 +2215,11 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
 		irregular = { attack = 1 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
 	}
 }
 
@@ -2209,15 +2257,15 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	#Light Infantry
 	infantry = {
 	reconnaissance = 1
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Heavy Infantry
 	mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
@@ -2230,17 +2278,17 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Mechanised Infantry
 	tactical_drone = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Special Forces
 	modern_infantry = {
 	reconnaissance = 1
-	attack = 1
+	attack = 2
 	siege = 1
-	defence = 1
+	defence = 2
 	support = 1
 	maneuver = 1
 	}
@@ -2276,11 +2324,11 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { defence = 0.5 }
-		mechanized_infantry = { defence = 0.5 }
-		irregular = { defence = 0.5 }
-		tactical_drone = { defence = 0.5 }
-		modern_infantry = { defence = 0.5 }
+		infantry = { defence = 1 }
+		mechanized_infantry = { defence = 1 }
+		irregular = { defence = 1 }
+		tactical_drone = { defence = 1 }
+		modern_infantry = { defence = 1 }
 	}
 }
 special_reconnaissance = {
@@ -2338,17 +2386,17 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { maximum_speed = 1 }
-		mechanized_infantry = { maximum_speed = 1 }
-		irregular = { maximum_speed = 1 }
-		tactical_drone = { maximum_speed = 1 }
-		modern_infantry = { maximum_speed = 1 }
-		tank = { maximum_speed = 1 }
-		artillery = { maximum_speed = 1 }
-		missile = { maximum_speed = 1 }
-		modern_fighter = { maximum_speed = 1 }
-		cavalry = { maximum_speed = 1 }
-		bomber = { maximum_speed = 1 }
+		infantry = { maximum_speed = 2 }
+		mechanized_infantry = { maximum_speed = 2 }
+		irregular = { maximum_speed = 2 }
+		tactical_drone = { maximum_speed = 2 }
+		modern_infantry = { maximum_speed = 2 }
+		tank = { maximum_speed = 2 }
+		artillery = { maximum_speed = 2 }
+		missile = { maximum_speed = 2 }
+		modern_fighter = { maximum_speed = 2 }
+		cavalry = { maximum_speed = 2 }
+		bomber = { maximum_speed = 2 }
 	}
 }
 universal_camouflage_pattern = {
@@ -2379,14 +2427,14 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { defence = 1 }
-		mechanized_infantry = { defence = 1 }
+		infantry = { defence = 2 }
+		mechanized_infantry = { defence = 2 }
 		irregular = { defence = 1 }
-		tactical_drone = { defence = 1 }
-		modern_infantry = { defence = 1 }
-		tank = { defence = 1 }
-		artillery = { defence = 1 }
-		modern_mechanized_infantry = { defence = 1 }
+		tactical_drone = { defence = 2 }
+		modern_infantry = { defence = 2 }
+		tank = { defence = 2 }
+		artillery = { defence = 2 }
+		modern_mechanized_infantry = { defence = 2 }
 	}
 }
 
@@ -2423,15 +2471,15 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	#Light Infantry
 	infantry = {
 	reconnaissance = 1
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Heavy Infantry
 	mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
@@ -2444,17 +2492,17 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Mechanised Infantry
 	tactical_drone = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Special Forces
 	modern_infantry = {
 	reconnaissance = 1
-	attack = 1
+	attack = 2
 	siege = 1
-	defence = 1
+	defence = 2
 	support = 1
 	maneuver = 1
 	}
@@ -2490,12 +2538,12 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
 		irregular = { attack = 1 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
-		modern_mechanized_infantry = { attack = 0.5 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
+		modern_mechanized_infantry = { attack = 1 }
 	}
 }
 llm01 = {
@@ -2526,12 +2574,12 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
 		irregular = { attack = 1 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
-		modern_mechanized_infantry = { attack = 0.5 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
+		modern_mechanized_infantry = { attack = 1 }
 	}
 }
 caseless_ammunition = {
@@ -2634,15 +2682,15 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	#Light Infantry
 	infantry = {
 	reconnaissance = 1
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Heavy Infantry
 	mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
@@ -2655,17 +2703,17 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Mechanised Infantry
 	tactical_drone = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Special Forces
 	modern_infantry = {
 	reconnaissance = 1
-	attack = 1
+	attack = 2
 	siege = 1
-	defence = 1
+	defence = 2
 	support = 1
 	maneuver = 1
 	}
@@ -2704,14 +2752,14 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { defence = 1 }
-		mechanized_infantry = { defence = 1 }
+		infantry = { defence = 2 }
+		mechanized_infantry = { defence = 2 }
 		irregular = { defence = 1 }
-		tactical_drone = { defence = 1 }
-		modern_infantry = { defence = 1 }
-		tank = { defence = 1 }
-		artillery = { defence = 1 }
-		modern_mechanized_infantry = { defence = 1 }
+		tactical_drone = { defence = 2 }
+		modern_infantry = { defence = 2 }
+		tank = { defence = 2 }
+		artillery = { defence = 2 }
+		modern_mechanized_infantry = { defence = 2 }
 	}
 }
 diffused_lighting_camouflage = {
@@ -2742,14 +2790,14 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { defence = 1 }
-		mechanized_infantry = { defence = 1 }
-		irregular = { defence = 1 }
-		tactical_drone = { defence = 1 }
-		modern_infantry = { defence = 1 }
-		tank = { defence = 1 }
-		artillery = { defence = 1 }
-		modern_mechanized_infantry = { defence = 1 }
+		infantry = { defence = 2 }
+		mechanized_infantry = { defence = 2 }
+		irregular = { defence = 2 }
+		tactical_drone = { defence = 2 }
+		modern_infantry = { defence = 2 }
+		tank = { defence = 2 }
+		artillery = { defence = 2 }
+		modern_mechanized_infantry = { defence = 2 }
 	}
 }
 multicam = {
@@ -2780,14 +2828,14 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { defence = 1 }
-		mechanized_infantry = { defence = 1 }
-		irregular = { defence = 1 }
-		tactical_drone = { defence = 1 }
-		modern_infantry = { defence = 1 }
-		tank = { defence = 1 }
-		artillery = { defence = 1 }
-		modern_mechanized_infantry = { defence = 1 }
+		infantry = { defence = 2 }
+		mechanized_infantry = { defence = 2 }
+		irregular = { defence = 2 }
+		tactical_drone = { defence = 2 }
+		modern_infantry = { defence = 2 }
+		tank = { defence = 2 }
+		artillery = { defence = 2 }
+		modern_mechanized_infantry = { defence = 2 }
 	}
 }
 
@@ -2824,15 +2872,15 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	#Light Infantry
 	infantry = {
 	reconnaissance = 1
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Heavy Infantry
 	mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
@@ -2845,17 +2893,17 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Mechanised Infantry
 	tactical_drone = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	}
 
 	#Special Forces
 	modern_infantry = {
 	reconnaissance = 1
-	attack = 1
+	attack = 2
 	siege = 1
-	defence = 1
+	defence = 2
 	support = 1
 	maneuver = 1
 	}
@@ -2891,12 +2939,12 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 1 }
-		mechanized_infantry = { attack = 1 }
+		infantry = { attack = 2 }
+		mechanized_infantry = { attack = 2 }
 		irregular = { attack = 1 }
-		tactical_drone = { attack = 1 }
-		modern_infantry = { attack = 1 }
-		modern_mechanized_infantry = { attack = 1 }
+		tactical_drone = { attack = 2 }
+		modern_infantry = { attack = 2 }
+		modern_mechanized_infantry = { attack = 2 }
 	}
 }
 intelligent_munitions_system = {
@@ -2927,12 +2975,12 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
-		irregular = { attack = 0.5 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
-		modern_mechanized_infantry = { attack = 0.5 }
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
+		irregular = { attack = 1 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
+		modern_mechanized_infantry = { attack = 1 }
 	}
 }
 lower_extremity_exoskeleton = {
@@ -2963,12 +3011,12 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
-		irregular = { attack = 0.5 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
-		modern_mechanized_infantry = { attack = 0.5 }
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
+		irregular = { attack = 1 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
+		modern_mechanized_infantry = { attack = 1 }
 	}
 }
 powered_exoskeleton = {
@@ -2999,12 +3047,12 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
-		irregular = { attack = 0.5 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
-		modern_mechanized_infantry = { attack = 0.5 }
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
+		irregular = { attack = 1 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
+		modern_mechanized_infantry = { attack = 1 }
 	}
 }
 power_subsystem = {
@@ -3035,15 +3083,87 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
-		irregular = { attack = 0.5 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
-		modern_mechanized_infantry = { attack = 0.5 }
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
+		irregular = { attack = 1 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
+		modern_mechanized_infantry = { attack = 1 }
 	}
 }
 microclimate_cooling_system = {
+limit = { future_force_warrior = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 4
+			has_country_modifier = wonder_weapons
+		}
+		modifier = {
+			factor = 2
+			military_spending = 0.50
+		}
+		modifier = {
+			factor = 2
+			military_spending = 0.75
+		}
+		modifier = {
+			factor = -2
+			is_greater_power = no 
+			is_secondary_power = no
+		}
+		modifier = {
+			factor = 2
+OR = { has_country_modifier = spcno has_country_modifier = military_tech_cooperation }
+		}
+
+	}
+	effect = {
+		infantry = { defence = 2 }
+		mechanized_infantry = { defence = 2 }
+		irregular = { defence = 2 }
+		tactical_drone = { defence = 2 }
+		modern_infantry = { defence = 2 }
+		modern_mechanized_infantry = { defence = 2 }
+	}
+}
+wpsm_future = {
+limit = { future_force_warrior = 1 }
+	chance = {
+		base = 0
+		modifier = {
+			factor = 4
+			has_country_modifier = wonder_weapons
+		}
+		modifier = {
+			factor = 2
+			military_spending = 0.50
+		}
+		modifier = {
+			factor = 2
+			military_spending = 0.75
+		}
+		modifier = {
+			factor = -2
+			is_greater_power = no 
+			is_secondary_power = no
+		}
+		modifier = {
+			factor = 2
+OR = { has_country_modifier = spcno has_country_modifier = military_tech_cooperation }
+		}
+
+	}
+	effect = {
+		infantry = { attack = 1 }
+		mechanized_infantry = { attack = 1 }
+		irregular = { attack = 1 }
+		tactical_drone = { attack = 1 }
+		modern_infantry = { attack = 1 }
+		modern_mechanized_infantry = { attack = 1 }
+	}
+}
+combat_uniform_subsystem = {
 limit = { future_force_warrior = 1 }
 	chance = {
 		base = 0
@@ -3079,78 +3199,6 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 		modern_mechanized_infantry = { defence = 1 }
 	}
 }
-wpsm_future = {
-limit = { future_force_warrior = 1 }
-	chance = {
-		base = 0
-		modifier = {
-			factor = 4
-			has_country_modifier = wonder_weapons
-		}
-		modifier = {
-			factor = 2
-			military_spending = 0.50
-		}
-		modifier = {
-			factor = 2
-			military_spending = 0.75
-		}
-		modifier = {
-			factor = -2
-			is_greater_power = no 
-			is_secondary_power = no
-		}
-		modifier = {
-			factor = 2
-OR = { has_country_modifier = spcno has_country_modifier = military_tech_cooperation }
-		}
-
-	}
-	effect = {
-		infantry = { attack = 0.5 }
-		mechanized_infantry = { attack = 0.5 }
-		irregular = { attack = 0.5 }
-		tactical_drone = { attack = 0.5 }
-		modern_infantry = { attack = 0.5 }
-		modern_mechanized_infantry = { attack = 0.5 }
-	}
-}
-combat_uniform_subsystem = {
-limit = { future_force_warrior = 1 }
-	chance = {
-		base = 0
-		modifier = {
-			factor = 4
-			has_country_modifier = wonder_weapons
-		}
-		modifier = {
-			factor = 2
-			military_spending = 0.50
-		}
-		modifier = {
-			factor = 2
-			military_spending = 0.75
-		}
-		modifier = {
-			factor = -2
-			is_greater_power = no 
-			is_secondary_power = no
-		}
-		modifier = {
-			factor = 2
-OR = { has_country_modifier = spcno has_country_modifier = military_tech_cooperation }
-		}
-
-	}
-	effect = {
-		infantry = { defence = 0.5 }
-		mechanized_infantry = { defence = 0.5 }
-		irregular = { defence = 0.5 }
-		tactical_drone = { defence = 0.5 }
-		modern_infantry = { defence = 0.5 }
-		modern_mechanized_infantry = { defence = 0.5 }
-	}
-}
 nett_warrior = {
 limit = { future_force_warrior = 1 }
 	chance = {
@@ -3179,12 +3227,12 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		infantry = { attack = 0.5 defence = 0.5 }
-	mechanized_infantry = { attack = 0.5 defence = 0.5 }
-		irregular = { attack = 0.5 defence = 0.5 }
-		tactical_drone = { attack = 0.5 defence = 0.5 }
-		modern_infantry = { attack = 0.5 defence = 0.5 }
-modern_mechanized_infantry = { attack = 0.5 defence = 0.5 }
+		infantry = { attack = 1 defence = 1 }
+	mechanized_infantry = { attack = 1 defence = 1 }
+		irregular = { attack = 1 defence = 1 }
+		tactical_drone = { attack = 1 defence = 1 }
+		modern_infantry = { attack = 1 defence = 1 }
+modern_mechanized_infantry = { attack = 1 defence = 1 }
 	}
 }
 headgear_subsystem = {
@@ -3215,12 +3263,12 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-			infantry = { attack = 0.5 defence = 0.5 }
-	mechanized_infantry = { attack = 0.5 defence = 0.5 }
-		irregular = { attack = 0.5 defence = 0.5 }
-		tactical_drone = { attack = 0.5 defence = 0.5 }
-		modern_infantry = { attack = 0.5 defence = 0.5 }
-modern_mechanized_infantry = { attack = 0.5 defence = 0.5 }
+			infantry = { attack = 1 defence = 1 }
+	mechanized_infantry = { attack = 1 defence = 1 }
+		irregular = { attack = 1 defence = 1 }
+		tactical_drone = { attack = 1 defence = 1 }
+		modern_infantry = { attack = 1 defence = 1 }
+modern_mechanized_infantry = { attack = 1 defence = 1 }
 	}
 }
 force_warrior = {
@@ -3251,12 +3299,12 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-			infantry = { attack = 0.5 defence = 0.5 }
-	mechanized_infantry = { attack = 0.5 defence = 0.5 }
-		irregular = { attack = 0.5 defence = 0.5 }
-		tactical_drone = { attack = 0.5 defence = 0.5 }
-		modern_infantry = { attack = 0.5 defence = 0.5 }
-modern_mechanized_infantry = { attack = 0.5 defence = 0.5 }
+			infantry = { attack = 1 defence = 1 }
+	mechanized_infantry = { attack = 0.5 defence = 1 }
+		irregular = { attack = 1 defence = 1 }
+		tactical_drone = { attack = 1 defence = 1 }
+		modern_infantry = { attack = 1 defence = 1 }
+modern_mechanized_infantry = { attack = 1 defence = 1 }
 	}
 }
 
@@ -3292,9 +3340,9 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Tank 
 	tank = {
-	attack = 1
-	defence = 1
-	maneuver = 1
+	attack = 5
+	defence = 5
+	maneuver = 2
 	siege = 1
 	}
 
@@ -3333,8 +3381,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Tank 
 	tank = {
-	attack = 1
-	defence = 1
+	attack = 4
+	defence = 4
 	maneuver = 1
 	siege = 1
 	}
@@ -3370,8 +3418,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		tank = { attack = 0.5 }
-		artillery = { attack = 0.5 }
+		tank = { attack = 4 }
+		artillery = { attack = 1 }
 	}
 }
 highexplosive_antitank_warhead = {
@@ -3402,8 +3450,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		tank = { attack = 1 }
-		artillery = { attack = 1 }
+		tank = { attack = 2 }
+		artillery = { attack = 1.5 }
 	}
 }
 
@@ -3440,8 +3488,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Tank 
 	tank = {
-	attack = 1
-	defence = 1
+	attack = 5
+	defence = 5
 	maneuver = 1
 	siege = 1
 	}
@@ -3480,8 +3528,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Combat Support 
 	modern_mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	siege = 1
@@ -3489,8 +3537,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 	
 	#Artillery
 	artillery = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	}
@@ -3526,11 +3574,14 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		tank = { defence = 2 }
+		tank = { 
+		defence = 2
+		attack = 2 
+		}
 	}
 }
 
-#missile_armed_tanks, 1980
+#missile_armed_tanks, 1970
 tank_missiles = {
 	limit = { missile_armed_tanks = 1 }
 	chance = {
@@ -3562,8 +3613,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Tank 
 	tank = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	siege = 1
 	}
@@ -3602,8 +3653,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Combat Support 
 	modern_mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	siege = 1
@@ -3611,8 +3662,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Artillery
 	artillery = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	}
@@ -3653,8 +3704,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Tank 
 	tank = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	siege = 1
 	}
@@ -3693,8 +3744,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Combat Support 
 	modern_mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	siege = 1
@@ -3702,8 +3753,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Artillery
 	artillery = {
-	attack = 1
-	defence = 1
+	attack = 1.5
+	defence = 1.5
 	support = 1
 	maneuver = 1
 	}
@@ -3739,7 +3790,10 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	}
 	effect = {
-		tank = { defence = 2 }
+		tank = { 
+		defence = 2 
+		attack = 2
+		}
 	}
 }
 
@@ -3775,8 +3829,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Tank 
 	tank = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	siege = 1
 	}
@@ -3815,8 +3869,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Combat Support 
 	modern_mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	siege = 1
@@ -3824,8 +3878,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Artillery
 	artillery = {
-	attack = 1
-	defence = 1
+	attack = 1.5
+	defence = 1.5
 	support = 1
 	maneuver = 1
 	}
@@ -3862,16 +3916,16 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Tank 
 	tank = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	siege = 1
 	}
 
 	#Combat Support 
 	modern_mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	siege = 1
@@ -3879,8 +3933,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Artillery
 	artillery = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	}
@@ -3916,16 +3970,16 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Tank 
 	tank = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	siege = 1
 	}
 
 	#Combat Support 
 	modern_mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	siege = 1
@@ -3933,8 +3987,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Artillery
 	artillery = {
-	attack = 1
-	defence = 1
+	attack = 1.5
+	defence = 1.5
 	support = 1
 	maneuver = 1
 	}
@@ -3974,16 +4028,16 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Tank 
 	tank = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	siege = 1
 	}
 
 	#Combat Support 
 	modern_mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	siege = 1
@@ -3991,8 +4045,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Artillery
 	artillery = {
-	attack = 1
-	defence = 1
+	attack = 1.5
+	defence = 1.5
 	support = 1
 	maneuver = 1
 	}
@@ -4032,8 +4086,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Tank 
 	tank = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	maneuver = 1
 	siege = 1
 	}
@@ -4072,8 +4126,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Combat Support 
 	modern_mechanized_infantry = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	siege = 1
@@ -4081,8 +4135,8 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Artillery
 	artillery = {
-	attack = 1
-	defence = 1
+	attack = 2
+	defence = 2
 	support = 1
 	maneuver = 1
 	}
@@ -4249,23 +4303,23 @@ OR = { has_country_modifier = spcno has_country_modifier = military_tech_coopera
 
 	#Bomber 
 	bomber = {
-	attack = 1
-	defence = 1
+	attack = 1.5
+	defence = 1.5
 	support = 0.5
 	}
 
 	#Interceptor Fighter 
 	cavalry = {
-	attack = 1
-	defence = 1
+	attack = 6
+	defence = 6
 	maneuver = 1
 	}
 
 	#Attack Helicopters
 	missile = {
-	attack = 1
-	defence = 1
-	maneuver = 1
+	attack = 6
+	defence = 6
+	maneuver = 2
 	}
 
 	}

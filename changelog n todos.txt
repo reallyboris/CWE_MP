@@ -65,6 +65,10 @@
 - Hydrogen bomb unlocks T2 and 3 nukes assuming you have proper tech.
 only GPs can get T3 nukes. Costs 15k of a bunch of goods in addition to money.
 
+
+- Nerfed natural gas->oil production but buffed oil RGO production
+
+- Buffed the infantry and tank centric techs, to make them a little less worthless
 TODOS:
 
 - TODO: fix natural gas liquefication plants too op VS oil rgo
