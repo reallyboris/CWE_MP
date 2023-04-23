@@ -73,6 +73,8 @@ only GPs can get T3 nukes. Costs 15k of a bunch of goods in addition to money.
 - buffed tanks
 
 - Fixed ABMs
+
+- Made superstates formable in 1990
 TODOS:
 
 - TODO: run it through the validator
