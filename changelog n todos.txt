@@ -83,6 +83,10 @@ TODOS:
 
 - TODO: Lower WS cost
 
+- TODO: remove centraliziation modifiers
+
+- TODO: look into byzantium decision for greece (king of kings)
+
 - TODO: new cwe/alstadt internal migration stuff
 
 - TODO: Give north korea some non-coastal provinces?
