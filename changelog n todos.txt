@@ -87,6 +87,8 @@ TODOS:
 
 - TODO: look into byzantium decision for greece (king of kings)
 
+- TODO: infinte event/Decision loop for iraq, causing infinite prestige?
+
 - TODO: new cwe/alstadt internal migration stuff
 
 - TODO: Give north korea some non-coastal provinces?
