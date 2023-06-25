@@ -1,0 +1,133 @@
+political_decisions = {
+
+	Money_package = {
+		picture = "financial_stimulus"
+		potential = {
+			ai = no
+			NOT = { has_country_modifier = recent_financial_stimulus }
+			}
+		alert = no
+		allow = {
+			money = 4100000
+			war = no
+			election = no
+		}
+		
+		effect = {
+			money = -2000000
+			money = -2000000
+
+			#Inject money into businesses
+			capitalists = { money = 1000 }
+			aristocrats = { money = 750 }
+			artisans = { money = 250 }
+			
+			#Inject money into the poor strata
+			farmers = { money = 200 }
+			clerks = { money = 350 }
+			labourers = { money = 200 }
+			craftsmen = { money = 325 }
+			bureaucrats = { money = 500 } 
+			officers = { money = 500 }
+			soldiers = { money = 500 }
+			clergymen = { money = 200 }
+			
+			}
+
+		
+}
+
+	Locals_Money_package_lite = {
+		picture = "financial_stimulus"
+		potential = {
+			ai = no
+			NOT = { has_country_modifier = recent_financial_stimulus }
+			NOT = { number_of_states = 10 }
+		}
+		alert = no
+		allow = {
+			money = 650000
+			war = no
+			election = no
+		}
+		
+		effect = {
+			money = -600000 
+		any_pop = { limit = { is_primary_culture = yes } money = 500 }
+		any_pop = { limit = { is_accepted_culture = yes } money = 400 }
+			}
+					}
+
+	Locals_Money_package_medium = {
+		picture = "financial_stimulus"
+		potential = {
+			ai = no
+			NOT = { has_country_modifier = recent_financial_stimulus }
+			number_of_states = 10
+			NOT = { number_of_states = 30 }
+		}
+		alert = no
+		allow = {
+			money = 1300000
+			war = no
+			election = no
+		}
+		
+		effect = {
+			money = -600000
+			money = -600000
+		any_pop = { limit = { is_primary_culture = yes } money = 500 }
+		any_pop = { limit = { is_accepted_culture = yes } money = 400 }	
+			}	
+					}
+
+	Locals_Money_package_big = {
+		picture = "financial_stimulus"
+		potential = {
+			ai = no
+			NOT = { has_country_modifier = recent_financial_stimulus }
+			number_of_states = 30
+			NOT = { number_of_states = 55 }
+		}
+		alert = no
+		allow = {
+			money = 1900000
+			war = no
+			election = no
+		}
+		
+		effect = {
+			money = -800000
+			money = -400000
+			money = -600000
+		any_pop = { limit = { is_primary_culture = yes } money = 500 }
+		any_pop = { limit = { is_accepted_culture = yes } money = 400 }		
+			}
+					}
+
+	Locals_Money_package_profligate = {
+		picture = "financial_stimulus"
+		potential = {
+			ai = no
+			NOT = { has_country_modifier = recent_financial_stimulus }
+			number_of_states = 55
+		}
+		alert = no
+		allow = {
+			money = 2500000
+			war = no
+			election = no
+		}
+		
+		effect = {
+			money = -600000
+			money = -600000
+			money = -600000
+			money = -600000
+		any_pop = { limit = { is_primary_culture = yes } money = 500 }
+
+		any_pop = { limit = { is_accepted_culture = yes } money = 400 }
+			}		
+					}
+	
+}
