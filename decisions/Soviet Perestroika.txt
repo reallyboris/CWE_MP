@@ -23,7 +23,7 @@ OR = { ai = no has_country_flag = perestroika_intention }
 		effect = {
 		prestige = 100
 		set_country_flag = glasnost_intention
-add_country_modifier = { name = glasnost_intention duration = 730 }
+add_country_modifier = { name = glasnost_intention duration = 360 }
 
 #remove_country_modifier = revolution_chaos
 
@@ -68,7 +68,7 @@ NOT = { has_country_modifier = glasnost_intention }
 
 		#ruling_party_ideology = communist_social
 
-add_country_modifier = { name = perestroika_intention duration = 730 }
+add_country_modifier = { name = perestroika_intention duration = 360 }
 
 #remove_country_modifier = revolution_chaos
 
@@ -104,7 +104,7 @@ OR = { ai = no has_country_flag = glasnost_intention }
 		prestige = 100
 		set_country_flag = democratisation_intention
 
-add_country_modifier = { name = democratisation_intention duration = 730 }
+add_country_modifier = { name = democratisation_intention duration = 360 }
 
 #remove_country_modifier = revolution_chaos
 
