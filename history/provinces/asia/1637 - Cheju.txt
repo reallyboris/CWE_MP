@@ -4,7 +4,7 @@ add_core = SKO
 
 #add_core =  JDO
 
-trade_goods = fish
+trade_goods = tea
 life_rating = 35
 terrain = mountain_farmland
 colonial = 0
