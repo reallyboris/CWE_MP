@@ -15,19 +15,19 @@ rebel = {
 }
 
 life_needs = {
-	grain = 2.5
+	grain = 3
 }
 
 everyday_needs = {
-	fish = 1
-	cattle = 1
-	fruit = 1
-	clothes = 3
-	footwear = 2
-	coffee = 1
-	tea = 1
-	sugar = 1
-    canned_food = 3
+	fish = 3
+	cattle = 5
+	fruit = 3
+	clothes = 4
+	footwear = 3
+	coffee = 3
+	tea = 3
+	sugar = 2
+    canned_food = 5
 	furniture = 3
 	beverages = 3
 	cigarettes = 2	
@@ -36,26 +36,27 @@ everyday_needs = {
 	cement = 5
 	fuel = 2
 	paper = 1
-	telecommunications = 2
+	telecommunications = 3
 	transport = 2
 	small_arms = 0.5
-	natural_gas = 0.2
+	natural_gas = 0.4
 }
 
 luxury_needs = {
 	furniture_houseware = 2
 	beverage_tobacco = 3	
-	automobiles = 5
-	jewellery = 5
+	automobiles = 10
+	jewellery = 10
 	health = 2
 	communication = 5
 	education_rnd = 5
 	culture = 5
-	recreation = 10
-	financial_services = 10
-	clothes_footwear = 2
-	aeroplanes = 2
-	ships = 2
+	recreation = 15
+	financial_services = 15
+	clothes_footwear = 4
+	aeroplanes = 4
+	ships = 4
+	gold_silver = 2
 }
 
 country_migration_target = {

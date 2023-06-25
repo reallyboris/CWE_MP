@@ -12,19 +12,20 @@ rebel =
 }
 
 life_needs = {
-	grain = 1.5
+	grain = 2.75
 }
 
 everyday_needs = {
-	fish = 0.5
-	cattle = 0.5
-	fruit = 0.5
+	grain = 5.5
+	fish = 0.75
+	cattle = 0.85
+	fruit = 1.2
 	clothes = 0.5
-	footwear = 0.25
-	coffee = 0.2
-	tea = 0.2
+	footwear = 0.35
+	coffee = 0.7
+	tea = 0.7
 	sugar = 0.3
-    canned_food = 0.5
+    canned_food = 0.75
 	furniture = 0.5
 	beverages = 0.5
 	cigarettes = 0.2	
@@ -33,7 +34,7 @@ everyday_needs = {
 	cement = 0.5
 	fuel = 0.2
 	paper = 0.1		
-	telecommunications = 0.25
+	telecommunications = 0.5
 	transport = 0.25
 	natural_gas = 0.1
 }
@@ -41,7 +42,7 @@ everyday_needs = {
 luxury_needs = {
 	furniture_houseware = 0.25
 	beverage_tobacco = 0.25	
-	automobiles = 0.5
+	automobiles = 0.75
 	jewellery = 0.2
 	health = 0.5
 	communication = 0.5

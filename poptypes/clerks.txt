@@ -22,44 +22,47 @@ can_work_factory = yes
 color = { 240 240 240 }
 
 life_needs = {
-	grain = 1.5
+	grain = 2.75
 }
 
 everyday_needs = {
-	fish = 0.75
-	cattle = 0.75
-	fruit = 0.75
-	clothes = 1
-	footwear = 0.5
-	coffee = 1.5
-	tea = 0.75
-	sugar = 0.5
-    canned_food = 1
+	grain = 4
+	fish = 2.5
+	cattle = 2.25
+	fruit = 2
+	clothes = 1.5
+	footwear = 0.75
+	coffee = 1.25
+	tea = 1.25
+	sugar = 1
+    canned_food = 3
 	furniture = 1
-	beverages = 1
+	beverages = 2
 	cigarettes = 0.5	
 	pharmaceuticals = 0.5
-	heating_electricity = 1
+	heating_electricity = 1.2
 	cement = 1
 	fuel = 0.5
 	paper = 0.5
-	telecommunications = 0.5
+	telecommunications = 0.75
 	transport = 0.5	
 	natural_gas = 0.15
 }
 
 luxury_needs = {
-	furniture_houseware = 0.5
-	beverage_tobacco = 0.5	
-	automobiles = 1
-	jewellery = 0.5
+	furniture_houseware = 0.75
+	beverage_tobacco = 0.75	
+	automobiles = 3
+	jewellery = 1
 	health = 0.5
-	communication = 1
+	communication = 1.5
 	education_rnd = 0.5
-	culture = 1
-	recreation = 1
-	financial_services = 1
-	clothes_footwear = 0.5
+	culture = 2
+	recreation = 2
+	financial_services = 1.25
+	clothes_footwear = 0.75
+	gold_silver = 0.05
+	computers = 0.05
 }
 
 country_migration_target = {

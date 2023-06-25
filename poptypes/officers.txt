@@ -31,42 +31,43 @@ luxury_needs_income = {
 }
 
 life_needs = {
-	grain = 2
+	grain = 3.25
 }
 
 everyday_needs = {
-	fish = 0.75
-	cattle = 0.75
-	fruit = 0.75
-	clothes = 1
-	footwear = 0.5
-	coffee = 0.5
-	tea = 0.5
+	grain = 5
+	fish = 1.5
+	cattle = 3
+	fruit = 1
+	clothes = 1.25
+	footwear = 0.75
+	coffee = 1.25
+	tea = 1.25
 	sugar = 0.5
-    canned_food = 1
-	furniture = 1
-	beverages = 1
-	cigarettes = 0.5	
+    canned_food = 3.5
+	furniture = 1.5
+	beverages = 2
+	cigarettes = 0.75	
 	pharmaceuticals = 0.5
-	heating_electricity = 1
+	heating_electricity = 2
 	cement = 1
-	fuel = 0.75
+	fuel = 1.25
 	paper = 0.3
-	telecommunications = 0.5
-	transport = 0.5
+	telecommunications = 0.75
+	transport = 1
 	small_arms = 0.25
-	weaponry = 0.1
-	ammunition = 0.1
+	weaponry = 0.15
+	ammunition = 0.15
 	natural_gas = 0.15
 }
 
 luxury_needs = {
 	furniture_houseware = 0.5
 	beverage_tobacco = 0.5	
-	automobiles = 1
-	jewellery = 0.5
+	automobiles = 3
+	jewellery = 0.75
 	health = 0.5
-	communication = 1
+	communication = 1.25
 	education_rnd = 0.5
 	culture = 1
 	recreation = 1

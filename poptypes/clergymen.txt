@@ -34,28 +34,29 @@ luxury_needs_income =
 }
 
 life_needs = {
-	grain = 2
+	grain = 2.5
 }
 
 everyday_needs = {
-	fish = 0.75
-	cattle = 0.75
-	fruit = 0.75
+	grain = 5
+	fish = 1
+	cattle = 1.5
+	fruit = 1
 	clothes = 1
 	footwear = 0.5
-	coffee = 0.5
-	tea = 0.5
-	sugar = 0.5
-    canned_food = 1
-	furniture = 1
-	beverages = 1
+	coffee = 0.75
+	tea = 0.75
+	sugar = 0.55
+    canned_food = 2
+	furniture = 1.5
+	beverages = 2
 	cigarettes = 0.5	
 	pharmaceuticals = 0.5
-	heating_electricity = 1
+	heating_electricity = 1.25
 	cement = 1
 	fuel = 0.5
 	paper = 0.5
-	telecommunications = 0.5
+	telecommunications = 0.75
 	transport = 0.5	
 	natural_gas = 0.1
 }
@@ -63,7 +64,7 @@ everyday_needs = {
 luxury_needs = {
 	furniture_houseware = 0.5
 	beverage_tobacco = 0.5	
-	automobiles = 1
+	automobiles = 1.5
 	jewellery = 0.5
 	health = 0.5
 	communication = 1
@@ -72,6 +73,7 @@ luxury_needs = {
 	recreation = 1
 	financial_services = 1
 	clothes_footwear = 0.5
+	integrated_circuits = 0.1 #Represent small experiments
 }
 
 country_migration_target = {
