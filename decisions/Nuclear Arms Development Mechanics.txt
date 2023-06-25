@@ -23,7 +23,8 @@ political_decisions = {
 			
 			is_disarmed = no
 			part_of_sphere = no
-
+			other_minerals = 6000
+			weaponry = 500
 			NOT = { has_country_modifier = wmd_removed }
 			
 			OR = { 
@@ -38,7 +39,8 @@ political_decisions = {
 		}
 
 		effect = {
-
+			other_minerals = -6000
+			weaponry = -500
 			#### Badboy if treaties are unsigned ####
 
 			#Base infamy
@@ -106,7 +108,8 @@ political_decisions = {
 		allow = {
 		
 			money = 3500000
-		
+			other_minerals = 6000
+			weaponry = 500
 			is_disarmed = no
 			part_of_sphere = no
 
@@ -125,7 +128,8 @@ political_decisions = {
 		}
 
 		effect = {
-
+			other_minerals = -6000
+			weaponry = -500
 			#### Badboy if treaties are unsigned ####
 
 			#Base infamy
@@ -259,7 +263,8 @@ political_decisions = {
 			money = 2000000
 			military_score = 600
 			is_vassal = no
-			
+			other_minerals = 2000
+			weaponry = 100
 			assymetric_warfare = 1
 			invention = third_generation_icbm
 			
@@ -272,6 +277,8 @@ political_decisions = {
 		}
 
 		effect = {
+			other_minerals = -2000
+			weaponry = -100
 			add_country_modifier = { name = tactical_nukes duration = -1 }
 		}
 		ai_will_do = { 
