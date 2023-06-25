@@ -11,6 +11,7 @@ apartheid_system = {
 	trigger = {
 		minorities_reform = minorities_oppression
 		citizenship_policy = residency
+		NOT = { OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive ruling_party_ideology = socialist ruling_party_ideology = communist_social ruling_party_ideology = communist } }
 	}
 	prestige = -0.1
 	non_accepted_pop_militancy_modifier = 0.1
@@ -27,6 +28,7 @@ mercenary_training = {
 	}
 	land_unit_start_experience = 10
 	land_organisation = 0.1
+	mobilisation_size = 0.05
 	suppression_points_modifier = 0.1
 	tax_efficiency = -0.01
 }
@@ -57,56 +59,60 @@ violent_elections = {
 #Minority Government in Democracies
 
 minority_government = {
-trigger = {
-OR = { government = democracy government = democracy1 
-government = socialist_democracy government = hms_government government = hms_government1 government = colonial_government government = mandate_government }
+	trigger = {
+		OR = { government = democracy government = democracy1 government = socialist_democracy government = hms_government government = hms_government1 government = colonial_government government = mandate_government }
 
-OR = { 
+		OR = { 
 
-AND = { 
-NOT = { OR = { pop_majority_ideology = traditionalist pop_majority_ideology = conservative } }
-OR = { ruling_party_ideology = traditionalist ruling_party_ideology = conservative } 
-} 
+			AND = { 
+				NOT = { OR = { pop_majority_ideology = traditionalist pop_majority_ideology = conservative } }
+				OR = { ruling_party_ideology = traditionalist ruling_party_ideology = conservative } 
+			} 
 
-AND = { 
-NOT = { pop_majority_ideology = big_tent }
-ruling_party_ideology = big_tent
-} 
+			AND = { 
+				NOT = { pop_majority_ideology = big_tent }
+				ruling_party_ideology = big_tent
+			} 
 
-AND = { 
-NOT = { OR = { pop_majority_ideology = socialist pop_majority_ideology = communist pop_majority_ideology = communist_social } }
-OR = { ruling_party_ideology = socialist ruling_party_ideology = communist ruling_party_ideology = communist_social }
-} 
+			AND = { 
+				NOT = { OR = { pop_majority_ideology = socialist pop_majority_ideology = communist pop_majority_ideology = communist_social } }
+				OR = { ruling_party_ideology = socialist ruling_party_ideology = communist ruling_party_ideology = communist_social }
+			} 
 
-AND = { 
-NOT = { OR = { pop_majority_ideology = liberal pop_majority_ideology = progressive } }
-OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive }
-} 
+			AND = { 
+				NOT = { OR = { pop_majority_ideology = liberal pop_majority_ideology = progressive } }
+				OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive }
+			} 
 
-AND = { 
-NOT = { OR = { pop_majority_ideology = nationalist pop_majority_ideology = populist } }
-OR = { ruling_party_ideology = nationalist ruling_party_ideology = populist }
-} 
+			AND = { 
+				NOT = { OR = { pop_majority_ideology = nationalist pop_majority_ideology = populist } }
+				OR = { ruling_party_ideology = nationalist ruling_party_ideology = populist }
+			} 
 
-}
 		}
-diplomatic_points_modifier = -0.1
-cb_generation_speed_modifier = -0.2
-prestige = -0.001
+	}
+	
+	diplomatic_points_modifier = -0.1
+	cb_generation_speed_modifier = -0.2
+	prestige = -0.001
 }
 
 #Incompetent AI buff
 
 china_tax_boost = {
 	trigger = {
-		has_country_flag = prc
-		#ai = yes
-		government = proletarian_dictatorship
+		tag = CHI
+		
+		#At peace
+		war = no
+		
+		#China must be large
+		number_of_states = 10
 	}
-	tax_efficiency = 0.25
 	prestige = 0.001
-	
-	global_population_growth = -0.01
+	tax_efficiency = 0.10
+	research_points_modifier = 0.25
+	#global_population_growth = -0.01
 }
 
 india_tax_boost = {
@@ -114,8 +120,8 @@ india_tax_boost = {
 		has_country_flag = hnd_taxation
 		#ai = yes
 	}
-	tax_efficiency = 0.1
 	prestige = 0.001
+	tax_efficiency = 0.10
 }
 
 china_reduce_military_socre = {
@@ -164,7 +170,7 @@ blockade_4 = {
 		blockade = 1
 	}	
 	factory_input = 0.4
-	import_cost = 1.6
+	import_cost = 1.0
 }
 
 #Global Reserve Currency
@@ -175,7 +181,7 @@ global_reserve_currency = {
 		OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 ruling_party_ideology = communist_social }
 	}
 	prestige = 0.01
-	import_cost = -0.5
+	import_cost = -0.40
 	diplomatic_points_modifier = 0.50
 	rich_income_modifier = 0.2
 	middle_income_modifier = 0.1
@@ -209,11 +215,10 @@ un_decolonisation = {
 
 militant_unions_trade = {
 	trigger = {
-OR = { pop_majority_ideology = socialist pop_majority_ideology = communist pop_majority_ideology = communist_social }
-	average_militancy = 3
-NOT = { OR = { gender_rights = gender_role_based 
-gender_rights = gender_equal } }
-					}
+		OR = { pop_majority_ideology = socialist pop_majority_ideology = communist pop_majority_ideology = communist_social }
+		average_militancy = 3
+		NOT = { OR = { union_rights = no_trade_unions union_rights = state_controlled_unions } }
+	}
 	factory_throughput = -0.25
 }
 
@@ -260,8 +265,8 @@ climate_action_group_1 = {
 		}
 	}
 
-	factory_throughput = -0.10
-	factory_output = -0.1
+	factory_throughput = -0.05
+	factory_output = -0.05
 }
 
 climate_action_group_2 = {
@@ -274,8 +279,8 @@ climate_action_group_2 = {
 		}
 	}
 
-	factory_throughput = -0.10
-	factory_output = -0.1
+	factory_throughput = -0.05
+	factory_output = -0.05
 }
 
 climate_action_group_3 = {
@@ -289,8 +294,8 @@ climate_action_group_3 = {
 		}
 	}
 
-	factory_throughput = -0.10
-	factory_output = -0.1
+	factory_throughput = -0.05
+	factory_output = -0.05
 }
 
 climate_action_group_4 = {
@@ -304,8 +309,8 @@ climate_action_group_4 = {
 		}
 	}
 
-	factory_throughput = -0.10
-	factory_output = -0.1
+	factory_throughput = -0.05
+	factory_output = -0.05
 }
 
 climate_action_group_5 = {
@@ -319,8 +324,8 @@ climate_action_group_5 = {
 		}
 	}
 
-	factory_throughput = -0.10
-	factory_output = -0.1
+	factory_throughput = -0.05
+	factory_output = -0.05
 }
 
 climate_action_group_6 = {
@@ -331,8 +336,8 @@ climate_action_group_6 = {
 		NOT = { OR = { pop_majority_ideology = nationalist pop_majority_ideology = communist pop_majority_ideology = communist_social pop_majority_ideology = populist pop_majority_ideology = traditionalist } }
 	}
 
-	factory_throughput = -0.10
-	factory_output = -0.1
+	factory_throughput = -0.05
+	factory_output = -0.05
 }
 
 climate_action_group_7 = {
@@ -343,8 +348,8 @@ climate_action_group_7 = {
 		NOT = { OR = { pop_majority_ideology = nationalist pop_majority_ideology = communist pop_majority_ideology = communist_social pop_majority_ideology = populist pop_majority_ideology = traditionalist } }
 	}
 
-	factory_throughput = -0.10
-	factory_output = -0.1
+	factory_throughput = -0.05
+	factory_output = -0.05
 }
 
 
@@ -395,6 +400,7 @@ information_age = {
 	diplomatic_points_modifier = 0.1
 	influence_modifier = 0.2
 	factory_owner_cost = -0.05
+	factory_input = -0.025
 }
 
 automation_age = {
@@ -408,7 +414,7 @@ automation_age = {
 	prestige = 0.05
 	goods_demand = 0.15
 	industry_tech_research_bonus = 0.2
-	factory_input = -0.1
+	factory_input = -0.01
 }
 
 future_age = {
@@ -422,7 +428,7 @@ future_age = {
 	prestige = 0.05
 	goods_demand = 0.20
 	culture_tech_research_bonus = 0.5
-	factory_input = -0.2
+	factory_input = -0.025
 }
 
 elchigh = {
@@ -468,7 +474,7 @@ isolated_nation = {
 		immigration_policy = nobody_gets_out			
 	}
 	supply_consumption = -0.10
-	research_points_modifier = -0.34
+	research_points_modifier = -0.25
 	
 }
 
@@ -525,14 +531,13 @@ global_pop_consciousness_modifier = -0.02
 global_pop_militancy_modifier = 0.02
 	}
 
-
 gatt = {
 	trigger = {
 		NOT = { has_country_flag = wto_member_flag }
 		has_country_flag = gatt_member
-			}
+	}
 	factory_owner_cost = -0.05
-	factory_throughput = 0.05
+	import_cost = -0.05
 	tax_efficiency = -0.02
 	min_tariff = -0.05
 	max_tariff = -0.05
@@ -550,56 +555,8 @@ receive_joint_aid = {
 	max_loan_modifier = 0.25
 	loan_interest = -0.2
 	factory_owner_cost = -0.02
-	factory_throughput = 0.1
+	factory_throughput = 0.01
 	tax_efficiency = 0.02
-}
-
-affluent_society_4 = {
-	trigger = {
-OR = { is_greater_power = yes is_secondary_power = yes }
-		literacy = 0.55
-				}
-	poor_everyday_needs = 1.5
-	middle_everyday_needs = 1.5
-	rich_everyday_needs = 1.5
-	global_population_growth = -0.001
-	global_immigrant_attract = 0.1
-}
-
-affluent_society_3 = {
-	trigger = {
-OR = { is_greater_power = yes is_secondary_power = yes }
-		literacy = 0.45
-				}
-	poor_everyday_needs = 1.5
-	middle_everyday_needs = 1.5
-	rich_everyday_needs = 1.5
-	global_population_growth = -0.001
-	global_immigrant_attract = 0.1
-}
-
-affluent_society_2 = {
-	trigger = {
-OR = { is_greater_power = yes is_secondary_power = yes }
-		literacy = 0.35
-				}
-	poor_everyday_needs = 0.5
-	middle_everyday_needs = 0.5
-	rich_everyday_needs = 0.5
-	global_population_growth = -0.001
-	global_immigrant_attract = 0.1
-}
-
-affluent_society_1 = {
-	trigger = {
-OR = { is_greater_power = yes is_secondary_power = yes }
-		literacy = 0.25
-				}
-	poor_everyday_needs = 0.5
-	middle_everyday_needs = 0.5
-	rich_everyday_needs = 0.5
-	global_population_growth = -0.001
-	global_immigrant_attract = 0.1
 }
 
 neo_protectionism_high = {
@@ -608,10 +565,11 @@ neo_protectionism_high = {
 		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } }
 		OR = { ruling_party_ideology = communist ruling_party_ideology = communist_social ruling_party_ideology = populist ruling_party_ideology = traditionalist ruling_party_ideology = nationalist ruling_party_ideology = socialist }
 	}
-		rich_income_modifier = 0.20
-		factory_owner_cost = -0.05
-		tax_efficiency = 0.05
-	}
+	import_cost = 0.10
+	rich_income_modifier = 0.20
+	factory_owner_cost = -0.10
+	tax_efficiency = 0.05
+}
 
 neo_protectionism_medium = {
 	trigger = {
@@ -619,9 +577,11 @@ neo_protectionism_medium = {
 		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } }
 		OR = { ruling_party_ideology = conservative ruling_party_ideology = big_tent }
 	}
-		factory_throughput = 0.10
-		tax_efficiency = 0.01
-	}
+	import_cost = 0.05
+	rich_income_modifier = 0.10
+	factory_owner_cost = -0.05
+	tax_efficiency = 0.025
+}
 
 neo_protectionism_low = {
 	trigger = {
@@ -629,10 +589,10 @@ neo_protectionism_low = {
 		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } }
 		OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive }
 	}
-	rich_income_modifier = -0.20
-	tax_efficiency = -0.05
-	factory_throughput = -0.10	
+
 	factory_owner_cost = 0.05
+
+
 }
 
 
@@ -666,59 +626,67 @@ tax_haven = {
 	factory_owner_cost = -0.05
 }
 
+### Pop Majority Ideology Effects ###
+
 liberal_discourse = {
 	trigger = {
-	OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive pop_majority_ideology = liberal pop_majority_ideology = progressive }
-					}
-	issue_change_speed = 0.20
-	non_accepted_pop_militancy_modifier = 0.02
-	global_assimilation_rate = -0.25
-	global_pop_militancy_modifier = 0.01
+		OR = { 
+			pop_majority_ideology = liberal 
+			pop_majority_ideology = progressive 
+		}
+	}
+	global_assimilation_rate = -0.10
+	non_accepted_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.02
+	global_population_growth = -0.002
 }
 
 socialist_discourse = {
 	trigger = {
-		unemployment = 0.20
-	}
-	factory_throughput = -0.25
-	tax_efficiency = -0.05
-}
-
-gender_inequality_2 = {
-	trigger = {
 		OR = { 
-			government = theocracy 
-			AND = { ruling_party_ideology = traditionalist pop_majority_ideology = traditionalist }
+			pop_majority_ideology = socialist
+			pop_majority_ideology = communist
+			pop_majority_ideology = communist_social
 		}
 	}
-	factory_throughput = -0.25
-	global_population_growth = 0.001
-}
-
-gender_inequality_0 = {
-	trigger = {
-		NOT = { government = theocracy }
-		OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive }
-		OR = { pop_majority_ideology = liberal pop_majority_ideology = progressive }
-	}
-	factory_throughput = 0.125
+	global_assimilation_rate = 0.10
+	non_accepted_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = -0.01
 	global_population_growth = -0.001
 }
 
-socialist_democracy_boost = {
+nationalist_discourse = {
 	trigger = {
-		government = socialist_democracy
-OR = { ruling_party_ideology = communist_social ruling_party_ideology = communist ruling_party_ideology = socialist }
-			}	
-	ruling_party_support = 0.8
+		OR = { 
+			pop_majority_ideology = nationalist
+			pop_majority_ideology = populist
+		}
+	}
+	global_assimilation_rate = 0.15
+	non_accepted_pop_militancy_modifier = 0.02
+	global_pop_consciousness_modifier = -0.02
+	
+	tax_efficiency = 0.05
 }
 
-socialist_democracy_boon = {
+conservative_discourse = {
 	trigger = {
-		government = socialist_democracy
-		NOT = { OR = { ruling_party_ideology = communist_social ruling_party_ideology = communist ruling_party_ideology = socialist } }
-	}	
-	ruling_party_support = -0.8
+		pop_majority_ideology = conservative
+	}
+	global_assimilation_rate = 0.05
+	non_accepted_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = -0.01
+	global_population_growth = 0.001
+}
+
+traditionalist_discourse = {
+	trigger = {
+		pop_majority_ideology = traditionalist
+	}
+	global_assimilation_rate = 0.10
+	non_accepted_pop_militancy_modifier = 0.02
+	global_pop_consciousness_modifier = -0.02
+	global_population_growth = 0.002
 }
 
 1999_frenzy  = {
@@ -726,7 +694,7 @@ socialist_democracy_boon = {
 		year = 1999
 		NOT = { year = 2000 }
 			}
-	factory_throughput = 0.125
+	factory_throughput = 0.0125
 	population_growth = 0.001	
 	ruling_party_support = 0.10
 	issue_change_speed = 0.20
@@ -742,11 +710,11 @@ nam_bloc = {
 	}
 
    	pop_consciousness_modifier = -0.04
-    	pop_militancy_modifier = -0.04
+    pop_militancy_modifier = -0.04
 	global_population_growth = 0.001
-	factory_throughput = -0.10
+	factory_throughput = -0.010
 	import_cost = 0.25
-	rgo_output = 0.25
+	rgo_output = 0.025
 	loan_interest = 0.10
 	factory_owner_cost = 0.05
 	farm_RGO_size = -0.1
@@ -764,12 +732,12 @@ nam_bloc2 = {
 		has_global_flag = new_nam
 	}
 
-    	pop_consciousness_modifier = -0.04
-    	pop_militancy_modifier = -0.04
+    pop_consciousness_modifier = -0.04
+    pop_militancy_modifier = -0.04
 	population_growth = 0.004
-	factory_throughput = 0.10
+	factory_throughput = 0.01
 	import_cost = 0.25
-	rgo_output = 0.25
+	rgo_output = 0.025
 	loan_interest = -0.10
 	factory_owner_cost = 0.05
 	farm_RGO_size = -0.1
@@ -832,10 +800,10 @@ wartime_election_trig_mod = {
 		election = yes 
 		war = yes
 	}
-	war_exhaustion = 0.04
-    	global_pop_militancy_modifier = -0.02
-   	 global_pop_consciousness_modifier = 0.05
-    	issue_change_speed = 0.3
+	war_exhaustion = 4
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.05
+	issue_change_speed = 0.3
 }
 
 yugoslavia_under_tito = {
@@ -847,120 +815,371 @@ yugoslavia_under_tito = {
 	tax_efficiency = 0.10
 	middle_income_modifier = 0.25
 	poor_income_modifier = 0.30
-	factory_throughput = 0.125
-	rgo_output = 0.25
-	loan_interest = -0.50
-	factory_owner_cost = -0.05
+	factory_throughput = 0.10
 	factory_output = 0.10
 	factory_input = -0.10
+	rgo_output = 0.10
+	loan_interest = -0.50
+	factory_owner_cost = -0.05
 	research_points_modifier = 0.025
 }
 
 ##### Overpopulated Nation #####
 
+overpopulated_province1 = {
+	trigger = {
+
+		#year = 2001
+
+		NOT = { num_of_cities = 2 }
+		total_pops = 1000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_province2 = {
+	trigger = {
+
+		#year = 2001
+
+		NOT = { num_of_cities = 2 }
+		total_pops = 1500000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_province3 = {
+	trigger = {
+
+		#year = 2001
+
+		NOT = { num_of_cities = 2 }
+		total_pops = 2000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.002
+}
+
+overpopulated_province4 = {
+	trigger = {
+
+		#year = 2001
+
+		NOT = { num_of_cities = 2 }
+		total_pops = 2500000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.002
+}
+
+overpopulated_nation1 = {
+	trigger = {
+
+		#year = 2001
+
+		NOT = { number_of_states = 2 }
+		total_pops = 5000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation2 = {
+	trigger = {
+
+		#year = 2004
+
+		NOT = { number_of_states = 3 }
+		total_pops = 10000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation3 = {
+	trigger = {
+
+		#year = 2007
+
+		NOT = { number_of_states = 4 }
+		total_pops = 15000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation4 = {
+	trigger = {
+
+		#year = 2010
+
+		NOT = { number_of_states = 5 }
+		total_pops = 20000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation5 = {
+	trigger = {
+
+		#year = 2011
+
+		NOT = { number_of_states = 6 }
+		total_pops = 25000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation6 = {
+	trigger = {
+
+		#year = 2012
+
+		NOT = { number_of_states = 7 }
+		total_pops = 30000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation7 = {
+	trigger = {
+
+		#year = 2013
+
+		NOT = { number_of_states = 8 }
+		total_pops = 35000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation8 = {
+	trigger = {
+
+		#year = 2014
+
+		NOT = { number_of_states = 9 }
+		total_pops = 40000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation9 = {
+	trigger = {
+
+		#year = 2015
+
+		NOT = { number_of_states = 10 }
+		total_pops = 45000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation10 = {
+	trigger = {
+
+		#year = 2016
+
+		NOT = { number_of_states = 11 }
+		total_pops = 50000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation11 = {
+	trigger = {
+
+		#year = 2017
+
+		NOT = { number_of_states = 12 }
+		total_pops = 55000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation12 = {
+	trigger = {
+
+		#year = 2018
+
+		NOT = { number_of_states = 13 }
+		total_pops = 60000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation13 = {
+	trigger = {
+
+		#year = 2022
+
+		NOT = { number_of_states = 14 }
+		total_pops = 65000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation14 = {
+	trigger = {
+
+		#year = 2025
+
+		NOT = { number_of_states = 15 }
+		total_pops = 70000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation15 = {
+	trigger = {
+
+		#year = 2028
+
+		NOT = { number_of_states = 16 }
+		total_pops = 75000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
+overpopulated_nation16 = {
+	trigger = {
+
+		#year = 2030
+
+		NOT = { number_of_states = 17 }
+		total_pops = 80000000
+	}
+	global_immigrant_attract = -0.10
+	global_population_growth = -0.001
+}
+
 ##### Literate Nation #####
 
-iliterate_nation2 = {
-	trigger = {
-		NOT = { literacy = 0.05 }
-	}
-	global_population_growth = 0.02
-}
+#iliterate_nation3 = {
+	#trigger = {
+		#NOT = { literacy = 0.03 }
+	#}
+	#global_population_growth = 0.01
+#}
 
-iliterate_nation1 = {
-	trigger = {
-		NOT = { literacy = 0.10 }
-	}
-	global_population_growth = 0.01
-}
+#iliterate_nation2 = {
+	#trigger = {
+		#NOT = { literacy = 0.05 }
+	#}
+	#global_population_growth = 0.01
+#}
+
+#iliterate_nation1 = {
+	#trigger = {
+		#NOT = { literacy = 0.10 }
+	#}
+	#global_population_growth = 0.01
+#}
 
 literate_nation1 = {
 	trigger = {
 		literacy = 0.10
 	}
-	factory_throughput = 0.1
-	rgo_throughput = 0.1
+	factory_throughput = 0.05
+	rgo_throughput = 0.05
 	research_points = 0.10
 	goods_demand = 0.05
-	factory_input = -0.05
+	factory_input = -0.01
 }
 
 literate_nation2 = {
 	trigger = {
 		literacy = 0.15
 	}
-	factory_throughput = 0.1
-	rgo_throughput = 0.1
+	factory_throughput = 0.05
+	rgo_throughput = 0.05
 	research_points = 0.10
 	goods_demand = 0.05
-	factory_input = -0.05
+	factory_input = -0.01
 }
 
 literate_nation3 = {
 	trigger = {
 		literacy = 0.20
 	}
-	factory_throughput = 0.1
-	rgo_throughput = 0.1
+	factory_throughput = 0.05
+	rgo_throughput = 0.05
 	research_points = 0.20
 	goods_demand = 0.05
-	factory_input = -0.05
+	factory_input = -0.02
+	global_population_growth = -0.001
 }
 
 literate_nation4 = {
 	trigger = {
 		literacy = 0.25
 	}
-	factory_throughput = 0.1
-	rgo_throughput = 0.1
+	factory_throughput = 0.05
+	rgo_throughput = 0.05
 	research_points = 0.20
 	goods_demand = 0.05
-	factory_input = -0.05
+	factory_input = -0.025
+	global_population_growth = -0.002
 }
 
 literate_nation5 = {
 	trigger = {
 		literacy = 0.30
 	}
-	factory_throughput = 0.1
-	rgo_throughput = 0.1
+	factory_throughput = 0.05
+	rgo_throughput = 0.05
 	research_points = 0.10
 	goods_demand = 0.05
-	factory_input = -0.05
+	factory_input = -0.02
+	global_population_growth = -0.002
 }
 
 literate_nation6 = {
 	trigger = {
 		literacy = 0.35
 	}
-	factory_throughput = 0.1
-	rgo_throughput = 0.1
+	factory_throughput = 0.05
+	rgo_throughput = 0.05
 	research_points = 0.10
 	goods_demand = 0.05
-	factory_input = -0.05
+	factory_input = -0.015
+	global_population_growth = -0.002
 }
 
 literate_nation7 = {
 	trigger = {
 		literacy = 0.40
 	}
-	factory_throughput = 0.1
-	rgo_throughput = 0.1
+	factory_throughput = 0.04
+	rgo_throughput = 0.04
 	research_points = 0.10
 	goods_demand = 0.05
-	factory_input = -0.05
-	global_population_growth = -0.001
+	factory_input = -0.015
+	global_population_growth = -0.002
 }
 
 literate_nation8 = {
 	trigger = {
 		literacy = 0.45
 	}
-	factory_throughput = 0.1
-	rgo_throughput = 0.1
+	factory_throughput = 0.05
+	rgo_throughput = 0.05
 	research_points = 0.10
 	goods_demand = 0.05
-	factory_input = -0.05
+	factory_input = -0.01
 	global_population_growth = -0.001
 }
 
@@ -968,23 +1187,23 @@ literate_nation9 = {
 	trigger = {
 		literacy = 0.50
 	}
-	factory_throughput = 0.1
-	rgo_throughput = 0.1
+	factory_throughput = 0.05
+	rgo_throughput = 0.05
 	research_points = 0.10
 	goods_demand = 0.05
-	factory_input = -0.05
-	global_population_growth = -0.001
+	factory_input = -0.01
+	global_population_growth = -0.002
 }
 
 literate_nation10 = {
 	trigger = {
 		literacy = 0.60
 	}
-	factory_throughput = 0.1
-	rgo_throughput = 0.1
+	factory_throughput = 0.05
+	rgo_throughput = 0.05
 	research_points = 0.10
 	goods_demand = 0.05
-	factory_input = -0.05
+	factory_input = -0.01
 	global_population_growth = -0.001
 }
 
@@ -993,73 +1212,86 @@ literate_nation10 = {
 french_empire = {
 	trigger = {
 		tag = FRA
-		NOT = { year = 1960 }
-	NOT = { exists = ALG }
-	ai = yes
-			}
-	tax_efficiency = 0.20
-	factory_output = 0.25
+		NOT = { year = 1965 }
+		NOT = { exists = ALG }
+	}
+	tax_efficiency = 0.10
+	factory_output = 0.10
+	factory_input = -0.075
 }
 
 indonesian_economic = {
 	trigger = {
 		tag = IDO
 		NOT = { year = 1980 }
-		ai = yes
-			}
-	tax_efficiency = 0.20
+		war = no
+	}
+	tax_efficiency = 0.10
+	factory_output = 0.10
+	factory_input = -0.10
 }
 
 british_empire = {
 	trigger = {
 		tag = ENG
 		NOT = { year = 1965 }
-	ai = yes
-			}
-	tax_efficiency = 0.20
+		NOT = { exists = HND }
+	}
+	tax_efficiency = 0.10
+	factory_output = 0.10
+	factory_input = -0.075
 }
 
 portugese_empire = {
 	trigger = {
 		tag = POR
 		NOT = { year = 1965 }
-	ai = yes
-			}
-	tax_efficiency = 0.25
+		NOT = { OR = { exists = ANG exists = MOZ } }
+	}
+	tax_efficiency = 0.10
+	factory_output = 0.10
+	factory_input = -0.075
 }
 
 brazil_economy = {
 	trigger = {
 		tag = BRZ
 		NOT = { year = 1980 }
-	ai = yes
-			}
-	tax_efficiency = 0.40
+		war = no
+	}
+	tax_efficiency = 0.10
+	factory_output = 0.10
+	factory_input = -0.075
 }
 
 vietnam_stability = {
 	trigger = {
 		tag = DAI
-	government = proletarian_dictatorship1
-			}
-	global_pop_militancy_modifier = -1
+		OR = { government = proletarian_dictatorship1 government = proletarian_dictatorship }
+		exists = SVI
+	}
+	global_pop_militancy_modifier = -0.05
+	tax_efficiency = 0.10
+	factory_output = 0.10
+	factory_input = -0.075
 }
 
 aparthied = {
 	trigger = {
 		tag = SAF
-	government = nationalist_dictatorship
-	ai = yes
-			}
-	icon = 5
-	global_pop_militancy_modifier = -0.1
+		government = nationalist_dictatorship
+		war = no
+	}
+	tax_efficiency = 0.05
+	non_accepted_pop_militancy_modifier = 0.05
+	non_accepted_pop_consciousness_modifier = 0.05
 }
 
 african_cultural_chaos = {
 	trigger = {
-	captial_scope = { continent = africa }
-	OR = { government = democracy government = democracy1 }
-			}
+		captial_scope = { continent = africa }
+		OR = { government = democracy government = democracy1 }
+	}
 	global_pop_militancy_modifier = 0.05
 }
 
@@ -1150,7 +1382,7 @@ too_rich_nation2 = {
 	min_tariff = -0.05
 	max_tariff = -0.05
 	min_social_spending = 0.15
-	factory_throughput = -0.25
+	factory_throughput = -0.025
 }
 
 too_rich_nation3 = {
@@ -1164,7 +1396,7 @@ too_rich_nation3 = {
 	max_tariff = -0.05
 	goods_demand = 0.40
 	min_social_spending = 0.20
-	factory_throughput = -0.50
+	factory_throughput = -0.050
 }
 
 too_rich_nation4 = {
@@ -1178,7 +1410,7 @@ too_rich_nation4 = {
 	min_tariff = -0.05
 	max_tariff = -0.05
 	min_social_spending = 0.20
-	factory_throughput = -0.99
+	factory_throughput = -0.099
 }
 
 dutch_east_india = {
@@ -1197,6 +1429,10 @@ dutch_east_india = {
 	icon = 19
 }
 
+### Research points scaled by pop size ###
+
+#Decrease
+
 populationsize_30k  = {
 	trigger = {
 		total_pops = 7500
@@ -1205,8 +1441,7 @@ populationsize_30k  = {
 		}
 	}
 	research_points = -1
-	global_immigrant_attract = -1.0
-	icon = 11
+	global_immigrant_attract = -1
 }
 
 populationsize_100k = {
@@ -1216,9 +1451,9 @@ populationsize_100k = {
 			total_pops = 75000
 		}
 	}
-	icon = 5
 	research_points = -0.75
-	}
+	global_immigrant_attract = -0.75
+}
 
 populationsize_300k = {
 	trigger = {
@@ -1227,9 +1462,8 @@ populationsize_300k = {
 			total_pops = 250000
 		}
 	}
-	icon = 5
-	research_points = -0.5
-	
+	research_points = -0.50
+	global_immigrant_attract = -0.50
 }
 
 populationsize_1M = {
@@ -1240,63 +1474,137 @@ populationsize_1M = {
 
 		}
 	}
-	icon = 5
 	research_points = -0.25
-	}
-
-populationsize_3M = {
-	trigger = {
-		total_pops = 750000
-		NOT = {
-			total_pops = 2500000
-		}
-	}
-	icon = 5
-	}
-
-populationsize_10M = {
-	trigger = {
-		total_pops = 2500000
-		NOT = {
-			total_pops = 7500000
-		}
-	}
-	icon = 5
-	research_points = 0.25
+	global_immigrant_attract = -0.25
 }
 
-populationsize_30M = {
+#Increase
+
+populationsize_50M = {
 	trigger = {
-		total_pops = 7500000
+		total_pops = 12500000
 		NOT = {
 			total_pops = 25000000
 		}
 	}
-	icon = 5
-	research_points = 0.5
-	}
+	research_points = 0.2
+}
 
 populationsize_100M = {
 	trigger = {
 		total_pops = 25000000
 		NOT = {
+			total_pops = 50000000
+		}
+	}
+	research_points = 0.4
+}
+
+populationsize_200M = {
+	trigger = {
+		total_pops = 50000000
+		NOT = {
 			total_pops = 75000000
 		}
 	}
-	icon = 5
-	research_points = 0.75
-	}
-
+	research_points = 0.6
+}
 populationsize_300M = {
 	trigger = {
 		total_pops = 75000000
+		NOT = {
+			total_pops = 100000000
+		}
 	}
-	icon = 5
+	research_points = 0.8
+}
+populationsize_400M = {
+	trigger = {
+		total_pops = 100000000
+		NOT = {
+			total_pops = 125000000
+		}
+	}
 	research_points = 1
+}
+populationsize_500M = {
+	trigger = {
+		total_pops = 125000000
+		NOT = {
+			total_pops = 150000000
+		}
 	}
+	research_points = 2
+}
+populationsize_600M = {
+	trigger = {
+		total_pops = 150000000
+		NOT = {
+			total_pops = 175000000
+		}
+	}
+	research_points = 3
+}
+populationsize_700M = {
+	trigger = {
+		total_pops = 175000000
+		NOT = {
+			total_pops = 200000000
+		}
+	}
+	research_points = 4
+}
+populationsize_800M = {
+	trigger = {
+		total_pops = 200000000
+	}
+	research_points = 5
+}
 
 ### Reduce supply consumption for large armies to deal with the 2K goods purchase cap ###
 
+grand_navy = {
+	trigger = {
+		total_amount_of_ships = 100
+	}
+	prestige = 0.01
+	supply_consumption = -0.05
+}
+
+grand_army1 = {
+	trigger = {
+		soldiers = 0.01
+	}
+	supply_consumption = -0.05
+}
+
+grand_army2 = {
+	trigger = {
+		soldiers = 0.02
+	}
+	supply_consumption = -0.05
+}
+
+grand_army3 = {
+	trigger = {
+		soldiers = 0.03
+	}
+	supply_consumption = -0.05
+}
+
+grand_army4 = {
+	trigger = {
+		soldiers = 0.04
+	}
+	supply_consumption = -0.05
+}
+
+grand_army5 = {
+	trigger = {
+		soldiers = 0.05
+	}
+	supply_consumption = -0.05
+}
 
 ###
 
@@ -1396,7 +1704,7 @@ rationhigh = {
 	social_reform_desire = 0.30
 	global_pop_militancy_modifier = 0.20
 	tax_efficiency = 0.02
-	war_exhaustion = 0.03
+	war_exhaustion = 3
 	icon = 18
 }
 
@@ -1410,7 +1718,7 @@ rationmedium = {
 	social_reform_desire = 0.20
 	global_pop_militancy_modifier = 0.15
 	tax_efficiency = 0.01
-	war_exhaustion = 0.02
+	war_exhaustion = 2
 	icon = 18
 }
 
@@ -1423,7 +1731,7 @@ rationlow = {
 	goods_demand = -0.05
 	social_reform_desire = 0.10
 	global_pop_militancy_modifier = 0.10
-	war_exhaustion = 0.01
+	war_exhaustion = 1
 	icon = 18
 }
 
@@ -1447,7 +1755,7 @@ lawhigh = {
 	}
 	global_pop_militancy_modifier = -0.15
 	global_pop_consciousness_modifier = -0.3
-	war_exhaustion = 0.03
+	war_exhaustion = 3
 	ruling_party_support = -0.40
 	icon = 18
 }
@@ -1461,7 +1769,7 @@ lawmedium = {
 	global_pop_militancy_modifier = -0.10
 	global_pop_consciousness_modifier = -0.2
 	ruling_party_support = -0.20
-	war_exhaustion = 0.02
+	war_exhaustion = 2
 	icon = 18
 }
 
@@ -1474,7 +1782,7 @@ lawlow = {
 	global_pop_militancy_modifier = -0.05
 	global_pop_consciousness_modifier = -0.1
 	ruling_party_support = -0.10
-	war_exhaustion = 0.01
+	war_exhaustion = 1
 	icon = 18
 }
 
@@ -1497,7 +1805,7 @@ taxhigh = {
 		is_mobilised = yes
 	}
 	tax_efficiency = 0.10
-	war_exhaustion = 0.03
+	war_exhaustion = 3
 }
 
 taxmedium = {
@@ -1507,7 +1815,7 @@ taxmedium = {
 		is_mobilised = yes
 	}
 	tax_efficiency = 0.05
-	war_exhaustion = 0.02
+	war_exhaustion = 2
 }
 
 taxlow = {
@@ -1517,7 +1825,7 @@ taxlow = {
 		is_mobilised = yes
 	}
 	tax_efficiency = 0.025
-	war_exhaustion = 0.01
+	war_exhaustion = 1
 }
 
 taxno = {
@@ -1526,6 +1834,6 @@ taxno = {
 		war = yes
 		is_mobilised = yes
 	}
-	war_exhaustion = -0.1
+	war_exhaustion = -1
 	icon = 18
 }
