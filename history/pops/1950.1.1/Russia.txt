@@ -10707,22 +10707,22 @@
 	craftsmen = {
 		culture = chinese
 		religion =  taoism 
-		size = 1667
+		size = 151667
 	 } 
 	craftsmen = {
 		culture = chinese
 		religion = secularism
-		size = 430
+		size = 50430
 	 } 
 	farmers = {
 		culture = chinese
 		religion =  taoism 
-		size = 311296
+		size = 161296
 	 } 
 	farmers = {
 		culture = chinese
 		religion = secularism
-		size = 80271
+		size = 30271
 	 } 
 	farmers = {
 		culture = manchu

@@ -7640,19 +7640,19 @@
     artisans = {
         culture = hindi
         religion = hindu
-        size = 11497
+        size = 561497
     }
 
     artisans = {
         culture = hindi
         religion = secularism
-        size = 264
+        size = 200264
     }
 
     farmers = {
         culture = hindi
         religion = hindu
-        size = 688635
+        size = 108635
     }
 
     farmers = {
@@ -7664,7 +7664,7 @@
     farmers = {
         culture = hindi
         religion = sunni
-        size = 252180
+        size = 82180
     }
 }
 #Udanchniy - Faridabad (5301000/1325250 POPS)

@@ -16128,7 +16128,7 @@
 	capitalists = {
 		culture = white_anglo
 		religion = secularism
-		size = 10000
+		size = 15000
 	 } 
 	officers = {
 		culture = white_anglo
@@ -16173,12 +16173,12 @@
 	clergymen = {
 		culture = white_anglo
 		religion =  protestant 
-		size = 50000
+		size = 15000
 	 } 
 	clergymen = {
 		culture = white_anglo
 		religion = secularism
-		size = 100000
+		size = 30000
 	 } 
 	artisans = {
 		culture = white_anglo
@@ -16208,7 +16208,7 @@
 	labourers = {
 		culture = white_anglo
 		religion = secularism
-		size = 100000
+		size = 200000
 	 } 
 	labourers = {
 		culture = jewish
