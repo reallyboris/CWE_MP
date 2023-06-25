@@ -6,7 +6,7 @@ country_event = { # Medium Oil Field 15+ bill barels
 
   trigger = {
 	OR = {
-		AND = { year = 1965 owns = 1167 1167 = { NOT = { has_province_modifier = oil_field_medium } } } # Zakum Field 
+####		AND = { year = 1965 owns = 1167 1167 = { NOT = { has_province_modifier = oil_field_medium } } } # Zakum Field 
 		AND = { year = 1963 owns = 1131 1131 = { NOT = { has_province_modifier = oil_field_medium } } } # Marun Field
 		AND = { year = 1948 owns = 1034 1034 = { NOT = { has_province_modifier = oil_field_medium } } } # Romashkino Field
 		AND = { year = 1965 owns = 1061 1061 = { NOT = { has_province_modifier = oil_field_medium } } } # Samotlor Field
@@ -23,7 +23,7 @@ country_event = { # Medium Oil Field 15+ bill barels
 	any_owned = { 
 		limit = { 
 			OR = { 
-				AND = { province_id = 1167 NOT = { has_province_modifier = oil_field_medium } }
+####				AND = { province_id = 1167 NOT = { has_province_modifier = oil_field_medium } }
 				AND = { province_id = 1131 NOT = { has_province_modifier = oil_field_medium } }
 				AND = { province_id = 1034 NOT = { has_province_modifier = oil_field_medium } }
 				AND = { province_id = 1061 NOT = { has_province_modifier = oil_field_medium } }
@@ -45,15 +45,15 @@ country_event = { # Large Oil Field 30+ bill barels
 
   trigger = {
 	OR = {
-		AND = { year = 1951 owns = 2586 2586 = { NOT = { has_province_modifier = oil_field } } } # Ghawar Field
-		AND = { year = 1948 owns = 935 935 = { NOT = { has_province_modifier = oil_field } } } # Burgan Field
+####		AND = { year = 1951 owns = 2586 2586 = { NOT = { has_province_modifier = oil_field } } } # Ghawar Field
+####		AND = { year = 1948 owns = 935 935 = { NOT = { has_province_modifier = oil_field } } } # Burgan Field
 		AND = { year = 2007 owns = 2435 2435 = { NOT = { has_province_modifier = oil_field } } } # Sugar Loaf field
 		AND = { year = 1981 owns = 2184 2184 = { NOT = { has_province_modifier = oil_field } } } # Cantarell Field
-		AND = { year = 1922 owns = 2270 2270 = { NOT = { has_province_modifier = oil_field } } } # Bolivar Coastal Field
-		AND = { year = 1951 owns = 1163 1163 = { NOT = { has_province_modifier = oil_field } } } # Safaniya Oil Field
+##		AND = { year = 1922 owns = 2270 2270 = { NOT = { has_province_modifier = oil_field } } } # Bolivar Coastal Field
+####		AND = { year = 1951 owns = 1163 1163 = { NOT = { has_province_modifier = oil_field } } } # Safaniya Oil Field
 		AND = { year = 2000 owns = 1182 1182 = { NOT = { has_province_modifier = oil_field } } } # Kashagan Field
 		AND = { year = 1927 owns = 1132 1132 = { NOT = { has_province_modifier = oil_field } } } # Gachsaran Field
-		AND = { year = 1953 owns = 932 932 = { NOT = { has_province_modifier = oil_field } } } # Rumaila Field
+####		AND = { year = 1953 owns = 932 932 = { NOT = { has_province_modifier = oil_field } } } # Rumaila Field
 	}
     year = 1953 
   }
@@ -65,19 +65,200 @@ country_event = { # Large Oil Field 30+ bill barels
 	any_owned = { 
 		limit = { 
 			OR = { 
-				AND = { province_id = 2586 NOT = { has_province_modifier = oil_field } }
-				AND = { province_id = 935 NOT = { has_province_modifier = oil_field } }
+####				AND = { province_id = 2586 NOT = { has_province_modifier = oil_field } }
+####				AND = { province_id = 935 NOT = { has_province_modifier = oil_field } }
 				AND = { province_id = 2435 NOT = { has_province_modifier = oil_field } }
 				AND = { province_id = 2184 NOT = { has_province_modifier = oil_field } }
-				AND = { province_id = 2270 NOT = { has_province_modifier = oil_field } }
-				AND = { province_id = 1163 NOT = { has_province_modifier = oil_field } }
+##				AND = { province_id = 2270 NOT = { has_province_modifier = oil_field } }
+####				AND = { province_id = 1163 NOT = { has_province_modifier = oil_field } }
 				AND = { province_id = 1182 NOT = { has_province_modifier = oil_field } }
 				AND = { province_id = 1132 NOT = { has_province_modifier = oil_field } }
-				AND = { province_id = 932 NOT = { has_province_modifier = oil_field } }
+####				AND = { province_id = 932 NOT = { has_province_modifier = oil_field } }
 			}
 			produces = petroleum NOT = { has_province_modifier = oil_field } 
 		} 
 		add_province_modifier = { name = oil_field duration = -1 } 
+	}
+  }
+}
+
+country_event = { # Custom Oil Field
+  id = 1102
+  title = EVT_1100_NAME
+  desc = EVT_1100_DESC
+  picture = "oil_field"
+
+  trigger = {
+	OR = {
+		AND = { year = 1965 owns = 1167 1167 = { NOT = { has_province_modifier = oil_field_custom } } } # Zakum Field 
+		AND = { year = 1965 owns = 1162 1162 = { NOT = { has_province_modifier = oil_field_custom } } }
+		AND = { year = 1951 owns = 2586 2586 = { NOT = { has_province_modifier = oil_field_custom } } } # Ghawar Field
+###		AND = { year = 1953 owns = 932 932 = { NOT = { has_province_modifier = oil_field_custom } } } # Rumaila Field, iraq
+		AND = { year = 1959 owns = 1738 1738 = { NOT = { has_province_modifier = oil_field_custom } } } # libya
+		AND = { year = 1959 owns = 1743 1743 = { NOT = { has_province_modifier = oil_field_custom } } } # libya
+		AND = { year = 1951 owns = 1163 1163 = { NOT = { has_province_modifier = oil_field_custom } } } # Safaniya Oil Field
+	}
+    year = 1953 
+  }
+
+  mean_time_to_happen = { months = 12 }
+
+  option = {
+    name = EVT_1100_A
+	any_owned = { 
+		limit = { 
+			OR = { 
+				AND = { province_id = 1167 NOT = { has_province_modifier = oil_field_custom } }
+				AND = { province_id = 2586 NOT = { has_province_modifier = oil_field_custom } }
+###				AND = { province_id = 932 NOT = { has_province_modifier = oil_field_custom } }
+				AND = { province_id = 1162 NOT = { has_province_modifier = oil_field_custom } }
+				AND = { province_id = 1738 NOT = { has_province_modifier = oil_field_custom } }
+				AND = { province_id = 1743 NOT = { has_province_modifier = oil_field_custom } }
+				AND = { province_id = 1163 NOT = { has_province_modifier = oil_field_custom } }
+			}
+			produces = petroleum NOT = { has_province_modifier = oil_field_custom } 
+		} 
+		add_province_modifier = { name = oil_field_custom duration = -1 } 
+	}
+  }
+}
+
+
+country_event = { # Custom Oil Field small
+  id = 1103
+  title = EVT_1100_NAME
+  desc = EVT_1100_DESC
+  picture = "oil_field"
+
+  trigger = {
+	OR = {
+		AND = { year = 1953 owns = 932 932 = { NOT = { has_province_modifier = oil_field_custom_small } } } # Rumaila Field, iraq
+		AND = { year = 1922 owns = 2270 2270 = { NOT = { has_province_modifier = oil_field_custom_small } } } # Bolivar Coastal Field
+		AND = { year = 1948 owns = 935 935 = { NOT = { has_province_modifier = oil_field_custom_small } } } # Burgan Field
+
+	}
+    year = 1953 
+  }
+
+  mean_time_to_happen = { months = 12 }
+
+  option = {
+    name = EVT_1100_A
+	any_owned = { 
+		limit = { 
+			OR = { 
+				AND = { province_id = 932 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 2270 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 935 NOT = { has_province_modifier = oil_field_custom_small } }
+			}
+			produces = petroleum NOT = { has_province_modifier = oil_field_custom } 
+		} 
+		add_province_modifier = { name = oil_field_custom_small duration = -1 } 
+	}
+  }
+}
+
+#####MINES AND FARMS EVENTS
+country_event = { # Rich soil/ore deposit
+  id = 1104
+  title = EVT_1100_NAME
+  desc = EVT_1100_DESC
+  picture = "oil_field"
+
+  trigger = {
+	OR = {
+		AND = { year = 1945 owns = 2472 2472 = { NOT = { has_province_modifier = oil_field_custom_small } } } # Canberra
+		AND = { year = 1945 owns = 2470 2470 = { NOT = { has_province_modifier = oil_field_custom_small } } } # Pt. Mac
+		AND = { year = 1945 owns = 2474 2474 = { NOT = { has_province_modifier = oil_field_custom_small } } } # Moree
+		AND = { year = 1945 owns = 2602 2602 = { NOT = { has_province_modifier = oil_field_custom_small } } } # AST
+		AND = { year = 1945 owns = 2502 2502 = { NOT = { has_province_modifier = oil_field_custom_small } } } # AST
+		AND = { year = 1945 owns = 2500 2500 = { NOT = { has_province_modifier = oil_field_custom_small } } } # AST
+		AND = { year = 1945 owns = 2504 2504 = { NOT = { has_province_modifier = oil_field_custom_small } } } # AST
+		AND = { year = 1945 owns = 2499 2499 = { NOT = { has_province_modifier = oil_field_custom_small } } } # AST
+		AND = { year = 1945 owns = 2604 2604 = { NOT = { has_province_modifier = oil_field_custom_small } } } # AST
+		AND = { year = 1945 owns = 120 120 = { NOT = { has_province_modifier = oil_field_custom_small } } } #all 1xx provinces are American
+		AND = { year = 1945 owns = 122 122 = { NOT = { has_province_modifier = oil_field_custom_small } } }
+		AND = { year = 1945 owns = 124 124 = { NOT = { has_province_modifier = oil_field_custom_small } } }
+		AND = { year = 1945 owns = 125 125 = { NOT = { has_province_modifier = oil_field_custom_small } } }
+		AND = { year = 1945 owns = 128 128 = { NOT = { has_province_modifier = oil_field_custom_small } } }
+		AND = { year = 1945 owns = 130 130 = { NOT = { has_province_modifier = oil_field_custom_small } } }
+		AND = { year = 1945 owns = 131 131 = { NOT = { has_province_modifier = oil_field_custom_small } } }
+		AND = { year = 1945 owns = 143 143 = { NOT = { has_province_modifier = oil_field_custom_small } } }
+		AND = { year = 1945 owns = 144 144 = { NOT = { has_province_modifier = oil_field_custom_small } } }
+		AND = { year = 1945 owns = 160 160 = { NOT = { has_province_modifier = oil_field_custom_small } } }
+		AND = { year = 1945 owns = 170 170 = { NOT = { has_province_modifier = oil_field_custom_small } } }
+		AND = { year = 1945 owns = 193 193 = { NOT = { has_province_modifier = oil_field_custom_small } } }
+
+	}
+    year = 1946 
+  }
+
+  mean_time_to_happen = { months = 12 }
+
+  option = {
+    name = EVT_1100_A
+	any_owned = { 
+		limit = { 
+			OR = { 
+				AND = { province_id = 2472 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 2470 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 2474 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 2499 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 2500 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 2502 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 2504 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 2602 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 2604 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 120 NOT = { has_province_modifier = oil_field_custom_small } } #all 1xx provinces are American
+				AND = { province_id = 122 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 124 NOT = { has_province_modifier = oil_field_custom_small } } 
+				AND = { province_id = 125 NOT = { has_province_modifier = oil_field_custom_small } } 
+				AND = { province_id = 128 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 130 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 131 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 143 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 144 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 160 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 170 NOT = { has_province_modifier = oil_field_custom_small } }
+				AND = { province_id = 193 NOT = { has_province_modifier = oil_field_custom_small } }
+			}
+			NOT = { has_province_modifier = oil_field_custom_small } 
+		} 
+		add_province_modifier = { name = oil_field_custom_small duration = -1 } 
+	}
+  }
+}
+
+country_event = { # Rich soil/ore deposit
+  id = 1105
+  title = EVT_1100_NAME
+  desc = EVT_1100_DESC
+  picture = "oil_field"
+
+  trigger = {
+	OR = {
+		AND = { year = 1945 owns = 126 126 = { NOT = { has_province_modifier = medium_farm } } }
+		AND = { year = 1945 owns = 129 129 = { NOT = { has_province_modifier = medium_farm } } }
+		AND = { year = 1945 owns = 169 169 = { NOT = { has_province_modifier = medium_farm } } }
+
+	}
+    year = 1946 
+  }
+
+  mean_time_to_happen = { months = 12 }
+
+  option = {
+    name = EVT_1105_A
+	any_owned = { 
+		limit = { 
+			OR = { 
+				AND = { province_id = 126 NOT = { has_province_modifier = medium_farm } }
+				AND = { province_id = 129 NOT = { has_province_modifier = medium_farm } }
+				AND = { province_id = 169 NOT = { has_province_modifier = medium_farm } }
+			}
+			NOT = { has_province_modifier = medium_farm } 
+		} 
+		add_province_modifier = { name = medium_farm duration = -1 } 
 	}
   }
 }

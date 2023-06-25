@@ -47,6 +47,43 @@ country_event = {
 		}
 }
 
+#Startup capital
+country_event = {
+	id = 887
+	title = "Start up capital"
+	desc = "Bankers laden with gold have mysteriously appeared in our country."
+	picture = "GOLD"
+	
+	trigger = {
+		NOT = { has_country_flag = playermoneyboost }
+	}
+	
+	option = {
+		name = "Money really does grows on trees!"
+		any_owned = { owner = { money = 10000 } }
+		any_pop = { limit = { culture = french } money = 5 }
+		any_pop = { limit = { culture = white_french } money = 10 }
+		any_pop = { limit = { culture = jewish } money = 10 }
+		any_pop = { limit = { culture = white_spanish } money = 3 }
+		any_pop = { limit = { culture = andean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = white_portuguese } money = 3 }
+		any_pop = { limit = { culture = caribbean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = platinean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = british } money = 100}
+		any_pop = { limit = { culture = english } money = 100}
+		any_pop = { limit = { culture = scottish } money = 100}
+		any_pop = { limit = { culture = welsh  } money = 100}
+		any_pop = { limit = { culture = swiss_german } money = 1600 }
+		any_pop = { limit = { culture = australian } money = 2400 }
+		any_pop = { limit = { culture = new_zealander } money = 1600 }
+		any_pop = { limit = { culture = white_anglo } money = 4000 }
+		any_pop = { limit = { culture = anglo_canadian } money = 3000 }
+		any_pop = { limit = { culture = french_canadian } money = 1000 }
+		any_pop = { limit = { culture = afrikaaner } money = 1100 }
+		set_country_flag = playermoneyboost
+	}
+}
+
 #unemployment_fix
 country_event = {
 	id = 783
@@ -65,6 +102,25 @@ country_event = {
 	
 	option = {
 		name = "Money really does grows on trees!"
+		any_pop = { limit = { culture = french } money = 5 }
+		any_pop = { limit = { culture = white_french } money = 10 }
+		any_pop = { limit = { culture = jewish } money = 10 }
+		any_pop = { limit = { culture = white_spanish } money = 3 }
+		any_pop = { limit = { culture = andean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = white_portuguese } money = 3 }
+		any_pop = { limit = { culture = caribbean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = platinean_white_spanish } money = 3 }
+		any_pop = { limit = { culture = british } money = 100}
+		any_pop = { limit = { culture = english } money = 100}
+		any_pop = { limit = { culture = scottish } money = 100}
+		any_pop = { limit = { culture = welsh  } money = 100}
+		any_pop = { limit = { culture = swiss_german } money = 1600 }
+		any_pop = { limit = { culture = australian } money = 2400 }
+		any_pop = { limit = { culture = new_zealander } money = 1600 }
+		any_pop = { limit = { culture = white_anglo } money = 4000 }
+		any_pop = { limit = { culture = anglo_canadian } money = 3000 }
+		any_pop = { limit = { culture = french_canadian } money = 1000 }
+		any_pop = { limit = { culture = afrikaaner } money = 1100 }
 	}
 }
 

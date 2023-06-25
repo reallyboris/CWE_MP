@@ -1,0 +1,48 @@
+country_event = {
+	id = 669967
+	title = "EVTNAME669967"
+	desc = "EVTDESC669967"
+	picture = colonial_factory
+
+
+	trigger = {
+		NOT = { year = 1951 }
+		NOT = { tag = SWI }
+		NOT = { tag = IRE }
+		any_owned_province = { AND = { continent = europe NOT = { has_province_modifier = war_bombed } } }
+	}
+
+	option = {
+		name = "EVTOPTA91302" 
+		random_owned = {
+			limit = { province_id = 1865 }
+			add_province_modifier = { name = war_bombed duration = 700 }
+		}
+		random_owned = {
+			limit = { province_id = 1866 }
+			add_province_modifier = { name = war_bombed duration = 700 }
+		}
+		random_owned = {
+			limit = { province_id = 1867 }
+			add_province_modifier = { name = war_bombed duration = 700 }
+		}
+		any_owned = {
+			limit = {
+				OR = { continent = europe }
+				NOT = { has_province_modifier = war_bombed }
+			}
+			add_province_modifier = { name = war_bombed duration = 700 } 
+		}
+	}
+}
+
+
+
+
+#		random_owned = {
+#			limit = { province_id = 1428 }
+#			life_rating = 20
+#		}
+
+
+#			any_owned = { limit = { AND = { is_colonial = no NOT = { has_province_modifier = war_torn } } } add_province_modifier = { name = war_torn duration = 700 } }

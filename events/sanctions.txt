@@ -20,13 +20,13 @@ country_event = {
 	immediate = {
 		add_country_modifier = {
 			name = kinda_bad_badboy
-			duration = 1825
+			duration = 360
 			}
 		any_greater_power = {
 		casus_belli = {
 			target = THIS
 			type = humiliate
-			months = 60
+			months = 12
 			}
 		casus_belli = {
 			target = THIS

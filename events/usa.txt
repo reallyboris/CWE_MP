@@ -1,0 +1,57 @@
+#World War Windfall
+country_event = {
+	id = 669910
+	title = "EVTNAME669910"
+	desc= "EVTDESC669910"
+	picture = "panama_canal"
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		year = 1945
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA690069"
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		money = 999999
+		add_country_modifier = { name = us_immigration_start_fix duration = 365 } 
+	}
+}

@@ -1,0 +1,300 @@
+#Set RGO Levels
+country_event = {
+	id = 1200
+	title = "Overpopulated RGOs Fix"
+	desc = "EVTDESC1200"
+	picture = "developmental_levels"
+
+	trigger = { 
+		NOT = { has_country_modifier = pop_farm_debuff_timer }
+	}
+
+	mean_time_to_happen = { 
+		months = 60
+	}
+
+	option = {
+		name = "Mine Overpopulation 1"
+		add_country_modifier = { name = pop_farm_debuff_timer duration = 365 }
+		
+		#1,000 K pops
+		any_owned = { 
+			limit = { 
+
+				OR = { 
+					{ total_pops = 1000000 }
+				#Must not have an existing debuff modifier
+					NOT = { 
+						OR = {  pop_farm_debuff_1 
+							pop_farm_debuff_2 
+							pop_farm_debuff_3 } 
+					NOT = { trade_goods = credit }
+				}
+			} 
+			add_province_modifier = { name = pop_farm_debuff_1 duration = -1 } 
+		}
+		
+		#1250k pops
+		any_owned = { 
+			limit = { 
+
+				OR = { total_pops = 1250000 }
+				#Must not have an existing debuff modifier
+				NOT = { 
+					OR = { 
+						pop_farm_debuff_1 
+						pop_farm_debuff_2 
+						pop_farm_debuff_3
+					} 
+				NOT = { trade_goods = credit }
+				}
+			} 
+			add_province_modifier = { name = pop_farm_debuff_2 duration = -1 } 
+		}
+		
+		#1500k
+		any_owned = { 
+			limit = { 
+				OR = { 
+					total_pops = 1500000 
+				}
+				#Must not have an existing dev modifier
+				NOT = { 
+					OR = { 
+						pop_farm_debuff_1 
+						pop_farm_debuff_2 
+						pop_farm_debuff_3
+					} 
+				NOT = { trade_goods = credit }
+				} 
+			} 
+			add_province_modifier = { name = pop_farm_debuff_3 duration = -1 } 
+		}
+
+		#2000k
+		any_owned = { 
+			limit = { 
+				OR = { 
+					total_pops = 2000000 
+				}
+				#Must not have an existing dev modifier
+				NOT = { 
+					OR = { 
+						pop_farm_debuff_1 
+						pop_farm_debuff_2 
+						pop_farm_debuff_3
+						pop_farm_debuff_4
+					} 
+				NOT = { trade_goods = credit }
+				} 
+			} 
+			add_province_modifier = { name = pop_farm_debuff_4 duration = -1 } 
+		}
+		
+		
+
+		
+	}
+}
+
+#Pop Levels Review
+country_event = {
+	id = 1201
+	title = "RGO Adjustment"
+	desc = Pending
+	picture = "developmental_levels"
+
+	trigger = { 
+		NOT = { has_country_modifier = pop_farm_debuff_timer }
+		
+#		OR = {
+#			any_owned_province = {  
+#					total_pops = 1000000 
+#				NOT = { trade_goods = credit }
+#				NOT = { has_province_modifier = pop_farm_debuff_1 }
+#					} 
+#			any_owned_province = { 
+#				total_pops = 1250000
+#				NOT = { trade_goods = credit }
+#				NOT = { has_province_modifier = pop_farm_debuff_2 }
+#					}
+#			any_owned_province = {
+#				total_pops = 1500000 
+#				NOT = { trade_goods = credit }
+#				NOT = { has_province_modifier = pop_farm_debuff_3 }
+#					}
+#		}	
+
+	}
+
+	mean_time_to_happen = { 
+		months = 1
+		modifier = { factor = 0.5 has_country_modifier = nprhigh }
+	}
+
+	option = {
+		name = "Update Mines"
+
+		add_country_modifier = { name = pop_farm_debuff_timer duration = 365 }
+	
+		#Below 1000k
+		any_owned = { 
+			limit = { 
+				OR = { 
+					trade_goods = credit
+					NOT = { total_pops = 1000000 }
+					has_province_modifier = pop_farm_debuff_1 
+					}
+			} 
+			remove_province_modifier = pop_farm_debuff_1 
+			remove_province_modifier = pop_farm_debuff_2 
+			remove_province_modifier = pop_farm_debuff_3 
+			remove_province_modifier = pop_farm_debuff_4
+			remove_province_modifier = pop_farm_debuff_5
+			remove_province_modifier = pop_farm_debuff_6
+			remove_province_modifier = pop_farm_debuff_7
+			
+		}
+		
+		#Between 1000k and 1250k
+		any_owned = { 
+			limit = { 
+				AND = { 
+					NOT = { trade_goods = credit }
+					total_pops = 1000000 
+					NOT = { total_pops = 1250000 }
+					}
+			} 
+			remove_province_modifier = pop_farm_debuff_1 
+			remove_province_modifier = pop_farm_debuff_2 
+			remove_province_modifier = pop_farm_debuff_3 
+			remove_province_modifier = pop_farm_debuff_4
+			remove_province_modifier = pop_farm_debuff_5
+			remove_province_modifier = pop_farm_debuff_6
+			remove_province_modifier = pop_farm_debuff_7
+
+			add_province_modifier = { name = pop_farm_debuff_1 duration = -1 } 
+		}
+		
+		#Between 1250k to 1500k
+		any_owned = { 
+			limit = { 
+				AND = { 
+					total_pops = 1250000 
+					NOT = { trade_goods = credit }
+					NOT = { total_pops = 1500000 }
+					}
+			} 
+			remove_province_modifier = pop_farm_debuff_1 
+			remove_province_modifier = pop_farm_debuff_2 
+			remove_province_modifier = pop_farm_debuff_3 
+			remove_province_modifier = pop_farm_debuff_4
+			remove_province_modifier = pop_farm_debuff_5
+			remove_province_modifier = pop_farm_debuff_6
+			remove_province_modifier = pop_farm_debuff_7
+
+			add_province_modifier = { name = pop_farm_debuff_2 duration = -1 } 
+		}
+		
+		#Above 1500k
+		any_owned = { 
+			limit = { 
+				AND = { 
+					total_pops = 1500000 
+					NOT = { trade_goods = credit }
+					NOT = { total_pops = 2000000 }
+					}
+			} 
+			remove_province_modifier = pop_farm_debuff_1 
+			remove_province_modifier = pop_farm_debuff_2 
+			remove_province_modifier = pop_farm_debuff_3 
+			remove_province_modifier = pop_farm_debuff_4
+			remove_province_modifier = pop_farm_debuff_5
+			remove_province_modifier = pop_farm_debuff_6
+			remove_province_modifier = pop_farm_debuff_7
+
+			add_province_modifier = { name = pop_farm_debuff_3 duration = -1 } 
+		}
+
+		#Above 2000k
+		any_owned = { 
+			limit = { 
+				AND = { 
+					total_pops = 2000000 
+					NOT = { trade_goods = credit }
+					NOT = { total_pops = 2500000 }
+					}
+			} 
+			remove_province_modifier = pop_farm_debuff_1 
+			remove_province_modifier = pop_farm_debuff_2 
+			remove_province_modifier = pop_farm_debuff_3 
+			remove_province_modifier = pop_farm_debuff_4
+			remove_province_modifier = pop_farm_debuff_5
+			remove_province_modifier = pop_farm_debuff_6
+			remove_province_modifier = pop_farm_debuff_7
+
+			add_province_modifier = { name = pop_farm_debuff_4 duration = -1 } 
+		}
+
+		#Above 2500k
+		any_owned = { 
+			limit = { 
+				AND = { 
+					total_pops = 2500000 
+					NOT = { trade_goods = credit }
+					NOT = { total_pops = 3000000 }
+					}
+			} 
+			remove_province_modifier = pop_farm_debuff_1 
+			remove_province_modifier = pop_farm_debuff_2 
+			remove_province_modifier = pop_farm_debuff_3 
+			remove_province_modifier = pop_farm_debuff_4
+			remove_province_modifier = pop_farm_debuff_5
+			remove_province_modifier = pop_farm_debuff_6
+			remove_province_modifier = pop_farm_debuff_7
+
+			add_province_modifier = { name = pop_farm_debuff_5 duration = -1 } 
+		}
+
+		#Above 3000k
+		any_owned = { 
+			limit = { 
+				AND = { 
+					total_pops = 3000000 
+					NOT = { trade_goods = credit }
+					NOT = { total_pops = 3500000 }
+					}
+			} 
+			remove_province_modifier = pop_farm_debuff_1 
+			remove_province_modifier = pop_farm_debuff_2 
+			remove_province_modifier = pop_farm_debuff_3 
+			remove_province_modifier = pop_farm_debuff_4
+			remove_province_modifier = pop_farm_debuff_5
+			remove_province_modifier = pop_farm_debuff_6
+			remove_province_modifier = pop_farm_debuff_7
+
+			add_province_modifier = { name = pop_farm_debuff_6 duration = -1 } 
+		}
+
+		#Above 3500k
+		any_owned = { 
+			limit = { 
+				AND = { 
+					total_pops = 3500000 
+					NOT = { trade_goods = credit }
+					}
+			} 
+			remove_province_modifier = pop_farm_debuff_1 
+			remove_province_modifier = pop_farm_debuff_2 
+			remove_province_modifier = pop_farm_debuff_3 
+			remove_province_modifier = pop_farm_debuff_4
+			remove_province_modifier = pop_farm_debuff_5
+			remove_province_modifier = pop_farm_debuff_6
+			remove_province_modifier = pop_farm_debuff_7
+
+			add_province_modifier = { name = pop_farm_debuff_7 duration = -1 } 
+		}
+
+	}
+
+}
