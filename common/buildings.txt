@@ -1432,7 +1432,7 @@ fort = {
 		electric_gear = 50
 		automobiles = 25
 	}
-	time = 1080 
+	time = 360 
 	visibility = yes
 	onmap = yes
 	max_level = 6
@@ -1440,7 +1440,7 @@ fort = {
 	fort_level = 1
 }
 
-# Ref. Gwadar Port
+# Not Ref. Gwadar Port
 # Ph 1 $248 million
 # Ph 2 $932 million
 # i.e. c1 bil -> 250 £
@@ -1464,7 +1464,7 @@ naval_base = {
 		electric_gear = 50
 		ships = 10
 	}
-	time = 1080
+	time = 600
 	naval_capacity = 1
 	capital = yes
 	onmap = yes
@@ -1494,7 +1494,7 @@ railroad = {
 		machine_parts = 500
 		electric_gear = 50
 	}
-	time = 720
+	time = 400
 	visibility = yes
 	onmap = yes
 	max_level = 7
