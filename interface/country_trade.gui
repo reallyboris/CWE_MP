@@ -561,6 +561,7 @@ guiTypes = {
 				format = centre
 			}
 			
+###########THIS maxValue is stockpile size################
 			scrollbarType = {
 				name = "sell_slider"	
 				slider = "slider"
@@ -571,7 +572,7 @@ guiTypes = {
 				size = {x = 220 y = 20 }
 				priority = 100			
 				minValue = 0
-				maxValue = 2000
+				maxValue = 2800
 				stepSize = 2
 				startValue = 0
 				horizontal = 1
