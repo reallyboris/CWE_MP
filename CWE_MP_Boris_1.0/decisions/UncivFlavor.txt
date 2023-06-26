@@ -1,0 +1,72 @@
+political_decisions = {
+	### MAM REMOVED ###
+	#an_elephant_for_america = {}
+	#torching_of_the_summer_palace = {}
+	#clear_out_the_manchu_elite = {}
+	#support_boxers = {}
+	#enact_muhammad_alis_reforms = {}
+	#establish_the_dar_al_funun = {}
+	#annals_of_the_fulani_jihad = {}
+	become_negusa_nagast = {
+		potential = {
+			tag = ETH
+			OR = {
+				government = absolute_monarchy
+				government = absolute_monarchy_emperor
+			}
+			NOT = {
+				has_country_flag = is_negusa_nagast
+			}
+		}
+		
+		allow = {
+			prestige = 5
+			NOT = {
+				average_militancy = 2
+			}
+		}
+		
+		effect = {
+			set_country_flag = is_negusa_nagast
+			any_pop = {
+				militancy = -1
+			}
+			prestige = 2
+			years_of_research = 0.02
+			ETH_1867 = {
+				add_core = ETH
+			}
+			ETH_1864 = {
+				add_core = ETH
+			}
+			ENG_1848 = {
+				add_core = ETH
+			}
+		}
+	}
+### MAM: Should be reworked
+	build_the_tower_of_babylon = {
+		potential = {
+			tag = IRQ
+			is_greater_power = yes
+		}
+		
+		allow = {
+#			advanced_metallurgy = 1
+#			the_historical_theory = 1
+		}
+		
+		effect = {
+			IRQ = {
+				all_core = {
+					add_core = BAB
+				}
+			}
+			926 = {
+				change_province_name = Babylon
+			}
+			change_tag = BAB
+			prestige = 20
+		}
+	}
+}

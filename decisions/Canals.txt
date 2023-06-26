@@ -1,6 +1,0 @@
-political_decisions = {
-	### MAM REMOVED ###
-	#build_kiel_canal = {}
-	#build_suez_canal = {}
-	#build_panama_canal = {}	
-}

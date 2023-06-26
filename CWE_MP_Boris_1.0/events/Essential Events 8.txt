@@ -1,0 +1,516 @@
+
+#European Defence Community
+country_event = {
+	id = 1512070
+title = "The European Defence Community"
+	desc = EVTDESC1512070
+	picture = "edc_proposal"
+
+fire_only_once = yes
+
+trigger = {
+year = 1952
+war = no
+NOT = { year = 1990 }
+tag = FRA
+is_greater_power = yes
+GER = { exists = yes }
+}
+
+mean_time_to_happen = { 
+months = 5
+	}
+
+option = {
+name = "Propose the EDC Treaty"
+prestige = 25
+relation = { who = USA value = -200 }
+any_country = { limit = { exists = yes OR = { tag = GER tag = ITA tag = NET tag = BEL tag = LUX } } country_event = 1512071 }
+ai_chance = { factor = 0.1 }
+		}
+
+option = {
+name = "Leave defence to NATO"
+prestige = -25
+relation = { who = USA value = 200 }
+relation = { who = ENG value = 200 }
+ai_chance = { factor = 0.9 }
+		}
+
+}
+
+#European Defence Community - receiver
+country_event = {
+	id = 1512071
+title = "The European Defence Community"
+	desc = EVTDESC1512070
+	picture = "edc_proposal"
+
+is_triggered_only = yes
+
+option = {
+name = "Ratify the EDC Treaty"
+create_alliance = FROM
+relation = { who = FROM value = 200 }
+FROM = { diplomatic_influence = { who = THIS value = 300 } }
+ai_chance = { factor = 0.9 }
+		}
+
+option = {
+name = "Leave defence to NATO"
+prestige = 25
+relation = { who = USA value = 200 }
+USA = { diplomatic_influence = { who = THIS value = 50 } }
+ai_chance = { factor = 0.1 }
+		}
+
+}
+
+
+
+#State Union between Russia and Belarus
+country_event = {
+	id = 1512123
+title = "Union State of Russia and Belarus"
+	desc = EVTDESC1512123
+	picture = "rus_bye_union_treaty"
+
+fire_only_once = yes
+
+trigger = {
+tag = BYE
+government = populist_dictatorship
+is_vassal = no
+war = no
+election = no
+year = 1997
+accepted_culture = russian
+NOT = { truce_with = RUS }
+RUS = { exists = yes is_greater_power = yes war = no }
+NOT = { has_global_flag = blocsenabled }
+}
+
+mean_time_to_happen = { 
+months = 4
+	}
+
+option = {
+name = "Sign the Treaty"
+RUS = { create_vassal = BYE }
+relation = { who = RUS value = 200 }
+diplomatic_influence = { who = RUS value = 200 }
+government = populist_dictatorship
+country_event = 800050
+ai_chance = { factor = 0.7 }
+		}
+
+option = {
+name = "Reject the treaty"
+relation = { who = RUS value = -50 }
+ai_chance = { factor = 0.1 }
+		}
+
+option = {
+name = "Propose a full union!"
+RUS = { prestige = 100 }
+RUS = { inherit = BYE }
+ai_chance = { factor = 0.2 }
+		}
+
+}
+
+
+#European Central Bank
+country_event = {
+	id = 1512229
+title = "European Central Bank"
+	desc = EVTDESC1512229
+	picture = "ecb_interest_rates"
+
+trigger = {
+OR = { 
+any_owned_province = { has_province_modifier = currency_union }
+any_owned_province = { has_province_modifier = currency_union_province }
+}
+has_country_flag = xeu_ambition
+NOT = { has_country_flag = superstate_central_bank }
+}
+
+option = {
+name = "We can no longer control our interest rates!"
+set_country_flag = superstate_central_bank
+remove_country_modifier = cbihigh
+remove_country_modifier = cbimedium
+remove_country_modifier = cbilow
+		}
+
+}
+
+#Superstate Central Bank
+country_event = {
+	id = 1512230
+title = "Supranational Central Bank"
+	desc = EVTDESC1512230
+	picture = "ecb_interest_rates"
+
+trigger = {
+
+NOT = { 
+OR = {
+tag = XGC
+tag = XEF
+tag = XEU
+tag = XCC
+tag = XAU
+tag = XEW
+tag = XEC
+tag = XSA
+tag = XSU
+tag = XMS
+tag = XAC
+tag = XAL
+tag = XMU
+tag = XAN
+tag = XCI
+tag = XNA
+tag = XPI
+tag = XEA
+tag = XTC
+tag = XUM
+tag = XIO
+tag = UAR
+tag = XME
+	}
+}
+
+OR = { 
+any_owned_province = { has_province_modifier = currency_union }
+any_owned_province = { has_province_modifier = currency_union_province }
+}
+NOT = { has_country_flag = xeu_ambition }
+NOT = { has_country_flag = superstate_central_bank }
+}
+
+option = {
+name = "We can no longer control our interest rates!"
+set_country_flag = superstate_central_bank
+remove_country_modifier = cbihigh
+remove_country_modifier = cbimedium
+remove_country_modifier = cbilow
+		}
+
+}
+
+#European Central Bank - Step 1
+country_event = {
+	id = 1512231
+title = "European Central Bank Adjusts Interest Rates"
+	desc = EVTDESC1512231
+	picture = "ecb_interest_rates"
+
+trigger = {
+OR = { 
+any_owned_province = { has_province_modifier = currency_union }
+any_owned_province = { has_province_modifier = currency_union_province }
+}
+has_country_flag = xeu_ambition
+has_country_flag = superstate_central_bank
+NOT = { has_country_modifier = cbitimer }
+}
+
+mean_time_to_happen = { 
+months = 36
+	}
+
+option = {
+name = "This is their decision"
+add_country_modifier = { name = cbitimer duration = 365 } 
+remove_country_modifier = cbihigh
+remove_country_modifier = cbimedium
+remove_country_modifier = cbilow
+random_list = {
+33 = { 
+add_country_modifier = { name = cbihigh duration = -1 }
+}
+34 = { 
+add_country_modifier = { name = cbimedium duration = -1 } 
+}
+33 = { 
+add_country_modifier = { name = cbilow duration = -1 } 
+}
+}
+		}
+
+}
+
+#Superstate Central Bank - Step 1
+country_event = {
+	id = 1512232
+title = "Supranational Central Bank Adjusts Interest Rates"
+	desc = EVTDESC1512232
+	picture = "ecb_interest_rates"
+
+trigger = {
+OR = { 
+any_owned_province = { has_province_modifier = currency_union }
+any_owned_province = { has_province_modifier = currency_union_province }
+}
+has_country_flag = superstate_central_bank
+NOT = { has_country_flag = xeu_ambition }
+NOT = { has_country_modifier = cbitimer }
+}
+
+mean_time_to_happen = { 
+months = 36
+	}
+
+option = {
+name = "This is their decision"
+add_country_modifier = { name = cbitimer duration = 365 } 
+remove_country_modifier = cbihigh
+remove_country_modifier = cbimedium
+remove_country_modifier = cbilow
+random_list = {
+33 = { add_country_modifier = { name = cbihigh duration = -1 } }
+34 = { add_country_modifier = { name = cbimedium duration = -1 } }
+33 = { add_country_modifier = { name = cbilow duration = -1 } }
+}
+		}
+
+}
+
+
+#Select new party - Parliamentary Republics
+country_event = {
+  id = 15123261
+  title = "$COUNTRY_ADJ$ Government Dismissed"
+  desc = EVTDESC15123261
+  picture = "select_new_ruling_party_decision"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Appoint a Conservative Party"
+		ruling_party_ideology = conservative
+		clr_country_flag = appoint_ruling_party
+		random_owned = { limit = { owner = { NOT = { pop_majority_ideology = conservative } } } owner = { country_event = 6016819 } }
+
+	}
+
+	option = {
+		name = "Appoint a Socialist Party"
+		ruling_party_ideology = socialist
+		clr_country_flag = appoint_ruling_party
+		random_owned = { limit = { owner = { NOT = { pop_majority_ideology = socialist } } } owner = { country_event = 6016819 } }
+	}
+
+	option = {
+		name = "Appoint a Liberal Party"
+		ruling_party_ideology = liberal
+		clr_country_flag = appoint_ruling_party
+		random_owned = { limit = { owner = { NOT = { pop_majority_ideology = liberal } } } owner = { country_event = 6016819 } }
+	}
+
+	option = {
+		name = "Appoint a Populist Party"
+		ruling_party_ideology = populist
+		clr_country_flag = appoint_ruling_party
+		random_owned = { limit = { owner = { NOT = { pop_majority_ideology = populist } } } owner = { country_event = 6016819 } }
+	}
+
+	option = {
+		name = "Appoint a Progressive Party"
+		ruling_party_ideology = progressive
+		clr_country_flag = appoint_ruling_party
+		random_owned = { limit = { owner = { NOT = { pop_majority_ideology = progressive } } } owner = { country_event = 6016819 } }
+
+	}
+
+	option = {
+		name = "Appoint a Traditionalist Party"
+		ruling_party_ideology = traditionalist
+		clr_country_flag = appoint_ruling_party
+		random_owned = { limit = { owner = { NOT = { pop_majority_ideology = traditionalist } } } owner = { country_event = 6016819 } }
+	}
+
+	option = {
+		name = "Appoint a Communist Party"
+		ruling_party_ideology = communist
+		clr_country_flag = appoint_ruling_party
+		random_owned = { limit = { owner = { NOT = { pop_majority_ideology = communist } } } owner = { country_event = 6016819 } }
+	}
+
+	option = {
+		name = "Appoint a Market Socialist Party"
+		ruling_party_ideology = communist_social
+		clr_country_flag = appoint_ruling_party
+		random_owned = { limit = { owner = { NOT = { pop_majority_ideology = communist_social } } } owner = { country_event = 6016819 } }
+	}
+
+	option = {
+		name = "Appoint a Nationalist Party"
+		ruling_party_ideology = nationalist
+		clr_country_flag = appoint_ruling_party
+		random_owned = { limit = { owner = { NOT = { pop_majority_ideology = nationalist } } } owner = { country_event = 6016819 } }
+	}
+
+}
+
+
+
+#Superstate Tariffs - Change levels
+country_event = {
+	id = 1512337
+title = "Change in the Common Market's Tariffs"
+	desc = EVTDESC1512337
+	picture = "common_tarif_start"
+
+trigger = {
+any_owned_province = { has_province_modifier = single_market }
+has_country_flag = superstate_common_tariffs
+NOT = { has_country_modifier = cmttimer }
+}
+
+mean_time_to_happen = { 
+months = 36
+	}
+
+option = {
+name = "This is their decision"
+add_country_modifier = { name = cmttimer duration = 365 } 
+remove_country_modifier = cmthigh
+remove_country_modifier = cmtmedium
+remove_country_modifier = cmtlow
+random_list = {
+33 = { add_country_modifier = { name = cmthigh duration = -1 } }
+34 = { add_country_modifier = { name = cmtmedium duration = -1 } }
+33 = { add_country_modifier = { name = cmtlow duration = -1 } }
+}
+		}
+
+}
+
+#Superstate Tariffs - Start
+country_event = {
+	id = 1512338
+title = "Tariffs Controlled by Customs Union"
+	desc = EVTDESC1512338
+	picture = "common_tarif"
+
+trigger = {
+
+NOT = { 
+OR = {
+tag = XGC
+tag = XEF
+tag = XEU
+tag = XCC
+tag = XAU
+tag = XEW
+tag = XEC
+tag = XSA
+tag = XSU
+tag = XMS
+tag = XAC
+tag = XAL
+tag = XMU
+tag = XAN
+tag = XCI
+tag = XNA
+tag = XPI
+tag = XEA
+tag = XTC
+tag = XUM
+tag = XIO
+tag = UAR
+tag = XME
+	}
+}
+
+any_owned_province = { has_province_modifier = single_market }
+NOT = { has_country_flag = superstate_common_tariffs }
+}
+
+option = {
+name = "It is a price to pay for a common market"
+set_country_flag = superstate_common_tariffs
+country_event = 1512337
+		}
+
+}
+
+#Superstate Tariffs - End
+country_event = {
+	id = 1512339
+title = "Left the Customs Union"
+	desc = EVTDESC1512337
+	picture = "common_tarif"
+
+trigger = {
+
+OR = {
+tag = XGC
+tag = XEF
+tag = XEU
+tag = XCC
+tag = XAU
+tag = XEW
+tag = XEC
+tag = XSA
+tag = XSU
+tag = XMS
+tag = XAC
+tag = XAL
+tag = XMU
+tag = XAN
+tag = XCI
+tag = XNA
+tag = XPI
+tag = XEA
+tag = XTC
+tag = XUM
+tag = XIO
+tag = UAR
+tag = XME
+
+NOT = { any_owned_province = { has_province_modifier = single_market } }
+	}
+
+has_country_flag = superstate_common_tariffs
+}
+
+option = {
+name = "Today is $COUNTRY$'s economic independence day!"
+clr_country_flag = superstate_common_tariffs
+remove_country_modifier = cmthigh
+remove_country_modifier = cmtmedium
+remove_country_modifier = cmtlow
+		}
+
+}
+
+#Nationalist Germany - Add Austrian Culture for anschluss
+country_event = {
+	id = 1512340
+title = "Return of German Nationalism"
+	desc = EVTDESC1512340
+	picture = "nazi_return"
+
+fire_only_once = yes
+
+trigger = {
+tag = GER
+is_vassal = no
+election = no
+}
+
+mean_time_to_happen = { months = 6 }
+
+option = {
+name = "We shall unite all Germans under one flag!"
+any_country = { limit = { OR = { tag = USA tag = FRA tag = NET tag = BEL tag = LUX tag = RUS tag = ENG tag = POL tag = CZH tag = BOH } } relation = { who = THIS value = -100 } }
+add_accepted_culture = austrian_german
+		}
+
+}
+

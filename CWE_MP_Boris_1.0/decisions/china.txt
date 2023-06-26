@@ -1,0 +1,204 @@
+political_decisions = {
+
+	become_qing = {
+		picture = "become_qing"
+		potential = {
+			OR = { tag = CHI tag = KMT }
+			owns = 1612
+			NOT = { government = proletarian_dictatorship }
+			NOT = { government = socialist_democracy }
+			NOT = { government = hms_government }
+			NOT = { government = hms_government1 }
+			NOT = { government = absolute_monarchy }
+			NOT = { has_country_flag = become_qing }
+		}
+		
+		allow = {
+OR = { 
+AND = { ai = no ruling_party_ideology = traditionalist } 
+AND = { pop_majority_ideology = traditionalist ruling_party_ideology = traditionalist } 
+}
+
+government = presidential_dictatorship
+
+OR = { ai = no has_recently_lost_war = yes }
+			is_vassal = no
+			war = no
+			election = no
+		}
+		
+		effect = {
+			prestige = 50
+			government = absolute_monarchy
+			set_country_flag = become_qing
+		}
+
+		ai_will_do = { factor = 1 }
+	
+	}
+
+	laogai = {
+		picture = "laogai"
+		potential = {
+			tag = CHI
+			NOT = { year = 1976 }
+			NOT = { has_country_modifier = forced_labour }
+		}
+		allow = {
+			government = proletarian_dictatorship
+			war = no
+			NOT = { money = 10000 }
+		}
+		effect = {
+			add_country_modifier = { name = forced_labour duration = 350 }
+			random_owned = { limit = { trade_goods = coal } add_province_modifier = { name = blood_and_iron_mine duration = 3500 } } 
+			random_owned = { limit = { trade_goods = timber } add_province_modifier = { name = blood_and_iron_mine duration = 3500 } } 
+			random_owned = { limit = { trade_goods = petroleum } add_province_modifier = { name = blood_and_iron_mine duration = 3500 } } 
+			random_owned = { limit = { trade_goods = natural_gas } add_province_modifier = { name = blood_and_iron_mine duration = 3500 } } 
+			random_owned = { limit = { trade_goods = iron } add_province_modifier = { name = blood_and_iron_mine duration = 3500 } } 
+			random_owned = { limit = { trade_goods = copper } add_province_modifier = { name = blood_and_iron_mine duration = 3500 } } 
+			random_owned = { limit = { trade_goods = bauxite } add_province_modifier = { name = blood_and_iron_mine duration = 3500 } } 
+			random_owned = { limit = { trade_goods = other_minerals } add_province_modifier = { name = blood_and_iron_mine duration = 3500 } } 
+		}
+		ai_will_do = { factor = 1 }	
+	}
+
+
+	sino_soviet_friendship_chi = {
+		picture = "sino_soviet_friendship"
+		potential = {
+			RUS = { war = no government = proletarian_dictatorship }
+			RUS = { has_country_flag = sino_soviet_friendship }
+			war = no
+			NOT = { has_country_flag = sino_soviet_friendship }
+			tag = CHI
+		}
+
+		allow = {
+			war = no
+			government = proletarian_dictatorship
+			containment = 1
+		}
+
+		effect = {
+			set_country_flag = sino_soviet_friendship
+			relation = { who = RUS value = 100 } 
+			add_country_modifier = { name = comecon duration = 1750 }
+			create_alliance = RUS
+			RUS = { diplomatic_influence = { who = CHI value = 100 }  }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+		
+	
+	chinese_reunification = {
+		picture = "chinese_reunification"
+		potential = {
+			
+		tag = CHI 
+		KMT = { exists = no }
+		NOT = { has_global_flag = chinese_reunification }
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+
+			}
+		effect = {
+			prestige = 1000
+			set_global_flag = chinese_reunification
+	
+	
+		KMT = { all_core = { remove_core = KMT } } 
+
+		}
+		ai_will_do = {
+			factor = 1
+modifier = { factor = 0 OR = { KMT = { ai = no } CHI = { ai = no } } }
+		}
+	}
+	
+	chinese_reunification_kmt = {
+		picture = "chinese_reunification"
+		potential = {
+			
+		tag = KMT 
+		CHI = { exists = no }
+		NOT = { has_global_flag = chinese_reunification }
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+
+			}
+		effect = {
+			prestige = 1000
+			set_global_flag = chinese_reunification
+	
+	
+		CHI = { all_core = { remove_core = CHI } } 
+
+		}
+		ai_will_do = {
+			factor = 1
+modifier = { factor = 0 OR = { KMT = { ai = no } CHI = { ai = no } } }
+		}
+	}
+	
+	lesser_taiwan = {
+			picture = "lesser_taiwan"
+			potential = {
+					tag = KMT
+					OR = {
+							government = democracy
+							government = hms_government
+					}
+					2576 = { owned_by = THIS }
+					CHI = { exists = yes }
+			}
+
+			allow = {
+					war = no
+					average_militancy = 5
+					OR = {
+						is_vassal = no
+						part_of_sphere = yes
+					}
+					OR = {
+							ruling_party_ideology = progressive
+							ruling_party_ideology = liberal
+					}
+			}
+
+			effect = {
+					prestige = 10
+					any_pop = {
+					   consciousness = 1
+					   militancy = -4
+					}
+					set_country_flag = lesser_taiwan
+					all_core = { 
+						limit = { NOT = { owned_by = THIS } }
+						remove_core = KMT
+					}
+					2576 = { remove_core = KMT }
+					relation = { who = JAP value = 50 }
+					relation = { who = IDO value = 50 }
+					relation = { who = PHI value = 50 }
+					relation = { who = MSY value = 50 }
+					relation = { who = CHI value = -100 }
+					# TODO add event that offerc China to rejct CHI = { country_event = xxxxx } 
+					2576 = { secede_province  = CHI }
+			}
+		ai_will_do = { factor = 1 }
+
+	}	
+	
+	
+}

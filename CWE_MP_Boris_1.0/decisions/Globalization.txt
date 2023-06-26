@@ -1,0 +1,232 @@
+political_decisions = {
+
+	internationalism = {
+		picture = "internationalism"
+		potential = {
+			NOT = { has_country_modifier = internationalism }
+			OR = { tag = XEU tag = XCC tag = XAU tag = XEW tag = XEC tag = XSA tag = XSU tag = XMS tag = XAC tag = XAL tag = XMU tag = XAN tag = XCI tag = XNA tag = XPI tag = XEA tag = XTC }	
+		}
+		allow = {
+			war = no
+			money = 24000
+			OR = { ruling_party_ideology = socialist ruling_party_ideology = progressive ruling_party_ideology = liberal }
+		}
+		effect = {
+			any_neighbor_country = { limit = { has_country_flag = trade_block_ambition } add_country_modifier = { name = internationalism duration = 1825 } }
+			add_country_modifier = { name = internationalism duration = 1825 }
+			treasury = -20000
+			random_pop = { limit = { type = capitalists } money = 20000 }
+		}		
+		ai_will_do = { factor = 1 }
+	}
+	
+#An Open Market
+# trade_block_ambition - called during elections in on_action.txt
+# this events regulates the nations engagement in the trade block
+	trade_block_ambition = {
+		picture = "trade_block_ambition"
+		potential = {
+			NOT = { has_country_flag = trade_block_ambition }		
+		}
+
+		allow = {
+			war = no
+			OR = {
+				ruling_party_ideology = communist_social
+
+				AND = { has_country_flag = market_communism government = proletarian_dictatorship }
+
+				AND = { has_country_flag = market_communism government = proletarian_dictatorship1 }
+
+				AND = { OR = { government = democracy government = democracy1 government = socialist_democracy government = hms_government government = hms_government1 } trade_policy = free_trade }
+
+			}
+
+			OR = { has_country_flag = schuman_declaration new_synthesis = 1 }
+		}
+		
+		effect = {
+			set_country_flag = trade_block_ambition
+			artisans = {
+				militancy = 0.5
+				consciousness = 1
+			}
+			capitalists = {
+				militancy = -0.5
+				consciousness = -1
+			}
+			any_pop = {
+				dominant_issue = {
+					factor = 0.30
+					value = free_trade
+				}
+			}
+			any_pop = {
+				scaled_militancy = {
+					issue = protectionism
+					factor = 3
+				}
+				scaled_consciousness = {
+					issue = protectionism
+					factor = 3
+				}
+			}
+		}
+		ai_will_do = { factor = 1 }
+	}
+			
+
+	#Become a Socialist Democracy
+	become_a_socialist_democracy = {
+		picture = "become_a_socialist_democracy"
+		potential = {
+		
+			#Either Russia did Perestroika or the Cold War is over
+			OR = {
+				RUS = { has_country_flag = begin_reforms_of_ussr }
+				NOT = { has_global_flag = blocsenabled }
+			}
+		
+			#Communist Government
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 }
+			OR = { ruling_party_ideology = communist ruling_party_ideology = communist_social }
+			
+			NOT = { has_country_flag = become_a_socialist_democracy }
+			
+		}
+		allow = {
+			average_consciousness = 7
+			average_militancy = 7
+			
+			#Only after the 1990s
+			globalization = 1
+			
+			war = no
+			has_recently_lost_war = no
+			NOT = { is_disarmed = yes }
+			
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+				sphere_owner = {
+					OR = {
+						has_country_modifier = bretton_system 
+						has_country_flag = market_communism
+					}
+				}
+				overlord = {
+					OR = {
+						has_country_modifier = bretton_system
+						has_country_flag = market_communism
+					}
+				}
+			}
+			
+		}
+		effect = {
+			country_event = 8023300 # communist_plebiscite.txt
+			
+			set_country_flag = become_a_socialist_democracy
+			
+			any_pop = {
+				scaled_militancy = {
+					factor = 5
+					ideology = communist
+				}
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_country_modifier = communist_bloc_leader
+			}
+		}
+	}
+	
+	#Adopt Market Socialist Reforms
+	market_communism = {
+		picture = "market_communism"
+		potential = {
+		
+			#Not the USSR, PRC, DAI, LUA as they have their own unique events
+			NOT = { tag = RUS }
+			NOT = { tag = CHI }
+			NOT = { tag = DAI }
+			NOT = { tag = LUA }
+			
+			#Communist Government
+			OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 }
+			ruling_party_ideology = communist
+		
+			#Either any GP did Perestroika or the Cold War is over
+			OR = {
+				any_greater_power = { 
+					OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } 
+					ruling_party_ideology = communist_social 
+				}
+				AND = {
+					NOT = { has_global_flag = blocsenabled }
+					has_global_flag = cold_warusa #USA victory
+				}
+			}
+			
+			NOT = { has_country_flag = market_communism }
+			
+		}
+		allow = {
+			average_consciousness = 3
+			average_militancy = 3
+			
+			#Only after the 1990s
+			market_communism = 1
+			
+			war = no
+			
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+				sphere_owner = {
+					OR = {
+						has_country_modifier = bretton_system 
+						has_country_flag = market_communism
+					}
+				}
+				overlord = {
+					OR = {
+						has_country_modifier = bretton_system
+						has_country_flag = market_communism
+					}
+				}
+			}
+			
+		}
+		effect = {
+		
+			set_country_flag = market_communism
+			
+			prestige = 50
+			ruling_party_ideology = communist_social
+			
+			any_pop = {
+				scaled_militancy = {
+					factor = 10
+					ideology = communist
+				}
+			}
+			
+			#Communist states are displeased
+			any_country = {
+				limit = { ruling_party_ideology = communist }
+				relation = { who = THIS value = -100 }
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+	
+

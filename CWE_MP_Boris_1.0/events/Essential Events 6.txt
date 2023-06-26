@@ -1,0 +1,108 @@
+#Don't touch this, start of new event thread
+#No more new events to this thread
+
+
+#Superstate - Integration flag
+country_event = {
+	id = 1412111
+title = "Rise of the $COUNTRY_ADJ$ identity"
+	desc = "As we are a superstate, the old national identities are now being replaced by a new sense of belonging to $COUNTRY$. Citizens will now start to identify themselves as $COUNTRYCULTURE$."
+	picture = "superstate_push"
+
+trigger = {
+
+NOT = { has_country_flag = superstate_integration_boost }
+OR = { 
+tag = XGC
+tag = XEF
+tag = XEU
+tag = XCC
+tag = XAU
+tag = XEW
+tag = XEC
+tag = XSA
+tag = XSU
+tag = XMS
+tag = XAC
+tag = XAL
+tag = XMU
+tag = XAN
+tag = XCI
+tag = XNA
+tag = XPI
+tag = XEA
+tag = XTC
+tag = XUM
+tag = XIO
+}
+}
+
+option = {
+name = "Excellent"
+prestige = 10
+set_country_flag = superstate_integration_boost
+		}
+
+}
+
+#Superstate - Integration flag remove
+country_event = {
+	id = 1412112
+title = "Decline of the $COUNTRY_ADJ$ identity"
+	desc = "As we are no longer a superstate, the old national identities are now being replaced by a new sense of belonging to $COUNTRY$. Citizens will now start to identify themselves as $COUNTRYCULTURE$."
+	picture = "superstate_push"
+
+trigger = {
+has_country_flag = superstate_integration_boost
+NOT = { OR = { 
+tag = XGC
+tag = XEF
+tag = XEU
+tag = XCC
+tag = XAU
+tag = XEW
+tag = XEC
+tag = XSA
+tag = XSU
+tag = XMS
+tag = XAC
+tag = XAL
+tag = XMU
+tag = XAN
+tag = XCI
+tag = XNA
+tag = XPI
+tag = XEA
+tag = XTC
+tag = XUM
+tag = XIO
+} }
+}
+
+option = {
+name = "A new beginning for $COUNTRY$"
+clr_country_flag = superstate_integration_boost
+		}
+
+}
+
+
+
+
+#Strategic Bombardment
+country_event = {
+	id = 1412135
+title = "Strategic Bombardment by $FROMCOUNTRY$"
+	desc = EVTDESC1412135
+	picture = "strategic_bombardment"
+	
+is_triggered_only = yes
+
+option = {
+name = "Oh the humanity!"
+prestige = -25
+war_exhaustion = 10
+any_owned = { limit = { total_pops = 125000 } add_province_modifier = { name = aerial_bombed duration = 1095 } }
+		}
+}
+

@@ -1,0 +1,32 @@
+political_decisions = {
+
+	form_ottoman_empire = {
+		picture = "form_ottoman_empire"
+		potential = {
+		tag = TUR
+NOT = { OR = { government = hms_government government = hms_government1 government = absolute_monarchy } }
+		}
+		
+		allow = {
+		is_vassal = no
+		war = no
+	OR = { government = democracy government = democracy1 }
+		ruling_party_ideology = traditionalist
+		}
+
+		effect = {
+		prestige = 50
+		government = hms_government
+		capital = 860
+		860 = { change_province_name = "Constantinople" }
+		any_pop = { militancy = -5 }
+					}
+
+		ai_will_do = {
+			factor = 1
+	modifier = { factor = 0 has_recently_lost_war = no }
+	modifier = { factor = 0 NOT = { average_militancy = 7 } }
+		}
+	}
+
+}

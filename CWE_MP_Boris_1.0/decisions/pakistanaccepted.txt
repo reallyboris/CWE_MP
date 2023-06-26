@@ -1,0 +1,50 @@
+political_decisions = {
+			pakistanaccepted = {
+				potential = {
+					tag = PAK
+					NOT = {
+					has_country_flag = pakistanaccepted
+					}
+				}
+				allow = {
+                                has_country_flag = pakistanapology
+				owns = 1224
+                                owns = 1256
+				}
+				effect = {
+                                badboy = 15
+				set_country_flag = pakistanaccepted
+				add_accepted_culture = kashmiri
+				add_accepted_culture = avadhi
+				add_accepted_culture = assamese
+				add_accepted_culture = bihari
+				add_accepted_culture = marathi
+                                1258 = { add_core = PAK }
+                                1260 = { add_core = PAK }
+                                1259 = { add_core = PAK }
+                                2566 = { add_core = PAK }
+                                1252 = { add_core = PAK }
+                                1253 = { add_core = PAK }
+                                1251 = { add_core = PAK }
+                                1233 = { add_core = PAK }
+                                1235 = { add_core = PAK }
+                                1234 = { add_core = PAK }
+                                1238 = { add_core = PAK }
+                                1237 = { add_core = PAK }
+                                1239 = { add_core = PAK }
+                                1236 = { add_core = PAK }
+                                1240 = { add_core = PAK }
+                                1242 = { add_core = PAK }
+                                1247 = { add_core = PAK }
+                                1245 = { add_core = PAK }
+                                1243 = { add_core = PAK }
+                                1248 = { add_core = PAK }
+                                1249 = { add_core = PAK }
+                                1267 = { add_core = PAK }
+                                1265 = { add_core = PAK }
+                                1266 = { add_core = PAK }
+                                1268 = { add_core = PAK }
+                                prestige = 100
+				}
+			}
+		}

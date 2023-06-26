@@ -1,0 +1,15 @@
+political_decisions = {	
+			soldier_recruitment2 = {
+				potential = {
+					has_country_flag = soldier_recruitment
+					}
+				allow = {
+				has_country_flag = soldier_recruitment
+				}
+				effect = {
+				clr_country_flag = soldier_recruitment
+                                remove_country_modifier = soldier_recruitment
+				}
+			}
+		}
+	

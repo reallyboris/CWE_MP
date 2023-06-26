@@ -1,0 +1,445 @@
+
+#Enable Canals
+country_event = {
+	id = 1400037
+	title = "Great Wonders of the World"
+	desc = EVTDESC1400037
+	picture = "canals"
+
+	trigger = {
+	ai = yes
+	OR = { tag = PNM tag = EGY tag = ENG tag = USA }
+	NOT = { has_global_flag = canalsoftheworld }
+	}
+	
+	option = {
+	name = "The wonders of the modern age!"
+	enable_canal = 1
+	enable_canal = 2
+	enable_canal = 3
+	set_global_flag = canalsoftheworld
+	}
+			}
+
+
+#Regime Change Target Nation
+country_event = {
+	id = 1410079
+	title = "$FROMCOUNTRY$ Demands Regime Change!"
+	desc = "Due to our threat to their nation, they have demanded regime change or else..."
+	picture = "regime_change"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Accept Regime Change!"
+		prestige_factor = -0.5
+		badboy = -10
+		add_country_modifier = { name = revolution_chaos duration = 3650 }
+
+		add_country_modifier = { name = regime_change_accepted duration = 365 }
+
+		FROM = { add_country_modifier = { name = regime_change_accepted duration = 365 } }
+
+
+		FROM = { diplomatic_influence = { who = THIS value = 200 } }
+		government = democracy
+		country_event = 800054
+		remove_country_modifier = chemical_nation
+		remove_country_modifier = atomic_nation
+		remove_country_modifier = hydrogen_nation
+		ai_chance = {
+			factor = 1
+			modifier = { factor = 0		stronger_army_than = FROM }
+			modifier = { factor = 0		is_greater_power = yes }
+			modifier = { factor = 0.5 is_secondary_power = yes }
+		}
+	}
+
+	option = {
+		name = "Refuse Regime Change!"
+		prestige = 20
+add_country_modifier = { name = regime_change_rejected duration = 365 }
+		FROM = { add_country_modifier = { name = regime_change_rejected duration = 365 } }
+		FROM = { 
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = install_democracy }
+				defender_goal = { casus_belli = status_quo }
+				call_ally = yes
+			}
+		}
+		ai_chance = { factor = 1 }
+	}
+
+}
+
+#Genocide
+country_event = {
+	id = 1410080
+	title = "$COUNTRY_ADJ$ Genocide of $YEAR$"
+	desc = "The Government of $COUNTRY$ has been discovered to have to begun killing off their ethnic minorities. The international community is outraged."
+	picture = "genocide"
+	major = yes
+is_triggered_only = yes
+
+option = {
+name = "We must brace the international fallout!"
+any_country = { limit = { OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 } } relation = { who = THIS value = -200 } }
+	}
+}
+
+#Remove Nuclear Animations
+province_event = {
+
+id = 1410081
+title = "No more signs of WMD fallout in $PROVINCENAME$"
+desc = "All WMD fallout seem to have vanished from $PROVINCENAME$. The province is now safe to settle in again."
+
+allow_multiple_instances = no
+
+trigger = {
+has_country_flag = disabled_for_now
+has_province_flag = disease
+		NOT = { 
+			has_province_modifier = nuke_low
+			has_province_modifier = nuke_medium
+			has_province_modifier = nuke_high
+			has_province_modifier = chemical_low
+			has_province_modifier = chemical_medium
+			has_province_modifier = chemical_high
+			}
+OR = { has_province_flag = nuked_before has_province_flag = chemical_before }
+		}
+
+	option = {
+		name = "Good!"
+				clr_province_flag = disease
+clr_province_flag = nuked_before
+clr_province_flag = chemical_before
+                                }
+	            }
+
+
+
+#Nuclear Blackmail
+country_event = {
+	id = 1410111
+	title = "Nuclear Blackmail Result"
+	desc = "We have proposed to pause our nuclear program in exchange for international aid."
+	picture = "nuclear_blackmail"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Let's roll the dice of fate"
+
+		random_list = {
+			10 = { badboy = 25 add_country_modifier = { name = blackmail_failed duration = 365 } }
+			90 = { 
+				add_country_modifier = { name = nuke_blackmail duration = 730 } 
+				prestige = 50 
+				remove_country_modifier = develop_atomic_bomb
+				add_country_modifier = { name = develop_atomic_bomb duration = 2555 }
+			}
+
+		}
+	}
+}
+
+
+
+
+
+#Danish Event
+country_event = {
+	id = 1410124
+	title = EVTTITLE1410124
+	desc = EVTDESC1410124
+	picture = "easter_eggs"
+	
+trigger = {
+tag = DEN
+war = no
+DEN = { government = hms_government }
+year = 1958
+NOT = { year = 1959 }
+NOT = { has_global_flag = danish_event }
+}	
+
+mean_time_to_happen = { 
+months = 6
+}
+
+option = {
+	name = "Interesting!"
+set_global_flag = danish_event
+prestige = 5
+			}
+
+}
+
+#Special Economic Zone Investment
+country_event = {
+	id = 1410125
+	title = "$FROMCOUNTRY_ADJ$ Investment in $COUNTRY_ADJ$ SEZ"
+	desc = EVTDESC1410125
+	picture = "spez"
+	
+	allow_multiple_instances = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "We thank the $FROMCOUNTRY_ADJ$ Government for their money!"
+		
+		prestige = 25
+		
+		random_owned = {
+			limit = {
+				state_scope = {
+					any_owned_province = {
+						is_core = THIS
+						has_building = naval_base
+						has_building = railroad
+					}
+					any_owned_province = {
+						total_pops = 250000
+						is_capital = no
+						NOT = { has_province_modifier = spez }
+						is_state_capital = yes
+					}
+				}
+				is_state_capital = yes
+			}
+			add_province_modifier = { name = spez duration = 3650 }
+			
+			#Increase literacy
+			any_pop = { 
+				limit = { 
+					OR = { is_primary_culture = yes is_accepted_culture = yes } 
+				}
+				consciousness = 5
+				literacy = 0.04
+			}
+		}
+	}
+
+}
+
+
+#Nuclear Blackmarket Acquisition successful
+country_event = {
+	id = 1410137
+title = "$COUNTRY$ has bought Nuclear Warheads"
+	desc = "We have successfully obtained nuclear warheads from shadowy Arms Dealers."
+	picture = "generic_super_jet"
+major = yes	
+trigger = {
+NOT = { has_country_modifier = acquiring_bomb }
+has_country_flag = acquiring_bomb
+}	
+
+option = {
+	name = "Success"
+prestige = 50
+clr_country_flag = acquiring_bomb
+add_country_modifier = { name = acquired_bomb duration = -1 }
+			}
+
+}
+
+#AI Open Borders
+country_event = {
+	id = 1410152
+	title = "$COUNTRY$ Opens its Borders"
+	desc = "$COUNTRY$ has decided to open its borders to the world once again to take advantage of the benefits international trade can bring."
+	picture = "1410150"
+	
+trigger = { 
+ai = yes
+NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 government = theocracy } }
+immigration_policy = nobody_gets_out
+}
+
+mean_time_to_happen = { 
+months = 2
+}
+
+option = {
+name = "Welcome to $COUNTRY$!"
+political_reform = quota_immigration
+		}
+
+}
+
+
+
+#Push for Superstate Union
+country_event = {
+	id = 1410169
+	title = "Calls for more integration into Superstate"
+	desc = "As the world is increasingly unstable there have been an uptick in demands for superstate integration in $COUNTRY$. This will help us to get the technologies required to join a superstate faster."
+	picture = "superstate_push"
+	
+trigger = {
+
+has_country_modifier = world_high
+
+NOT = { has_country_modifier = closer_union_push }
+OR = { ruling_party_ideology = socialist ruling_party_ideology = conservative ruling_party_ideology = liberal ruling_party_ideology = progressive ruling_party_ideology = big_tent }
+
+OR = { 
+tech_school = XGC_tech_school
+tech_school = XEF_tech_school
+tech_school = XEU_tech_school
+tech_school = XCC_tech_school
+tech_school = XAU_tech_school
+tech_school = XEW_tech_school
+tech_school = XSA_tech_school
+tech_school = XSU_tech_school
+tech_school = XMS_tech_school
+tech_school = XAC_tech_school
+tech_school = XAL_tech_school
+tech_school = XMU_tech_school
+tech_school = XAN_tech_school
+tech_school = XCI_tech_school
+tech_school = XNA_tech_school
+tech_school = XPI_tech_school
+tech_school = XEA_tech_school
+tech_school = XTC_tech_school
+tech_school = XUM_tech_school
+	}
+NOT = { 
+OR = { 
+tag = XGC
+tag = XEF
+tag = XEU
+tag = XCC
+tag = XAU 
+tag = XEW
+tag = XEC
+tag = XSA
+tag = XSU
+tag = XMS
+tag = XAC
+tag = XAL
+tag = XMU
+tag = XAN
+tag = XCI
+tag = XNA
+tag = XPI
+tag = XEA
+tag = XTC
+tag = XUM } }
+
+}
+
+option = {
+name = "Great"
+add_country_modifier = { name = closer_union_push duration = -1 }
+		}
+
+}
+
+#Push for Superstate Union
+country_event = {
+	id = 1410170
+	title = "Calls for more integration into Superstate"
+	desc = "As the world is increasingly unstable there have been an uptick in demands for superstate integration in $COUNTRY$. This will help us to get the technologies required to join a superstate faster."
+	picture = "superstate_push"
+	
+trigger = {
+
+has_country_modifier = closer_union_push
+OR = {
+
+NOT = { has_country_modifier = world_high }
+
+NOT = { OR = { ruling_party_ideology = socialist ruling_party_ideology = conservative ruling_party_ideology = liberal ruling_party_ideology = progressive ruling_party_ideology = big_tent } }
+ 
+NOT = { OR = { 
+tech_school = XGC_tech_school
+tech_school = XEF_tech_school
+tech_school = XEU_tech_school
+tech_school = XCC_tech_school
+tech_school = XAU_tech_school
+tech_school = XEW_tech_school
+tech_school = XSA_tech_school
+tech_school = XSU_tech_school
+tech_school = XMS_tech_school
+tech_school = XAC_tech_school
+tech_school = XAL_tech_school
+tech_school = XMU_tech_school
+tech_school = XAN_tech_school
+tech_school = XCI_tech_school
+tech_school = XNA_tech_school
+tech_school = XPI_tech_school
+tech_school = XEA_tech_school
+tech_school = XTC_tech_school
+tech_school = XUM_tech_school
+	}       }
+
+tag = XGC
+tag = XEF
+tag = XEU
+tag = XCC
+tag = XAU 
+tag = XEW
+tag = XEC
+tag = XSA
+tag = XSU
+tag = XMS
+tag = XAC
+tag = XAL
+tag = XMU
+tag = XAN
+tag = XCI
+tag = XNA
+tag = XPI
+tag = XEA
+tag = XTC
+tag = XUM
+
+}
+
+}
+
+option = {
+name = "OK"
+remove_country_modifier = closer_union_push		
+}
+
+}
+
+#Hyderabad Integration
+country_event = {
+	id = 1410171
+	title = "Integration of Hyderabad"
+	desc = EVTDESC1410171
+	picture = "hyderabad_annexation_reform"
+	
+	
+	trigger = {
+		year = 1946
+		tag = HND
+		has_country_flag = not_disabled
+		controls = 1283
+		NOT = { year = 1990 }
+		NOT = { exists = HYD }
+		NOT = { has_country_flag = hyderabad_integration }
+
+	}
+	
+	option = {
+	name = "Great"
+		release_vassal = HYD
+		HYD = { civilized = no }
+		HYD = { country_event = { id = 1410172 days = 10 } }
+		prestige = 10
+		set_country_flag = hyderabad_integration
+		}
+}
+
+
+

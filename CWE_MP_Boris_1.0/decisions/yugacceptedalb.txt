@@ -1,0 +1,35 @@
+political_decisions = {	
+    embrace_albanians = {
+		picture = albania
+                potential = {
+                        tag = YUG
+                        NOT = { has_country_flag = embrace_albanians }
+                }
+
+                allow = {
+                       any_owned_province = { culture = albanian }
+                       war = no
+						has_unclaimed_cores = no
+						NOT = {	
+							has_country_flag = embrace_albanians
+						}
+						is_vassal = no
+                        prestige = 45
+                        OR = {
+                                ruling_party_ideology = communist
+                                citizenship_policy = full_citizenship
+                        }
+                }
+
+                effect = {
+                        prestige = 10
+                        add_accepted_culture = albanian
+                        set_country_flag = embrace_albanians
+                        ALB = { all_core = { add_core = YUG } }
+						
+						
+                }
+		}
+}
+
+

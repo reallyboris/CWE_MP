@@ -1,0 +1,24 @@
+		political_decisions = {
+			soldier_recruitment = {
+				potential = {
+					NOT = {
+					has_country_flag = soldier_recruitment
+					}
+				}
+				allow = {
+                                ai = no
+				NOT = {	total_pops = 5000000 }
+				OR = {
+                                tag = ISR
+                                government = proletarian_dictatorship
+                                government = presidential_dictatorship
+                                government = proletarian_dictatorship1
+                                government = nationalist_dictatorship
+                                government = populist_dictatorship
+                                war_policy = jingoism }
+				}
+				effect = {
+				set_country_flag = soldier_recruitment
+				}
+			}
+		}
